@@ -1,0 +1,41 @@
+\BOOKMARK [0][-]{chapter.1}{Introduction}{}% 1
+\BOOKMARK [0][-]{chapter.2}{Deep learning applied to glacier evolution modelling}{}% 2
+\BOOKMARK [1][-]{section.2.1}{Abstract}{chapter.2}% 3
+\BOOKMARK [1][-]{section.2.2}{Introduction}{chapter.2}% 4
+\BOOKMARK [1][-]{section.2.3}{Model overview and methods}{chapter.2}% 5
+\BOOKMARK [2][-]{subsection.2.3.1}{Model overview and workflow}{section.2.3}% 6
+\BOOKMARK [2][-]{subsection.2.3.2}{Glacier-wide surface mass balance simulation }{section.2.3}% 7
+\BOOKMARK [2][-]{subsection.2.3.3}{Glacier geometry update }{section.2.3}% 8
+\BOOKMARK [1][-]{section.2.4}{Case study: French alpine glaciers}{chapter.2}% 9
+\BOOKMARK [2][-]{subsection.2.4.1}{Data}{section.2.4}% 10
+\BOOKMARK [2][-]{subsection.2.4.2}{Glacier-wide surface mass balance simulations: validation and results}{section.2.4}% 11
+\BOOKMARK [2][-]{subsection.2.4.3}{Glacier geometry evolution: Validation and results}{section.2.4}% 12
+\BOOKMARK [1][-]{section.2.5}{Discussion and perspectives}{chapter.2}% 13
+\BOOKMARK [2][-]{subsection.2.5.1}{Linear methods still matter}{section.2.5}% 14
+\BOOKMARK [2][-]{subsection.2.5.2}{Training deep learning models with spatiotemporal data}{section.2.5}% 15
+\BOOKMARK [2][-]{subsection.2.5.3}{Perspectives on future applications of deep learning in glaciology}{section.2.5}% 16
+\BOOKMARK [1][-]{section.2.6}{Conclusions}{chapter.2}% 17
+\BOOKMARK [1][-]{section.2.7}{Supplementary material}{chapter.2}% 18
+\BOOKMARK [1][-]{section.2.8}{Filtering of DEM rasters}{chapter.2}% 19
+\BOOKMARK [1][-]{section.2.9}{SMB statistical error analysis}{chapter.2}% 20
+\BOOKMARK [1][-]{section.2.10}{Topographical glacier-wide SMB predictors}{chapter.2}% 21
+\BOOKMARK [1][-]{section.2.11}{Supplementary figures}{chapter.2}% 22
+\BOOKMARK [0][-]{chapter.3}{A deep learning reconstruction of mass balance series for all glaciers in the French Alps: 1967-2015}{}% 23
+\BOOKMARK [1][-]{section.3.1}{Abstract}{chapter.3}% 24
+\BOOKMARK [1][-]{section.3.2}{Introduction}{chapter.3}% 25
+\BOOKMARK [1][-]{section.3.3}{Data and methods}{chapter.3}% 26
+\BOOKMARK [2][-]{subsection.3.3.1}{Training data}{section.3.3}% 27
+\BOOKMARK [2][-]{subsection.3.3.2}{Methods}{section.3.3}% 28
+\BOOKMARK [2][-]{subsection.3.3.3}{Uncertainty assessment}{section.3.3}% 29
+\BOOKMARK [1][-]{section.3.4}{Dataset overview}{chapter.3}% 30
+\BOOKMARK [2][-]{subsection.3.4.1}{Dataset format and content}{section.3.4}% 31
+\BOOKMARK [2][-]{subsection.3.4.2}{Overall trends}{section.3.4}% 32
+\BOOKMARK [2][-]{subsection.3.4.3}{Regional and topographical trends}{section.3.4}% 33
+\BOOKMARK [2][-]{subsection.3.4.4}{Comparison with previous studies and observations}{section.3.4}% 34
+\BOOKMARK [1][-]{section.3.5}{Conclusions}{chapter.3}% 35
+\BOOKMARK [1][-]{section.3.6}{Supplementary material}{chapter.3}% 36
+\BOOKMARK [1][-]{section.3.7}{Comparison with independent geodetic mass balance data}{chapter.3}% 37
+\BOOKMARK [1][-]{section.3.8}{Model differences between the updated version of Marzeion et al. \(2015\) and this study}{chapter.3}% 38
+\BOOKMARK [1][-]{section.3.9}{Influence of area in glacier-wide MB signal and proof on non overfitting}{chapter.3}% 39
+\BOOKMARK [1][-]{section.3.10}{Supplementary figures}{chapter.3}% 40
+\BOOKMARK [0][-]{figure.caption.54}{Bibliography}{}% 41

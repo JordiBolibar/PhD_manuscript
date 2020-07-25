@@ -1,0 +1,3551 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2020.1.8)  25 JUL 2020 14:03
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**Bolibar_PhD_dissertation.tex
+(./Bolibar_PhD_dissertation.tex
+LaTeX2e <2019-10-01> patch level 3
+(c:/texlive/2019/texmf-dist/tex/latex/extsizes/extreport.cls
+Document Class: extreport 1996/10/08 v1.0 Non Standard LaTeX document class
+(c:/texlive/2019/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2019/10/25 v1.4k Standard LaTeX file (size option)
+)
+(c:/texlive/2019/texmf-dist/tex/latex/base/exscale.sty
+Package: exscale 2018/09/24 v2.1i Standard LaTeX package exscale
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 57.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/cmex/m/n on input line 57.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/cmex/m/n on input line 57.
+\big@size=\dimen102
+)
+\c@part=\count80
+\c@chapter=\count81
+\c@section=\count82
+\c@subsection=\count83
+\c@subsubsection=\count84
+\c@paragraph=\count85
+\c@subparagraph=\count86
+\c@figure=\count87
+\c@table=\count88
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen103
+)
+(c:/texlive/2019/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2019/12/08 3.37 The Babel package
+
+(c:/texlive/2019/texmf-dist/tex/generic/babel/switch.def
+File: switch.def 2019/12/08 3.37 Babel switching mechanism
+)
+(c:/texlive/2019/texmf-dist/tex/generic/babel-english/english.ldf
+Language: english 2017/06/06 v3.3r English support from the babel system
+
+(c:/texlive/2019/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2019/12/08 3.37 Babel common definitions
+\babel@savecnt=\count89
+\U@D=\dimen104
+
+(c:/texlive/2019/texmf-dist/tex/generic/babel/txtbabel.def)
+\bbl@dirlevel=\count90
+)
+Package babel Info: \l@canadian = using hyphenrules for english
+(babel)             (\language0) on input line 102.
+Package babel Info: \l@australian = using hyphenrules for ukenglish
+(babel)             (\language21) on input line 105.
+Package babel Info: \l@newzealand = using hyphenrules for ukenglish
+(babel)             (\language21) on input line 108.
+))
+(c:/texlive/2019/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2018/08/11 v2.0j Standard LaTeX package
+
+(c:/texlive/2019/texmf-dist/tex/latex/base/t1enc.def
+File: t1enc.def 2018/08/11 v2.0j Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+))
+(c:/texlive/2019/texmf-dist/tex/latex/kpfonts/kpfonts.sty
+Package: kpfonts  2010/08/20 v3.31
+
+(c:/texlive/2019/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2018/08/11 v2.0j Standard LaTeX package
+Package textcomp Info: Sub-encoding information:
+(textcomp)               5 = only ISO-Adobe without \textcurrency
+(textcomp)               4 = 5 + \texteuro
+(textcomp)               3 = 4 + \textohm
+(textcomp)               2 = 3 + \textestimated + \textcurrency
+(textcomp)               1 = TS1 - \textcircled - \t
+(textcomp)               0 = TS1 (full)
+(textcomp)             Font families with sub-encoding setting implement
+(textcomp)             only a restricted character set as indicated.
+(textcomp)             Family '?' is the default used for unknown fonts.
+(textcomp)             See the documentation for details.
+Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 79.
+Package textcomp Info: Changing ? sub-encoding to TS1/0 on input line 80.
+
+(c:/texlive/2019/texmf-dist/tex/latex/base/ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+Now handling font encoding TS1 ...
+... processing UTF-8 mapping file for font encoding TS1
+
+(c:/texlive/2019/texmf-dist/tex/latex/base/ts1enc.dfu
+File: ts1enc.dfu 2019/07/11 v1.2j UTF-8 support for inputenc
+   defining Unicode char U+00A2 (decimal 162)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00A4 (decimal 164)
+   defining Unicode char U+00A5 (decimal 165)
+   defining Unicode char U+00A6 (decimal 166)
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00A8 (decimal 168)
+   defining Unicode char U+00A9 (decimal 169)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AC (decimal 172)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00AF (decimal 175)
+   defining Unicode char U+00B0 (decimal 176)
+   defining Unicode char U+00B1 (decimal 177)
+   defining Unicode char U+00B2 (decimal 178)
+   defining Unicode char U+00B3 (decimal 179)
+   defining Unicode char U+00B4 (decimal 180)
+   defining Unicode char U+00B5 (decimal 181)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+00B9 (decimal 185)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+00BC (decimal 188)
+   defining Unicode char U+00BD (decimal 189)
+   defining Unicode char U+00BE (decimal 190)
+   defining Unicode char U+00D7 (decimal 215)
+   defining Unicode char U+00F7 (decimal 247)
+   defining Unicode char U+0192 (decimal 402)
+   defining Unicode char U+02C7 (decimal 711)
+   defining Unicode char U+02D8 (decimal 728)
+   defining Unicode char U+02DD (decimal 733)
+   defining Unicode char U+0E3F (decimal 3647)
+   defining Unicode char U+2016 (decimal 8214)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+203B (decimal 8251)
+   defining Unicode char U+203D (decimal 8253)
+   defining Unicode char U+2044 (decimal 8260)
+   defining Unicode char U+204E (decimal 8270)
+   defining Unicode char U+2052 (decimal 8274)
+   defining Unicode char U+20A1 (decimal 8353)
+   defining Unicode char U+20A4 (decimal 8356)
+   defining Unicode char U+20A6 (decimal 8358)
+   defining Unicode char U+20A9 (decimal 8361)
+   defining Unicode char U+20AB (decimal 8363)
+   defining Unicode char U+20AC (decimal 8364)
+   defining Unicode char U+20B1 (decimal 8369)
+   defining Unicode char U+2103 (decimal 8451)
+   defining Unicode char U+2116 (decimal 8470)
+   defining Unicode char U+2117 (decimal 8471)
+   defining Unicode char U+211E (decimal 8478)
+   defining Unicode char U+2120 (decimal 8480)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+2126 (decimal 8486)
+   defining Unicode char U+2127 (decimal 8487)
+   defining Unicode char U+212E (decimal 8494)
+   defining Unicode char U+2190 (decimal 8592)
+   defining Unicode char U+2191 (decimal 8593)
+   defining Unicode char U+2192 (decimal 8594)
+   defining Unicode char U+2193 (decimal 8595)
+   defining Unicode char U+2329 (decimal 9001)
+   defining Unicode char U+232A (decimal 9002)
+   defining Unicode char U+2422 (decimal 9250)
+   defining Unicode char U+25E6 (decimal 9702)
+   defining Unicode char U+25EF (decimal 9711)
+   defining Unicode char U+266A (decimal 9834)
+   defining Unicode char U+27E8 (decimal 10216)
+   defining Unicode char U+27E9 (decimal 10217)
+   defining Unicode char U+FEFF (decimal 65279)
+))
+LaTeX Info: Redefining \oldstylenums on input line 334.
+Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 349.
+Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 350.
+Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 351.
+Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 352.
+Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 353.
+Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 354.
+Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 355.
+Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 356.
+Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 357.
+Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 358.
+Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 359.
+Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 360.
+Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 361.
+Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 362.
+Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 363.
+Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 364.
+Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 365.
+Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 366.
+Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 367.
+Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 368.
+Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 369.
+Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 370.
+Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 371.
+Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 372.
+
+Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 373.
+Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 374.
+Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 375.
+Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 376.
+Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 377.
+Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 378.
+Package textcomp Info: Setting lmr sub-encoding to TS1/0 on input line 379.
+Package textcomp Info: Setting lmdh sub-encoding to TS1/0 on input line 380.
+Package textcomp Info: Setting lmss sub-encoding to TS1/0 on input line 381.
+Package textcomp Info: Setting lmssq sub-encoding to TS1/0 on input line 382.
+Package textcomp Info: Setting lmvtt sub-encoding to TS1/0 on input line 383.
+Package textcomp Info: Setting lmtt sub-encoding to TS1/0 on input line 384.
+Package textcomp Info: Setting qhv sub-encoding to TS1/0 on input line 385.
+Package textcomp Info: Setting qag sub-encoding to TS1/0 on input line 386.
+Package textcomp Info: Setting qbk sub-encoding to TS1/0 on input line 387.
+Package textcomp Info: Setting qcr sub-encoding to TS1/0 on input line 388.
+Package textcomp Info: Setting qcs sub-encoding to TS1/0 on input line 389.
+Package textcomp Info: Setting qpl sub-encoding to TS1/0 on input line 390.
+Package textcomp Info: Setting qtm sub-encoding to TS1/0 on input line 391.
+Package textcomp Info: Setting qzc sub-encoding to TS1/0 on input line 392.
+Package textcomp Info: Setting qhvc sub-encoding to TS1/0 on input line 393.
+Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 394.
+Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 395.
+Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 396.
+Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 397.
+Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 398.
+Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 399.
+Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 400.
+Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 401.
+Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 402.
+Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 403.
+Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 404.
+Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 405.
+Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 406.
+Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
+Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
+Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
+)
+(c:/texlive/2019/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2019/11/16 v2.17d AMS math features
+\@mathmargin=\skip43
+
+For additional information on amsmath, use the `?' option.
+(c:/texlive/2019/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(c:/texlive/2019/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks14
+\ex@=\dimen105
+))
+(c:/texlive/2019/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen106
+)
+(c:/texlive/2019/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count91
+LaTeX Info: Redefining \frac on input line 227.
+\uproot@=\count92
+\leftroot@=\count93
+LaTeX Info: Redefining \overline on input line 389.
+\classnum@=\count94
+\DOTSCASE@=\count95
+LaTeX Info: Redefining \ldots on input line 486.
+LaTeX Info: Redefining \dots on input line 489.
+LaTeX Info: Redefining \cdots on input line 610.
+\Mathstrutbox@=\box27
+\strutbox@=\box28
+\big@size=\dimen107
+LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
+\macc@depth=\count96
+\c@MaxMatrixCols=\count97
+\dotsspace@=\muskip10
+\c@parentequation=\count98
+\dspbrk@lvl=\count99
+\tag@help=\toks15
+\row@=\count100
+\column@=\count101
+\maxfields@=\count102
+\andhelp@=\toks16
+\eqnshift@=\dimen108
+\alignsep@=\dimen109
+\tagshift@=\dimen110
+\tagwidth@=\dimen111
+\totwidth@=\dimen112
+\lineht@=\dimen113
+\@envbody=\toks17
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks18
+LaTeX Info: Redefining \[ on input line 2858.
+LaTeX Info: Redefining \] on input line 2859.
+)
+\c@mv@rm=\count103
+\c@mv@boldrm=\count104
+\c@mv@sf=\count105
+\c@mv@boldsf=\count106
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 354.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/jkp/m/n on input line 354.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/jkp/m/n on input line 354.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `rm'
+(Font)                  OT1/cmr/m/n --> OT1/jkp/m/n on input line 354.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `boldrm'
+(Font)                  OT1/cmr/m/n --> OT1/jkp/m/n on input line 354.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `sf'
+(Font)                  OT1/cmr/m/n --> OT1/jkp/m/n on input line 354.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `boldsf'
+(Font)                  OT1/cmr/m/n --> OT1/jkp/m/n on input line 354.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/jkp/m/n --> OT1/jkp/b/n on input line 355.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `rm'
+(Font)                  OT1/jkp/m/n --> OT1/jkp/m/n on input line 357.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `boldrm'
+(Font)                  OT1/jkp/m/n --> OT1/jkp/b/n on input line 358.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `sf'
+(Font)                  OT1/jkp/m/n --> OT1/jkpss/m/n on input line 359.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `boldsf'
+(Font)                  OT1/jkp/m/n --> OT1/jkpss/b/n on input line 360.
+LaTeX Font Info:    Redeclaring math alphabet \mathrm on input line 364.
+LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
+(Font)                  OT1/jkp/m/n --> OT1/jkp/b/n on input line 365.
+LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `rm'
+(Font)                  OT1/jkp/m/n --> OT1/jkp/m/n on input line 366.
+LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `boldrm'
+(Font)                  OT1/jkp/m/n --> OT1/jkp/b/n on input line 367.
+LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `sf'
+(Font)                  OT1/jkp/m/n --> OT1/jkp/m/n on input line 368.
+LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `boldsf'
+(Font)                  OT1/jkp/m/n --> OT1/jkp/b/n on input line 369.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 378.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/jkp/b/n on input line 378.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/jkp/b/n on input line 378.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `rm'
+(Font)                  OT1/cmr/bx/n --> OT1/jkp/b/n on input line 378.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `boldrm'
+(Font)                  OT1/cmr/bx/n --> OT1/jkp/b/n on input line 378.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `sf'
+(Font)                  OT1/cmr/bx/n --> OT1/jkp/b/n on input line 378.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `boldsf'
+(Font)                  OT1/cmr/bx/n --> OT1/jkp/b/n on input line 378.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/jkp/b/n --> OT1/jkp/b/n on input line 379.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `rm'
+(Font)                  OT1/jkp/b/n --> OT1/jkp/b/n on input line 381.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `boldrm'
+(Font)                  OT1/jkp/b/n --> OT1/jkp/b/n on input line 382.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `sf'
+(Font)                  OT1/jkp/b/n --> OT1/jkpss/b/n on input line 383.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `boldsf'
+(Font)                  OT1/jkp/b/n --> OT1/jkpss/b/n on input line 384.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 390.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/jkp/m/it on input line 390.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/jkp/m/it on input line 390.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `rm'
+(Font)                  OT1/cmr/m/it --> OT1/jkp/m/it on input line 390.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `boldrm'
+(Font)                  OT1/cmr/m/it --> OT1/jkp/m/it on input line 390.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `sf'
+(Font)                  OT1/cmr/m/it --> OT1/jkp/m/it on input line 390.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `boldsf'
+(Font)                  OT1/cmr/m/it --> OT1/jkp/m/it on input line 390.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/jkp/m/it --> OT1/jkp/b/it on input line 391.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `rm'
+(Font)                  OT1/jkp/m/it --> OT1/jkp/m/it on input line 393.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `boldrm'
+(Font)                  OT1/jkp/m/it --> OT1/jkp/b/it on input line 394.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `sf'
+(Font)                  OT1/jkp/m/it --> OT1/jkpss/m/it on input line 395.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `boldsf'
+(Font)                  OT1/jkp/m/it --> OT1/jkpss/b/it on input line 396.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 401.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/jkpss/m/n on input line 401.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/jkpss/m/n on input line 401.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `rm'
+(Font)                  OT1/cmss/m/n --> OT1/jkpss/m/n on input line 401.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `boldrm'
+(Font)                  OT1/cmss/m/n --> OT1/jkpss/m/n on input line 401.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `sf'
+(Font)                  OT1/cmss/m/n --> OT1/jkpss/m/n on input line 401.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `boldsf'
+(Font)                  OT1/cmss/m/n --> OT1/jkpss/m/n on input line 401.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/jkpss/m/n --> OT1/jkpss/b/n on input line 402.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `rm'
+(Font)                  OT1/jkpss/m/n --> OT1/jkpss/m/n on input line 403.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `boldrm'
+(Font)                  OT1/jkpss/m/n --> OT1/jkpss/b/n on input line 404.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `sf'
+(Font)                  OT1/jkpss/m/n --> OT1/jkpss/m/n on input line 405.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `boldsf'
+(Font)                  OT1/jkpss/m/n --> OT1/jkpss/b/n on input line 406.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 410.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT1/jkptt/m/n on input line 410.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/jkptt/m/n on input line 410.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `rm'
+(Font)                  OT1/cmtt/m/n --> OT1/jkptt/m/n on input line 410.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `boldrm'
+(Font)                  OT1/cmtt/m/n --> OT1/jkptt/m/n on input line 410.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `sf'
+(Font)                  OT1/cmtt/m/n --> OT1/jkptt/m/n on input line 410.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `boldsf'
+(Font)                  OT1/cmtt/m/n --> OT1/jkptt/m/n on input line 410.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/jkptt/m/n --> OT1/jkptt/b/n on input line 411.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `rm'
+(Font)                  OT1/jkptt/m/n --> OT1/jkptt/m/n on input line 412.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `boldrm'
+(Font)                  OT1/jkptt/m/n --> OT1/jkptt/b/n on input line 413.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `sf'
+(Font)                  OT1/jkptt/m/n --> OT1/jkptt/m/n on input line 414.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `boldsf'
+(Font)                  OT1/jkptt/m/n --> OT1/jkptt/b/n on input line 415.
+LaTeX Font Info:    Redeclaring symbol font `letters' on input line 423.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/jkp/m/it on input line 423.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/jkp/m/it on input line 423.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `rm'
+(Font)                  OML/cmm/m/it --> OML/jkp/m/it on input line 423.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `boldrm'
+(Font)                  OML/cmm/m/it --> OML/jkp/m/it on input line 423.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `sf'
+(Font)                  OML/cmm/m/it --> OML/jkp/m/it on input line 423.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `boldsf'
+(Font)                  OML/cmm/m/it --> OML/jkp/m/it on input line 423.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/jkp/m/it --> OML/jkp/bx/it on input line 424.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `rm'
+(Font)                  OML/jkp/m/it --> OML/jkp/m/it on input line 426.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `boldrm'
+(Font)                  OML/jkp/m/it --> OML/jkp/bx/it on input line 427.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `sf'
+(Font)                  OML/jkp/m/it --> OML/jkpss/m/it on input line 428.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `boldsf'
+(Font)                  OML/jkp/m/it --> OML/jkpss/bx/it on input line 429.
+\symlettersA=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `lettersA' in version `bold'
+(Font)                  U/jkpmia/m/it --> U/jkpmia/bx/it on input line 439.
+LaTeX Font Info:    Overwriting symbol font `lettersA' in version `rm'
+(Font)                  U/jkpmia/m/it --> U/jkpmia/m/it on input line 441.
+LaTeX Font Info:    Overwriting symbol font `lettersA' in version `boldrm'
+(Font)                  U/jkpmia/m/it --> U/jkpmia/bx/it on input line 442.
+LaTeX Font Info:    Overwriting symbol font `lettersA' in version `sf'
+(Font)                  U/jkpmia/m/it --> U/jkpssmia/m/it on input line 443.
+LaTeX Font Info:    Overwriting symbol font `lettersA' in version `boldsf'
+(Font)                  U/jkpmia/m/it --> U/jkpssmia/bx/it on input line 444.
+LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 456.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/jkp/m/n on input line 456.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/jkp/m/n on input line 456.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `rm'
+(Font)                  OMS/cmsy/m/n --> OMS/jkp/m/n on input line 456.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `boldrm'
+(Font)                  OMS/cmsy/m/n --> OMS/jkp/m/n on input line 456.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `sf'
+(Font)                  OMS/cmsy/m/n --> OMS/jkp/m/n on input line 456.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `boldsf'
+(Font)                  OMS/cmsy/m/n --> OMS/jkp/m/n on input line 456.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/jkp/m/n --> OMS/jkp/bx/n on input line 457.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `rm'
+(Font)                  OMS/jkp/m/n --> OMS/jkp/m/n on input line 459.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `boldrm'
+(Font)                  OMS/jkp/m/n --> OMS/jkp/bx/n on input line 460.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `sf'
+(Font)                  OMS/jkp/m/n --> OMS/jkp/m/n on input line 461.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `boldsf'
+(Font)                  OMS/jkp/m/n --> OMS/jkp/bx/n on input line 462.
+\symAMSa=\mathgroup5
+LaTeX Font Info:    Overwriting symbol font `AMSa' in version `bold'
+(Font)                  U/jkpsya/m/n --> U/jkpsya/bx/n on input line 476.
+LaTeX Font Info:    Overwriting symbol font `AMSa' in version `rm'
+(Font)                  U/jkpsya/m/n --> U/jkpsya/m/n on input line 477.
+LaTeX Font Info:    Overwriting symbol font `AMSa' in version `boldrm'
+(Font)                  U/jkpsya/m/n --> U/jkpsya/bx/n on input line 478.
+LaTeX Font Info:    Overwriting symbol font `AMSa' in version `sf'
+(Font)                  U/jkpsya/m/n --> U/jkpsya/m/n on input line 479.
+LaTeX Font Info:    Overwriting symbol font `AMSa' in version `boldsf'
+(Font)                  U/jkpsya/m/n --> U/jkpsya/bx/n on input line 480.
+\symAMSb=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `AMSb' in version `bold'
+(Font)                  U/jkpsyb/m/n --> U/jkpsyb/bx/n on input line 529.
+LaTeX Font Info:    Overwriting symbol font `AMSb' in version `rm'
+(Font)                  U/jkpsyb/m/n --> U/jkpsyb/m/n on input line 530.
+LaTeX Font Info:    Overwriting symbol font `AMSb' in version `boldrm'
+(Font)                  U/jkpsyb/m/n --> U/jkpsyb/bx/n on input line 531.
+LaTeX Font Info:    Overwriting symbol font `AMSb' in version `sf'
+(Font)                  U/jkpsyb/m/n --> U/jkpsssyb/m/n on input line 532.
+LaTeX Font Info:    Overwriting symbol font `AMSb' in version `boldsf'
+(Font)                  U/jkpsyb/m/n --> U/jkpsssyb/bx/n on input line 533.
+\symsymbolsC=\mathgroup7
+LaTeX Font Info:    Overwriting symbol font `symbolsC' in version `bold'
+(Font)                  U/jkpsyc/m/n --> U/jkpsyc/bx/n on input line 549.
+LaTeX Font Info:    Overwriting symbol font `symbolsC' in version `rm'
+(Font)                  U/jkpsyc/m/n --> U/jkpsyc/m/n on input line 551.
+LaTeX Font Info:    Overwriting symbol font `symbolsC' in version `boldrm'
+(Font)                  U/jkpsyc/m/n --> U/jkpsyc/bx/n on input line 552.
+LaTeX Font Info:    Overwriting symbol font `symbolsC' in version `sf'
+(Font)                  U/jkpsyc/m/n --> U/jkpsyc/m/n on input line 553.
+LaTeX Font Info:    Overwriting symbol font `symbolsC' in version `boldsf'
+(Font)                  U/jkpsyc/m/n --> U/jkpsyc/bx/n on input line 554.
+LaTeX Font Info:    Overwriting math alphabet `\mathscr' in version `bold'
+(Font)                  U/jkpsyd/m/n --> U/jkpsyd/bx/n on input line 583.
+LaTeX Font Info:    Overwriting math alphabet `\mathscr' in version `rm'
+(Font)                  U/jkpsyd/m/n --> U/jkpsyd/m/n on input line 585.
+LaTeX Font Info:    Overwriting math alphabet `\mathscr' in version `boldrm'
+(Font)                  U/jkpsyd/m/n --> U/jkpsyd/bx/n on input line 586.
+LaTeX Font Info:    Overwriting math alphabet `\mathscr' in version `sf'
+(Font)                  U/jkpsyd/m/n --> U/jkpsyd/m/n on input line 587.
+LaTeX Font Info:    Overwriting math alphabet `\mathscr' in version `boldsf'
+(Font)                  U/jkpsyd/m/n --> U/jkpsyd/bx/n on input line 588.
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 598.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/jkp/m/n on input line 598.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/jkp/m/n on input line 598.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `rm'
+(Font)                  OMX/cmex/m/n --> OMX/jkp/m/n on input line 598.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `boldrm'
+(Font)                  OMX/cmex/m/n --> OMX/jkp/m/n on input line 598.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `sf'
+(Font)                  OMX/cmex/m/n --> OMX/jkp/m/n on input line 598.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `boldsf'
+(Font)                  OMX/cmex/m/n --> OMX/jkp/m/n on input line 598.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/jkp/m/n --> OMX/jkp/bx/n on input line 599.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `rm'
+(Font)                  OMX/jkp/m/n --> OMX/jkp/m/n on input line 601.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `boldrm'
+(Font)                  OMX/jkp/m/n --> OMX/jkp/bx/n on input line 602.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `sf'
+(Font)                  OMX/jkp/m/n --> OMX/jkpss/m/n on input line 603.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `boldsf'
+(Font)                  OMX/jkp/m/n --> OMX/jkpss/bx/n on input line 604.
+\symlargesymbolsA=\mathgroup8
+LaTeX Font Info:    Overwriting symbol font `largesymbolsA' in version `bold'
+(Font)                  U/jkpexa/m/n --> U/jkpexa/bx/n on input line 615.
+LaTeX Font Info:    Overwriting symbol font `largesymbolsA' in version `rm'
+(Font)                  U/jkpexa/m/n --> U/jkpexa/m/n on input line 617.
+LaTeX Font Info:    Overwriting symbol font `largesymbolsA' in version `boldrm'
+
+(Font)                  U/jkpexa/m/n --> U/jkpexa/bx/n on input line 618.
+LaTeX Font Info:    Overwriting symbol font `largesymbolsA' in version `sf'
+(Font)                  U/jkpexa/m/n --> U/jkpexa/m/n on input line 619.
+LaTeX Font Info:    Overwriting symbol font `largesymbolsA' in version `boldsf'
+
+(Font)                  U/jkpexa/m/n --> U/jkpexa/bx/n on input line 620.
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 940.
+LaTeX Info: Redefining \not on input line 1580.
+)
+(c:/texlive/2019/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2018/08/11 v1.3c Input encoding file
+\inpenc@prehook=\toks19
+\inpenc@posthook=\toks20
+)
+(c:/texlive/2019/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count107
+\float@exts=\toks21
+\float@box=\box29
+\@float@everytoks=\toks22
+\@floatcapt=\box30
+)
+(c:/texlive/2019/texmf-dist/tex/latex/parskip/parskip.sty
+Package: parskip 2019-01-16 v2.0c non-zero parskip adjustments
+
+(c:/texlive/2019/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
+
+(c:/texlive/2019/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks23
+)
+(c:/texlive/2019/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
+)
+(c:/texlive/2019/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+))
+(c:/texlive/2019/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2019/09/21 v2.5h e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count108
+))
+(c:/texlive/2019/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count109
+\lst@gtempboxa=\box31
+\lst@token=\toks24
+\lst@length=\count110
+\lst@currlwidth=\dimen114
+\lst@column=\count111
+\lst@pos=\count112
+\lst@lostspace=\dimen115
+\lst@width=\dimen116
+\lst@newlines=\count113
+\lst@lineno=\count114
+\lst@maxwidth=\dimen117
+
+(c:/texlive/2019/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2019/09/10 1.8c (Carsten Heinz)
+\c@lstnumber=\count115
+\lst@skipnumbers=\count116
+\lst@framebox=\box32
+)
+(c:/texlive/2019/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2019/09/10 1.8c listings configuration
+))
+Package: listings 2019/09/10 1.8c (Carsten Heinz)
+
+(c:/texlive/2019/texmf-dist/tex/latex/setspace/setspace.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
+)
+(c:/texlive/2019/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2019/03/01 v1.8w multicolumn formatting (FMi)
+\c@tracingmulticols=\count117
+\mult@box=\box33
+\multicol@leftmargin=\dimen118
+\c@unbalance=\count118
+\c@collectmore=\count119
+\doublecol@number=\count120
+\multicoltolerance=\count121
+\multicolpretolerance=\count122
+\full@width=\dimen119
+\page@free=\dimen120
+\premulticols=\dimen121
+\postmulticols=\dimen122
+\multicolsep=\skip46
+\multicolbaselineskip=\skip47
+\partial@page=\box34
+\last@line=\box35
+\maxbalancingoverflow=\dimen123
+\mult@rightbox=\box36
+\mult@grightbox=\box37
+\mult@gfirstbox=\box38
+\mult@firstbox=\box39
+\@tempa=\box40
+\@tempa=\box41
+\@tempa=\box42
+\@tempa=\box43
+\@tempa=\box44
+\@tempa=\box45
+\@tempa=\box46
+\@tempa=\box47
+\@tempa=\box48
+\@tempa=\box49
+\@tempa=\box50
+\@tempa=\box51
+\@tempa=\box52
+\@tempa=\box53
+\@tempa=\box54
+\@tempa=\box55
+\@tempa=\box56
+\c@minrows=\count123
+\c@columnbadness=\count124
+\c@finalcolumnbadness=\count125
+\last@try=\dimen124
+\multicolovershoot=\dimen125
+\multicolundershoot=\dimen126
+\mult@nat@firstbox=\box57
+\colbreak@box=\box58
+\mc@col@check@num=\count126
+)
+(c:/texlive/2019/texmf-dist/tex/latex/tools/enumerate.sty
+Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
+\@enLab=\toks25
+)
+(c:/texlive/2019/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(c:/texlive/2019/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+LaTeX Font Info:    Redeclaring symbol font `AMSa' on input line 59.
+LaTeX Font Info:    Overwriting symbol font `AMSa' in version `normal'
+(Font)                  U/jkpsya/m/n --> U/msa/m/n on input line 59.
+LaTeX Font Info:    Overwriting symbol font `AMSa' in version `bold'
+(Font)                  U/jkpsya/bx/n --> U/msa/m/n on input line 59.
+LaTeX Font Info:    Overwriting symbol font `AMSa' in version `rm'
+(Font)                  U/jkpsya/m/n --> U/msa/m/n on input line 59.
+LaTeX Font Info:    Overwriting symbol font `AMSa' in version `boldrm'
+(Font)                  U/jkpsya/bx/n --> U/msa/m/n on input line 59.
+LaTeX Font Info:    Overwriting symbol font `AMSa' in version `sf'
+(Font)                  U/jkpsya/m/n --> U/msa/m/n on input line 59.
+LaTeX Font Info:    Overwriting symbol font `AMSa' in version `boldsf'
+(Font)                  U/jkpsya/bx/n --> U/msa/m/n on input line 59.
+LaTeX Font Info:    Redeclaring symbol font `AMSb' on input line 60.
+LaTeX Font Info:    Overwriting symbol font `AMSb' in version `normal'
+(Font)                  U/jkpsyb/m/n --> U/msb/m/n on input line 60.
+LaTeX Font Info:    Overwriting symbol font `AMSb' in version `bold'
+(Font)                  U/jkpsyb/bx/n --> U/msb/m/n on input line 60.
+LaTeX Font Info:    Overwriting symbol font `AMSb' in version `rm'
+(Font)                  U/jkpsyb/m/n --> U/msb/m/n on input line 60.
+LaTeX Font Info:    Overwriting symbol font `AMSb' in version `boldrm'
+(Font)                  U/jkpsyb/bx/n --> U/msb/m/n on input line 60.
+LaTeX Font Info:    Overwriting symbol font `AMSb' in version `sf'
+(Font)                  U/jkpsssyb/m/n --> U/msb/m/n on input line 60.
+LaTeX Font Info:    Overwriting symbol font `AMSb' in version `boldsf'
+(Font)                  U/jkpsssyb/bx/n --> U/msb/m/n on input line 60.
+LaTeX Font Info:    Redeclaring math delimiter \ulcorner on input line 74.
+LaTeX Font Info:    Redeclaring math delimiter \urcorner on input line 75.
+LaTeX Font Info:    Redeclaring math delimiter \llcorner on input line 76.
+LaTeX Font Info:    Redeclaring math delimiter \lrcorner on input line 77.
+LaTeX Font Info:    Redeclaring math symbol \square on input line 141.
+LaTeX Font Info:    Redeclaring math symbol \lozenge on input line 142.
+)
+LaTeX Font Info:    Redeclaring math symbol \boxdot on input line 44.
+LaTeX Font Info:    Redeclaring math symbol \boxplus on input line 45.
+LaTeX Font Info:    Redeclaring math symbol \boxtimes on input line 46.
+LaTeX Font Info:    Redeclaring math symbol \blacksquare on input line 48.
+LaTeX Font Info:    Redeclaring math symbol \centerdot on input line 49.
+LaTeX Font Info:    Redeclaring math symbol \blacklozenge on input line 51.
+LaTeX Font Info:    Redeclaring math symbol \circlearrowright on input line 52.
+
+LaTeX Font Info:    Redeclaring math symbol \circlearrowleft on input line 53.
+LaTeX Font Info:    Redeclaring math symbol \leftrightharpoons on input line 56
+.
+LaTeX Font Info:    Redeclaring math symbol \boxminus on input line 57.
+LaTeX Font Info:    Redeclaring math symbol \Vdash on input line 58.
+LaTeX Font Info:    Redeclaring math symbol \Vvdash on input line 59.
+LaTeX Font Info:    Redeclaring math symbol \vDash on input line 60.
+LaTeX Font Info:    Redeclaring math symbol \twoheadrightarrow on input line 61
+.
+LaTeX Font Info:    Redeclaring math symbol \twoheadleftarrow on input line 62.
+
+LaTeX Font Info:    Redeclaring math symbol \leftleftarrows on input line 63.
+LaTeX Font Info:    Redeclaring math symbol \rightrightarrows on input line 64.
+
+LaTeX Font Info:    Redeclaring math symbol \upuparrows on input line 65.
+LaTeX Font Info:    Redeclaring math symbol \downdownarrows on input line 66.
+LaTeX Font Info:    Redeclaring math symbol \upharpoonright on input line 67.
+LaTeX Font Info:    Redeclaring math symbol \downharpoonright on input line 69.
+
+LaTeX Font Info:    Redeclaring math symbol \upharpoonleft on input line 70.
+LaTeX Font Info:    Redeclaring math symbol \downharpoonleft on input line 71.
+LaTeX Font Info:    Redeclaring math symbol \rightarrowtail on input line 72.
+LaTeX Font Info:    Redeclaring math symbol \leftarrowtail on input line 73.
+LaTeX Font Info:    Redeclaring math symbol \leftrightarrows on input line 74.
+LaTeX Font Info:    Redeclaring math symbol \rightleftarrows on input line 75.
+LaTeX Font Info:    Redeclaring math symbol \Lsh on input line 76.
+LaTeX Font Info:    Redeclaring math symbol \Rsh on input line 77.
+LaTeX Font Info:    Redeclaring math symbol \leftrightsquigarrow on input line 
+79.
+LaTeX Font Info:    Redeclaring math symbol \looparrowleft on input line 80.
+LaTeX Font Info:    Redeclaring math symbol \looparrowright on input line 81.
+LaTeX Font Info:    Redeclaring math symbol \circeq on input line 82.
+LaTeX Font Info:    Redeclaring math symbol \succsim on input line 83.
+LaTeX Font Info:    Redeclaring math symbol \gtrsim on input line 84.
+LaTeX Font Info:    Redeclaring math symbol \gtrapprox on input line 85.
+LaTeX Font Info:    Redeclaring math symbol \multimap on input line 86.
+LaTeX Font Info:    Redeclaring math symbol \therefore on input line 87.
+LaTeX Font Info:    Redeclaring math symbol \because on input line 88.
+LaTeX Font Info:    Redeclaring math symbol \doteqdot on input line 89.
+LaTeX Font Info:    Redeclaring math symbol \triangleq on input line 91.
+LaTeX Font Info:    Redeclaring math symbol \precsim on input line 92.
+LaTeX Font Info:    Redeclaring math symbol \lesssim on input line 93.
+LaTeX Font Info:    Redeclaring math symbol \lessapprox on input line 94.
+LaTeX Font Info:    Redeclaring math symbol \eqslantless on input line 95.
+LaTeX Font Info:    Redeclaring math symbol \eqslantgtr on input line 96.
+LaTeX Font Info:    Redeclaring math symbol \curlyeqprec on input line 97.
+LaTeX Font Info:    Redeclaring math symbol \curlyeqsucc on input line 98.
+LaTeX Font Info:    Redeclaring math symbol \preccurlyeq on input line 99.
+LaTeX Font Info:    Redeclaring math symbol \leqq on input line 100.
+LaTeX Font Info:    Redeclaring math symbol \leqslant on input line 101.
+LaTeX Font Info:    Redeclaring math symbol \lessgtr on input line 102.
+LaTeX Font Info:    Redeclaring math symbol \backprime on input line 103.
+LaTeX Font Info:    Redeclaring math symbol \risingdotseq on input line 104.
+LaTeX Font Info:    Redeclaring math symbol \fallingdotseq on input line 105.
+LaTeX Font Info:    Redeclaring math symbol \succcurlyeq on input line 106.
+LaTeX Font Info:    Redeclaring math symbol \geqq on input line 107.
+LaTeX Font Info:    Redeclaring math symbol \geqslant on input line 108.
+LaTeX Font Info:    Redeclaring math symbol \gtrless on input line 109.
+LaTeX Font Info:    Redeclaring math symbol \bigstar on input line 117.
+LaTeX Font Info:    Redeclaring math symbol \between on input line 118.
+LaTeX Font Info:    Redeclaring math symbol \blacktriangledown on input line 11
+9.
+LaTeX Font Info:    Redeclaring math symbol \blacktriangleright on input line 1
+20.
+LaTeX Font Info:    Redeclaring math symbol \blacktriangleleft on input line 12
+1.
+LaTeX Font Info:    Redeclaring math symbol \vartriangle on input line 122.
+LaTeX Font Info:    Redeclaring math symbol \blacktriangle on input line 123.
+LaTeX Font Info:    Redeclaring math symbol \triangledown on input line 124.
+LaTeX Font Info:    Redeclaring math symbol \eqcirc on input line 125.
+LaTeX Font Info:    Redeclaring math symbol \lesseqgtr on input line 126.
+LaTeX Font Info:    Redeclaring math symbol \gtreqless on input line 127.
+LaTeX Font Info:    Redeclaring math symbol \lesseqqgtr on input line 128.
+LaTeX Font Info:    Redeclaring math symbol \gtreqqless on input line 129.
+LaTeX Font Info:    Redeclaring math symbol \Rrightarrow on input line 130.
+LaTeX Font Info:    Redeclaring math symbol \Lleftarrow on input line 131.
+LaTeX Font Info:    Redeclaring math symbol \veebar on input line 132.
+LaTeX Font Info:    Redeclaring math symbol \barwedge on input line 133.
+LaTeX Font Info:    Redeclaring math symbol \doublebarwedge on input line 134.
+LaTeX Font Info:    Redeclaring math symbol \measuredangle on input line 137.
+LaTeX Font Info:    Redeclaring math symbol \sphericalangle on input line 138.
+LaTeX Font Info:    Redeclaring math symbol \varpropto on input line 139.
+LaTeX Font Info:    Redeclaring math symbol \smallsmile on input line 140.
+LaTeX Font Info:    Redeclaring math symbol \smallfrown on input line 141.
+LaTeX Font Info:    Redeclaring math symbol \Subset on input line 142.
+LaTeX Font Info:    Redeclaring math symbol \Supset on input line 143.
+LaTeX Font Info:    Redeclaring math symbol \Cup on input line 144.
+LaTeX Font Info:    Redeclaring math symbol \Cap on input line 146.
+LaTeX Font Info:    Redeclaring math symbol \curlywedge on input line 148.
+LaTeX Font Info:    Redeclaring math symbol \curlyvee on input line 149.
+LaTeX Font Info:    Redeclaring math symbol \leftthreetimes on input line 150.
+LaTeX Font Info:    Redeclaring math symbol \rightthreetimes on input line 151.
+
+LaTeX Font Info:    Redeclaring math symbol \subseteqq on input line 152.
+LaTeX Font Info:    Redeclaring math symbol \supseteqq on input line 153.
+LaTeX Font Info:    Redeclaring math symbol \bumpeq on input line 154.
+LaTeX Font Info:    Redeclaring math symbol \Bumpeq on input line 155.
+LaTeX Font Info:    Redeclaring math symbol \lll on input line 156.
+LaTeX Font Info:    Redeclaring math symbol \ggg on input line 158.
+LaTeX Font Info:    Redeclaring math symbol \circledS on input line 160.
+LaTeX Font Info:    Redeclaring math symbol \pitchfork on input line 161.
+LaTeX Font Info:    Redeclaring math symbol \dotplus on input line 162.
+LaTeX Font Info:    Redeclaring math symbol \backsim on input line 163.
+LaTeX Font Info:    Redeclaring math symbol \backsimeq on input line 164.
+LaTeX Font Info:    Redeclaring math symbol \complement on input line 165.
+LaTeX Font Info:    Redeclaring math symbol \intercal on input line 166.
+LaTeX Font Info:    Redeclaring math symbol \circledcirc on input line 167.
+LaTeX Font Info:    Redeclaring math symbol \circledast on input line 168.
+LaTeX Font Info:    Redeclaring math symbol \circleddash on input line 169.
+LaTeX Font Info:    Redeclaring math symbol \lvertneqq on input line 171.
+LaTeX Font Info:    Redeclaring math symbol \gvertneqq on input line 172.
+LaTeX Font Info:    Redeclaring math symbol \nleq on input line 173.
+LaTeX Font Info:    Redeclaring math symbol \ngeq on input line 174.
+LaTeX Font Info:    Redeclaring math symbol \nless on input line 175.
+LaTeX Font Info:    Redeclaring math symbol \ngtr on input line 176.
+LaTeX Font Info:    Redeclaring math symbol \nprec on input line 177.
+LaTeX Font Info:    Redeclaring math symbol \nsucc on input line 178.
+LaTeX Font Info:    Redeclaring math symbol \lneqq on input line 179.
+LaTeX Font Info:    Redeclaring math symbol \gneqq on input line 180.
+LaTeX Font Info:    Redeclaring math symbol \nleqslant on input line 181.
+LaTeX Font Info:    Redeclaring math symbol \ngeqslant on input line 182.
+LaTeX Font Info:    Redeclaring math symbol \lneq on input line 183.
+LaTeX Font Info:    Redeclaring math symbol \gneq on input line 184.
+LaTeX Font Info:    Redeclaring math symbol \npreceq on input line 185.
+LaTeX Font Info:    Redeclaring math symbol \nsucceq on input line 186.
+LaTeX Font Info:    Redeclaring math symbol \precnsim on input line 187.
+LaTeX Font Info:    Redeclaring math symbol \succnsim on input line 188.
+LaTeX Font Info:    Redeclaring math symbol \lnsim on input line 189.
+LaTeX Font Info:    Redeclaring math symbol \gnsim on input line 190.
+LaTeX Font Info:    Redeclaring math symbol \nleqq on input line 191.
+LaTeX Font Info:    Redeclaring math symbol \ngeqq on input line 192.
+LaTeX Font Info:    Redeclaring math symbol \precneqq on input line 193.
+LaTeX Font Info:    Redeclaring math symbol \succneqq on input line 194.
+LaTeX Font Info:    Redeclaring math symbol \precnapprox on input line 195.
+LaTeX Font Info:    Redeclaring math symbol \succnapprox on input line 196.
+LaTeX Font Info:    Redeclaring math symbol \lnapprox on input line 197.
+LaTeX Font Info:    Redeclaring math symbol \gnapprox on input line 198.
+LaTeX Font Info:    Redeclaring math symbol \nsim on input line 199.
+LaTeX Font Info:    Redeclaring math symbol \ncong on input line 200.
+LaTeX Font Info:    Redeclaring math symbol \diagup on input line 201.
+LaTeX Font Info:    Redeclaring math symbol \diagdown on input line 202.
+LaTeX Font Info:    Redeclaring math symbol \varsubsetneq on input line 203.
+LaTeX Font Info:    Redeclaring math symbol \varsupsetneq on input line 204.
+LaTeX Font Info:    Redeclaring math symbol \nsubseteqq on input line 205.
+LaTeX Font Info:    Redeclaring math symbol \nsupseteqq on input line 206.
+LaTeX Font Info:    Redeclaring math symbol \subsetneqq on input line 207.
+LaTeX Font Info:    Redeclaring math symbol \supsetneqq on input line 208.
+LaTeX Font Info:    Redeclaring math symbol \varsubsetneqq on input line 209.
+LaTeX Font Info:    Redeclaring math symbol \varsupsetneqq on input line 210.
+LaTeX Font Info:    Redeclaring math symbol \subsetneq on input line 211.
+LaTeX Font Info:    Redeclaring math symbol \supsetneq on input line 212.
+LaTeX Font Info:    Redeclaring math symbol \nsubseteq on input line 213.
+LaTeX Font Info:    Redeclaring math symbol \nsupseteq on input line 214.
+LaTeX Font Info:    Redeclaring math symbol \nparallel on input line 215.
+LaTeX Font Info:    Redeclaring math symbol \nmid on input line 216.
+LaTeX Font Info:    Redeclaring math symbol \nshortmid on input line 217.
+LaTeX Font Info:    Redeclaring math symbol \nshortparallel on input line 218.
+LaTeX Font Info:    Redeclaring math symbol \nvdash on input line 219.
+LaTeX Font Info:    Redeclaring math symbol \nVdash on input line 220.
+LaTeX Font Info:    Redeclaring math symbol \nvDash on input line 221.
+LaTeX Font Info:    Redeclaring math symbol \nVDash on input line 222.
+LaTeX Font Info:    Redeclaring math symbol \ntrianglerighteq on input line 223
+.
+LaTeX Font Info:    Redeclaring math symbol \ntrianglelefteq on input line 224.
+
+LaTeX Font Info:    Redeclaring math symbol \ntriangleleft on input line 225.
+LaTeX Font Info:    Redeclaring math symbol \ntriangleright on input line 226.
+LaTeX Font Info:    Redeclaring math symbol \nleftarrow on input line 227.
+LaTeX Font Info:    Redeclaring math symbol \nrightarrow on input line 228.
+LaTeX Font Info:    Redeclaring math symbol \nLeftarrow on input line 229.
+LaTeX Font Info:    Redeclaring math symbol \nRightarrow on input line 230.
+LaTeX Font Info:    Redeclaring math symbol \nLeftrightarrow on input line 231.
+
+LaTeX Font Info:    Redeclaring math symbol \nleftrightarrow on input line 232.
+
+LaTeX Font Info:    Redeclaring math symbol \divideontimes on input line 233.
+LaTeX Font Info:    Redeclaring math symbol \varnothing on input line 234.
+LaTeX Font Info:    Redeclaring math symbol \nexists on input line 235.
+LaTeX Font Info:    Redeclaring math symbol \Finv on input line 236.
+LaTeX Font Info:    Redeclaring math symbol \Game on input line 237.
+LaTeX Font Info:    Redeclaring math symbol \eth on input line 240.
+LaTeX Font Info:    Redeclaring math symbol \eqsim on input line 241.
+LaTeX Font Info:    Redeclaring math symbol \beth on input line 242.
+LaTeX Font Info:    Redeclaring math symbol \gimel on input line 243.
+LaTeX Font Info:    Redeclaring math symbol \daleth on input line 244.
+LaTeX Font Info:    Redeclaring math symbol \lessdot on input line 245.
+LaTeX Font Info:    Redeclaring math symbol \gtrdot on input line 246.
+LaTeX Font Info:    Redeclaring math symbol \ltimes on input line 247.
+LaTeX Font Info:    Redeclaring math symbol \rtimes on input line 248.
+LaTeX Font Info:    Redeclaring math symbol \shortmid on input line 249.
+LaTeX Font Info:    Redeclaring math symbol \shortparallel on input line 250.
+LaTeX Font Info:    Redeclaring math symbol \smallsetminus on input line 251.
+LaTeX Font Info:    Redeclaring math symbol \thicksim on input line 252.
+LaTeX Font Info:    Redeclaring math symbol \thickapprox on input line 253.
+LaTeX Font Info:    Redeclaring math symbol \approxeq on input line 254.
+LaTeX Font Info:    Redeclaring math symbol \succapprox on input line 255.
+LaTeX Font Info:    Redeclaring math symbol \precapprox on input line 256.
+LaTeX Font Info:    Redeclaring math symbol \curvearrowleft on input line 257.
+LaTeX Font Info:    Redeclaring math symbol \curvearrowright on input line 258.
+
+LaTeX Font Info:    Redeclaring math symbol \digamma on input line 259.
+LaTeX Font Info:    Redeclaring math symbol \varkappa on input line 260.
+LaTeX Font Info:    Redeclaring math symbol \Bbbk on input line 261.
+LaTeX Font Info:    Redeclaring math symbol \hslash on input line 262.
+LaTeX Font Info:    Redeclaring math symbol \backepsilon on input line 265.
+)
+(c:/texlive/2019/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip11
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+(c:/texlive/2019/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2019/11/10 v7.00c Hypertext links for LaTeX
+
+(c:/texlive/2019/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2019/11/07 v1.0c TeX engine tests
+)
+(c:/texlive/2019/texmf-dist/tex/latex/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2019/11/24 v0.31 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(c:/texlive/2019/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(c:/texlive/2019/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(c:/texlive/2019/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+)
+(c:/texlive/2019/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2019/12/15 v1.9 Color options for hyperref/bookmark (HO)
+
+(c:/texlive/2019/texmf-dist/tex/latex/hycolor/xcolor-patch.sty
+Package: xcolor-patch 2019/12/15 xcolor patch
+
+(c:/texlive/2019/texmf-dist/tex/latex/oberdiek/hopatch.sty
+Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
+)))
+(c:/texlive/2019/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+)
+(c:/texlive/2019/texmf-dist/tex/latex/auxhook/auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+\@linkdim=\dimen127
+\Hy@linkcounter=\count127
+\Hy@pagecounter=\count128
+
+(c:/texlive/2019/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2019/11/10 v7.00c Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+(c:/texlive/2019/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+(c:/texlive/2019/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+\Hy@SavedSpaceFactor=\count129
+
+(c:/texlive/2019/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Hyper figures OFF on input line 4535.
+Package hyperref Info: Link nesting OFF on input line 4540.
+Package hyperref Info: Hyper index ON on input line 4543.
+Package hyperref Info: Plain pages OFF on input line 4550.
+Package hyperref Info: Backreferencing OFF on input line 4555.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4788.
+\c@Hy@tempcnt=\count130
+LaTeX Info: Redefining \url on input line 5147.
+\XeTeXLinkMargin=\dimen128
+
+(c:/texlive/2019/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(c:/texlive/2019/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count131
+\Field@Width=\dimen129
+\Fld@charsize=\dimen130
+Package hyperref Info: Hyper figures OFF on input line 6418.
+Package hyperref Info: Link nesting OFF on input line 6423.
+Package hyperref Info: Hyper index ON on input line 6426.
+Package hyperref Info: backreferencing OFF on input line 6433.
+Package hyperref Info: Link coloring OFF on input line 6438.
+Package hyperref Info: Link coloring with OCG OFF on input line 6443.
+Package hyperref Info: PDF/A mode OFF on input line 6448.
+LaTeX Info: Redefining \ref on input line 6488.
+LaTeX Info: Redefining \pageref on input line 6492.
+
+(c:/texlive/2019/texmf-dist/tex/generic/atbegshi/atbegshi.sty
+Package: atbegshi 2019/12/05 v1.19 At begin shipout hook (HO)
+)
+\Hy@abspage=\count132
+\c@Item=\count133
+\c@Hfootnote=\count134
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+
+(c:/texlive/2019/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2019/11/10 v7.00c Hyperref driver for pdfTeX
+
+(c:/texlive/2019/texmf-dist/tex/latex/atveryend/atveryend.sty
+Package: atveryend 2019-12-11 v1.11 Hooks at the very end of document (HO)
+)
+\Fld@listcount=\count135
+\c@bookmark@seq@number=\count136
+
+(c:/texlive/2019/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+
+(c:/texlive/2019/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+86.
+)
+\Hy@SectionHShift=\skip48
+)
+(c:/texlive/2019/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(c:/texlive/2019/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2019/11/01 v1.3d Standard LaTeX Graphics (DPC,SPQR)
+
+(c:/texlive/2019/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(c:/texlive/2019/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+
+(c:/texlive/2019/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen131
+\Gin@req@width=\dimen132
+)
+(c:/texlive/2019/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2020/01/03 v1.3b Sub-captions (AR)
+
+(c:/texlive/2019/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2020/01/03 v3.4h Customizing captions (AR)
+
+(c:/texlive/2019/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2020/01/03 v1.8h caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 61.
+\captionmargin=\dimen133
+\captionmargin@=\dimen134
+\captionwidth=\dimen135
+\caption@tempdima=\dimen136
+\caption@indent=\dimen137
+\caption@parindent=\dimen138
+\caption@hangindent=\dimen139
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count137
+\c@continuedfloat=\count138
+Package caption Info: float package is loaded.
+Package caption Info: hyperref package is loaded.
+Package caption Info: listings package is loaded.
+)
+\c@subfigure=\count139
+\c@subtable=\count140
+)
+(c:/texlive/2019/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip49
+\bibsep=\skip50
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count141
+)
+(c:/texlive/2019/texmf-dist/tex/latex/minitoc/minitoc.sty
+Package: minitoc 2018/07/12 v62 Package minitoc
+
+(c:/texlive/2019/texmf-dist/tex/latex/minitoc/mtcmess.sty
+Package: mtcmess 2006/03/14
+)
+Package minitoc Info: I0001
+(minitoc)             *** minitoc package, version 62 ***.
+\tf@mtc=\write3
+\mtcindent=\skip51
+\mtcskipamount=\skip52
+Package minitoc Info: I0005
+(minitoc)             compatible with hyperref.
+Package minitoc Info: I0023
+(minitoc)             part level macros available.
+Package minitoc Info: I0003
+(minitoc)             chapter level macros available.
+\mtc@toks=\toks26
+\mtc@strutbox=\box59
+\mtc@hstrutbox=\box60
+Package minitoc Info: I0002
+(minitoc)             Autoconfiguration of extensions.
+\openout3 = `Bolibar_PhD_dissertation.mtc0'.
+
+\openout3 = `Bolibar_PhD_dissertation.mtc'.
+
+
+(./Bolibar_PhD_dissertation.mtc0)
+Package minitoc Info: I0012
+(minitoc)             Long extensions (Unix-like) will be used.
+Package minitoc Info: I0031
+(minitoc)             ==> this version is configured for UNIX-like 
+(minitoc)                 (long extensions) file names.
+\openout3 = `Bolibar_PhD_dissertation.mtc'.
+
+\openout3 = `Bolibar_PhD_dissertation.mtc0'.
+
+\c@mtc=\count142
+\c@minitocdepth=\count143
+\c@ptc=\count144
+\c@parttocdepth=\count145
+\ptcindent=\skip53
+Package minitoc Info: I0010
+(minitoc)             The english language is selected.
+(minitoc)              on input line 4910.
+
+(c:/texlive/2019/texmf-dist/tex/latex/minitoc/english.mld
+File: english.mld 2006/01/13
+)
+(c:/texlive/2019/texmf-dist/tex/latex/minitoc/english.mld
+File: english.mld 2006/01/13
+))
+(c:/texlive/2019/texmf-dist/tex/latex/natbib/bibentry.sty
+Package: bibentry 2007/10/30 1.5 (PWD)
+)
+(c:/texlive/2019/texmf-dist/tex/latex/fncychap/fncychap.sty
+Package: fncychap 2007/07/30 v1.34 LaTeX package (Revised chapters)
+\RW=\skip54
+\mylen=\skip55
+\myhi=\skip56
+\px=\skip57
+\py=\skip58
+\pyy=\skip59
+\pxx=\skip60
+)
+(c:/texlive/2019/texmf-dist/tex/latex/cases/cases.sty
+Package: cases 2002/05/02 ver 2.5 
+)
+(c:/texlive/2019/texmf-dist/tex/latex/fancybox/fancybox.sty
+Package: fancybox 2010/05/15 1.4
+
+Style option: `fancybox' v1.4 <2010/05/15> (tvz)
+\@fancybox=\box61
+\shadowsize=\dimen140
+\@Sbox=\box62
+\do@VerbBox=\toks27
+\the@fancyput=\toks28
+\this@fancyput=\toks29
+\EndVerbatimTokens=\toks30
+\Verbatim@Outfile=\write4
+\Verbatim@Infile=\read1
+) (c:/texlive/2019/texmf-dist/tex/latex/supertabular/supertabular.sty
+Package: supertabular 2004/02/20 v4.1e the supertabular environment
+\c@tracingst=\count146
+\ST@wd=\dimen141
+\ST@rightskip=\skip61
+\ST@leftskip=\skip62
+\ST@parfillskip=\skip63
+\ST@pageleft=\dimen142
+\ST@headht=\dimen143
+\ST@tailht=\dimen144
+\ST@pagesofar=\dimen145
+\ST@pboxht=\dimen146
+\ST@lineht=\dimen147
+\ST@stretchht=\dimen148
+\ST@prevht=\dimen149
+\ST@toadd=\dimen150
+\ST@dimen=\dimen151
+\ST@pbox=\box63
+)
+(c:/texlive/2019/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2019/05/31 v2.5 Span multiple rows of a table
+\multirow@colwidth=\skip64
+\multirow@cntb=\count147
+\multirow@dima=\skip65
+\bigstrutjot=\dimen152
+)
+(c:/texlive/2019/texmf-dist/tex/latex/graphics/rotating.sty
+Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
+
+(c:/texlive/2019/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\c@r@tfl@t=\count148
+\rotFPtop=\skip66
+\rotFPbot=\skip67
+\rot@float@box=\box64
+\rot@mess@toks=\toks31
+)
+(c:/texlive/2019/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+)
+(c:/texlive/2019/texmf-dist/tex/latex/wrapfig/wrapfig.sty
+\wrapoverhang=\dimen153
+\WF@size=\dimen154
+\c@WF@wrappedlines=\count149
+\WF@box=\box65
+\WF@everypar=\toks32
+Package: wrapfig 2003/01/31  v 3.6
+)
+(c:/texlive/2019/texmf-dist/tex/latex/quattrocento/quattrocento.sty
+Package: quattrocento 2019/10/13 (Bob Tennent) Supports Quattrocento(Sans) font
+s for all LaTeX engines. 
+
+(c:/texlive/2019/texmf-dist/tex/generic/iftex/ifxetex.sty
+Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
+)
+(c:/texlive/2019/texmf-dist/tex/generic/iftex/ifluatex.sty
+Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
+)
+(c:/texlive/2019/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+
+(c:/texlive/2019/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(c:/texlive/2019/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks33
+\XKV@tempa@toks=\toks34
+)
+\XKV@depth=\count150
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+(c:/texlive/2019/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2018/08/11 v2.0j Standard LaTeX package
+)
+(c:/texlive/2019/texmf-dist/tex/latex/fontaxes/fontaxes.sty
+Package: fontaxes 2014/03/23 v1.0d Font selection axes
+LaTeX Info: Redefining \upshape on input line 29.
+LaTeX Info: Redefining \itshape on input line 31.
+LaTeX Info: Redefining \slshape on input line 33.
+LaTeX Info: Redefining \scshape on input line 37.
+))
+(c:/texlive/2019/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2018/08/11 v2.0j Standard LaTeX package
+
+(c:/texlive/2019/texmf-dist/tex/latex/base/t1enc.def
+File: t1enc.def 2018/08/11 v2.0j Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+))
+(c:/texlive/2019/texmf-dist/tex/latex/pdfpages/pdfpages.sty
+Package: pdfpages 2019/12/17 v0.5p Insert pages of external PDF documents (AM)
+
+(c:/texlive/2019/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count151
+\calc@Bcount=\count152
+\calc@Adimen=\dimen155
+\calc@Bdimen=\dimen156
+\calc@Askip=\skip68
+\calc@Bskip=\skip69
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count153
+\calc@Cskip=\skip70
+)
+(c:/texlive/2019/texmf-dist/tex/latex/eso-pic/eso-pic.sty
+Package: eso-pic 2018/04/12 v2.0h eso-pic (RN)
+
+(c:/texlive/2019/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(c:/texlive/2019/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+))
+\AM@pagewidth=\dimen157
+\AM@pageheight=\dimen158
+
+(c:/texlive/2019/texmf-dist/tex/latex/pdfpages/pppdftex.def
+File: pppdftex.def 2019/12/17 v0.5p Pdfpages driver for pdfTeX (AM)
+)
+\AM@pagebox=\box66
+\AM@global@opts=\toks35
+\AM@toc@title=\toks36
+\c@AM@survey=\count154
+\AM@templatesizebox=\box67
+)
+(c:/texlive/2019/texmf-dist/tex/latex/tools/xspace.sty
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+)
+(c:/texlive/2019/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2019/10/08 v1.6180339 publication quality tables
+\heavyrulewidth=\dimen159
+\lightrulewidth=\dimen160
+\cmidrulewidth=\dimen161
+\belowrulesep=\dimen162
+\belowbottomsep=\dimen163
+\aboverulesep=\dimen164
+\abovetopsep=\dimen165
+\cmidrulesep=\dimen166
+\cmidrulekern=\dimen167
+\defaultaddspace=\dimen168
+\@cmidla=\count155
+\@cmidlb=\count156
+\@aboverulesep=\dimen169
+\@belowrulesep=\dimen170
+\@thisruleclass=\count157
+\@lastruleclass=\count158
+\@thisrulewidth=\dimen171
+)
+(c:/texlive/2019/texmf-dist/tex/generic/ulem/ulem.sty
+\UL@box=\box68
+\UL@hyphenbox=\box69
+\UL@skip=\skip71
+\UL@hook=\toks37
+\UL@height=\dimen172
+\UL@pe=\count159
+\UL@pixel=\dimen173
+\ULC@box=\box70
+Package: ulem 2012/05/18
+\ULdepth=\dimen174
+)
+(c:/texlive/2019/texmf-dist/tex/latex/lineno/lineno.sty
+Package: lineno 2005/11/02 line numbers on paragraphs v4.41
+\linenopenalty=\count160
+\output=\toks38
+\linenoprevgraf=\count161
+\linenumbersep=\dimen175
+\linenumberwidth=\dimen176
+\c@linenumber=\count162
+\c@pagewiselinenumber=\count163
+\c@LN@truepage=\count164
+\c@internallinenumber=\count165
+\c@internallinenumbers=\count166
+\quotelinenumbersep=\dimen177
+\bframerule=\dimen178
+\bframesep=\dimen179
+\bframebox=\box71
+LaTeX Info: Redefining \\ on input line 3056.
+)
+(c:/texlive/2019/texmf-dist/tex/latex/placeins/placeins.sty
+Package: placeins 2005/04/18  v 2.2
+)
+(c:/texlive/2019/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footer
+s
+\f@nch@headwidth=\skip72
+\f@nch@O@elh=\skip73
+\f@nch@O@erh=\skip74
+\f@nch@O@olh=\skip75
+\f@nch@O@orh=\skip76
+\f@nch@O@elf=\skip77
+\f@nch@O@erf=\skip78
+\f@nch@O@olf=\skip79
+\f@nch@O@orf=\skip80
+)
+(c:/texlive/2019/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(c:/texlive/2019/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+)
+\Gm@cnth=\count167
+\Gm@cntv=\count168
+\c@Gm@tempcnt=\count169
+\Gm@bindingoffset=\dimen180
+\Gm@wd@mp=\dimen181
+\Gm@odd@mp=\dimen182
+\Gm@even@mp=\dimen183
+\Gm@layoutwidth=\dimen184
+\Gm@layoutheight=\dimen185
+\Gm@layouthoffset=\dimen186
+\Gm@layoutvoffset=\dimen187
+\Gm@dimlist=\toks39
+)
+\c@encartcompteur=\count170
+
+(./Bolibar_PhD_dissertation.aux)
+\openout1 = `Bolibar_PhD_dissertation.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/jkp/m/it on input line 114.
+LaTeX Font Info:    Trying to load font information for OML+jkp on input line 1
+14.
+
+(c:/texlive/2019/texmf-dist/tex/latex/kpfonts/omljkp.fd
+File: omljkp.fd 2006/08/15 v1.0
+)
+LaTeX Font Info:    ... okay on input line 114.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 114.
+LaTeX Font Info:    ... okay on input line 114.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 114.
+LaTeX Font Info:    ... okay on input line 114.
+LaTeX Font Info:    Checking defaults for OMS/jkp/m/n on input line 114.
+LaTeX Font Info:    Trying to load font information for OMS+jkp on input line 1
+14.
+
+(c:/texlive/2019/texmf-dist/tex/latex/kpfonts/omsjkp.fd
+File: omsjkp.fd 2006/08/15 v1.0
+)
+LaTeX Font Info:    ... okay on input line 114.
+LaTeX Font Info:    Checking defaults for OMX/jkp/m/n on input line 114.
+LaTeX Font Info:    Trying to load font information for OMX+jkp on input line 1
+14.
+
+(c:/texlive/2019/texmf-dist/tex/latex/kpfonts/omxjkp.fd
+File: omxjkp.fd 2006/08/15 v1.0
+)
+LaTeX Font Info:    ... okay on input line 114.
+LaTeX Font Info:    Checking defaults for U/jkpexa/m/n on input line 114.
+LaTeX Font Info:    Trying to load font information for U+jkpexa on input line 
+114.
+
+(c:/texlive/2019/texmf-dist/tex/latex/kpfonts/ujkpexa.fd
+File: ujkpexa.fd 2006/08/15 v1.0
+)
+LaTeX Font Info:    ... okay on input line 114.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 114.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 1
+14.
+
+(c:/texlive/2019/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 114.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 114.
+LaTeX Font Info:    ... okay on input line 114.
+LaTeX Font Info:    Trying to load font information for T1+QuattrocentoSans-TLF
+ on input line 114.
+
+(c:/texlive/2019/texmf-dist/tex/latex/quattrocento/T1QuattrocentoSans-TLF.fd
+File: T1QuattrocentoSans-TLF.fd 2019/04/03 (autoinst) Font definitions for T1/Q
+uattrocentoSans-TLF.
+)
+LaTeX Font Info:    Font shape `T1/QuattrocentoSans-TLF/m/n' in size <12> not a
+vailable
+(Font)              Font shape `T1/QuattrocentoSans-TLF/regular/n' tried instea
+d on input line 114.
+LaTeX Font Info:    Font shape `T1/QuattrocentoSans-TLF/regular/n' will be
+(Font)              scaled to size 12.0pt on input line 114.
+\c@lstlisting=\count171
+\AtBeginShipoutBox=\box72
+Package hyperref Info: Link coloring OFF on input line 114.
+
+(c:/texlive/2019/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
+
+(c:/texlive/2019/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(c:/texlive/2019/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count172
+)
+LaTeX Info: Redefining \ref on input line 114.
+LaTeX Info: Redefining \pageref on input line 114.
+LaTeX Info: Redefining \nameref on input line 114.
+
+(./Bolibar_PhD_dissertation.out) (./Bolibar_PhD_dissertation.out)
+\@outlinefile=\write5
+\openout5 = `Bolibar_PhD_dissertation.out'.
+
+
+(c:/texlive/2019/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count173
+\scratchdimen=\dimen188
+\scratchbox=\box73
+\nofMPsegments=\count174
+\nofMParguments=\count175
+\everyMPshowfont=\toks40
+\MPscratchCnt=\count176
+\MPscratchDim=\dimen189
+\MPnumerator=\count177
+\makeMPintoPDFobject=\count178
+\everyMPtoPDFconversion=\toks41
+) (c:/texlive/2019/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2019-12-09 v2.10 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(c:/texlive/2019/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: rotating package is loaded.
+Package caption Info: supertabular package is loaded.
+Package caption Info: wrapfig package is loaded.
+Package caption Info: End \AtBeginDocument code.
+Package minitoc(hints) Info: I0049
+(minitoc(hints))             ==> You requested the hints option. 
+(minitoc(hints))             Some hints are eventually given below.
+
+
+Package minitoc(hints) Warning: W0030
+(minitoc(hints))                --- The \part command is altered 
+(minitoc(hints))                after minitoc.
+
+
+Package minitoc(hints) Warning: W0023
+(minitoc(hints))                --- It may be the consequence 
+(minitoc(hints))                of loading the ``hyperref'' package.
+
+
+Package minitoc(hints) Warning: W0028
+(minitoc(hints))                --- The \chapter command is altered 
+(minitoc(hints))                after minitoc.
+
+
+Package minitoc(hints) Warning: W0023
+(minitoc(hints))                --- It may be the consequence 
+(minitoc(hints))                of loading the ``hyperref'' package.
+
+\c@mv@tabular=\count179
+\c@mv@boldtabular=\count180
+(c:/texlive/2019/texmf-dist/tex/latex/pdflscape/pdflscape.sty
+Package: pdflscape 2019/12/05 v0.12 Display of landscape pages in PDF (HO)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(76.82234pt, 443.86319pt, 76.82234pt)
+* v-part:(T,H,B)=(76.82234pt, 691.40216pt, 76.82234pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=443.86319pt
+* \textheight=691.40216pt
+* \oddsidemargin=4.55235pt
+* \evensidemargin=4.55235pt
+* \topmargin=-32.44765pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=85.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+[0
+
+] (./Bolibar_PhD_dissertation.bbl)
+Package minitoc Info: I0024
+(minitoc)             PREPARING MINITOCS FROM Bolibar_PhD_dissertation.toc on i
+nput line 124.
+Package minitoc Info: I0033
+(minitoc)             Writing Bolibar_PhD_dissertation.mtc1.
+\openout3 = `Bolibar_PhD_dissertation.mtc1'.
+
+Package minitoc Info: I0033
+(minitoc)             Writing Bolibar_PhD_dissertation.mtc2.
+\openout3 = `Bolibar_PhD_dissertation.mtc2'.
+
+Package minitoc Info: I0033
+(minitoc)             Writing Bolibar_PhD_dissertation.mtc3.
+\openout3 = `Bolibar_PhD_dissertation.mtc3'.
+
+Package minitoc Info: I0033
+(minitoc)             Writing Bolibar_PhD_dissertation.mtc4.
+\openout3 = `Bolibar_PhD_dissertation.mtc4'.
+
+LaTeX Font Info:    Font shape `T1/QuattrocentoSans-TLF/m/n' in size <10.95> no
+t available
+(Font)              Font shape `T1/QuattrocentoSans-TLF/regular/n' tried instea
+d on input line 129.
+LaTeX Font Info:    Font shape `T1/QuattrocentoSans-TLF/regular/n' will be
+(Font)              scaled to size 10.95pt on input line 129.
+LaTeX Font Info:    Font shape `T1/QuattrocentoSans-TLF/m/it' in size <10.95> n
+ot available
+(Font)              Font shape `T1/QuattrocentoSans-TLF/regular/it' tried inste
+ad on input line 130.
+LaTeX Font Info:    Font shape `T1/QuattrocentoSans-TLF/regular/it' will be
+(Font)              scaled to size 10.95pt on input line 130.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+Make it at least 14.49998pt.
+We now make it that large for the rest of the document.
+This may cause the page layout to be inconsistent, however.
+
+[1{c:/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
+(./abstract/abstract.tex
+LaTeX Font Info:    Font shape `T1/QuattrocentoSans-TLF/m/n' in size <17.28> no
+t available
+(Font)              Font shape `T1/QuattrocentoSans-TLF/regular/n' tried instea
+d on input line 2.
+LaTeX Font Info:    Font shape `T1/QuattrocentoSans-TLF/regular/n' will be
+(Font)              scaled to size 17.28pt on input line 2.
+LaTeX Font Info:    Font shape `T1/QuattrocentoSans-TLF/b/n' in size <17.28> no
+t available
+(Font)              Font shape `T1/QuattrocentoSans-TLF/bold/n' tried instead o
+n input line 2.
+LaTeX Font Info:    Font shape `T1/QuattrocentoSans-TLF/bold/n' will be
+(Font)              scaled to size 17.28pt on input line 2.
+) [3] (./acknowledgements/acknowledgements.tex)
+[4]
+LaTeX Font Info:    Font shape `T1/QuattrocentoSans-TLF/m/n' in size <24.88> no
+t available
+(Font)              Font shape `T1/QuattrocentoSans-TLF/regular/n' tried instea
+d on input line 143.
+LaTeX Font Info:    Font shape `T1/QuattrocentoSans-TLF/regular/n' will be
+(Font)              scaled to size 24.88pt on input line 143.
+LaTeX Font Info:    Font shape `T1/QuattrocentoSans-TLF/b/n' in size <24.88> no
+t available
+(Font)              Font shape `T1/QuattrocentoSans-TLF/bold/n' tried instead o
+n input line 143.
+LaTeX Font Info:    Font shape `T1/QuattrocentoSans-TLF/bold/n' will be
+(Font)              scaled to size 24.88pt on input line 143.
+LaTeX Font Info:    Trying to load font information for T1+jkp on input line 14
+3.
+ (c:/texlive/2019/texmf-dist/tex/latex/kpfonts/t1jkp.fd
+File: t1jkp.fd 2007/01/24 Fontinst v1.928 font definitions for T1/jkp.
+)
+(./Bolibar_PhD_dissertation.toc
+LaTeX Font Info:    Font shape `T1/QuattrocentoSans-TLF/b/n' in size <12> not a
+vailable
+(Font)              Font shape `T1/QuattrocentoSans-TLF/bold/n' tried instead o
+n input line 2.
+LaTeX Font Info:    Font shape `T1/QuattrocentoSans-TLF/bold/n' will be
+(Font)              scaled to size 12.0pt on input line 2.
+LaTeX Font Info:    Trying to load font information for OT1+jkp on input line 4
+.
+
+(c:/texlive/2019/texmf-dist/tex/latex/kpfonts/ot1jkp.fd
+File: ot1jkp.fd 2007/08/30 Fontinst v1.928 font definitions for OT1/jkp.
+)
+LaTeX Font Info:    Trying to load font information for U+jkpmia on input line 
+4.
+
+(c:/texlive/2019/texmf-dist/tex/latex/kpfonts/ujkpmia.fd
+File: ujkpmia.fd 2006/08/15 v1.0
+)
+LaTeX Font Info:    Trying to load font information for U+msa on input line 4.
+
+(c:/texlive/2019/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 4.
+
+(c:/texlive/2019/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Trying to load font information for U+jkpsyc on input line 
+4.
+
+(c:/texlive/2019/texmf-dist/tex/latex/kpfonts/ujkpsyc.fd
+File: ujkpsyc.fd 2006/08/15 v1.0
+) [5
+
+])
+\tf@toc=\write6
+\openout6 = `Bolibar_PhD_dissertation.toc'.
+
+
+(./intro/intro.tex [6]
+Chapter 1.
+LaTeX Font Info:    Trying to load font information for OT1+phv on input line 1
+.
+(c:/texlive/2019/texmf-dist/tex/latex/psnfss/ot1phv.fd
+File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
+)
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 1
+.
+
+(c:/texlive/2019/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+Overfull \hbox (30.0pt too wide) in paragraph at lines 1--1
+[][]  
+ []
+
+LaTeX Font Info:    Font shape `T1/QuattrocentoSans-TLF/m/it' in size <12> not 
+available
+(Font)              Font shape `T1/QuattrocentoSans-TLF/regular/it' tried inste
+ad on input line 5.
+LaTeX Font Info:    Font shape `T1/QuattrocentoSans-TLF/regular/it' will be
+(Font)              scaled to size 12.0pt on input line 5.
+
+Package natbib Warning: Citation `vaughan_2013' on page vii undefined on input 
+line 10.
+
+
+Package natbib Warning: Citation `gardner_reconciled_2013' on page vii undefine
+d on input line 13.
+
+
+Package natbib Warning: Citation `church_sea_2013' on page vii undefined on inp
+ut line 13.
+
+
+Package natbib Warning: Citation `gardner_reconciled_2013' on page vii undefine
+d on input line 13.
+
+
+Package natbib Warning: Citation `marzeion_attribution_2014' on page vii undefi
+ned on input line 13.
+
+
+Package natbib Warning: Citation `marzeion_past_2012' on page vii undefined on 
+input line 13.
+
+
+Package natbib Warning: Citation `radic_regional_2014' on page vii undefined on
+ input line 13.
+
+
+Package natbib Warning: Citation `huss_new_2015' on page vii undefined on input
+ line 13.
+
+
+Package natbib Warning: Citation `marzeion_limited_2018' on page vii undefined 
+on input line 13.
+
+
+Package natbib Warning: Citation `huss_toward_2017' on page vii undefined on in
+put line 13.
+
+
+Package natbib Warning: Citation `huss_global-scale_2018' on page vii undefined
+ on input line 13.
+
+
+Package natbib Warning: Citation `milner_glacier_2017' on page vii undefined on
+ input line 13.
+
+
+Package natbib Warning: Citation `bolch_state_2012' on page vii undefined on in
+put line 15.
+
+
+Package natbib Warning: Citation `azam_review_2018' on page vii undefined on in
+put line 15.
+
+[7
+
+]
+
+Package natbib Warning: Citation `kaser_contribution_2010' on page viii undefin
+ed on input line 18.
+
+
+Package natbib Warning: Citation `immerzeel_climate_2010' on page viii undefine
+d on input line 18.
+
+
+Package natbib Warning: Citation `schaner_contribution_2012' on page viii undef
+ined on input line 18.
+
+
+Package natbib Warning: Citation `huss_toward_2017' on page viii undefined on i
+nput line 18.
+
+
+Package natbib Warning: Citation `kaab_contrasting_2012' on page viii undefined
+ on input line 18.
+
+
+Package natbib Warning: Citation `gardelle_region-wide_2013' on page viii undef
+ined on input line 18.
+
+
+Package natbib Warning: Citation `marzeion_past_2012' on page viii undefined on
+ input line 21.
+
+
+Package natbib Warning: Citation `radic_regional_2014' on page viii undefined o
+n input line 21.
+
+
+Package natbib Warning: Citation `huss_new_2015' on page viii undefined on inpu
+t line 21.
+
+
+Package natbib Warning: Citation `kraaijenbrink_impact_2017' on page viii undef
+ined on input line 21.
+
+
+Package natbib Warning: Citation `marzeion_past_2012' on page viii undefined on
+ input line 22.
+
+
+Package natbib Warning: Citation `gardner_reconciled_2013' on page viii undefin
+ed on input line 22.
+
+
+Package natbib Warning: Citation `huss_new_2015' on page viii undefined on inpu
+t line 22.
+
+
+Package natbib Warning: Citation `scherler_spatially_2011' on page viii undefin
+ed on input line 24.
+
+
+Package natbib Warning: Citation `kraaijenbrink_impact_2017' on page viii undef
+ined on input line 24.
+
+
+Package natbib Warning: Citation `kraaijenbrink_impact_2017' on page viii undef
+ined on input line 27.
+
+
+Package natbib Warning: Citation `rowan_modelling_2015' on page viii undefined 
+on input line 27.
+
+
+Package natbib Warning: Citation `shea_modelling_2015' on page viii undefined o
+n input line 27.
+
+
+Package natbib Warning: Citation `rowan_modelling_2015' on page viii undefined 
+on input line 27.
+
+
+Package natbib Warning: Citation `shea_modelling_2015' on page viii undefined o
+n input line 27.
+
+
+Package natbib Warning: Citation `rowan_modelling_2015' on page viii undefined 
+on input line 27.
+
+
+Package natbib Warning: Citation `heid_repeat_2012' on page viii undefined on i
+nput line 29.
+
+
+Package natbib Warning: Citation `kirkbride_formation_2013' on page viii undefi
+ned on input line 29.
+
+
+Package natbib Warning: Citation `anderson_modeling_2016' on page viii undefine
+d on input line 29.
+
+
+Package natbib Warning: Citation `rowan_modelling_2015' on page viii undefined 
+on input line 29.
+
+
+Package natbib Warning: Citation `wirbel_modelling_2018' on page viii undefined
+ on input line 29.
+
+
+Package natbib Warning: Citation `deline_change_2005' on page viii undefined on
+ input line 29.
+
+
+Package natbib Warning: Citation `gardent_multitemporal_2014' on page viii unde
+fined on input line 29.
+
+
+Package natbib Warning: Citation `bhambri_glacier_2011' on page viii undefined 
+on input line 29.
+
+
+Package natbib Warning: Citation `thakuri_tracing_2014' on page viii undefined 
+on input line 29.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--30
+
+ []
+
+[8]
+
+LaTeX Warning: Reference `chap:glaciers_and_climate' on page ix undefined on in
+put line 36.
+
+
+LaTeX Warning: Reference `chap:conclu' on page ix undefined on input line 36.
+
+
+LaTeX Warning: Reference `chap:paper_cliff' on page ix undefined on input line 
+36.
+
+
+Overfull \hbox (3.51546pt too wide) in paragraph at lines 36--37
+\T1/QuattrocentoSans-TLF/regular/n/12 This manuscript or-ga-ni-za-tion fol-lows
+ a gen-eral di-rec-tion from large scales to small scales.
+ []
+
+
+Package natbib Warning: Citation `cogley_glossary_2011' on page ix undefined on
+ input line 38.
+
+) [9] [10] (./chapters/glaciology/methods/methods.tex
+Chapter 2.
+
+Overfull \hbox (30.0pt too wide) in paragraph at lines 1--1
+[][]  
+ []
+
+
+Package natbib Warning: Citation `ipcc_climate_2018' on page 1 undefined on inp
+ut line 17.
+
+
+Package natbib Warning: Citation `beniston_european_2018' on page 1 undefined o
+n input line 17.
+
+
+Package natbib Warning: Citation `vuille_rapid_2018' on page 1 undefined on inp
+ut line 17.
+
+
+Package natbib Warning: Citation `hock_glaciermip_2019' on page 1 undefined on 
+input line 17.
+
+
+Package natbib Warning: Citation `huss_global-scale_2018' on page 1 undefined o
+n input line 17.
+
+
+Underfull \vbox (badness 1990) has occurred while \output is active []
+
+ [1
+
+]
+
+Package natbib Warning: Citation `hock_temperature_2003' on page 2 undefined on
+ input line 24.
+
+
+Package natbib Warning: Citation `martin_correlation_1974' on page 2 undefined 
+on input line 25.
+
+
+Package natbib Warning: Citation `steiner_application_2005' on page 2 undefined
+ on input line 25.
+
+
+Package natbib Warning: Citation `gerbaux_surface_2005' on page 2 undefined on 
+input line 26.
+
+
+Package natbib Warning: Citation `carlson_accounting_2014' on page 2 undefined 
+on input line 32.
+
+
+Package natbib Warning: Citation `zemp_alpine_2006' on page 2 undefined on inpu
+t line 32.
+
+
+Package natbib Warning: Citation `huss_new_2015' on page 2 undefined on input l
+ine 32.
+
+
+Package natbib Warning: Citation `marzeion_past_2012' on page 2 undefined on in
+put line 32.
+
+
+Package natbib Warning: Citation `radic_regional_2014' on page 2 undefined on i
+nput line 32.
+
+
+Package natbib Warning: Citation `zekollari_modelling_2019' on page 2 undefined
+ on input line 33.
+
+
+Package natbib Warning: Citation `maussion_open_2019' on page 2 undefined on in
+put line 33.
+
+
+Package natbib Warning: Citation `gagliardini_capabilities_2013' on page 2 unde
+fined on input line 34.
+
+
+Package natbib Warning: Citation `jouvet_numerical_2009' on page 2 undefined on
+ input line 34.
+
+
+Package natbib Warning: Citation `reveillet_simulations_2015' on page 2 undefin
+ed on input line 34.
+
+
+Package natbib Warning: Citation `reveillet_relative_2018' on page 2 undefined 
+on input line 37.
+
+
+Package natbib Warning: Citation `reveillet_relative_2018' on page 2 undefined 
+on input line 37.
+
+[2]
+
+Package natbib Warning: Citation `hoinkes_glacier_1968' on page 3 undefined on 
+input line 39.
+
+
+Package natbib Warning: Citation `martin_correlation_1974' on page 3 undefined 
+on input line 39.
+
+
+Package natbib Warning: Citation `ducournau_deep_2016' on page 3 undefined on i
+nput line 39.
+
+
+Package natbib Warning: Citation `lguensat_eddynet:_2018' on page 3 undefined o
+n input line 39.
+
+
+Package natbib Warning: Citation `rasp_deep_2018' on page 3 undefined on input 
+line 39.
+
+
+Package natbib Warning: Citation `jiang_deep_2018' on page 3 undefined on input
+ line 39.
+
+
+Package natbib Warning: Citation `marcais_prospective_2017' on page 3 undefined
+ on input line 39.
+
+
+Package natbib Warning: Citation `shen_transdisciplinary_2018' on page 3 undefi
+ned on input line 39.
+
+
+Package natbib Warning: Citation `steiner_application_2005' on page 3 undefined
+ on input line 39.
+
+
+Package natbib Warning: Citation `steiner_sensitivity_2008' on page 3 undefined
+ on input line 39.
+
+
+Package natbib Warning: Citation `nussbaumer_reseau_2012' on page 3 undefined o
+n input line 39.
+
+
+Package natbib Warning: Citation `maussion_enso_2015' on page 3 undefined on in
+put line 39.
+
+
+Package natbib Warning: Citation `houghton_climate_2001' on page 3 undefined on
+ input line 39.
+
+
+Package natbib Warning: Citation `steiner_application_2005' on page 3 undefined
+ on input line 39.
+
+
+Package natbib Warning: Citation `ingrassia_neural_2005' on page 3 undefined on
+ input line 39.
+
+
+Package natbib Warning: Citation `olson_modern_2018' on page 3 undefined on inp
+ut line 39.
+
+
+Package natbib Warning: Citation `bolibar_jordibolibar/alpgm:_2019' on page 3 u
+ndefined on input line 41.
+
+
+Package natbib Warning: Citation `maussion_open_2019' on page 3 undefined on in
+put line 41.
+
+
+Package natbib Warning: Citation `zekollari_modelling_2019' on page 3 undefined
+ on input line 41.
+
+
+! Package inputenc Error: Unicode character Δ (U+0394)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.41 ...cier geometry, a refined version of the Δ
+                                                  h methodology \citep[e.g.,...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+Package natbib Warning: Citation `huss_modelling_2008' on page 3 undefined on i
+nput line 41.
+
+
+! Package inputenc Error: Unicode character Δ (U+0394)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.41 ...we dynamically compute glacier-specific Δ
+                                                  h functions. In order to v...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+Package natbib Warning: Citation `durand_reanalysis_2009' on page 3 undefined o
+n input line 41.
+
+
+Package natbib Warning: Citation `farinotti_consensus_2019' on page 3 undefined
+ on input line 41.
+
+
+Underfull \vbox (badness 2970) has occurred while \output is active []
+
+ [3]
+LaTeX Font Info:    Font shape `T1/QuattrocentoSans-TLF/m/n' in size <14.4> not
+ available
+(Font)              Font shape `T1/QuattrocentoSans-TLF/regular/n' tried instea
+d on input line 50.
+LaTeX Font Info:    Font shape `T1/QuattrocentoSans-TLF/regular/n' will be
+(Font)              scaled to size 14.4pt on input line 50.
+LaTeX Font Info:    Font shape `T1/QuattrocentoSans-TLF/b/n' in size <14.4> not
+ available
+(Font)              Font shape `T1/QuattrocentoSans-TLF/bold/n' tried instead o
+n input line 50.
+LaTeX Font Info:    Font shape `T1/QuattrocentoSans-TLF/bold/n' will be
+(Font)              scaled to size 14.4pt on input line 50.
+<Figures/methods/Figure_1.png, id=293, 492.44778pt x 357.30289pt>
+File: Figures/methods/Figure_1.png Graphic file (type png)
+<use Figures/methods/Figure_1.png>
+Package pdftex.def Info: Figures/methods/Figure_1.png  used on input line 55.
+(pdftex.def)             Requested size: 398.33858pt x 289.0212pt.
+
+[4]
+Overfull \hbox (15.78221pt too wide) in paragraph at lines 67--68
+[]\T1/QuattrocentoSans-TLF/regular/n/12 Once all pre-vi-ous steps have been run
+, the glacier evo-lu-tion sim-u-la-tions are launched.
+ []
+
+[5 <./Figures/methods/Figure_1.png>]
+Overfull \hbox (3.26344pt too wide) in paragraph at lines 75--76
+\T1/QuattrocentoSans-TLF/regular/n/12 In or-der to nar-row down which to-po-gra
+ph-i-cal and cli-matic vari-ables best ex-plain glacier-
+ []
+
+
+Package natbib Warning: Citation `weisberg_applied_2014' on page 6 undefined on
+ input line 77.
+
+
+Package natbib Warning: Citation `tibshirani_regression_1996' on page 6 undefin
+ed on input line 85.
+
+
+Package natbib Warning: Citation `seabold_statsmodels:_2010' on page 6 undefine
+d on input line 85.
+
+
+Package natbib Warning: Citation `pedregosa_scikit-learn:_2012' on page 6 undef
+ined on input line 85.
+
+
+Package natbib Warning: Citation `chollet_keras_2015' on page 6 undefined on in
+put line 85.
+
+[6]
+<Figures/methods/Figure_2.png, id=319, 579.66562pt x 270.51062pt>
+File: Figures/methods/Figure_2.png Graphic file (type png)
+<use Figures/methods/Figure_2.png>
+Package pdftex.def Info: Figures/methods/Figure_2.png  used on input line 88.
+(pdftex.def)             Requested size: 256.0748pt x 119.49971pt.
+
+
+Package natbib Warning: Citation `hawkins_problem_2004' on page 7 undefined on 
+input line 94.
+
+
+Package natbib Warning: Citation `hastie_elements_2009' on page 7 undefined on 
+input line 94.
+
+
+Package natbib Warning: Citation `whittingham_why_2006' on page 7 undefined on 
+input line 94.
+
+
+Package natbib Warning: Citation `tibshirani_regression_1996' on page 7 undefin
+ed on input line 98.
+
+
+Package natbib Warning: Citation `hastie_elements_2009' on page 7 undefined on 
+input line 98.
+
+
+Package natbib Warning: Citation `hoerl_ridge_1970' on page 7 undefined on inpu
+t line 98.
+
+
+Package natbib Warning: Citation `tibshirani_least_2004' on page 7 undefined on
+ input line 98.
+
+
+Overfull \hbox (1.4359pt too wide) in paragraph at lines 98--99
+\T1/QuattrocentoSans-TLF/regular/n/12 which at-tempts to over-come the short-co
+m-ings of the sim-pler step-wise and all-possible
+ []
+
+[7 <./Figures/methods/Figure_2.png>]
+
+Package natbib Warning: Citation `fausett_fundamentals_1994' on page 8 undefine
+d on input line 102.
+
+
+Package natbib Warning: Citation `hastie_elements_2009' on page 8 undefined on 
+input line 102.
+
+
+Package natbib Warning: Citation `fausett_fundamentals_1994' on page 8 undefine
+d on input line 102.
+
+
+Package natbib Warning: Citation `fausett_fundamentals_1994' on page 8 undefine
+d on input line 102.
+
+
+Package natbib Warning: Citation `hastie_elements_2009' on page 8 undefined on 
+input line 102.
+
+
+Package natbib Warning: Citation `steiner_application_2005' on page 8 undefined
+ on input line 102.
+
+
+Package natbib Warning: Citation `steiner_sensitivity_2008' on page 8 undefined
+ on input line 102.
+
+
+Package natbib Warning: Citation `houghton_climate_2001' on page 8 undefined on
+ input line 102.
+
+
+Package natbib Warning: Citation `steiner_application_2005' on page 8 undefined
+ on input line 102.
+
+
+Package natbib Warning: Citation `hastie_elements_2009' on page 8 undefined on 
+input line 104.
+
+[8]
+<Figures/methods/Figure_3.pdf, id=333, 465.25273pt x 126.71307pt>
+File: Figures/methods/Figure_3.pdf Graphic file (type pdf)
+<use Figures/methods/Figure_3.pdf>
+Package pdftex.def Info: Figures/methods/Figure_3.pdf  used on input line 107.
+(pdftex.def)             Requested size: 426.79134pt x 116.23714pt.
+
+
+Package natbib Warning: Citation `srivastava_dropout:_2014' on page 9 undefined
+ on input line 111.
+
+
+Package natbib Warning: Citation `xu_empirical_2015' on page 9 undefined on inp
+ut line 111.
+
+
+Package natbib Warning: Citation `he_delving_2015' on page 9 undefined on input
+ line 111.
+
+
+Package natbib Warning: Citation `ioffe_batch_2015' on page 9 undefined on inpu
+t line 111.
+
+
+Package natbib Warning: Citation `thibert_causes_2018' on page 9 undefined on i
+nput line 113.
+
+
+Underfull \vbox (badness 1005) has occurred while \output is active []
+
+ [9 <./Figures/methods/Figure_3.pdf>]
+
+! Package inputenc Error: Unicode character Δ (U+0394)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.117 ...is redistribution is applied using the Δ
+                                                  h parameterization. The id...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+Package natbib Warning: Citation `johannesson_timescale_1989' on page 10 undefi
+ned on input line 117.
+
+
+Package natbib Warning: Citation `huss_modelling_2008' on page 10 undefined on 
+input line 117.
+
+
+! Package inputenc Error: Unicode character Δ (U+0394)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.117 ... the normalized glacier altitude. This Δ
+                                                  h function is specific for...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+Overfull \hbox (0.15503pt too wide) in paragraph at lines 117--118
+\T1/QuattrocentoSans-TLF/regular/n/12 Since the first com-po-nent of ALPGM sim-
+u-lates an-nual glacier-wide SMBs, these changes
+ []
+
+
+Package natbib Warning: Citation `vincent_future_2014' on page 10 undefined on 
+input line 119.
+
+
+Package natbib Warning: Citation `vincent_future_2014' on page 10 undefined on 
+input line 119.
+
+
+Package natbib Warning: Citation `vincent_future_2014' on page 10 undefined on 
+input line 121.
+
+
+Package natbib Warning: Citation `huss_new_2015' on page 10 undefined on input 
+line 121.
+
+
+Package natbib Warning: Citation `hanzer_projected_2018' on page 10 undefined o
+n input line 121.
+
+
+Package natbib Warning: Citation `vincent_declin_2019' on page 10 undefined on 
+input line 121.
+
+LaTeX Font Info:    Trying to load font information for TS1+QuattrocentoSans-TL
+F on input line 126.
+(c:/texlive/2019/texmf-dist/tex/latex/quattrocento/TS1QuattrocentoSans-TLF.fd
+File: TS1QuattrocentoSans-TLF.fd 2019/04/03 (autoinst) Font definitions for TS1
+/QuattrocentoSans-TLF.
+)
+LaTeX Font Info:    Font shape `TS1/QuattrocentoSans-TLF/m/n' in size <12> not 
+available
+(Font)              Font shape `TS1/QuattrocentoSans-TLF/regular/n' tried inste
+ad on input line 126.
+LaTeX Font Info:    Font shape `TS1/QuattrocentoSans-TLF/regular/n' will be
+(Font)              scaled to size 12.0pt on input line 126.
+
+[10]
+<Figures/methods/Figure_4.pdf, id=364, 399.4925pt x 598.235pt>
+File: Figures/methods/Figure_4.pdf Graphic file (type pdf)
+<use Figures/methods/Figure_4.pdf>
+Package pdftex.def Info: Figures/methods/Figure_4.pdf  used on input line 132.
+(pdftex.def)             Requested size: 236.15796pt x 353.64934pt.
+LaTeX Font Info:    Font shape `TS1/QuattrocentoSans-TLF/m/n' in size <10.95> n
+ot available
+(Font)              Font shape `TS1/QuattrocentoSans-TLF/regular/n' tried inste
+ad on input line 133.
+LaTeX Font Info:    Font shape `TS1/QuattrocentoSans-TLF/regular/n' will be
+(Font)              scaled to size 10.95pt on input line 133.
+
+
+Package natbib Warning: Citation `rabatel_spatio-temporal_2016' on page 11 unde
+fined on input line 136.
+
+
+Package natbib Warning: Citation `rabatel_spatio-temporal_2016' on page 11 unde
+fined on input line 136.
+
+
+Underfull \hbox (badness 3108) in paragraph at lines 136--137
+\T1/QuattrocentoSans-TLF/regular/n/12 based on changes in glacier vol-
+ []
+
+
+Underfull \hbox (badness 1331) in paragraph at lines 136--137
+\T1/QuattrocentoSans-TLF/regular/n/12 for 30 glaciers in the French Alps
+ []
+
+
+Underfull \hbox (badness 4001) in paragraph at lines 136--137
+\T1/QuattrocentoSans-TLF/regular/n/12 ent setup of glaciers with dif-fer-
+ []
+
+
+Package natbib Warning: Citation `gardent_multitemporal_2014' on page 11 undefi
+ned on input line 140.
+
+
+Package natbib Warning: Citation `glims_and_nsidc_global_2005' on page 11 undef
+ined on input line 140.
+
+
+Package natbib Warning: Citation `gardent_multitemporal_2014' on page 11 undefi
+ned on input line 140.
+
+
+Package natbib Warning: Citation `farinotti_consensus_2019' on page 11 undefine
+d on input line 140.
+
+
+Package natbib Warning: Citation `rabatel_spatio-temporal_2016' on page 11 unde
+fined on input line 140.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [11 <./Figures/methods/Figure_4.pdf>]
+
+Package natbib Warning: Citation `farinotti_consensus_2019' on page 12 undefine
+d on input line 144.
+
+
+Package natbib Warning: Citation `consortium_randolph_2017' on page 12 undefine
+d on input line 144.
+
+
+Package natbib Warning: Citation `rabatel_estimation_2018' on page 12 undefined
+ on input line 146.
+
+
+Package natbib Warning: Citation `rabatel_estimation_2018' on page 12 undefined
+ on input line 146.
+
+
+Package natbib Warning: Citation `durand_reanalysis_2009' on page 12 undefined 
+on input line 150.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [12]
+
+Package natbib Warning: Citation `hoinkes_glacier_1968' on page 13 undefined on
+ input line 158.
+
+
+Package natbib Warning: Citation `martin_correlation_1974' on page 13 undefined
+ on input line 158.
+
+
+Package natbib Warning: Citation `martin_correlation_1974' on page 13 undefined
+ on input line 158.
+
+
+Package natbib Warning: Citation `six_sensitivity_2014' on page 13 undefined on
+ input line 158.
+
+
+Package natbib Warning: Citation `rabatel_changes_2013' on page 13 undefined on
+ input line 158.
+
+
+Package natbib Warning: Citation `rabatel_spatio-temporal_2016' on page 13 unde
+fined on input line 158.
+
+
+Package natbib Warning: Citation `huss_extrapolating_2012' on page 13 undefined
+ on input line 158.
+
+
+Package natbib Warning: Citation `rabatel_changes_2013' on page 13 undefined on
+ input line 158.
+
+
+Package natbib Warning: Citation `zekollari_statistical_2018' on page 13 undefi
+ned on input line 160.
+
+[13]
+LaTeX Font Info:    Font shape `T1/QuattrocentoSans-TLF/m/n' in size <9> not av
+ailable
+(Font)              Font shape `T1/QuattrocentoSans-TLF/regular/n' tried instea
+d on input line 165.
+LaTeX Font Info:    Font shape `T1/QuattrocentoSans-TLF/regular/n' will be
+(Font)              scaled to size 9.0pt on input line 165.
+LaTeX Font Info:    Font shape `T1/QuattrocentoSans-TLF/m/n' in size <7> not av
+ailable
+(Font)              Font shape `T1/QuattrocentoSans-TLF/regular/n' tried instea
+d on input line 165.
+LaTeX Font Info:    Font shape `T1/QuattrocentoSans-TLF/regular/n' will be
+(Font)              scaled to size 7.0pt on input line 165.
+
+Underfull \hbox (badness 10000) in paragraph at lines 170--185
+
+ []
+
+
+Overfull \hbox (66.39005pt too wide) detected at line 195
+[][][]
+ []
+
+[14]
+
+Package natbib Warning: Citation `reveillet_relative_2018' on page 15 undefined
+ on input line 201.
+
+
+Package natbib Warning: Citation `huss_conventional_2012' on page 15 undefined 
+on input line 203.
+
+
+Package natbib Warning: Citation `vionnet_numerical_2016' on page 15 undefined 
+on input line 203.
+
+<Figures/methods/Figure_5.pdf, id=434, 391.4625pt x 567.11874pt>
+File: Figures/methods/Figure_5.pdf Graphic file (type pdf)
+<use Figures/methods/Figure_5.pdf>
+Package pdftex.def Info: Figures/methods/Figure_5.pdf  used on input line 207.
+(pdftex.def)             Requested size: 236.15796pt x 342.12572pt.
+
+Package natbib Warning: Citation `steiner_application_2005' on page 15 undefine
+d on input line 215.
+
+[15]
+<Figures/methods/Figure_6.pdf, id=441, 568.96408pt x 577.71754pt>
+File: Figures/methods/Figure_6.pdf Graphic file (type pdf)
+<use Figures/methods/Figure_6.pdf>
+Package pdftex.def Info: Figures/methods/Figure_6.pdf  used on input line 219.
+(pdftex.def)             Requested size: 341.43306pt x 346.69492pt.
+
+Underfull \vbox (badness 1997) has occurred while \output is active []
+
+ [16 <./Figures/methods/Figure_6.pdf>]
+<Figures/methods/Figure_7.pdf, id=12265, 560.47884pt x 212.81613pt>
+File: Figures/methods/Figure_7.pdf Graphic file (type pdf)
+<use Figures/methods/Figure_7.pdf>
+Package pdftex.def Info: Figures/methods/Figure_7.pdf  used on input line 227.
+(pdftex.def)             Requested size: 398.33858pt x 151.25313pt.
+
+
+! LaTeX Error: \begin{document} ended by \end{center}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.230 \end{center}
+                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.230 \end{center}
+                  
+Things are pretty mixed up, but I think the worst is over.
+
+<Figures/methods/Figure_8.pdf, id=12266, 492.94984pt x 239.37903pt>
+File: Figures/methods/Figure_8.pdf Graphic file (type pdf)
+<use Figures/methods/Figure_8.pdf>
+Package pdftex.def Info: Figures/methods/Figure_8.pdf  used on input line 236.
+(pdftex.def)             Requested size: 455.24408pt x 221.07147pt.
+
+Overfull \hbox (11.38089pt too wide) in paragraph at lines 236--237
+ [][] 
+ []
+
+<Figures/methods/Figure_9.pdf, id=12267, 571.42365pt x 580.9075pt>
+File: Figures/methods/Figure_9.pdf Graphic file (type pdf)
+<use Figures/methods/Figure_9.pdf>
+Package pdftex.def Info: Figures/methods/Figure_9.pdf  used on input line 248.
+(pdftex.def)             Requested size: 341.43306pt x 347.10237pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[17 <./Figures/methods/Figure_7.pdf>]
+<Figures/methods/Figure_10.pdf, id=12345, 556.63818pt x 256.68343pt>
+File: Figures/methods/Figure_10.pdf Graphic file (type pdf)
+<use Figures/methods/Figure_10.pdf>
+Package pdftex.def Info: Figures/methods/Figure_10.pdf  used on input line 256.
+
+(pdftex.def)             Requested size: 455.24408pt x 209.9295pt.
+
+Overfull \hbox (11.38089pt too wide) in paragraph at lines 256--257
+ [][] 
+ []
+
+
+Package natbib Warning: Citation `roberts_cross-validation_2017' on page 18 und
+efined on input line 262.
+
+[18 <./Figures/methods/Figure_8.pdf>]
+
+! Package inputenc Error: Unicode character Δ (U+0394)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.268 As mentioned in Sect. 2.3, the Δ
+                                       h parameterization has been widely us...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+Package natbib Warning: Citation `huss_modelling_2008' on page 19 undefined on 
+input line 268.
+
+
+Package natbib Warning: Citation `huss_future_2010' on page 19 undefined on inp
+ut line 268.
+
+
+Package natbib Warning: Citation `vincent_future_2014' on page 19 undefined on 
+input line 268.
+
+
+Package natbib Warning: Citation `huss_new_2015' on page 19 undefined on input 
+line 268.
+
+
+Package natbib Warning: Citation `huss_global-scale_2018' on page 19 undefined 
+on input line 268.
+
+
+Package natbib Warning: Citation `hanzer_projected_2018' on page 19 undefined o
+n input line 268.
+
+
+Package natbib Warning: Citation `vincent_declin_2019' on page 19 undefined on 
+input line 268.
+
+
+! Package inputenc Error: Unicode character Δ (U+0394)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.268 ...oach developed in ALPGM to compute the Δ
+                                                  h functions and show some ...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+Package natbib Warning: Citation `vincent_future_2014' on page 19 undefined on 
+input line 268.
+
+
+! Package inputenc Error: Unicode character Δ (U+0394)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.270 The glacier-specific Δ
+                             h functions are computed for glaciers $\geq$ 0....
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+[19 <./Figures/methods/Figure_9.pdf>]
+
+! Package inputenc Error: Unicode character Δ (U+0394)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.272 ... into account the uncertainties in the Δ
+                                                  h glacier geometry update ...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+<Figures/methods/Figure_11.pdf, id=24488, 875.91241pt x 374.3586pt>
+File: Figures/methods/Figure_11.pdf Graphic file (type pdf)
+<use Figures/methods/Figure_11.pdf>
+Package pdftex.def Info: Figures/methods/Figure_11.pdf  used on input line 276.
+
+(pdftex.def)             Requested size: 426.79134pt x 182.4034pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+! Package inputenc Error: Unicode character Δ (U+0394)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.280 ...kness dataset. Other studies using the Δ
+                                                  h parameterization already...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+Package natbib Warning: Citation `huss_new_2015' on page 20 undefined on input 
+line 280.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [20 <./Figures/methods/Figure_10.pdf>]
+
+Package natbib Warning: Citation `roberts_cross-validation_2017' on page 21 und
+efined on input line 290.
+
+
+Package natbib Warning: Citation `berlingerio_evaluation_2019' on page 21 undef
+ined on input line 290.
+
+
+Package natbib Warning: Citation `huss_extrapolating_2012' on page 21 undefined
+ on input line 290.
+
+
+Package natbib Warning: Citation `rabatel_spatio-temporal_2016' on page 21 unde
+fined on input line 290.
+
+
+Package natbib Warning: Citation `vincent_common_2017' on page 21 undefined on 
+input line 290.
+
+[21 <./Figures/methods/Figure_11.pdf>]
+Underfull \hbox (badness 1052) in paragraph at lines 292--293
+[][]\T1/QuattrocentoSans-TLF/regular/n/12 In or-der to cope with the spe-cific
+ []
+
+
+Underfull \hbox (badness 1048) in paragraph at lines 292--293
+\T1/QuattrocentoSans-TLF/regular/n/12 chal-lenges re-lated to each type of
+ []
+
+
+Underfull \hbox (badness 2626) in paragraph at lines 292--293
+\T1/QuattrocentoSans-TLF/regular/n/12 cross-validation, there are sev-eral
+ []
+
+
+Underfull \hbox (badness 1946) in paragraph at lines 292--293
+\T1/QuattrocentoSans-TLF/regular/n/12 per-formed in a sub-set of ran-dom
+ []
+
+
+Underfull \vbox (badness 1708) has occurred while \output is active []
+
+ [22 <./Figures/methods/Figure_5.pdf>]
+
+Package natbib Warning: Citation `reveillet_which_2017' on page 23 undefined on
+ input line 298.
+
+
+Package natbib Warning: Citation `benn_glaciers_2014' on page 23 undefined on i
+nput line 298.
+
+
+Package natbib Warning: Citation `maussion_enso_2015' on page 23 undefined on i
+nput line 298.
+
+
+Package natbib Warning: Citation `huss_conventional_2012' on page 23 undefined 
+on input line 300.
+
+
+Package natbib Warning: Citation `farinotti_consensus_2019' on page 23 undefine
+d on input line 300.
+
+[23]
+
+Package natbib Warning: Citation `karpatne_physics-guided_2018' on page 24 unde
+fined on input line 302.
+
+
+Package natbib Warning: Citation `karpatne_theory-guided_2017' on page 24 undef
+ined on input line 302.
+
+
+Package natbib Warning: Citation `de_bezenac_deep_2018' on page 24 undefined on
+ input line 302.
+
+
+Package natbib Warning: Citation `lguensat_learning_2019' on page 24 undefined 
+on input line 302.
+
+
+Package natbib Warning: Citation `rackauckas_universal_2020' on page 24 undefin
+ed on input line 302.
+
+
+Package natbib Warning: Citation `brun_spatially_2017' on page 24 undefined on 
+input line 302.
+
+
+Package natbib Warning: Citation `zemp_global_2019' on page 24 undefined on inp
+ut line 302.
+
+
+Package natbib Warning: Citation `dussaillant_two_2019' on page 24 undefined on
+ input line 302.
+
+
+Package natbib Warning: Citation `bolibar_jordibolibar/alpgm:_2019' on page 24 
+undefined on input line 306.
+
+[24]
+
+Package natbib Warning: Citation `karpatne_physics-guided_2018' on page 25 unde
+fined on input line 308.
+
+
+Package natbib Warning: Citation `rackauckas_universal_2020' on page 25 undefin
+ed on input line 308.
+
+
+! Package inputenc Error: Unicode character Δ (U+0394)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.314 Before computing the glacier-specific Δ
+                                              h parameterized functions, som...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+[25]
+<Figures/methods/Figure_S1.png, id=24613, 573.14125pt x 293.59688pt>
+File: Figures/methods/Figure_S1.png Graphic file (type png)
+<use Figures/methods/Figure_S1.png>
+Package pdftex.def Info: Figures/methods/Figure_S1.png  used on input line 335.
+
+(pdftex.def)             Requested size: 341.43306pt x 174.90509pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[26]
+Underfull \vbox (badness 1062) has occurred while \output is active []
+
+ [27 <./Figures/methods/Figure_S1.PNG>]
+
+! Package inputenc Error: Unicode character   (U+2003)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.360  
+         
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+<Figures/methods/Figure_S2.png, id=24630, 618.31pt x 378.41376pt>
+File: Figures/methods/Figure_S2.png Graphic file (type png)
+<use Figures/methods/Figure_S2.png>
+Package pdftex.def Info: Figures/methods/Figure_S2.png  used on input line 367.
+
+(pdftex.def)             Requested size: 426.79134pt x 261.2097pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<Figures/methods/Figure_S3.png, id=24631, 463.7325pt x 398.99063pt>
+File: Figures/methods/Figure_S3.png Graphic file (type png)
+<use Figures/methods/Figure_S3.png>
+Package pdftex.def Info: Figures/methods/Figure_S3.png  used on input line 373.
+
+(pdftex.def)             Requested size: 398.33858pt x 342.73561pt.
+
+! Package inputenc Error: Unicode character Δ (U+0394)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.374 ...pends on the number of available pixels.}
+                                                  
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character Δ (U+0394)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.374 ...pends on the number of available pixels.}
+                                                  
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<Figures/methods/Figure_S4.png, id=24632, 323.2075pt x 256.96pt>
+File: Figures/methods/Figure_S4.png Graphic file (type png)
+<use Figures/methods/Figure_S4.png>
+Package pdftex.def Info: Figures/methods/Figure_S4.png  used on input line 379.
+
+(pdftex.def)             Requested size: 256.0748pt x 203.59607pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<Figures/methods/Figure_S5.png, id=24633, 311.1625pt x 278.03876pt>
+File: Figures/methods/Figure_S5.png Graphic file (type png)
+<use Figures/methods/Figure_S5.png>
+Package pdftex.def Info: Figures/methods/Figure_S5.png  used on input line 385.
+
+(pdftex.def)             Requested size: 256.0748pt x 228.8163pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<Figures/methods/Figure_S6.png, id=24634, 588.1975pt x 235.37938pt>
+File: Figures/methods/Figure_S6.png Graphic file (type png)
+<use Figures/methods/Figure_S6.png>
+Package pdftex.def Info: Figures/methods/Figure_S6.png  used on input line 391.
+
+(pdftex.def)             Requested size: 426.79134pt x 170.79114pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) (./chapters/glaciology/past/past.tex [28] [29 <./Figures/methods/Figure_S2.PN
+G>] [30 <./Figures/methods/Figure_S3.PNG> <./Figures/methods/Figure_S4.PNG>]
+[31 <./Figures/methods/Figure_S5.PNG> <./Figures/methods/Figure_S6.PNG>]
+[32
+
+]
+Chapter 3.
+
+Overfull \hbox (30.0pt too wide) in paragraph at lines 1--1
+[][]  
+ []
+
+
+Package natbib Warning: Citation `bolibar_deep_2020' on page 33 undefined on in
+put line 14.
+
+
+Overfull \hbox (55.53836pt too wide) in paragraph at lines 13--15
+\T1/QuattrocentoSans-TLF/regular/n/12 ranges (-0.75 m.w.e. a$[]$ both). This da
+taset - avail-able at: https://doi.org/10.5281/zenodo.3925378
+ []
+
+[33] [34]
+
+! LaTeX Error: \begin{document} ended by \end{abstract}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.15 \end{abstract}
+                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.15 \end{abstract}
+                   
+Things are pretty mixed up, but I think the worst is over.
+
+
+Package natbib Warning: Citation `zekollari_modelling_2019' on page 35 undefine
+d on input line 23.
+
+
+Package natbib Warning: Citation `huss_global-scale_2018' on page 35 undefined 
+on input line 23.
+
+
+Package natbib Warning: Citation `immerzeel_importance_2020' on page 35 undefin
+ed on input line 23.
+
+
+Package natbib Warning: Citation `cauvy-fraunie_global_2019' on page 35 undefin
+ed on input line 23.
+
+
+Package natbib Warning: Citation `marzeion_past_2012' on page 35 undefined on i
+nput line 23.
+
+
+Package natbib Warning: Citation `benn_glaciers_2014' on page 35 undefined on i
+nput line 23.
+
+
+Package natbib Warning: Citation `vincent_nonlinear_2018' on page 35 undefined 
+on input line 23.
+
+
+Package natbib Warning: Citation `kaab_contrasting_2012' on page 35 undefined o
+n input line 23.
+
+
+Package natbib Warning: Citation `fischer_surface_2015' on page 35 undefined on
+ input line 23.
+
+
+Package natbib Warning: Citation `berthier_decadal_2016' on page 35 undefined o
+n input line 23.
+
+
+Package natbib Warning: Citation `brun_spatially_2017' on page 35 undefined on 
+input line 23.
+
+
+Package natbib Warning: Citation `dussaillant_two_2019' on page 35 undefined on
+ input line 23.
+
+
+Package natbib Warning: Citation `rabatel_using_2005' on page 35 undefined on i
+nput line 23.
+
+
+Package natbib Warning: Citation `rabatel_spatio-temporal_2016' on page 35 unde
+fined on input line 23.
+
+
+Package natbib Warning: Citation `rastner_automated_2019' on page 35 undefined 
+on input line 23.
+
+
+Package natbib Warning: Citation `bolibar_deep_2020-1' on page 35 undefined on 
+input line 23.
+
+
+Package natbib Warning: Citation `hock_glaciermip_2019' on page 35 undefined on
+ input line 25.
+
+
+Package natbib Warning: Citation `marzeion_past_2012' on page 35 undefined on i
+nput line 25.
+
+
+Package natbib Warning: Citation `marzeion_brief_2015' on page 35 undefined on 
+input line 25.
+
+
+Package natbib Warning: Citation `huss_extrapolating_2012' on page 35 undefined
+ on input line 25.
+
+
+Package natbib Warning: Citation `bolibar_deep_2020' on page 35 undefined on in
+put line 27.
+
+
+Package natbib Warning: Citation `bolibar_deep_2020-1' on page 35 undefined on 
+input line 27.
+
+
+Package natbib Warning: Citation `bolibar_alpgm_2020' on page 35 undefined on i
+nput line 27.
+
+
+Package natbib Warning: Citation `gardent_multitemporal_2014' on page 35 undefi
+ned on input line 27.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package Fancyhdr Warning: \headheight is too small (14.49998pt): 
+Make it at least 27.74203pt.
+We now make it that large for the rest of the document.
+This may cause the page layout to be inconsistent, however.
+
+[35]
+<Figures/past/Figure_1.pdf, id=24680, 767.94202pt x 296.71852pt>
+File: Figures/past/Figure_1.pdf Graphic file (type pdf)
+<use Figures/past/Figure_1.pdf>
+Package pdftex.def Info: Figures/past/Figure_1.pdf  used on input line 31.
+(pdftex.def)             Requested size: 426.79134pt x 164.90256pt.
+
+
+Package natbib Warning: Citation `vincent_common_2017' on page 36 undefined on 
+input line 43.
+
+
+Package natbib Warning: Citation `rabatel_spatio-temporal_2016' on page 36 unde
+fined on input line 43.
+
+[36 <./Figures/past/Figure_1.pdf>]
+
+Package natbib Warning: Citation `durand_reanalysis_2009' on page 37 undefined 
+on input line 45.
+
+
+Package natbib Warning: Citation `gardent_multitemporal_2014' on page 37 undefi
+ned on input line 45.
+
+
+Package natbib Warning: Citation `bolibar_deep_2020-1' on page 37 undefined on 
+input line 45.
+
+
+Package natbib Warning: Citation `bolibar_deep_2020-1' on page 37 undefined on 
+input line 47.
+
+
+Package natbib Warning: Citation `fausett_fundamentals_1994' on page 37 undefin
+ed on input line 51.
+
+
+Package natbib Warning: Citation `hastie_elements_2009' on page 37 undefined on
+ input line 51.
+
+
+Package natbib Warning: Citation `ingrassia_neural_2005' on page 37 undefined o
+n input line 51.
+
+
+Package natbib Warning: Citation `bolibar_alpgm_2020' on page 37 undefined on i
+nput line 51.
+
+
+Package natbib Warning: Citation `bolibar_deep_2020-1' on page 37 undefined on 
+input line 51.
+
+
+Package natbib Warning: Citation `krogh_neural_1995' on page 37 undefined on in
+put line 51.
+
+
+Package natbib Warning: Citation `hastie_elements_2009' on page 37 undefined on
+ input line 51.
+
+[37]
+
+Package natbib Warning: Citation `bolibar_deep_2020-1' on page 38 undefined on 
+input line 55.
+
+
+Package natbib Warning: Citation `roberts_cross-validation_2017' on page 38 und
+efined on input line 55.
+
+
+Package natbib Warning: Citation `vincent_common_2017' on page 38 undefined on 
+input line 55.
+
+
+Package natbib Warning: Citation `bolibar_deep_2020-1' on page 38 undefined on 
+input line 55.
+
+
+Overfull \hbox (4.3061pt too wide) in paragraph at lines 55--56
+\T1/QuattrocentoSans-TLF/regular/n/12 with ob-ser-va-tions and re-mote sens-ing
+ es-ti-mates. A de-tailed pre-sen-ta-tion of the method's
+ []
+
+<Figures/past/Figure_2.pdf, id=26656, 451.61925pt x 419.166pt>
+File: Figures/past/Figure_2.pdf Graphic file (type pdf)
+<use Figures/past/Figure_2.pdf>
+Package pdftex.def Info: Figures/past/Figure_2.pdf  used on input line 59.
+(pdftex.def)             Requested size: 312.9803pt x 290.50404pt.
+
+Package natbib Warning: Citation `bolibar_deep_2020-1' on page 38 undefined on 
+input line 64.
+
+[38]
+
+Package natbib Warning: Citation `davaze_region-wide_2020' on page 39 undefined
+ on input line 66.
+
+
+Package natbib Warning: Citation `berthier_glacier_2014' on page 39 undefined o
+n input line 66.
+
+
+Package natbib Warning: Citation `rabatel_spatio-temporal_2016' on page 39 unde
+fined on input line 66.
+
+
+Package natbib Warning: Citation `davaze_region-wide_2020' on page 39 undefined
+ on input line 66.
+
+
+Package natbib Warning: Citation `davaze_region-wide_2020' on page 39 undefined
+ on input line 66.
+
+[39 <./Figures/past/Figure_2.pdf>]
+
+Package natbib Warning: Citation `rabatel_spatio-temporal_2016' on page 40 unde
+fined on input line 73.
+
+
+Package natbib Warning: Citation `rabatel_spatio-temporal_2016' on page 40 unde
+fined on input line 73.
+
+<Figures/past/Figure_3.pdf, id=26732, 824.25041pt x 867.24pt>
+File: Figures/past/Figure_3.pdf Graphic file (type pdf)
+<use Figures/past/Figure_3.pdf>
+Package pdftex.def Info: Figures/past/Figure_3.pdf  used on input line 77.
+(pdftex.def)             Requested size: 312.9803pt x 329.3032pt.
+
+Package natbib Warning: Citation `huss_extrapolating_2012' on page 40 undefined
+ on input line 84.
+
+
+Package natbib Warning: Citation `rabatel_spatio-temporal_2016' on page 40 unde
+fined on input line 84.
+
+
+Package natbib Warning: Citation `vincent_common_2017' on page 40 undefined on 
+input line 84.
+
+<Figures/past/Figure_4.pdf, id=26733, 433.62pt x 289.08pt>
+File: Figures/past/Figure_4.pdf Graphic file (type pdf)
+<use Figures/past/Figure_4.pdf>
+Package pdftex.def Info: Figures/past/Figure_4.pdf  used on input line 88.
+(pdftex.def)             Requested size: 312.9803pt x 208.66234pt.
+
+Package natbib Warning: Citation `paul_rapid_2004' on page 40 undefined on inpu
+t line 95.
+
+
+Underfull \vbox (badness 1199) has occurred while \output is active []
+
+ [40]
+Underfull \vbox (badness 5504) has occurred while \output is active []
+
+ [41 <./Figures/past/Figure_3.pdf>]
+
+Package natbib Warning: Citation `hoelzle_secular_2003' on page 42 undefined on
+ input line 97.
+
+
+Package natbib Warning: Citation `huss_sensitivity_2016' on page 42 undefined o
+n input line 97.
+
+
+Package natbib Warning: Citation `zekollari_imbalance_2020' on page 42 undefine
+d on input line 97.
+
+
+Package natbib Warning: Citation `fischer_surface_2015' on page 42 undefined on
+ input line 97.
+
+
+Package natbib Warning: Citation `huss_extrapolating_2012' on page 42 undefined
+ on input line 97.
+
+
+Package natbib Warning: Citation `huss_new_2015-2' on page 42 undefined on inpu
+t line 97.
+
+
+Package natbib Warning: Citation `oerlemans_relating_2000' on page 42 undefined
+ on input line 97.
+
+
+Package natbib Warning: Citation `gardent_multitemporal_2014' on page 42 undefi
+ned on input line 97.
+
+[42 <./Figures/past/Figure_4.pdf>]
+<Figures/past/Figure_5.pdf, id=29102, 655.79103pt x 563.50124pt>
+File: Figures/past/Figure_5.pdf Graphic file (type pdf)
+<use Figures/past/Figure_5.pdf>
+Package pdftex.def Info: Figures/past/Figure_5.pdf  used on input line 102.
+(pdftex.def)             Requested size: 483.69684pt x 415.62585pt.
+
+Overfull \hbox (39.83365pt too wide) in paragraph at lines 102--104
+ [][] 
+ []
+
+
+Package natbib Warning: Citation `marzeion_brief_2015' on page 43 undefined on 
+input line 109.
+
+
+Package natbib Warning: Citation `marzeion_brief_2015' on page 43 undefined on 
+input line 109.
+
+
+Package natbib Warning: Citation `consortium_randolph_2017' on page 43 undefine
+d on input line 109.
+
+
+Package natbib Warning: Citation `bolibar_deep_2020-1' on page 43 undefined on 
+input line 109.
+
+
+Package natbib Warning: Citation `thibert_climatic_2013' on page 43 undefined o
+n input line 111.
+
+
+Package natbib Warning: Citation `six_sensitivity_2014' on page 43 undefined on
+ input line 111.
+
+[43]
+<Figures/past/Figure_6.pdf, id=29107, 722.7pt x 901.70978pt>
+File: Figures/past/Figure_6.pdf Graphic file (type pdf)
+<use Figures/past/Figure_6.pdf>
+Package pdftex.def Info: Figures/past/Figure_6.pdf  used on input line 115.
+(pdftex.def)             Requested size: 284.52756pt x 355.00882pt.
+
+Overfull \hbox (4.84009pt too wide) in paragraph at lines 120--121
+\T1/QuattrocentoSans-TLF/regular/n/12 glaciers, the re-con-struc-tions are base
+d on an en-sem-ble of cross-validated mod-els, which
+ []
+
+
+Package natbib Warning: Citation `bolibar_deep_2020' on page 44 undefined on in
+put line 124.
+
+
+Package natbib Warning: Citation `marzeion_brief_2015' on page 44 undefined on 
+input line 124.
+
+[44]
+<Figures/past/Figure_S1.pdf, id=29113, 453.8556pt x 370.74509pt>
+File: Figures/past/Figure_S1.pdf Graphic file (type pdf)
+<use Figures/past/Figure_S1.pdf>
+Package pdftex.def Info: Figures/past/Figure_S1.pdf  used on input line 130.
+(pdftex.def)             Requested size: 369.88582pt x 302.1574pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Package natbib Warning: Citation `bolibar_deep_2020-1' on page 45 undefined on 
+input line 139.
+
+
+Package natbib Warning: Citation `davaze_region-wide_2020' on page 45 undefined
+ on input line 139.
+
+
+Package natbib Warning: Citation `berthier_glacier_2014' on page 45 undefined o
+n input line 139.
+
+[45]
+<Figures/past/Figure_S2.pdf, id=29118, 478.35913pt x 271.14131pt>
+File: Figures/past/Figure_S2.pdf Graphic file (type pdf)
+<use Figures/past/Figure_S2.pdf>
+Package pdftex.def Info: Figures/past/Figure_S2.pdf  used on input line 145.
+(pdftex.def)             Requested size: 398.33858pt x 225.7878pt.
+
+Overfull \hbox (36.53934pt too wide) in paragraph at lines 150--150
+[]\T1/QuattrocentoSans-TLF/bold/n/17.28 Model dif-fer-ences be-tween the up-dat
+ed ver-sion of Marzeion
+ []
+
+
+Package natbib Warning: Citation `harris_updated_2014' on page 46 undefined on 
+input line 157.
+
+
+Package natbib Warning: Citation `durand_reanalysis_2009' on page 46 undefined 
+on input line 157.
+
+
+Package natbib Warning: Citation `bolibar_deep_2020-1' on page 46 undefined on 
+input line 164.
+
+[46] [47]
+<Figures/past/Figure_S3.pdf, id=29130, 722.7pt x 361.35pt>
+File: Figures/past/Figure_S3.pdf Graphic file (type pdf)
+<use Figures/past/Figure_S3.pdf>
+Package pdftex.def Info: Figures/past/Figure_S3.pdf  used on input line 174.
+(pdftex.def)             Requested size: 455.24408pt x 227.62413pt.
+
+Overfull \hbox (11.38089pt too wide) in paragraph at lines 174--176
+ [][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<Figures/past/Figure_S4.pdf, id=29131, 722.7pt x 722.7pt>
+File: Figures/past/Figure_S4.pdf Graphic file (type pdf)
+<use Figures/past/Figure_S4.pdf>
+Package pdftex.def Info: Figures/past/Figure_S4.pdf  used on input line 181.
+(pdftex.def)             Requested size: 398.33858pt x 398.33534pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<Figures/past/Figure_S5.png, id=29132, 531.9072pt x 448.7967pt>
+File: Figures/past/Figure_S5.png Graphic file (type png)
+<use Figures/past/Figure_S5.png>
+Package pdftex.def Info: Figures/past/Figure_S5.png  used on input line 189.
+(pdftex.def)             Requested size: 284.52756pt x 240.07988pt.
+<Figures/past/Figure_S6.pdf, id=29133, 590.35399pt x 330.59824pt>
+File: Figures/past/Figure_S6.pdf Graphic file (type pdf)
+<use Figures/past/Figure_S6.pdf>
+Package pdftex.def Info: Figures/past/Figure_S6.pdf  used on input line 197.
+(pdftex.def)             Requested size: 455.24408pt x 254.93976pt.
+
+Overfull \hbox (11.38089pt too wide) in paragraph at lines 197--199
+ [][] 
+ []
+
+<Figures/past/Figure_S7.pdf, id=29134, 433.62pt x 289.08pt>
+File: Figures/past/Figure_S7.pdf Graphic file (type pdf)
+<use Figures/past/Figure_S7.pdf>
+Package pdftex.def Info: Figures/past/Figure_S7.pdf  used on input line 205.
+(pdftex.def)             Requested size: 341.43306pt x 227.63405pt.
+<Figures/past/Figure_S8.pdf, id=29135, 722.7pt x 361.35pt>
+File: Figures/past/Figure_S8.pdf Graphic file (type pdf)
+<use Figures/past/Figure_S8.pdf>
+Package pdftex.def Info: Figures/past/Figure_S8.pdf  used on input line 213.
+(pdftex.def)             Requested size: 455.24408pt x 227.62413pt.
+
+Overfull \hbox (11.38089pt too wide) in paragraph at lines 213--215
+ [][] 
+ []
+
+<Figures/past/Figure_S9.pdf, id=29136, 722.7pt x 361.35pt>
+File: Figures/past/Figure_S9.pdf Graphic file (type pdf)
+<use Figures/past/Figure_S9.pdf>
+Package pdftex.def Info: Figures/past/Figure_S9.pdf  used on input line 221.
+(pdftex.def)             Requested size: 455.24408pt x 227.62413pt.
+
+Overfull \hbox (11.38089pt too wide) in paragraph at lines 221--223
+ [][] 
+ []
+
+<Figures/past/Figure_S10.pdf, id=29137, 399.4925pt x 598.235pt>
+File: Figures/past/Figure_S10.pdf Graphic file (type pdf)
+<use Figures/past/Figure_S10.pdf>
+Package pdftex.def Info: Figures/past/Figure_S10.pdf  used on input line 228.
+(pdftex.def)             Requested size: 312.9803pt x 468.70268pt.
+) (./Bolibar_PhD_dissertation.bbl)
+
+Package natbib Warning: There were undefined citations.
+
+Package minitoc Info: I0009
+(minitoc)             Listing minitoc auxiliary files. 
+(minitoc)             Creating the Bolibar_PhD_dissertation.maf file.
+\openout3 = `Bolibar_PhD_dissertation.maf'.
+
+
+Package minitoc(hints) Warning: W0078
+(minitoc(hints))                You have used \dominitoc, 
+(minitoc(hints))                but not \minitoc.
+
+
+Package minitoc(hints) Warning: W0086
+(minitoc(hints))                The fncychap package should be 
+(minitoc(hints))                loaded BEFORE the minitoc package.
+
+Package minitoc(hints) Info: I0053
+(minitoc(hints))             You have loaded the float package; 
+(minitoc(hints))             please be aware that the minitoc package 
+(minitoc(hints))             facilities can not be used for new types 
+(minitoc(hints))             of floats defined by the float package.
+
+Package minitoc(hints) Warning: W0024
+(minitoc(hints))                Some hints have been written 
+(minitoc(hints))                in the Bolibar_PhD_dissertation.log file.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 198.
+[48] [49 <./Figures/past/Figure_5.pdf>] [50 <./Figures/past/Figure_6.pdf>]
+[51 <./Figures/past/Figure_S1.pdf> <./Figures/past/Figure_S2.pdf
+
+pdfTeX warning: pdflatex.exe (file ./Figures/past/Figure_S2.pdf): PDF inclusion
+: multiple pdfs with page group included in a single page
+>] [52 <./Figures/past/Figure_S3.pdf>] [53 <./Figures/past/Figure_S4.pdf>]
+[54 <./Figures/past/Figure_S5.png> <./Figures/past/Figure_S6.pdf>] [55 <./Figur
+es/past/Figure_S7.pdf> <./Figures/past/Figure_S8.pdf
+
+pdfTeX warning: pdflatex.exe (file ./Figures/past/Figure_S8.pdf): PDF inclusion
+: multiple pdfs with page group included in a single page
+>] [56 <./Figures/past/Figure_S9.pdf>] [57 <./Figures/past/Figure_S10.pdf>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 198.
+
+(./Bolibar_PhD_dissertation.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 198.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 198.
+Package rerunfilecheck Info: File `Bolibar_PhD_dissertation.out' has not change
+d.
+(rerunfilecheck)             Checksum: 498F7139190400967ABF072ABE174200;3279.
+
+
+LaTeX Warning: There were undefined references.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 17531 strings out of 492163
+ 255779 string characters out of 6129077
+ 371610 words of memory out of 5000000
+ 21051 multiletter control sequences out of 15000+600000
+ 174570 words of font info for 117 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 48i,11n,79p,3092b,489s stack positions out of 5000i,500n,10000p,200000b,80000s
+{c:/texlive/2019/texmf-dist/fonts/enc/dvips/quattrocento/qtrcnt_h2bn35.enc}{c
+:/texlive/2019/texmf-dist/fonts/enc/dvips/base/8r.enc}{c:/texlive/2019/texmf-di
+st/fonts/enc/dvips/quattrocento/qtrcnt_xzkr3s.enc}{c:/texlive/2019/texmf-dist/f
+onts/enc/dvips/quattrocento/qtrcnt_5tsqgq.enc}<c:/texlive/2019/texmf-dist/fonts
+/type1/impallari/quattrocento/QuattrocentoSans-Bold.pfb><c:/texlive/2019/texmf-
+dist/fonts/type1/impallari/quattrocento/QuattrocentoSans-Italic.pfb><c:/texlive
+/2019/texmf-dist/fonts/type1/impallari/quattrocento/QuattrocentoSans.pfb><c:/te
+xlive/2019/texmf-dist/fonts/type1/public/kpfonts/jkpex.pfb><c:/texlive/2019/tex
+mf-dist/fonts/type1/public/kpfonts/jkpmi.pfb><c:/texlive/2019/texmf-dist/fonts/
+type1/public/kpfonts/jkpmia.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/
+kpfonts/jkpmn8a.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/kpfonts/jkps
+y.pfb><c:/texlive/2019/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb><c:/texli
+ve/2019/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
+Output written on Bolibar_PhD_dissertation.pdf (68 pages, 54780691 bytes).
+PDF statistics:
+ 36361 PDF objects out of 38293 (max. 8388607)
+ 22984 compressed objects within 230 object streams
+ 191 named destinations out of 1000 (max. 500000)
+ 494 words of extra memory for PDF output out of 10000 (max. 10000000)
+
