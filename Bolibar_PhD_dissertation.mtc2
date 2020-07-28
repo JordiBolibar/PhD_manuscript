@@ -1,33 +1,33 @@
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2.1}Abstract}{\reset@font\mtcSfont 1}{section.2.1}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2.2}Introduction}{\reset@font\mtcSfont 2}{section.2.2}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2.3}Model overview and methods}{\reset@font\mtcSfont 4}{section.2.3}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.3.1}Model overview and workflow}{\reset@font\mtcSSfont 4}{subsection.2.3.1}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.3.2}Glacier-wide surface mass balance simulation }{\reset@font\mtcSSfont 6}{subsection.2.3.2}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Selection of explanatory topographical and climatic variables}{\reset@font\mtcSSSfont 6}{section*.9}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode All-possible multiple linear regressions}{\reset@font\mtcSSSfont 7}{section*.11}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Lasso}{\reset@font\mtcSSSfont 7}{section*.12}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Deep artificial neural network}{\reset@font\mtcSSSfont 8}{section*.13}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.3.3}Glacier geometry update }{\reset@font\mtcSSfont 10}{subsection.2.3.3}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2.4}Case study: French alpine glaciers}{\reset@font\mtcSfont 10}{section.2.4}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.4.1}Data}{\reset@font\mtcSSfont 10}{subsection.2.4.1}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Glacier-wide surface mass balance }{\reset@font\mtcSSSfont 11}{section*.15}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Topographical glacier data and altimetry}{\reset@font\mtcSSSfont 12}{section*.17}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Glacier ice thickness}{\reset@font\mtcSSSfont 12}{section*.18}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Climate data}{\reset@font\mtcSSSfont 13}{section*.19}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.4.2}Glacier-wide surface mass balance simulations: validation and results}{\reset@font\mtcSSfont 13}{subsection.2.4.2}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Selection of predictors}{\reset@font\mtcSSSfont 13}{section*.20}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Causal analysis}{\reset@font\mtcSSSfont 15}{section*.21}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Spatial predictive analysis}{\reset@font\mtcSSSfont 15}{section*.23}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Temporal predictive analysis}{\reset@font\mtcSSSfont 17}{section*.27}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Spatiotemporal predictive analysis}{\reset@font\mtcSSSfont 18}{section*.30}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.4.3}Glacier geometry evolution: Validation and results}{\reset@font\mtcSSfont 19}{subsection.2.4.3}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2.5}Discussion and perspectives}{\reset@font\mtcSfont 21}{section.2.5}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.5.1}Linear methods still matter}{\reset@font\mtcSSfont 21}{subsection.2.5.1}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.5.2}Training deep learning models with spatiotemporal data}{\reset@font\mtcSSfont 21}{subsection.2.5.2}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.5.3}Perspectives on future applications of deep learning in glaciology}{\reset@font\mtcSSfont 23}{subsection.2.5.3}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2.6}Conclusions}{\reset@font\mtcSfont 24}{section.2.6}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2.7}Supplementary material}{\reset@font\mtcSfont 25}{section.2.7}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2.8}Filtering of DEM rasters}{\reset@font\mtcSfont 25}{section.2.8}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2.9}SMB statistical error analysis}{\reset@font\mtcSfont 26}{section.2.9}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2.10}Topographical glacier-wide SMB predictors}{\reset@font\mtcSfont 26}{section.2.10}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2.11}Supplementary figures}{\reset@font\mtcSfont 28}{section.2.11}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2.1}Abstract}{\reset@font\mtcSfont 9}{section.2.1}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2.2}Introduction}{\reset@font\mtcSfont 9}{section.2.2}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2.3}Model overview and methods}{\reset@font\mtcSfont 12}{section.2.3}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.3.1}Model overview and workflow}{\reset@font\mtcSSfont 12}{subsection.2.3.1}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.3.2}Glacier-wide surface mass balance simulation}{\reset@font\mtcSSfont 13}{subsection.2.3.2}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Selection of explanatory topographical and climatic variables}{\reset@font\mtcSSSfont 14}{section*.6}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode All-possible multiple linear regressions}{\reset@font\mtcSSSfont 15}{section*.8}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Lasso}{\reset@font\mtcSSSfont 15}{section*.9}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Deep artificial neural network}{\reset@font\mtcSSSfont 15}{section*.10}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.3.3}Glacier geometry update}{\reset@font\mtcSSfont 17}{subsection.2.3.3}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2.4}Case study: French alpine glaciers}{\reset@font\mtcSfont 18}{section.2.4}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.4.1}Data}{\reset@font\mtcSSfont 18}{subsection.2.4.1}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Glacier-wide surface mass balance }{\reset@font\mtcSSSfont 18}{section*.12}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Topographical glacier data and altimetry}{\reset@font\mtcSSSfont 18}{section*.13}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Glacier ice thickness}{\reset@font\mtcSSSfont 19}{section*.14}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Climate data}{\reset@font\mtcSSSfont 19}{section*.16}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.4.2}Glacier-wide surface mass balance simulations: validation and results}{\reset@font\mtcSSfont 20}{subsection.2.4.2}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Selection of predictors}{\reset@font\mtcSSSfont 20}{section*.17}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Causal analysis}{\reset@font\mtcSSSfont 21}{section*.18}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Spatial predictive analysis}{\reset@font\mtcSSSfont 22}{section*.20}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Temporal predictive analysis}{\reset@font\mtcSSSfont 24}{section*.24}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Spatiotemporal predictive analysis}{\reset@font\mtcSSSfont 26}{section*.27}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.4.3}Glacier geometry evolution: Validation and results}{\reset@font\mtcSSfont 26}{subsection.2.4.3}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2.5}Discussion and perspectives}{\reset@font\mtcSfont 27}{section.2.5}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.5.1}Linear methods still matter}{\reset@font\mtcSSfont 27}{subsection.2.5.1}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.5.2}Training deep learning models with spatiotemporal data}{\reset@font\mtcSSfont 28}{subsection.2.5.2}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.5.3}Perspectives on future applications of deep learning in glaciology}{\reset@font\mtcSSfont 29}{subsection.2.5.3}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2.6}Conclusions}{\reset@font\mtcSfont 30}{section.2.6}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2.7}Supplementary material}{\reset@font\mtcSfont 31}{section.2.7}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.7.1}Filtering of DEM rasters}{\reset@font\mtcSSfont 31}{subsection.2.7.1}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.7.2}SMB statistical error analysis}{\reset@font\mtcSSfont 31}{subsection.2.7.2}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.7.3}Topographical glacier-wide SMB predictors}{\reset@font\mtcSSfont 32}{subsection.2.7.3}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.7.4}Supplementary figures}{\reset@font\mtcSSfont 33}{subsection.2.7.4}}

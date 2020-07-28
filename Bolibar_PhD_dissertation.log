@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2020.1.8)  25 JUL 2020 14:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2020.1.8)  27 JUL 2020 21:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -7,8 +7,8 @@ entering extended mode
 LaTeX2e <2019-10-01> patch level 3
 (c:/texlive/2019/texmf-dist/tex/latex/extsizes/extreport.cls
 Document Class: extreport 1996/10/08 v1.0 Non Standard LaTeX document class
-(c:/texlive/2019/texmf-dist/tex/latex/base/size12.clo
-File: size12.clo 2019/10/25 v1.4k Standard LaTeX file (size option)
+(c:/texlive/2019/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2019/10/25 v1.4k Standard LaTeX file (size option)
 )
 (c:/texlive/2019/texmf-dist/tex/latex/base/exscale.sty
 Package: exscale 2018/09/24 v2.1i Standard LaTeX package exscale
@@ -1042,6 +1042,21 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip48
 )
+(c:/texlive/2019/texmf-dist/tex/latex/cleveref/cleveref.sty
+Package: cleveref 2018/03/27 v0.21.4 Intelligent cross-referencing
+Package cleveref Info: `hyperref' support loaded on input line 2370.
+LaTeX Info: Redefining \cref on input line 2370.
+LaTeX Info: Redefining \Cref on input line 2370.
+LaTeX Info: Redefining \crefrange on input line 2370.
+LaTeX Info: Redefining \Crefrange on input line 2370.
+LaTeX Info: Redefining \cpageref on input line 2370.
+LaTeX Info: Redefining \Cpageref on input line 2370.
+LaTeX Info: Redefining \cpagerefrange on input line 2370.
+LaTeX Info: Redefining \Cpagerefrange on input line 2370.
+LaTeX Info: Redefining \labelcref on input line 2370.
+LaTeX Info: Redefining \labelcpageref on input line 2370.
+Package cleveref Info: `listings' support loaded on input line 3131.
+)
 (c:/texlive/2019/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 
@@ -1203,13 +1218,38 @@ Package: multirow 2019/05/31 v2.5 Span multiple rows of a table
 \multirow@dima=\skip65
 \bigstrutjot=\dimen152
 )
+(c:/texlive/2019/texmf-dist/tex/latex/blindtext/blindtext.sty
+Package: blindtext 2012/01/06 V2.0 blindtext-Package
+
+(c:/texlive/2019/texmf-dist/tex/latex/tools/xspace.sty
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+)
+\c@blindtext=\count148
+\c@Blindtext=\count149
+\c@blind@countparstart=\count150
+\blind@countxx=\count151
+\blindtext@numBlindtext=\count152
+\blind@countyy=\count153
+\c@blindlist=\count154
+\c@blindlistlevel=\count155
+\c@blindlist@level=\count156
+\blind@listitem=\count157
+\c@blind@listcount=\count158
+\c@blind@levelcount=\count159
+\blind@mathformula=\count160
+\blind@Mathformula=\count161
+\c@blind@randomcount=\count162
+\c@blind@randommax=\count163
+\c@blind@pangramcount=\count164
+\c@blind@pangrammax=\count165
+)
 (c:/texlive/2019/texmf-dist/tex/latex/graphics/rotating.sty
 Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
 
 (c:/texlive/2019/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
-\c@r@tfl@t=\count148
+\c@r@tfl@t=\count166
 \rotFPtop=\skip66
 \rotFPbot=\skip67
 \rot@float@box=\box64
@@ -1221,7 +1261,7 @@ Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 (c:/texlive/2019/texmf-dist/tex/latex/wrapfig/wrapfig.sty
 \wrapoverhang=\dimen153
 \WF@size=\dimen154
-\c@WF@wrappedlines=\count149
+\c@WF@wrappedlines=\count167
 \WF@box=\box65
 \WF@everypar=\toks32
 Package: wrapfig 2003/01/31  v 3.6
@@ -1244,7 +1284,7 @@ Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 \XKV@toks=\toks33
 \XKV@tempa@toks=\toks34
 )
-\XKV@depth=\count150
+\XKV@depth=\count168
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
 (c:/texlive/2019/texmf-dist/tex/latex/base/fontenc.sty
@@ -1269,15 +1309,15 @@ Package: pdfpages 2019/12/17 v0.5p Insert pages of external PDF documents (AM)
 
 (c:/texlive/2019/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count151
-\calc@Bcount=\count152
+\calc@Acount=\count169
+\calc@Bcount=\count170
 \calc@Adimen=\dimen155
 \calc@Bdimen=\dimen156
 \calc@Askip=\skip68
 \calc@Bskip=\skip69
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count153
+\calc@Ccount=\count171
 \calc@Cskip=\skip70
 )
 (c:/texlive/2019/texmf-dist/tex/latex/eso-pic/eso-pic.sty
@@ -1309,11 +1349,8 @@ File: pppdftex.def 2019/12/17 v0.5p Pdfpages driver for pdfTeX (AM)
 \AM@pagebox=\box66
 \AM@global@opts=\toks35
 \AM@toc@title=\toks36
-\c@AM@survey=\count154
+\c@AM@survey=\count172
 \AM@templatesizebox=\box67
-)
-(c:/texlive/2019/texmf-dist/tex/latex/tools/xspace.sty
-Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 )
 (c:/texlive/2019/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2019/10/08 v1.6180339 publication quality tables
@@ -1327,12 +1364,12 @@ Package: booktabs 2019/10/08 v1.6180339 publication quality tables
 \cmidrulesep=\dimen166
 \cmidrulekern=\dimen167
 \defaultaddspace=\dimen168
-\@cmidla=\count155
-\@cmidlb=\count156
+\@cmidla=\count173
+\@cmidlb=\count174
 \@aboverulesep=\dimen169
 \@belowrulesep=\dimen170
-\@thisruleclass=\count157
-\@lastruleclass=\count158
+\@thisruleclass=\count175
+\@lastruleclass=\count176
 \@thisrulewidth=\dimen171
 )
 (c:/texlive/2019/texmf-dist/tex/generic/ulem/ulem.sty
@@ -1341,7 +1378,7 @@ Package: booktabs 2019/10/08 v1.6180339 publication quality tables
 \UL@skip=\skip71
 \UL@hook=\toks37
 \UL@height=\dimen172
-\UL@pe=\count159
+\UL@pe=\count177
 \UL@pixel=\dimen173
 \ULC@box=\box70
 Package: ulem 2012/05/18
@@ -1349,16 +1386,16 @@ Package: ulem 2012/05/18
 )
 (c:/texlive/2019/texmf-dist/tex/latex/lineno/lineno.sty
 Package: lineno 2005/11/02 line numbers on paragraphs v4.41
-\linenopenalty=\count160
+\linenopenalty=\count178
 \output=\toks38
-\linenoprevgraf=\count161
+\linenoprevgraf=\count179
 \linenumbersep=\dimen175
 \linenumberwidth=\dimen176
-\c@linenumber=\count162
-\c@pagewiselinenumber=\count163
-\c@LN@truepage=\count164
-\c@internallinenumber=\count165
-\c@internallinenumbers=\count166
+\c@linenumber=\count180
+\c@pagewiselinenumber=\count181
+\c@LN@truepage=\count182
+\c@internallinenumber=\count183
+\c@internallinenumbers=\count184
 \quotelinenumbersep=\dimen177
 \bframerule=\dimen178
 \bframesep=\dimen179
@@ -1387,9 +1424,9 @@ Package: geometry 2020/01/02 v5.9 Page Geometry
 (c:/texlive/2019/texmf-dist/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
-\Gm@cnth=\count167
-\Gm@cntv=\count168
-\c@Gm@tempcnt=\count169
+\Gm@cnth=\count185
+\Gm@cntv=\count186
+\c@Gm@tempcnt=\count187
 \Gm@bindingoffset=\dimen180
 \Gm@wd@mp=\dimen181
 \Gm@odd@mp=\dimen182
@@ -1400,73 +1437,73 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 \Gm@layoutvoffset=\dimen187
 \Gm@dimlist=\toks39
 )
-\c@encartcompteur=\count170
+\c@encartcompteur=\count188
 
 (./Bolibar_PhD_dissertation.aux)
 \openout1 = `Bolibar_PhD_dissertation.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/jkp/m/it on input line 114.
+LaTeX Font Info:    Checking defaults for OML/jkp/m/it on input line 126.
 LaTeX Font Info:    Trying to load font information for OML+jkp on input line 1
-14.
+26.
 
 (c:/texlive/2019/texmf-dist/tex/latex/kpfonts/omljkp.fd
 File: omljkp.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    ... okay on input line 114.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 114.
-LaTeX Font Info:    ... okay on input line 114.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 114.
-LaTeX Font Info:    ... okay on input line 114.
-LaTeX Font Info:    Checking defaults for OMS/jkp/m/n on input line 114.
+LaTeX Font Info:    ... okay on input line 126.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 126.
+LaTeX Font Info:    ... okay on input line 126.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 126.
+LaTeX Font Info:    ... okay on input line 126.
+LaTeX Font Info:    Checking defaults for OMS/jkp/m/n on input line 126.
 LaTeX Font Info:    Trying to load font information for OMS+jkp on input line 1
-14.
+26.
 
 (c:/texlive/2019/texmf-dist/tex/latex/kpfonts/omsjkp.fd
 File: omsjkp.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    ... okay on input line 114.
-LaTeX Font Info:    Checking defaults for OMX/jkp/m/n on input line 114.
+LaTeX Font Info:    ... okay on input line 126.
+LaTeX Font Info:    Checking defaults for OMX/jkp/m/n on input line 126.
 LaTeX Font Info:    Trying to load font information for OMX+jkp on input line 1
-14.
+26.
 
 (c:/texlive/2019/texmf-dist/tex/latex/kpfonts/omxjkp.fd
 File: omxjkp.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    ... okay on input line 114.
-LaTeX Font Info:    Checking defaults for U/jkpexa/m/n on input line 114.
+LaTeX Font Info:    ... okay on input line 126.
+LaTeX Font Info:    Checking defaults for U/jkpexa/m/n on input line 126.
 LaTeX Font Info:    Trying to load font information for U+jkpexa on input line 
-114.
+126.
 
 (c:/texlive/2019/texmf-dist/tex/latex/kpfonts/ujkpexa.fd
 File: ujkpexa.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    ... okay on input line 114.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 114.
+LaTeX Font Info:    ... okay on input line 126.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 126.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 1
-14.
+26.
 
 (c:/texlive/2019/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 114.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 114.
-LaTeX Font Info:    ... okay on input line 114.
+LaTeX Font Info:    ... okay on input line 126.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 126.
+LaTeX Font Info:    ... okay on input line 126.
 LaTeX Font Info:    Trying to load font information for T1+QuattrocentoSans-TLF
- on input line 114.
+ on input line 126.
 
 (c:/texlive/2019/texmf-dist/tex/latex/quattrocento/T1QuattrocentoSans-TLF.fd
 File: T1QuattrocentoSans-TLF.fd 2019/04/03 (autoinst) Font definitions for T1/Q
 uattrocentoSans-TLF.
 )
-LaTeX Font Info:    Font shape `T1/QuattrocentoSans-TLF/m/n' in size <12> not a
+LaTeX Font Info:    Font shape `T1/QuattrocentoSans-TLF/m/n' in size <10> not a
 vailable
 (Font)              Font shape `T1/QuattrocentoSans-TLF/regular/n' tried instea
-d on input line 114.
+d on input line 126.
 LaTeX Font Info:    Font shape `T1/QuattrocentoSans-TLF/regular/n' will be
-(Font)              scaled to size 12.0pt on input line 114.
-\c@lstlisting=\count171
+(Font)              scaled to size 10.0pt on input line 126.
+\c@lstlisting=\count189
 \AtBeginShipoutBox=\box72
-Package hyperref Info: Link coloring OFF on input line 114.
+Package hyperref Info: Link coloring OFF on input line 126.
 
 (c:/texlive/2019/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
@@ -1477,11 +1514,11 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 (c:/texlive/2019/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count172
+\c@section@level=\count190
 )
-LaTeX Info: Redefining \ref on input line 114.
-LaTeX Info: Redefining \pageref on input line 114.
-LaTeX Info: Redefining \nameref on input line 114.
+LaTeX Info: Redefining \ref on input line 126.
+LaTeX Info: Redefining \pageref on input line 126.
+LaTeX Info: Redefining \nameref on input line 126.
 
 (./Bolibar_PhD_dissertation.out) (./Bolibar_PhD_dissertation.out)
 \@outlinefile=\write5
@@ -1490,16 +1527,16 @@ LaTeX Info: Redefining \nameref on input line 114.
 
 (c:/texlive/2019/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count173
+\scratchcounter=\count191
 \scratchdimen=\dimen188
 \scratchbox=\box73
-\nofMPsegments=\count174
-\nofMParguments=\count175
+\nofMPsegments=\count192
+\nofMParguments=\count193
 \everyMPshowfont=\toks40
-\MPscratchCnt=\count176
+\MPscratchCnt=\count194
 \MPscratchDim=\dimen189
-\MPnumerator=\count177
-\makeMPintoPDFobject=\count178
+\MPnumerator=\count195
+\makeMPintoPDFobject=\count196
 \everyMPtoPDFconversion=\toks41
 ) (c:/texlive/2019/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2019-12-09 v2.10 Base part for package epstopdf
@@ -1539,8 +1576,8 @@ Package minitoc(hints) Warning: W0023
 (minitoc(hints))                --- It may be the consequence 
 (minitoc(hints))                of loading the ``hyperref'' package.
 
-\c@mv@tabular=\count179
-\c@mv@boldtabular=\count180
+\c@mv@tabular=\count197
+\c@mv@boldtabular=\count198
 (c:/texlive/2019/texmf-dist/tex/latex/pdflscape/pdflscape.sty
 Package: pdflscape 2019/12/05 v0.12 Display of landscape pages in PDF (HO)
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
@@ -1564,12 +1601,12 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 * \topmargin=-32.44765pt
 * \headheight=12.0pt
 * \headsep=25.0pt
-* \topskip=12.0pt
+* \topskip=10.0pt
 * \footskip=30.0pt
-* \marginparwidth=85.0pt
-* \marginparsep=10.0pt
+* \marginparwidth=111.0pt
+* \marginparsep=11.0pt
 * \columnsep=10.0pt
-* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
@@ -1584,7 +1621,7 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 ] (./Bolibar_PhD_dissertation.bbl)
 Package minitoc Info: I0024
 (minitoc)             PREPARING MINITOCS FROM Bolibar_PhD_dissertation.toc on i
-nput line 124.
+nput line 136.
 Package minitoc Info: I0033
 (minitoc)             Writing Bolibar_PhD_dissertation.mtc1.
 \openout3 = `Bolibar_PhD_dissertation.mtc1'.
@@ -1601,89 +1638,91 @@ Package minitoc Info: I0033
 (minitoc)             Writing Bolibar_PhD_dissertation.mtc4.
 \openout3 = `Bolibar_PhD_dissertation.mtc4'.
 
-LaTeX Font Info:    Font shape `T1/QuattrocentoSans-TLF/m/n' in size <10.95> no
-t available
+Package minitoc Info: I0033
+(minitoc)             Writing Bolibar_PhD_dissertation.mtc5.
+\openout3 = `Bolibar_PhD_dissertation.mtc5'.
+
+Package minitoc Info: I0033
+(minitoc)             Writing Bolibar_PhD_dissertation.mtc6.
+\openout3 = `Bolibar_PhD_dissertation.mtc6'.
+
+LaTeX Font Info:    Font shape `T1/QuattrocentoSans-TLF/m/n' in size <9> not av
+ailable
 (Font)              Font shape `T1/QuattrocentoSans-TLF/regular/n' tried instea
-d on input line 129.
+d on input line 141.
 LaTeX Font Info:    Font shape `T1/QuattrocentoSans-TLF/regular/n' will be
-(Font)              scaled to size 10.95pt on input line 129.
-LaTeX Font Info:    Font shape `T1/QuattrocentoSans-TLF/m/it' in size <10.95> n
-ot available
+(Font)              scaled to size 9.0pt on input line 141.
+LaTeX Font Info:    Font shape `T1/QuattrocentoSans-TLF/m/it' in size <9> not a
+vailable
 (Font)              Font shape `T1/QuattrocentoSans-TLF/regular/it' tried inste
-ad on input line 130.
+ad on input line 142.
 LaTeX Font Info:    Font shape `T1/QuattrocentoSans-TLF/regular/it' will be
-(Font)              scaled to size 10.95pt on input line 130.
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
-Make it at least 14.49998pt.
-We now make it that large for the rest of the document.
-This may cause the page layout to be inconsistent, however.
-
-[1{c:/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
-(./abstract/abstract.tex
-LaTeX Font Info:    Font shape `T1/QuattrocentoSans-TLF/m/n' in size <17.28> no
-t available
+(Font)              scaled to size 9.0pt on input line 142.
+ [1{c:/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] (./abstr
+act/abstract.tex
+LaTeX Font Info:    Font shape `T1/QuattrocentoSans-TLF/m/n' in size <14.4> not
+ available
 (Font)              Font shape `T1/QuattrocentoSans-TLF/regular/n' tried instea
 d on input line 2.
 LaTeX Font Info:    Font shape `T1/QuattrocentoSans-TLF/regular/n' will be
-(Font)              scaled to size 17.28pt on input line 2.
-LaTeX Font Info:    Font shape `T1/QuattrocentoSans-TLF/b/n' in size <17.28> no
-t available
+(Font)              scaled to size 14.4pt on input line 2.
+LaTeX Font Info:    Font shape `T1/QuattrocentoSans-TLF/b/n' in size <14.4> not
+ available
 (Font)              Font shape `T1/QuattrocentoSans-TLF/bold/n' tried instead o
 n input line 2.
 LaTeX Font Info:    Font shape `T1/QuattrocentoSans-TLF/bold/n' will be
-(Font)              scaled to size 17.28pt on input line 2.
-) [3] (./acknowledgements/acknowledgements.tex)
-[4]
+(Font)              scaled to size 14.4pt on input line 2.
+) [3]
+(./acknowledgements/acknowledgements.tex) [4]
 LaTeX Font Info:    Font shape `T1/QuattrocentoSans-TLF/m/n' in size <24.88> no
 t available
 (Font)              Font shape `T1/QuattrocentoSans-TLF/regular/n' tried instea
-d on input line 143.
+d on input line 154.
 LaTeX Font Info:    Font shape `T1/QuattrocentoSans-TLF/regular/n' will be
-(Font)              scaled to size 24.88pt on input line 143.
+(Font)              scaled to size 24.88pt on input line 154.
 LaTeX Font Info:    Font shape `T1/QuattrocentoSans-TLF/b/n' in size <24.88> no
 t available
 (Font)              Font shape `T1/QuattrocentoSans-TLF/bold/n' tried instead o
-n input line 143.
+n input line 154.
 LaTeX Font Info:    Font shape `T1/QuattrocentoSans-TLF/bold/n' will be
-(Font)              scaled to size 24.88pt on input line 143.
-LaTeX Font Info:    Trying to load font information for T1+jkp on input line 14
-3.
- (c:/texlive/2019/texmf-dist/tex/latex/kpfonts/t1jkp.fd
+(Font)              scaled to size 24.88pt on input line 154.
+LaTeX Font Info:    Trying to load font information for T1+jkp on input line 15
+4.
+
+(c:/texlive/2019/texmf-dist/tex/latex/kpfonts/t1jkp.fd
 File: t1jkp.fd 2007/01/24 Fontinst v1.928 font definitions for T1/jkp.
 )
 (./Bolibar_PhD_dissertation.toc
-LaTeX Font Info:    Font shape `T1/QuattrocentoSans-TLF/b/n' in size <12> not a
+LaTeX Font Info:    Font shape `T1/QuattrocentoSans-TLF/b/n' in size <10> not a
 vailable
 (Font)              Font shape `T1/QuattrocentoSans-TLF/bold/n' tried instead o
 n input line 2.
 LaTeX Font Info:    Font shape `T1/QuattrocentoSans-TLF/bold/n' will be
-(Font)              scaled to size 12.0pt on input line 2.
-LaTeX Font Info:    Trying to load font information for OT1+jkp on input line 4
+(Font)              scaled to size 10.0pt on input line 2.
+LaTeX Font Info:    Trying to load font information for OT1+jkp on input line 3
 .
 
 (c:/texlive/2019/texmf-dist/tex/latex/kpfonts/ot1jkp.fd
 File: ot1jkp.fd 2007/08/30 Fontinst v1.928 font definitions for OT1/jkp.
 )
 LaTeX Font Info:    Trying to load font information for U+jkpmia on input line 
-4.
+3.
 
 (c:/texlive/2019/texmf-dist/tex/latex/kpfonts/ujkpmia.fd
 File: ujkpmia.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    Trying to load font information for U+msa on input line 4.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 3.
 
 (c:/texlive/2019/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 4.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 3.
 
 (c:/texlive/2019/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Trying to load font information for U+jkpsyc on input line 
-4.
+3.
 
 (c:/texlive/2019/texmf-dist/tex/latex/kpfonts/ujkpsyc.fd
 File: ujkpsyc.fd 2006/08/15 v1.0
@@ -1694,7 +1733,9 @@ File: ujkpsyc.fd 2006/08/15 v1.0
 \openout6 = `Bolibar_PhD_dissertation.toc'.
 
 
-(./intro/intro.tex [6]
+(./intro/intro.tex [1] [2
+
+]
 Chapter 1.
 LaTeX Font Info:    Trying to load font information for OT1+phv on input line 1
 .
@@ -1711,219 +1752,73 @@ Overfull \hbox (30.0pt too wide) in paragraph at lines 1--1
 [][]  
  []
 
-LaTeX Font Info:    Font shape `T1/QuattrocentoSans-TLF/m/it' in size <12> not 
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6 ...f, but man's investigation of nature.}\\ \\
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+LaTeX Font Info:    Trying to load font information for TS1+QuattrocentoSans-TL
+F on input line 15.
+(c:/texlive/2019/texmf-dist/tex/latex/quattrocento/TS1QuattrocentoSans-TLF.fd
+File: TS1QuattrocentoSans-TLF.fd 2019/04/03 (autoinst) Font definitions for TS1
+/QuattrocentoSans-TLF.
+)
+LaTeX Font Info:    Font shape `TS1/QuattrocentoSans-TLF/m/n' in size <10> not 
 available
-(Font)              Font shape `T1/QuattrocentoSans-TLF/regular/it' tried inste
-ad on input line 5.
-LaTeX Font Info:    Font shape `T1/QuattrocentoSans-TLF/regular/it' will be
-(Font)              scaled to size 12.0pt on input line 5.
+(Font)              Font shape `TS1/QuattrocentoSans-TLF/regular/n' tried inste
+ad on input line 15.
+LaTeX Font Info:    Font shape `TS1/QuattrocentoSans-TLF/regular/n' will be
+(Font)              scaled to size 10.0pt on input line 15.
 
-Package natbib Warning: Citation `vaughan_2013' on page vii undefined on input 
-line 10.
+Underfull \vbox (badness 1205) has occurred while \output is active []
 
-
-Package natbib Warning: Citation `gardner_reconciled_2013' on page vii undefine
-d on input line 13.
-
-
-Package natbib Warning: Citation `church_sea_2013' on page vii undefined on inp
-ut line 13.
+ [3]
+<Figures/intro/Figure_1.png, id=330, 997.22563pt x 930.97812pt>
+File: Figures/intro/Figure_1.png Graphic file (type png)
+<use Figures/intro/Figure_1.png>
+Package pdftex.def Info: Figures/intro/Figure_1.png  used on input line 19.
+(pdftex.def)             Requested size: 398.33858pt x 371.87325pt.
 
 
-Package natbib Warning: Citation `gardner_reconciled_2013' on page vii undefine
-d on input line 13.
+LaTeX Warning: Command \textendash invalid in math mode on input line 21.
 
 
-Package natbib Warning: Citation `marzeion_attribution_2014' on page vii undefi
-ned on input line 13.
+LaTeX Warning: Command \textendash invalid in math mode on input line 21.
 
 
-Package natbib Warning: Citation `marzeion_past_2012' on page vii undefined on 
-input line 13.
+LaTeX Warning: Command \textendash invalid in math mode on input line 21.
 
 
-Package natbib Warning: Citation `radic_regional_2014' on page vii undefined on
- input line 13.
+LaTeX Warning: Command \textendash invalid in math mode on input line 21.
 
 
-Package natbib Warning: Citation `huss_new_2015' on page vii undefined on input
- line 13.
+LaTeX Warning: Command \textendash invalid in math mode on input line 21.
 
 
-Package natbib Warning: Citation `marzeion_limited_2018' on page vii undefined 
-on input line 13.
+LaTeX Warning: Command \textendash invalid in math mode on input line 21.
 
 
-Package natbib Warning: Citation `huss_toward_2017' on page vii undefined on in
-put line 13.
+Package natbib Warning: Citation `marzeion_partitioning_2020' on page 4 undefin
+ed on input line 25.
 
 
-Package natbib Warning: Citation `huss_global-scale_2018' on page vii undefined
- on input line 13.
+Underfull \vbox (badness 2393) has occurred while \output is active []
 
+ [4 <./Figures/intro/Figure_1.PNG>])
+Underfull \vbox (badness 5490) has occurred while \output is active []
 
-Package natbib Warning: Citation `milner_glacier_2017' on page vii undefined on
- input line 13.
-
-
-Package natbib Warning: Citation `bolch_state_2012' on page vii undefined on in
-put line 15.
-
-
-Package natbib Warning: Citation `azam_review_2018' on page vii undefined on in
-put line 15.
-
-[7
+ [5]
+[6] [7] (./chapters/glaciology/methods/methods.tex [8
 
 ]
-
-Package natbib Warning: Citation `kaser_contribution_2010' on page viii undefin
-ed on input line 18.
-
-
-Package natbib Warning: Citation `immerzeel_climate_2010' on page viii undefine
-d on input line 18.
-
-
-Package natbib Warning: Citation `schaner_contribution_2012' on page viii undef
-ined on input line 18.
-
-
-Package natbib Warning: Citation `huss_toward_2017' on page viii undefined on i
-nput line 18.
-
-
-Package natbib Warning: Citation `kaab_contrasting_2012' on page viii undefined
- on input line 18.
-
-
-Package natbib Warning: Citation `gardelle_region-wide_2013' on page viii undef
-ined on input line 18.
-
-
-Package natbib Warning: Citation `marzeion_past_2012' on page viii undefined on
- input line 21.
-
-
-Package natbib Warning: Citation `radic_regional_2014' on page viii undefined o
-n input line 21.
-
-
-Package natbib Warning: Citation `huss_new_2015' on page viii undefined on inpu
-t line 21.
-
-
-Package natbib Warning: Citation `kraaijenbrink_impact_2017' on page viii undef
-ined on input line 21.
-
-
-Package natbib Warning: Citation `marzeion_past_2012' on page viii undefined on
- input line 22.
-
-
-Package natbib Warning: Citation `gardner_reconciled_2013' on page viii undefin
-ed on input line 22.
-
-
-Package natbib Warning: Citation `huss_new_2015' on page viii undefined on inpu
-t line 22.
-
-
-Package natbib Warning: Citation `scherler_spatially_2011' on page viii undefin
-ed on input line 24.
-
-
-Package natbib Warning: Citation `kraaijenbrink_impact_2017' on page viii undef
-ined on input line 24.
-
-
-Package natbib Warning: Citation `kraaijenbrink_impact_2017' on page viii undef
-ined on input line 27.
-
-
-Package natbib Warning: Citation `rowan_modelling_2015' on page viii undefined 
-on input line 27.
-
-
-Package natbib Warning: Citation `shea_modelling_2015' on page viii undefined o
-n input line 27.
-
-
-Package natbib Warning: Citation `rowan_modelling_2015' on page viii undefined 
-on input line 27.
-
-
-Package natbib Warning: Citation `shea_modelling_2015' on page viii undefined o
-n input line 27.
-
-
-Package natbib Warning: Citation `rowan_modelling_2015' on page viii undefined 
-on input line 27.
-
-
-Package natbib Warning: Citation `heid_repeat_2012' on page viii undefined on i
-nput line 29.
-
-
-Package natbib Warning: Citation `kirkbride_formation_2013' on page viii undefi
-ned on input line 29.
-
-
-Package natbib Warning: Citation `anderson_modeling_2016' on page viii undefine
-d on input line 29.
-
-
-Package natbib Warning: Citation `rowan_modelling_2015' on page viii undefined 
-on input line 29.
-
-
-Package natbib Warning: Citation `wirbel_modelling_2018' on page viii undefined
- on input line 29.
-
-
-Package natbib Warning: Citation `deline_change_2005' on page viii undefined on
- input line 29.
-
-
-Package natbib Warning: Citation `gardent_multitemporal_2014' on page viii unde
-fined on input line 29.
-
-
-Package natbib Warning: Citation `bhambri_glacier_2011' on page viii undefined 
-on input line 29.
-
-
-Package natbib Warning: Citation `thakuri_tracing_2014' on page viii undefined 
-on input line 29.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 29--30
-
- []
-
-[8]
-
-LaTeX Warning: Reference `chap:glaciers_and_climate' on page ix undefined on in
-put line 36.
-
-
-LaTeX Warning: Reference `chap:conclu' on page ix undefined on input line 36.
-
-
-LaTeX Warning: Reference `chap:paper_cliff' on page ix undefined on input line 
-36.
-
-
-Overfull \hbox (3.51546pt too wide) in paragraph at lines 36--37
-\T1/QuattrocentoSans-TLF/regular/n/12 This manuscript or-ga-ni-za-tion fol-lows
- a gen-eral di-rec-tion from large scales to small scales.
- []
-
-
-Package natbib Warning: Citation `cogley_glossary_2011' on page ix undefined on
- input line 38.
-
-) [9] [10] (./chapters/glaciology/methods/methods.tex
 Chapter 2.
 
 Overfull \hbox (30.0pt too wide) in paragraph at lines 1--1
@@ -1931,171 +1826,38 @@ Overfull \hbox (30.0pt too wide) in paragraph at lines 1--1
  []
 
 
-Package natbib Warning: Citation `ipcc_climate_2018' on page 1 undefined on inp
-ut line 17.
-
-
-Package natbib Warning: Citation `beniston_european_2018' on page 1 undefined o
-n input line 17.
-
-
-Package natbib Warning: Citation `vuille_rapid_2018' on page 1 undefined on inp
-ut line 17.
-
-
-Package natbib Warning: Citation `hock_glaciermip_2019' on page 1 undefined on 
-input line 17.
-
-
-Package natbib Warning: Citation `huss_global-scale_2018' on page 1 undefined o
-n input line 17.
-
-
-Underfull \vbox (badness 1990) has occurred while \output is active []
-
- [1
-
-]
-
-Package natbib Warning: Citation `hock_temperature_2003' on page 2 undefined on
- input line 24.
-
-
-Package natbib Warning: Citation `martin_correlation_1974' on page 2 undefined 
-on input line 25.
-
-
-Package natbib Warning: Citation `steiner_application_2005' on page 2 undefined
- on input line 25.
-
-
-Package natbib Warning: Citation `gerbaux_surface_2005' on page 2 undefined on 
-input line 26.
-
-
-Package natbib Warning: Citation `carlson_accounting_2014' on page 2 undefined 
-on input line 32.
-
-
-Package natbib Warning: Citation `zemp_alpine_2006' on page 2 undefined on inpu
-t line 32.
-
-
-Package natbib Warning: Citation `huss_new_2015' on page 2 undefined on input l
-ine 32.
-
-
-Package natbib Warning: Citation `marzeion_past_2012' on page 2 undefined on in
-put line 32.
-
-
-Package natbib Warning: Citation `radic_regional_2014' on page 2 undefined on i
-nput line 32.
-
-
-Package natbib Warning: Citation `zekollari_modelling_2019' on page 2 undefined
- on input line 33.
-
-
-Package natbib Warning: Citation `maussion_open_2019' on page 2 undefined on in
-put line 33.
-
-
-Package natbib Warning: Citation `gagliardini_capabilities_2013' on page 2 unde
-fined on input line 34.
-
-
-Package natbib Warning: Citation `jouvet_numerical_2009' on page 2 undefined on
- input line 34.
-
-
-Package natbib Warning: Citation `reveillet_simulations_2015' on page 2 undefin
-ed on input line 34.
-
-
-Package natbib Warning: Citation `reveillet_relative_2018' on page 2 undefined 
-on input line 37.
-
-
-Package natbib Warning: Citation `reveillet_relative_2018' on page 2 undefined 
-on input line 37.
-
-[2]
-
-Package natbib Warning: Citation `hoinkes_glacier_1968' on page 3 undefined on 
-input line 39.
-
-
-Package natbib Warning: Citation `martin_correlation_1974' on page 3 undefined 
-on input line 39.
-
-
-Package natbib Warning: Citation `ducournau_deep_2016' on page 3 undefined on i
-nput line 39.
-
-
-Package natbib Warning: Citation `lguensat_eddynet:_2018' on page 3 undefined o
-n input line 39.
-
-
-Package natbib Warning: Citation `rasp_deep_2018' on page 3 undefined on input 
-line 39.
-
-
-Package natbib Warning: Citation `jiang_deep_2018' on page 3 undefined on input
- line 39.
-
-
-Package natbib Warning: Citation `marcais_prospective_2017' on page 3 undefined
- on input line 39.
-
-
-Package natbib Warning: Citation `shen_transdisciplinary_2018' on page 3 undefi
-ned on input line 39.
-
-
-Package natbib Warning: Citation `steiner_application_2005' on page 3 undefined
- on input line 39.
-
-
-Package natbib Warning: Citation `steiner_sensitivity_2008' on page 3 undefined
- on input line 39.
-
-
-Package natbib Warning: Citation `nussbaumer_reseau_2012' on page 3 undefined o
-n input line 39.
-
-
-Package natbib Warning: Citation `maussion_enso_2015' on page 3 undefined on in
-put line 39.
-
-
-Package natbib Warning: Citation `houghton_climate_2001' on page 3 undefined on
- input line 39.
-
-
-Package natbib Warning: Citation `steiner_application_2005' on page 3 undefined
- on input line 39.
-
-
-Package natbib Warning: Citation `ingrassia_neural_2005' on page 3 undefined on
- input line 39.
-
-
-Package natbib Warning: Citation `olson_modern_2018' on page 3 undefined on inp
-ut line 39.
-
-
-Package natbib Warning: Citation `bolibar_jordibolibar/alpgm:_2019' on page 3 u
-ndefined on input line 41.
-
-
-Package natbib Warning: Citation `maussion_open_2019' on page 3 undefined on in
-put line 41.
-
-
-Package natbib Warning: Citation `zekollari_modelling_2019' on page 3 undefined
- on input line 41.
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6 ...odels are wrong, but some are useful.}\\ \\
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+LaTeX Font Info:    Font shape `T1/QuattrocentoSans-TLF/m/it' in size <10> not 
+available
+(Font)              Font shape `T1/QuattrocentoSans-TLF/regular/it' tried inste
+ad on input line 14.
+LaTeX Font Info:    Font shape `T1/QuattrocentoSans-TLF/regular/it' will be
+(Font)              scaled to size 10.0pt on input line 14.
+[9]
+Overfull \hbox (2.36815pt too wide) in paragraph at lines 26--27
+[]\T1/QuattrocentoSans-TLF/regular/n/10 Empirical mod-els, like the temperature
+-index model (e.g. []Hock[], []2003[]), sim-u-late glacier SMB through
+ []
+
+Missing character: There is no � in font QuattrocentoSans-tlf-t1!
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [10]
+
+Package natbib Warning: Citation `bolibar_jordibolibar/alpgm:_2019' on page 11 
+undefined on input line 43.
 
 
 ! Package inputenc Error: Unicode character Δ (U+0394)
@@ -2105,17 +1867,13 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.41 ...cier geometry, a refined version of the Δ
+l.43 ...cier geometry, a refined version of the Δ
                                                   h methodology \citep[e.g.,...
 
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-Package natbib Warning: Citation `huss_modelling_2008' on page 3 undefined on i
-nput line 41.
-
-
 ! Package inputenc Error: Unicode character Δ (U+0394)
 (inputenc)                not set up for use with LaTeX.
 
@@ -2123,187 +1881,56 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.41 ...we dynamically compute glacier-specific Δ
+l.43 ...we dynamically compute glacier-specific Δ
                                                   h functions. In order to v...
 
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-Package natbib Warning: Citation `durand_reanalysis_2009' on page 3 undefined o
-n input line 41.
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-Package natbib Warning: Citation `farinotti_consensus_2019' on page 3 undefined
- on input line 41.
-
-
-Underfull \vbox (badness 2970) has occurred while \output is active []
-
- [3]
-LaTeX Font Info:    Font shape `T1/QuattrocentoSans-TLF/m/n' in size <14.4> not
- available
+ [11]
+LaTeX Font Info:    Font shape `T1/QuattrocentoSans-TLF/m/n' in size <12> not a
+vailable
 (Font)              Font shape `T1/QuattrocentoSans-TLF/regular/n' tried instea
-d on input line 50.
+d on input line 52.
 LaTeX Font Info:    Font shape `T1/QuattrocentoSans-TLF/regular/n' will be
-(Font)              scaled to size 14.4pt on input line 50.
-LaTeX Font Info:    Font shape `T1/QuattrocentoSans-TLF/b/n' in size <14.4> not
- available
+(Font)              scaled to size 12.0pt on input line 52.
+LaTeX Font Info:    Font shape `T1/QuattrocentoSans-TLF/b/n' in size <12> not a
+vailable
 (Font)              Font shape `T1/QuattrocentoSans-TLF/bold/n' tried instead o
-n input line 50.
+n input line 52.
 LaTeX Font Info:    Font shape `T1/QuattrocentoSans-TLF/bold/n' will be
-(Font)              scaled to size 14.4pt on input line 50.
-<Figures/methods/Figure_1.png, id=293, 492.44778pt x 357.30289pt>
+(Font)              scaled to size 12.0pt on input line 52.
+<Figures/methods/Figure_1.png, id=495, 492.44778pt x 357.30289pt>
 File: Figures/methods/Figure_1.png Graphic file (type png)
 <use Figures/methods/Figure_1.png>
-Package pdftex.def Info: Figures/methods/Figure_1.png  used on input line 55.
+Package pdftex.def Info: Figures/methods/Figure_1.png  used on input line 58.
 (pdftex.def)             Requested size: 398.33858pt x 289.0212pt.
 
-[4]
-Overfull \hbox (15.78221pt too wide) in paragraph at lines 67--68
-[]\T1/QuattrocentoSans-TLF/regular/n/12 Once all pre-vi-ous steps have been run
-, the glacier evo-lu-tion sim-u-la-tions are launched.
- []
+[12 <./Figures/methods/Figure_1.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[5 <./Figures/methods/Figure_1.png>]
-Overfull \hbox (3.26344pt too wide) in paragraph at lines 75--76
-\T1/QuattrocentoSans-TLF/regular/n/12 In or-der to nar-row down which to-po-gra
-ph-i-cal and cli-matic vari-ables best ex-plain glacier-
- []
-
-
-Package natbib Warning: Citation `weisberg_applied_2014' on page 6 undefined on
- input line 77.
-
-
-Package natbib Warning: Citation `tibshirani_regression_1996' on page 6 undefin
-ed on input line 85.
-
-
-Package natbib Warning: Citation `seabold_statsmodels:_2010' on page 6 undefine
-d on input line 85.
-
-
-Package natbib Warning: Citation `pedregosa_scikit-learn:_2012' on page 6 undef
-ined on input line 85.
-
-
-Package natbib Warning: Citation `chollet_keras_2015' on page 6 undefined on in
-put line 85.
-
-[6]
-<Figures/methods/Figure_2.png, id=319, 579.66562pt x 270.51062pt>
+ [13]
+<Figures/methods/Figure_2.png, id=527, 579.66562pt x 270.51062pt>
 File: Figures/methods/Figure_2.png Graphic file (type png)
 <use Figures/methods/Figure_2.png>
-Package pdftex.def Info: Figures/methods/Figure_2.png  used on input line 88.
+Package pdftex.def Info: Figures/methods/Figure_2.png  used on input line 92.
 (pdftex.def)             Requested size: 256.0748pt x 119.49971pt.
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-Package natbib Warning: Citation `hawkins_problem_2004' on page 7 undefined on 
-input line 94.
-
-
-Package natbib Warning: Citation `hastie_elements_2009' on page 7 undefined on 
-input line 94.
-
-
-Package natbib Warning: Citation `whittingham_why_2006' on page 7 undefined on 
-input line 94.
-
-
-Package natbib Warning: Citation `tibshirani_regression_1996' on page 7 undefin
-ed on input line 98.
-
-
-Package natbib Warning: Citation `hastie_elements_2009' on page 7 undefined on 
-input line 98.
-
-
-Package natbib Warning: Citation `hoerl_ridge_1970' on page 7 undefined on inpu
-t line 98.
-
-
-Package natbib Warning: Citation `tibshirani_least_2004' on page 7 undefined on
- input line 98.
-
-
-Overfull \hbox (1.4359pt too wide) in paragraph at lines 98--99
-\T1/QuattrocentoSans-TLF/regular/n/12 which at-tempts to over-come the short-co
-m-ings of the sim-pler step-wise and all-possible
- []
-
-[7 <./Figures/methods/Figure_2.png>]
-
-Package natbib Warning: Citation `fausett_fundamentals_1994' on page 8 undefine
-d on input line 102.
-
-
-Package natbib Warning: Citation `hastie_elements_2009' on page 8 undefined on 
-input line 102.
-
-
-Package natbib Warning: Citation `fausett_fundamentals_1994' on page 8 undefine
-d on input line 102.
-
-
-Package natbib Warning: Citation `fausett_fundamentals_1994' on page 8 undefine
-d on input line 102.
-
-
-Package natbib Warning: Citation `hastie_elements_2009' on page 8 undefined on 
-input line 102.
-
-
-Package natbib Warning: Citation `steiner_application_2005' on page 8 undefined
- on input line 102.
-
-
-Package natbib Warning: Citation `steiner_sensitivity_2008' on page 8 undefined
- on input line 102.
-
-
-Package natbib Warning: Citation `houghton_climate_2001' on page 8 undefined on
- input line 102.
-
-
-Package natbib Warning: Citation `steiner_application_2005' on page 8 undefined
- on input line 102.
-
-
-Package natbib Warning: Citation `hastie_elements_2009' on page 8 undefined on 
-input line 104.
-
-[8]
-<Figures/methods/Figure_3.pdf, id=333, 465.25273pt x 126.71307pt>
+ [14 <./Figures/methods/Figure_2.png>] [15]
+<Figures/methods/Figure_3.pdf, id=592, 465.25273pt x 126.71307pt>
 File: Figures/methods/Figure_3.pdf Graphic file (type pdf)
 <use Figures/methods/Figure_3.pdf>
-Package pdftex.def Info: Figures/methods/Figure_3.pdf  used on input line 107.
+Package pdftex.def Info: Figures/methods/Figure_3.pdf  used on input line 112.
 (pdftex.def)             Requested size: 426.79134pt x 116.23714pt.
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-Package natbib Warning: Citation `srivastava_dropout:_2014' on page 9 undefined
- on input line 111.
-
-
-Package natbib Warning: Citation `xu_empirical_2015' on page 9 undefined on inp
-ut line 111.
-
-
-Package natbib Warning: Citation `he_delving_2015' on page 9 undefined on input
- line 111.
-
-
-Package natbib Warning: Citation `ioffe_batch_2015' on page 9 undefined on inpu
-t line 111.
-
-
-Package natbib Warning: Citation `thibert_causes_2018' on page 9 undefined on i
-nput line 113.
-
-
-Underfull \vbox (badness 1005) has occurred while \output is active []
-
- [9 <./Figures/methods/Figure_3.pdf>]
+ [16 <./Figures/methods/Figure_3.pdf>]
 
 ! Package inputenc Error: Unicode character Δ (U+0394)
 (inputenc)                not set up for use with LaTeX.
@@ -2312,21 +1939,13 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.117 ...is redistribution is applied using the Δ
+l.123 ...is redistribution is applied using the Δ
                                                   h parameterization. The id...
 
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-Package natbib Warning: Citation `johannesson_timescale_1989' on page 10 undefi
-ned on input line 117.
-
-
-Package natbib Warning: Citation `huss_modelling_2008' on page 10 undefined on 
-input line 117.
-
-
 ! Package inputenc Error: Unicode character Δ (U+0394)
 (inputenc)                not set up for use with LaTeX.
 
@@ -2334,291 +1953,286 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.117 ... the normalized glacier altitude. This Δ
+l.123 ... the normalized glacier altitude. This Δ
                                                   h function is specific for...
 
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
-
-Overfull \hbox (0.15503pt too wide) in paragraph at lines 117--118
-\T1/QuattrocentoSans-TLF/regular/n/12 Since the first com-po-nent of ALPGM sim-
-u-lates an-nual glacier-wide SMBs, these changes
- []
-
-
-Package natbib Warning: Citation `vincent_future_2014' on page 10 undefined on 
-input line 119.
-
-
-Package natbib Warning: Citation `vincent_future_2014' on page 10 undefined on 
-input line 119.
-
-
-Package natbib Warning: Citation `vincent_future_2014' on page 10 undefined on 
-input line 121.
-
-
-Package natbib Warning: Citation `huss_new_2015' on page 10 undefined on input 
-line 121.
-
-
-Package natbib Warning: Citation `hanzer_projected_2018' on page 10 undefined o
-n input line 121.
-
-
-Package natbib Warning: Citation `vincent_declin_2019' on page 10 undefined on 
-input line 121.
-
-LaTeX Font Info:    Trying to load font information for TS1+QuattrocentoSans-TL
-F on input line 126.
-(c:/texlive/2019/texmf-dist/tex/latex/quattrocento/TS1QuattrocentoSans-TLF.fd
-File: TS1QuattrocentoSans-TLF.fd 2019/04/03 (autoinst) Font definitions for TS1
-/QuattrocentoSans-TLF.
-)
-LaTeX Font Info:    Font shape `TS1/QuattrocentoSans-TLF/m/n' in size <12> not 
-available
-(Font)              Font shape `TS1/QuattrocentoSans-TLF/regular/n' tried inste
-ad on input line 126.
-LaTeX Font Info:    Font shape `TS1/QuattrocentoSans-TLF/regular/n' will be
-(Font)              scaled to size 12.0pt on input line 126.
-
-[10]
-<Figures/methods/Figure_4.pdf, id=364, 399.4925pt x 598.235pt>
+[17]
+<Figures/methods/Figure_4.pdf, id=681, 399.4925pt x 598.235pt>
 File: Figures/methods/Figure_4.pdf Graphic file (type pdf)
 <use Figures/methods/Figure_4.pdf>
-Package pdftex.def Info: Figures/methods/Figure_4.pdf  used on input line 132.
+Package pdftex.def Info: Figures/methods/Figure_4.pdf  used on input line 146.
 (pdftex.def)             Requested size: 236.15796pt x 353.64934pt.
-LaTeX Font Info:    Font shape `TS1/QuattrocentoSans-TLF/m/n' in size <10.95> n
-ot available
+LaTeX Font Info:    Font shape `TS1/QuattrocentoSans-TLF/m/n' in size <9> not a
+vailable
 (Font)              Font shape `TS1/QuattrocentoSans-TLF/regular/n' tried inste
-ad on input line 133.
+ad on input line 147.
 LaTeX Font Info:    Font shape `TS1/QuattrocentoSans-TLF/regular/n' will be
-(Font)              scaled to size 10.95pt on input line 133.
-
-
-Package natbib Warning: Citation `rabatel_spatio-temporal_2016' on page 11 unde
-fined on input line 136.
-
-
-Package natbib Warning: Citation `rabatel_spatio-temporal_2016' on page 11 unde
-fined on input line 136.
-
-
-Underfull \hbox (badness 3108) in paragraph at lines 136--137
-\T1/QuattrocentoSans-TLF/regular/n/12 based on changes in glacier vol-
+(Font)              scaled to size 9.0pt on input line 147.
+ [18]
+Overfull \hbox (0.71057pt too wide) in paragraph at lines 151--152
+[]\T1/QuattrocentoSans-TLF/regular/n/10 Glacier ice thick-ness data come from [
+]Farinotti
  []
 
 
-Underfull \hbox (badness 1331) in paragraph at lines 136--137
-\T1/QuattrocentoSans-TLF/regular/n/12 for 30 glaciers in the French Alps
+Underfull \hbox (badness 1097) in paragraph at lines 151--152
+\T1/QuattrocentoSans-TLF/regular/n/10 re-sent the lat-est con-sen-sus es-ti-mat
+e, av-
  []
 
 
-Underfull \hbox (badness 4001) in paragraph at lines 136--137
-\T1/QuattrocentoSans-TLF/regular/n/12 ent setup of glaciers with dif-fer-
+LaTeX Warning: Reference `methods:figS2' on page 19 undefined on input line 153
+.
+
+
+Underfull \hbox (badness 2111) in paragraph at lines 153--154
+\T1/QuattrocentoSans-TLF/regular/n/10 u-lated ice thick-nesses from F19 (re-fer
+ to
  []
 
+[19 <./Figures/methods/Figure_4.pdf>]
 
-Package natbib Warning: Citation `gardent_multitemporal_2014' on page 11 undefi
-ned on input line 140.
+LaTeX Warning: Reference `methods:figS3' on page 20 undefined on input line 167
+.
 
-
-Package natbib Warning: Citation `glims_and_nsidc_global_2005' on page 11 undef
-ined on input line 140.
-
-
-Package natbib Warning: Citation `gardent_multitemporal_2014' on page 11 undefi
-ned on input line 140.
-
-
-Package natbib Warning: Citation `farinotti_consensus_2019' on page 11 undefine
-d on input line 140.
-
-
-Package natbib Warning: Citation `rabatel_spatio-temporal_2016' on page 11 unde
-fined on input line 140.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [11 <./Figures/methods/Figure_4.pdf>]
-
-Package natbib Warning: Citation `farinotti_consensus_2019' on page 12 undefine
-d on input line 144.
-
-
-Package natbib Warning: Citation `consortium_randolph_2017' on page 12 undefine
-d on input line 144.
-
-
-Package natbib Warning: Citation `rabatel_estimation_2018' on page 12 undefined
- on input line 146.
-
-
-Package natbib Warning: Citation `rabatel_estimation_2018' on page 12 undefined
- on input line 146.
-
-
-Package natbib Warning: Citation `durand_reanalysis_2009' on page 12 undefined 
-on input line 150.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [12]
-
-Package natbib Warning: Citation `hoinkes_glacier_1968' on page 13 undefined on
- input line 158.
-
-
-Package natbib Warning: Citation `martin_correlation_1974' on page 13 undefined
- on input line 158.
-
-
-Package natbib Warning: Citation `martin_correlation_1974' on page 13 undefined
- on input line 158.
-
-
-Package natbib Warning: Citation `six_sensitivity_2014' on page 13 undefined on
- input line 158.
-
-
-Package natbib Warning: Citation `rabatel_changes_2013' on page 13 undefined on
- input line 158.
-
-
-Package natbib Warning: Citation `rabatel_spatio-temporal_2016' on page 13 unde
-fined on input line 158.
-
-
-Package natbib Warning: Citation `huss_extrapolating_2012' on page 13 undefined
- on input line 158.
-
-
-Package natbib Warning: Citation `rabatel_changes_2013' on page 13 undefined on
- input line 158.
-
-
-Package natbib Warning: Citation `zekollari_statistical_2018' on page 13 undefi
-ned on input line 160.
-
-[13]
-LaTeX Font Info:    Font shape `T1/QuattrocentoSans-TLF/m/n' in size <9> not av
+LaTeX Font Info:    Font shape `T1/QuattrocentoSans-TLF/m/n' in size <7.6> not 
+available
+(Font)              Font shape `T1/QuattrocentoSans-TLF/regular/n' tried instea
+d on input line 172.
+LaTeX Font Info:    Font shape `T1/QuattrocentoSans-TLF/regular/n' will be
+(Font)              scaled to size 7.6pt on input line 172.
+LaTeX Font Info:    Font shape `T1/QuattrocentoSans-TLF/m/n' in size <6> not av
 ailable
 (Font)              Font shape `T1/QuattrocentoSans-TLF/regular/n' tried instea
-d on input line 165.
+d on input line 172.
 LaTeX Font Info:    Font shape `T1/QuattrocentoSans-TLF/regular/n' will be
-(Font)              scaled to size 9.0pt on input line 165.
-LaTeX Font Info:    Font shape `T1/QuattrocentoSans-TLF/m/n' in size <7> not av
-ailable
-(Font)              Font shape `T1/QuattrocentoSans-TLF/regular/n' tried instea
-d on input line 165.
-LaTeX Font Info:    Font shape `T1/QuattrocentoSans-TLF/regular/n' will be
-(Font)              scaled to size 7.0pt on input line 165.
+(Font)              scaled to size 6.0pt on input line 172.
 
-Underfull \hbox (badness 10000) in paragraph at lines 170--185
+Underfull \hbox (badness 10000) in paragraph at lines 177--192
 
  []
 
+[20]
+! Missing $ inserted.
+<inserted text> 
+                $
+l.196 \begin{flushleft}
+                       
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
 
-Overfull \hbox (66.39005pt too wide) detected at line 195
-[][][]
- []
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.196 \begin{flushleft}
+                       
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
 
-[14]
-
-Package natbib Warning: Citation `reveillet_relative_2018' on page 15 undefined
- on input line 201.
-
-
-Package natbib Warning: Citation `huss_conventional_2012' on page 15 undefined 
-on input line 203.
-
-
-Package natbib Warning: Citation `vionnet_numerical_2016' on page 15 undefined 
-on input line 203.
-
-<Figures/methods/Figure_5.pdf, id=434, 391.4625pt x 567.11874pt>
-File: Figures/methods/Figure_5.pdf Graphic file (type pdf)
-<use Figures/methods/Figure_5.pdf>
-Package pdftex.def Info: Figures/methods/Figure_5.pdf  used on input line 207.
-(pdftex.def)             Requested size: 236.15796pt x 342.12572pt.
-
-Package natbib Warning: Citation `steiner_application_2005' on page 15 undefine
-d on input line 215.
-
-[15]
-<Figures/methods/Figure_6.pdf, id=441, 568.96408pt x 577.71754pt>
-File: Figures/methods/Figure_6.pdf Graphic file (type pdf)
-<use Figures/methods/Figure_6.pdf>
-Package pdftex.def Info: Figures/methods/Figure_6.pdf  used on input line 219.
-(pdftex.def)             Requested size: 341.43306pt x 346.69492pt.
-
-Underfull \vbox (badness 1997) has occurred while \output is active []
-
- [16 <./Figures/methods/Figure_6.pdf>]
-<Figures/methods/Figure_7.pdf, id=12265, 560.47884pt x 212.81613pt>
-File: Figures/methods/Figure_7.pdf Graphic file (type pdf)
-<use Figures/methods/Figure_7.pdf>
-Package pdftex.def Info: Figures/methods/Figure_7.pdf  used on input line 227.
-(pdftex.def)             Requested size: 398.33858pt x 151.25313pt.
+! Display math should end with $$.
+<to be read again> 
+                   \par 
+l.196 \begin{flushleft}
+                       
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
 
 
-! LaTeX Error: \begin{document} ended by \end{center}.
+! Package amsmath Error: \begin{aligned} allowed only in math mode.
+
+See the amsmath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.198 S
+        M B_{g, y} ={} & ((a_{1} \overline{Z}+a_{2} Z_{\max }+a_{3} \alpha_{...
+
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.198 S
+        M B_{g, y} ={} & ((a_{1} \overline{Z}+a_{2} Z_{\max }+a_{3} \alpha_{...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.202 \end{aligned}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+! LaTeX Error: \begin{equation} on input line 195 ended by \end{flushleft}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.230 \end{center}
-                  
+l.203 \end{flushleft}
+                     
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
+
+! LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.204 \end{equation}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! You can't use `\eqno' in vertical mode.
+\endmathdisplay@a ...\df@tag \@empty \else \veqno 
+                                                  \alt@tag \df@tag \fi \ifx ...
+l.204 \end{equation}
+                    
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+
+! LaTeX Error: \begin{document} ended by \end{equation}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.204 \end{equation}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.204 \end{equation}
+                    
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Display math should end with $$.
+<to be read again> 
+                   \endgroup 
+l.204 \end{equation}
+                    
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
+
 ! Extra \endgroup.
 <recently read> \endgroup 
                           
-l.230 \end{center}
-                  
+l.204 \end{equation}
+                    
 Things are pretty mixed up, but I think the worst is over.
 
-<Figures/methods/Figure_8.pdf, id=12266, 492.94984pt x 239.37903pt>
+[21]
+<Figures/methods/Figure_5.pdf, id=806, 391.4625pt x 567.11874pt>
+File: Figures/methods/Figure_5.pdf Graphic file (type pdf)
+<use Figures/methods/Figure_5.pdf>
+Package pdftex.def Info: Figures/methods/Figure_5.pdf  used on input line 214.
+(pdftex.def)             Requested size: 236.15796pt x 342.12572pt.
+
+Underfull \hbox (badness 1895) in paragraph at lines 219--220
+[][]\T1/QuattrocentoSans-TLF/regular/n/10 In a sec-ond term, to-po-graph-i-cal 
+pre-
+ []
+
+
+Underfull \hbox (badness 1142) in paragraph at lines 219--220
+\T1/QuattrocentoSans-TLF/regular/n/10 higher un-cer-tain-ties for high al-ti-tu
+de pre-
+ []
+
+
+Underfull \hbox (badness 2189) in paragraph at lines 223--224
+\T1/QuattrocentoSans-TLF/regular/n/10 In or-der to eval-u-ate the per-for-mance
+ of
+ []
+
+
+Overfull \hbox (0.82716pt too wide) in paragraph at lines 223--224
+\T1/QuattrocentoSans-TLF/regular/n/10 cross-validation. For rel-a-tively small 
+datasets
+ []
+
+
+Underfull \hbox (badness 4168) in paragraph at lines 223--224
+\T1/QuattrocentoSans-TLF/regular/n/10 like the one used in this study, cross-
+ []
+
+[22 <./Figures/methods/Figure_5.pdf>]
+<Figures/methods/Figure_6.pdf, id=832, 568.96408pt x 577.71754pt>
+File: Figures/methods/Figure_6.pdf Graphic file (type pdf)
+<use Figures/methods/Figure_6.pdf>
+Package pdftex.def Info: Figures/methods/Figure_6.pdf  used on input line 229.
+(pdftex.def)             Requested size: 341.43306pt x 346.69492pt.
+<Figures/methods/Figure_7.pdf, id=834, 560.47884pt x 212.81613pt>
+File: Figures/methods/Figure_7.pdf Graphic file (type pdf)
+<use Figures/methods/Figure_7.pdf>
+Package pdftex.def Info: Figures/methods/Figure_7.pdf  used on input line 238.
+(pdftex.def)             Requested size: 398.33858pt x 151.25313pt.
+ [23 <./Figures/methods/Figure_6.pdf>]
+<Figures/methods/Figure_8.pdf, id=12659, 492.94984pt x 239.37903pt>
 File: Figures/methods/Figure_8.pdf Graphic file (type pdf)
 <use Figures/methods/Figure_8.pdf>
-Package pdftex.def Info: Figures/methods/Figure_8.pdf  used on input line 236.
+Package pdftex.def Info: Figures/methods/Figure_8.pdf  used on input line 247.
 (pdftex.def)             Requested size: 455.24408pt x 221.07147pt.
 
-Overfull \hbox (11.38089pt too wide) in paragraph at lines 236--237
+Overfull \hbox (11.38089pt too wide) in paragraph at lines 247--248
  [][] 
  []
 
-<Figures/methods/Figure_9.pdf, id=12267, 571.42365pt x 580.9075pt>
+[24 <./Figures/methods/Figure_7.pdf> <./Figures/methods/Figure_8.pdf
+
+pdfTeX warning: pdflatex.exe (file ./Figures/methods/Figure_8.pdf): PDF inclusi
+on: multiple pdfs with page group included in a single page
+>]
+<Figures/methods/Figure_9.pdf, id=12764, 571.42365pt x 580.9075pt>
 File: Figures/methods/Figure_9.pdf Graphic file (type pdf)
 <use Figures/methods/Figure_9.pdf>
-Package pdftex.def Info: Figures/methods/Figure_9.pdf  used on input line 248.
+Package pdftex.def Info: Figures/methods/Figure_9.pdf  used on input line 260.
 (pdftex.def)             Requested size: 341.43306pt x 347.10237pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[17 <./Figures/methods/Figure_7.pdf>]
-<Figures/methods/Figure_10.pdf, id=12345, 556.63818pt x 256.68343pt>
+<Figures/methods/Figure_10.pdf, id=12766, 556.63818pt x 256.68343pt>
 File: Figures/methods/Figure_10.pdf Graphic file (type pdf)
 <use Figures/methods/Figure_10.pdf>
-Package pdftex.def Info: Figures/methods/Figure_10.pdf  used on input line 256.
+Package pdftex.def Info: Figures/methods/Figure_10.pdf  used on input line 269.
 
 (pdftex.def)             Requested size: 455.24408pt x 209.9295pt.
 
-Overfull \hbox (11.38089pt too wide) in paragraph at lines 256--257
+Overfull \hbox (11.38089pt too wide) in paragraph at lines 269--270
  [][] 
  []
 
+[25 <./Figures/methods/Figure_9.pdf>]
 
-Package natbib Warning: Citation `roberts_cross-validation_2017' on page 18 und
-efined on input line 262.
+LaTeX Warning: Reference `methods:figS5' on page 26 undefined on input line 278
+.
 
-[18 <./Figures/methods/Figure_8.pdf>]
 
 ! Package inputenc Error: Unicode character Δ (U+0394)
 (inputenc)                not set up for use with LaTeX.
@@ -2627,41 +2241,13 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.268 As mentioned in Sect. 2.3, the Δ
-                                       h parameterization has been widely us...
+l.283 ...ect. \ref{methods:methods:deltah}, the Δ
+                                                  h parameterization has bee...
 
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-Package natbib Warning: Citation `huss_modelling_2008' on page 19 undefined on 
-input line 268.
-
-
-Package natbib Warning: Citation `huss_future_2010' on page 19 undefined on inp
-ut line 268.
-
-
-Package natbib Warning: Citation `vincent_future_2014' on page 19 undefined on 
-input line 268.
-
-
-Package natbib Warning: Citation `huss_new_2015' on page 19 undefined on input 
-line 268.
-
-
-Package natbib Warning: Citation `huss_global-scale_2018' on page 19 undefined 
-on input line 268.
-
-
-Package natbib Warning: Citation `hanzer_projected_2018' on page 19 undefined o
-n input line 268.
-
-
-Package natbib Warning: Citation `vincent_declin_2019' on page 19 undefined on 
-input line 268.
-
-
 ! Package inputenc Error: Unicode character Δ (U+0394)
 (inputenc)                not set up for use with LaTeX.
 
@@ -2669,215 +2255,146 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.268 ...oach developed in ALPGM to compute the Δ
+l.283 ...oach developed in ALPGM to compute the Δ
                                                   h functions and show some ...
 
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
+[26 <./Figures/methods/Figure_10.pdf>]
+! Missing $ inserted.
+<inserted text> 
+                $
+l.285 The glacier-specific \Delta
+                                  h functions are computed for glaciers $\ge...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
 
-Package natbib Warning: Citation `vincent_future_2014' on page 19 undefined on 
-input line 268.
+! Missing $ inserted.
+<inserted text> 
+                $
+l.285 ...functions are computed for glaciers $\geq
+                                                  $ 0.5 \(km^2\), which repr...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
 
 
-! Package inputenc Error: Unicode character Δ (U+0394)
-(inputenc)                not set up for use with LaTeX.
+LaTeX Warning: Reference `methods:figS4' on page 27 undefined on input line 285
+.
 
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.270 The glacier-specific Δ
-                             h functions are computed for glaciers $\geq$ 0....
+! Missing $ inserted.
+<inserted text> 
+                $
+l.287 ...o account the uncertainties in the \Delta
+                                                   h glacier geometry update...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
 
-You may provide a definition with
-\DeclareUnicodeCharacter 
 
-[19 <./Figures/methods/Figure_9.pdf>]
+LaTeX Warning: Command \textpm invalid in math mode on input line 287.
 
-! Package inputenc Error: Unicode character Δ (U+0394)
-(inputenc)                not set up for use with LaTeX.
 
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.272 ... into account the uncertainties in the Δ
-                                                  h glacier geometry update ...
+LaTeX Warning: Command \textpm invalid in math mode on input line 287.
 
-You may provide a definition with
-\DeclareUnicodeCharacter 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.288 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
 
-<Figures/methods/Figure_11.pdf, id=24488, 875.91241pt x 374.3586pt>
+Missing character: There is no � in font jkpmn7t!
+
+Overfull \hbox (82.76697pt too wide) in paragraph at lines 287--288
+\U/jkpmia/m/it/10 ^^A\OML/jkp/m/it/10 hglaciergeometryupdatefunctioncomputation
+; weaddeda\OT1/jkp/m/n/10 10%\OML/jkp/m/it/10 variationintheparameterizedfuncti
+ons\OT1/jkp/m/n/10 (\OML/jkp/m/it/10 Fig:[]\OT1/jkp/m/n/10 2\OML/jkp/m/it/10 :\
+OT1/jkp/m/n/10 11[])\OML/jkp/m/it/10 :$ 
+ []
+
+<Figures/methods/Figure_11.pdf, id=24929, 875.91241pt x 374.3586pt>
 File: Figures/methods/Figure_11.pdf Graphic file (type pdf)
 <use Figures/methods/Figure_11.pdf>
-Package pdftex.def Info: Figures/methods/Figure_11.pdf  used on input line 276.
+Package pdftex.def Info: Figures/methods/Figure_11.pdf  used on input line 291.
 
 (pdftex.def)             Requested size: 426.79134pt x 182.4034pt.
+! Missing $ inserted.
+<inserted text> 
+                $
+l.296 ...s dataset. Other studies using the \Delta
+                                                   h parameterization alread...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-! Package inputenc Error: Unicode character Δ (U+0394)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.280 ...kness dataset. Other studies using the Δ
-                                                  h parameterization already...
-
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-Package natbib Warning: Citation `huss_new_2015' on page 20 undefined on input 
-line 280.
+! Missing $ inserted.
+<inserted text> 
+                $
+l.297 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [20 <./Figures/methods/Figure_10.pdf>]
-
-Package natbib Warning: Citation `roberts_cross-validation_2017' on page 21 und
-efined on input line 290.
-
-
-Package natbib Warning: Citation `berlingerio_evaluation_2019' on page 21 undef
-ined on input line 290.
-
-
-Package natbib Warning: Citation `huss_extrapolating_2012' on page 21 undefined
- on input line 290.
-
-
-Package natbib Warning: Citation `rabatel_spatio-temporal_2016' on page 21 unde
-fined on input line 290.
-
-
-Package natbib Warning: Citation `vincent_common_2017' on page 21 undefined on 
-input line 290.
-
-[21 <./Figures/methods/Figure_11.pdf>]
-Underfull \hbox (badness 1052) in paragraph at lines 292--293
-[][]\T1/QuattrocentoSans-TLF/regular/n/12 In or-der to cope with the spe-cific
+Overfull \hbox (719.24236pt too wide) in paragraph at lines 296--297
+\T1/QuattrocentoSans-TLF/regular/n/10 the orig-i-nal F19 ice thick-ness dataset
+. Other stud-ies us-ing the $\U/jkpmia/m/it/10 ^^A\OML/jkp/m/it/10 hparameteriz
+ationalreadyprovedthattheinitialicethicknessisthemostimportantuncertaintyinglac
+ierevolutionsimulations; togetherwiththechoiceofaGCMforfutureprojections\OT1/jk
+p/m/n/10 ([][][]\OML/jkp/m/it/10 ; [] \OT1/jkp/m/n/10 2015[])\OML/jkp/m/it/10 :
+$ 
  []
 
+[27 <./Figures/methods/Figure_11.pdf>] [28]
 
-Underfull \hbox (badness 1048) in paragraph at lines 292--293
-\T1/QuattrocentoSans-TLF/regular/n/12 chal-lenges re-lated to each type of
+LaTeX Warning: Reference `methods:figS6' on page 29 undefined on input line 316
+.
+
+[29]
+
+Package natbib Warning: Citation `bolibar_jordibolibar/alpgm:_2019' on page 30 
+undefined on input line 322.
+
+[30]
+! Missing $ inserted.
+<inserted text> 
+                $
+l.330 Before computing the glacier-specific \Delta
+                                                   h parameterized functions...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.331 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (476.87038pt too wide) in paragraph at lines 330--331
+\T1/QuattrocentoSans-TLF/regular/n/10 Before com-put-ing the glacier-specific $
+\U/jkpmia/m/it/10 ^^A\OML/jkp/m/it/10 hparameterizedfunctions; somepreprocessin
+gisdonetotheregionalFrenchAlpsDEMrasterfilesinordertofilterartefactsandnoise:Th
+eprocessingchainworksasfollows \OT1/jkp/m/n/10 :$ 
  []
 
-
-Underfull \hbox (badness 2626) in paragraph at lines 292--293
-\T1/QuattrocentoSans-TLF/regular/n/12 cross-validation, there are sev-eral
- []
-
-
-Underfull \hbox (badness 1946) in paragraph at lines 292--293
-\T1/QuattrocentoSans-TLF/regular/n/12 per-formed in a sub-set of ran-dom
- []
-
-
-Underfull \vbox (badness 1708) has occurred while \output is active []
-
- [22 <./Figures/methods/Figure_5.pdf>]
-
-Package natbib Warning: Citation `reveillet_which_2017' on page 23 undefined on
- input line 298.
-
-
-Package natbib Warning: Citation `benn_glaciers_2014' on page 23 undefined on i
-nput line 298.
-
-
-Package natbib Warning: Citation `maussion_enso_2015' on page 23 undefined on i
-nput line 298.
-
-
-Package natbib Warning: Citation `huss_conventional_2012' on page 23 undefined 
-on input line 300.
-
-
-Package natbib Warning: Citation `farinotti_consensus_2019' on page 23 undefine
-d on input line 300.
-
-[23]
-
-Package natbib Warning: Citation `karpatne_physics-guided_2018' on page 24 unde
-fined on input line 302.
-
-
-Package natbib Warning: Citation `karpatne_theory-guided_2017' on page 24 undef
-ined on input line 302.
-
-
-Package natbib Warning: Citation `de_bezenac_deep_2018' on page 24 undefined on
- input line 302.
-
-
-Package natbib Warning: Citation `lguensat_learning_2019' on page 24 undefined 
-on input line 302.
-
-
-Package natbib Warning: Citation `rackauckas_universal_2020' on page 24 undefin
-ed on input line 302.
-
-
-Package natbib Warning: Citation `brun_spatially_2017' on page 24 undefined on 
-input line 302.
-
-
-Package natbib Warning: Citation `zemp_global_2019' on page 24 undefined on inp
-ut line 302.
-
-
-Package natbib Warning: Citation `dussaillant_two_2019' on page 24 undefined on
- input line 302.
-
-
-Package natbib Warning: Citation `bolibar_jordibolibar/alpgm:_2019' on page 24 
-undefined on input line 306.
-
-[24]
-
-Package natbib Warning: Citation `karpatne_physics-guided_2018' on page 25 unde
-fined on input line 308.
-
-
-Package natbib Warning: Citation `rackauckas_universal_2020' on page 25 undefin
-ed on input line 308.
-
-
-! Package inputenc Error: Unicode character Δ (U+0394)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.314 Before computing the glacier-specific Δ
-                                              h parameterized functions, som...
-
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-[25]
-<Figures/methods/Figure_S1.png, id=24613, 573.14125pt x 293.59688pt>
+<Figures/methods/Figure_S1.png, id=25064, 573.14125pt x 293.59688pt>
 File: Figures/methods/Figure_S1.png Graphic file (type png)
 <use Figures/methods/Figure_S1.png>
-Package pdftex.def Info: Figures/methods/Figure_S1.png  used on input line 335.
+Package pdftex.def Info: Figures/methods/Figure_S1.png  used on input line 351.
 
 (pdftex.def)             Requested size: 341.43306pt x 174.90509pt.
 
-
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[26]
-Underfull \vbox (badness 1062) has occurred while \output is active []
+[31]
 
- [27 <./Figures/methods/Figure_S1.PNG>]
+LaTeX Warning: Reference `methods:figS6' on page 32 undefined on input line 368
+.
+
+[32 <./Figures/methods/Figure_S1.PNG>]
 
 ! Package inputenc Error: Unicode character   (U+2003)
 (inputenc)                not set up for use with LaTeX.
@@ -2886,587 +2403,382 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.360  
+l.376  
          
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
-<Figures/methods/Figure_S2.png, id=24630, 618.31pt x 378.41376pt>
+<Figures/methods/Figure_S2.png, id=25089, 618.31pt x 378.41376pt>
 File: Figures/methods/Figure_S2.png Graphic file (type png)
 <use Figures/methods/Figure_S2.png>
-Package pdftex.def Info: Figures/methods/Figure_S2.png  used on input line 367.
+Package pdftex.def Info: Figures/methods/Figure_S2.png  used on input line 383.
 
 (pdftex.def)             Requested size: 426.79134pt x 261.2097pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Figures/methods/Figure_S3.png, id=24631, 463.7325pt x 398.99063pt>
+<Figures/methods/Figure_S3.png, id=25090, 463.7325pt x 398.99063pt>
 File: Figures/methods/Figure_S3.png Graphic file (type png)
 <use Figures/methods/Figure_S3.png>
-Package pdftex.def Info: Figures/methods/Figure_S3.png  used on input line 373.
+Package pdftex.def Info: Figures/methods/Figure_S3.png  used on input line 389.
 
 (pdftex.def)             Requested size: 398.33858pt x 342.73561pt.
-
-! Package inputenc Error: Unicode character Δ (U+0394)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
+! Missing $ inserted.
+<inserted text> 
+                $
+l.390 ...pends on the number of available pixels.}
                                                   
-l.374 ...pends on the number of available pixels.}
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.390 ...pends on the number of available pixels.}
                                                   
-You may provide a definition with
-\DeclareUnicodeCharacter 
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.390 ...pends on the number of available pixels.}
+                                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.390 ...pends on the number of available pixels.}
+                                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
 
 
-! Package inputenc Error: Unicode character Δ (U+0394)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.374 ...pends on the number of available pixels.}
-                                                  
-You may provide a definition with
-\DeclareUnicodeCharacter 
+Overfull \hbox (171.68521pt too wide) in paragraph at lines 390--390
+[]\T1/QuattrocentoSans-TLF/regular/n/9 Figure 2.14: |Ex-am-ples of glacier spe-
+cific $\U/jkpmia/m/it/9 ^^A\OML/jkp/m/it/9 hparameterizedfunctionsgeneratedbyAL
+PGM:Theorderofthepolynomialfitdependsonthenumberofavailablepixels:$ 
+ []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Figures/methods/Figure_S4.png, id=24632, 323.2075pt x 256.96pt>
+<Figures/methods/Figure_S4.png, id=25091, 323.2075pt x 256.96pt>
 File: Figures/methods/Figure_S4.png Graphic file (type png)
 <use Figures/methods/Figure_S4.png>
-Package pdftex.def Info: Figures/methods/Figure_S4.png  used on input line 379.
+Package pdftex.def Info: Figures/methods/Figure_S4.png  used on input line 395.
 
 (pdftex.def)             Requested size: 256.0748pt x 203.59607pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Figures/methods/Figure_S5.png, id=24633, 311.1625pt x 278.03876pt>
+<Figures/methods/Figure_S5.png, id=25092, 311.1625pt x 278.03876pt>
 File: Figures/methods/Figure_S5.png Graphic file (type png)
 <use Figures/methods/Figure_S5.png>
-Package pdftex.def Info: Figures/methods/Figure_S5.png  used on input line 385.
+Package pdftex.def Info: Figures/methods/Figure_S5.png  used on input line 401.
 
 (pdftex.def)             Requested size: 256.0748pt x 228.8163pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Figures/methods/Figure_S6.png, id=24634, 588.1975pt x 235.37938pt>
+<Figures/methods/Figure_S6.png, id=25093, 588.1975pt x 235.37938pt>
 File: Figures/methods/Figure_S6.png Graphic file (type png)
 <use Figures/methods/Figure_S6.png>
-Package pdftex.def Info: Figures/methods/Figure_S6.png  used on input line 391.
+Package pdftex.def Info: Figures/methods/Figure_S6.png  used on input line 407.
 
 (pdftex.def)             Requested size: 426.79134pt x 170.79114pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) (./chapters/glaciology/past/past.tex [28] [29 <./Figures/methods/Figure_S2.PN
-G>] [30 <./Figures/methods/Figure_S3.PNG> <./Figures/methods/Figure_S4.PNG>]
-[31 <./Figures/methods/Figure_S5.PNG> <./Figures/methods/Figure_S6.PNG>]
-[32
-
-]
+) (./chapters/glaciology/past/past.tex [33] [34 <./Figures/methods/Figure_S2.PN
+G> <./Figures/methods/Figure_S3.PNG>] [35 <./Figures/methods/Figure_S4.PNG> <./
+Figures/methods/Figure_S5.PNG>] [36 <./Figures/methods/Figure_S6.PNG>]
 Chapter 3.
 
 Overfull \hbox (30.0pt too wide) in paragraph at lines 1--1
 [][]  
  []
 
+[37
 
-Package natbib Warning: Citation `bolibar_deep_2020' on page 33 undefined on in
-put line 14.
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [38]
+<Figures/past/Figure_1.pdf, id=25194, 767.94202pt x 296.71852pt>
+File: Figures/past/Figure_1.pdf Graphic file (type pdf)
+<use Figures/past/Figure_1.pdf>
+Package pdftex.def Info: Figures/past/Figure_1.pdf  used on input line 27.
+(pdftex.def)             Requested size: 426.79134pt x 164.90256pt.
+
+Runaway argument?
+{past:figS10). The French Alps are located in the westernmost part of\ETC.
+! Paragraph ended before \T@ref was complete.
+<to be read again> 
+                   \par 
+l.39 
+     
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
 
 
-Overfull \hbox (55.53836pt too wide) in paragraph at lines 13--15
-\T1/QuattrocentoSans-TLF/regular/n/12 ranges (-0.75 m.w.e. a$[]$ both). This da
-taset - avail-able at: https://doi.org/10.5281/zenodo.3925378
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+Make it at least 23.01003pt.
+We now make it that large for the rest of the document.
+This may cause the page layout to be inconsistent, however.
+
+[39 <./Figures/past/Figure_1.pdf>] [40]
+<Figures/past/Figure_2.pdf, id=27207, 451.61925pt x 419.166pt>
+File: Figures/past/Figure_2.pdf Graphic file (type pdf)
+<use Figures/past/Figure_2.pdf>
+Package pdftex.def Info: Figures/past/Figure_2.pdf  used on input line 56.
+(pdftex.def)             Requested size: 312.9803pt x 290.50404pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [41 <./Figures/past/Figure_2.pdf>]
+<Figures/past/Figure_3.pdf, id=27299, 824.25041pt x 867.24pt>
+File: Figures/past/Figure_3.pdf Graphic file (type pdf)
+<use Figures/past/Figure_3.pdf>
+Package pdftex.def Info: Figures/past/Figure_3.pdf  used on input line 75.
+(pdftex.def)             Requested size: 312.9803pt x 329.3032pt.
+ [42]
+<Figures/past/Figure_4.pdf, id=27319, 433.62pt x 289.08pt>
+File: Figures/past/Figure_4.pdf Graphic file (type pdf)
+<use Figures/past/Figure_4.pdf>
+Package pdftex.def Info: Figures/past/Figure_4.pdf  used on input line 87.
+(pdftex.def)             Requested size: 312.9803pt x 208.66234pt.
+ [43 <./Figures/past/Figure_3.pdf>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [44 <./Figures/past/Figure_4.pdf>]
+<Figures/past/Figure_5.pdf, id=29713, 655.79103pt x 563.50124pt>
+File: Figures/past/Figure_5.pdf Graphic file (type pdf)
+<use Figures/past/Figure_5.pdf>
+Package pdftex.def Info: Figures/past/Figure_5.pdf  used on input line 102.
+(pdftex.def)             Requested size: 426.79134pt x 366.72717pt.
+ [45]
+<Figures/past/Figure_6.pdf, id=29748, 722.7pt x 901.70978pt>
+File: Figures/past/Figure_6.pdf Graphic file (type pdf)
+<use Figures/past/Figure_6.pdf>
+Package pdftex.def Info: Figures/past/Figure_6.pdf  used on input line 116.
+(pdftex.def)             Requested size: 284.52756pt x 355.00882pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [46 <./Figures/past/Figure_5.pdf>] [47 <./Figures/past/Figure_6.pdf>]
+<Figures/past/Figure_S1.pdf, id=30458, 453.8556pt x 370.74509pt>
+File: Figures/past/Figure_S1.pdf Graphic file (type pdf)
+<use Figures/past/Figure_S1.pdf>
+Package pdftex.def Info: Figures/past/Figure_S1.pdf  used on input line 132.
+(pdftex.def)             Requested size: 341.43306pt x 278.91234pt.
+ [48 <./Figures/past/Figure_S1.pdf>]
+<Figures/past/Figure_S2.pdf, id=30527, 478.35913pt x 271.14131pt>
+File: Figures/past/Figure_S2.pdf Graphic file (type pdf)
+<use Figures/past/Figure_S2.pdf>
+Package pdftex.def Info: Figures/past/Figure_S2.pdf  used on input line 148.
+(pdftex.def)             Requested size: 341.43306pt x 193.53357pt.
+
+Underfull \vbox (badness 4156) has occurred while \output is active []
+
+ [49 <./Figures/past/Figure_S2.pdf>] [50] [51]
+<Figures/past/Figure_S3.pdf, id=30613, 722.7pt x 361.35pt>
+File: Figures/past/Figure_S3.pdf Graphic file (type pdf)
+<use Figures/past/Figure_S3.pdf>
+Package pdftex.def Info: Figures/past/Figure_S3.pdf  used on input line 178.
+(pdftex.def)             Requested size: 455.24408pt x 227.62413pt.
+
+Overfull \hbox (11.38089pt too wide) in paragraph at lines 178--180
+ [][] 
  []
 
-[33] [34]
+<Figures/past/Figure_S4.pdf, id=30614, 722.7pt x 722.7pt>
+File: Figures/past/Figure_S4.pdf Graphic file (type pdf)
+<use Figures/past/Figure_S4.pdf>
+Package pdftex.def Info: Figures/past/Figure_S4.pdf  used on input line 186.
+(pdftex.def)             Requested size: 398.33858pt x 398.33534pt.
 
-! LaTeX Error: \begin{document} ended by \end{abstract}.
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<Figures/past/Figure_S5.png, id=30615, 531.9072pt x 448.7967pt>
+File: Figures/past/Figure_S5.png Graphic file (type png)
+<use Figures/past/Figure_S5.png>
+Package pdftex.def Info: Figures/past/Figure_S5.png  used on input line 195.
+(pdftex.def)             Requested size: 256.0748pt x 216.07053pt.
+<Figures/past/Figure_S6.pdf, id=30616, 590.35399pt x 330.59824pt>
+File: Figures/past/Figure_S6.pdf Graphic file (type pdf)
+<use Figures/past/Figure_S6.pdf>
+Package pdftex.def Info: Figures/past/Figure_S6.pdf  used on input line 204.
+(pdftex.def)             Requested size: 455.24408pt x 254.93976pt.
+
+Overfull \hbox (11.38089pt too wide) in paragraph at lines 204--206
+ [][] 
+ []
+
+<Figures/past/Figure_S7.pdf, id=30617, 433.62pt x 289.08pt>
+File: Figures/past/Figure_S7.pdf Graphic file (type pdf)
+<use Figures/past/Figure_S7.pdf>
+Package pdftex.def Info: Figures/past/Figure_S7.pdf  used on input line 213.
+(pdftex.def)             Requested size: 341.43306pt x 227.63405pt.
+<Figures/past/Figure_S8.pdf, id=30618, 722.7pt x 361.35pt>
+File: Figures/past/Figure_S8.pdf Graphic file (type pdf)
+<use Figures/past/Figure_S8.pdf>
+Package pdftex.def Info: Figures/past/Figure_S8.pdf  used on input line 222.
+(pdftex.def)             Requested size: 455.24408pt x 227.62413pt.
+
+Overfull \hbox (11.38089pt too wide) in paragraph at lines 222--224
+ [][] 
+ []
+
+<Figures/past/Figure_S9.pdf, id=30619, 722.7pt x 361.35pt>
+File: Figures/past/Figure_S9.pdf Graphic file (type pdf)
+<use Figures/past/Figure_S9.pdf>
+Package pdftex.def Info: Figures/past/Figure_S9.pdf  used on input line 231.
+(pdftex.def)             Requested size: 455.24408pt x 227.62413pt.
+
+Overfull \hbox (11.38089pt too wide) in paragraph at lines 231--233
+ [][] 
+ []
+
+) (./chapters/glaciology/future/future.tex [52 <./Figures/past/Figure_S3.pdf>]
+[53 <./Figures/past/Figure_S4.pdf>] [54 <./Figures/past/Figure_S5.png> <./Figur
+es/past/Figure_S6.pdf>] [55 <./Figures/past/Figure_S7.pdf> <./Figures/past/Figu
+re_S8.pdf
+
+pdfTeX warning: pdflatex.exe (file ./Figures/past/Figure_S8.pdf): PDF inclusion
+: multiple pdfs with page group included in a single page
+>] [56 <./Figures/past/Figure_S9.pdf>]
+Chapter 4.
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1.
+
+
+Overfull \hbox (30.0pt too wide) in paragraph at lines 1--1
+[][]  
+ []
+
+) (./discussion/discussion.tex [57
+
+] [58
+
+]
+Chapter 5.
+
+Overfull \hbox (30.0pt too wide) in paragraph at lines 1--1
+[][]  
+ []
+
+
+! LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.15 \end{abstract}
-                   
+l.6 ... a trail of dead ends he had pursued.}\\ \\
+                                                  
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-! Extra \endgroup.
-<recently read> \endgroup 
-                          
-l.15 \end{abstract}
-                   
-Things are pretty mixed up, but I think the worst is over.
-
-
-Package natbib Warning: Citation `zekollari_modelling_2019' on page 35 undefine
-d on input line 23.
-
-
-Package natbib Warning: Citation `huss_global-scale_2018' on page 35 undefined 
-on input line 23.
-
-
-Package natbib Warning: Citation `immerzeel_importance_2020' on page 35 undefin
-ed on input line 23.
-
-
-Package natbib Warning: Citation `cauvy-fraunie_global_2019' on page 35 undefin
-ed on input line 23.
-
-
-Package natbib Warning: Citation `marzeion_past_2012' on page 35 undefined on i
-nput line 23.
-
-
-Package natbib Warning: Citation `benn_glaciers_2014' on page 35 undefined on i
-nput line 23.
-
-
-Package natbib Warning: Citation `vincent_nonlinear_2018' on page 35 undefined 
-on input line 23.
-
-
-Package natbib Warning: Citation `kaab_contrasting_2012' on page 35 undefined o
-n input line 23.
-
-
-Package natbib Warning: Citation `fischer_surface_2015' on page 35 undefined on
- input line 23.
-
-
-Package natbib Warning: Citation `berthier_decadal_2016' on page 35 undefined o
-n input line 23.
-
-
-Package natbib Warning: Citation `brun_spatially_2017' on page 35 undefined on 
-input line 23.
-
-
-Package natbib Warning: Citation `dussaillant_two_2019' on page 35 undefined on
- input line 23.
-
-
-Package natbib Warning: Citation `rabatel_using_2005' on page 35 undefined on i
-nput line 23.
-
-
-Package natbib Warning: Citation `rabatel_spatio-temporal_2016' on page 35 unde
-fined on input line 23.
-
-
-Package natbib Warning: Citation `rastner_automated_2019' on page 35 undefined 
-on input line 23.
-
-
-Package natbib Warning: Citation `bolibar_deep_2020-1' on page 35 undefined on 
-input line 23.
-
-
-Package natbib Warning: Citation `hock_glaciermip_2019' on page 35 undefined on
- input line 25.
-
-
-Package natbib Warning: Citation `marzeion_past_2012' on page 35 undefined on i
-nput line 25.
-
-
-Package natbib Warning: Citation `marzeion_brief_2015' on page 35 undefined on 
-input line 25.
-
-
-Package natbib Warning: Citation `huss_extrapolating_2012' on page 35 undefined
- on input line 25.
-
-
-Package natbib Warning: Citation `bolibar_deep_2020' on page 35 undefined on in
-put line 27.
-
-
-Package natbib Warning: Citation `bolibar_deep_2020-1' on page 35 undefined on 
-input line 27.
-
-
-Package natbib Warning: Citation `bolibar_alpgm_2020' on page 35 undefined on i
-nput line 27.
-
-
-Package natbib Warning: Citation `gardent_multitemporal_2014' on page 35 undefi
-ned on input line 27.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-Package Fancyhdr Warning: \headheight is too small (14.49998pt): 
-Make it at least 27.74203pt.
-We now make it that large for the rest of the document.
-This may cause the page layout to be inconsistent, however.
-
-[35]
-<Figures/past/Figure_1.pdf, id=24680, 767.94202pt x 296.71852pt>
-File: Figures/past/Figure_1.pdf Graphic file (type pdf)
-<use Figures/past/Figure_1.pdf>
-Package pdftex.def Info: Figures/past/Figure_1.pdf  used on input line 31.
-(pdftex.def)             Requested size: 426.79134pt x 164.90256pt.
-
-
-Package natbib Warning: Citation `vincent_common_2017' on page 36 undefined on 
-input line 43.
-
-
-Package natbib Warning: Citation `rabatel_spatio-temporal_2016' on page 36 unde
-fined on input line 43.
-
-[36 <./Figures/past/Figure_1.pdf>]
-
-Package natbib Warning: Citation `durand_reanalysis_2009' on page 37 undefined 
-on input line 45.
-
-
-Package natbib Warning: Citation `gardent_multitemporal_2014' on page 37 undefi
-ned on input line 45.
-
-
-Package natbib Warning: Citation `bolibar_deep_2020-1' on page 37 undefined on 
-input line 45.
-
-
-Package natbib Warning: Citation `bolibar_deep_2020-1' on page 37 undefined on 
-input line 47.
-
-
-Package natbib Warning: Citation `fausett_fundamentals_1994' on page 37 undefin
-ed on input line 51.
-
-
-Package natbib Warning: Citation `hastie_elements_2009' on page 37 undefined on
- input line 51.
-
-
-Package natbib Warning: Citation `ingrassia_neural_2005' on page 37 undefined o
-n input line 51.
-
-
-Package natbib Warning: Citation `bolibar_alpgm_2020' on page 37 undefined on i
-nput line 51.
-
-
-Package natbib Warning: Citation `bolibar_deep_2020-1' on page 37 undefined on 
-input line 51.
-
-
-Package natbib Warning: Citation `krogh_neural_1995' on page 37 undefined on in
-put line 51.
-
-
-Package natbib Warning: Citation `hastie_elements_2009' on page 37 undefined on
- input line 51.
-
-[37]
-
-Package natbib Warning: Citation `bolibar_deep_2020-1' on page 38 undefined on 
-input line 55.
-
-
-Package natbib Warning: Citation `roberts_cross-validation_2017' on page 38 und
-efined on input line 55.
-
-
-Package natbib Warning: Citation `vincent_common_2017' on page 38 undefined on 
-input line 55.
-
-
-Package natbib Warning: Citation `bolibar_deep_2020-1' on page 38 undefined on 
-input line 55.
-
-
-Overfull \hbox (4.3061pt too wide) in paragraph at lines 55--56
-\T1/QuattrocentoSans-TLF/regular/n/12 with ob-ser-va-tions and re-mote sens-ing
- es-ti-mates. A de-tailed pre-sen-ta-tion of the method's
- []
-
-<Figures/past/Figure_2.pdf, id=26656, 451.61925pt x 419.166pt>
-File: Figures/past/Figure_2.pdf Graphic file (type pdf)
-<use Figures/past/Figure_2.pdf>
-Package pdftex.def Info: Figures/past/Figure_2.pdf  used on input line 59.
-(pdftex.def)             Requested size: 312.9803pt x 290.50404pt.
-
-Package natbib Warning: Citation `bolibar_deep_2020-1' on page 38 undefined on 
-input line 64.
-
-[38]
-
-Package natbib Warning: Citation `davaze_region-wide_2020' on page 39 undefined
- on input line 66.
-
-
-Package natbib Warning: Citation `berthier_glacier_2014' on page 39 undefined o
-n input line 66.
-
-
-Package natbib Warning: Citation `rabatel_spatio-temporal_2016' on page 39 unde
-fined on input line 66.
-
-
-Package natbib Warning: Citation `davaze_region-wide_2020' on page 39 undefined
- on input line 66.
-
-
-Package natbib Warning: Citation `davaze_region-wide_2020' on page 39 undefined
- on input line 66.
-
-[39 <./Figures/past/Figure_2.pdf>]
-
-Package natbib Warning: Citation `rabatel_spatio-temporal_2016' on page 40 unde
-fined on input line 73.
-
-
-Package natbib Warning: Citation `rabatel_spatio-temporal_2016' on page 40 unde
-fined on input line 73.
-
-<Figures/past/Figure_3.pdf, id=26732, 824.25041pt x 867.24pt>
-File: Figures/past/Figure_3.pdf Graphic file (type pdf)
-<use Figures/past/Figure_3.pdf>
-Package pdftex.def Info: Figures/past/Figure_3.pdf  used on input line 77.
-(pdftex.def)             Requested size: 312.9803pt x 329.3032pt.
-
-Package natbib Warning: Citation `huss_extrapolating_2012' on page 40 undefined
- on input line 84.
-
-
-Package natbib Warning: Citation `rabatel_spatio-temporal_2016' on page 40 unde
-fined on input line 84.
-
-
-Package natbib Warning: Citation `vincent_common_2017' on page 40 undefined on 
-input line 84.
-
-<Figures/past/Figure_4.pdf, id=26733, 433.62pt x 289.08pt>
-File: Figures/past/Figure_4.pdf Graphic file (type pdf)
-<use Figures/past/Figure_4.pdf>
-Package pdftex.def Info: Figures/past/Figure_4.pdf  used on input line 88.
-(pdftex.def)             Requested size: 312.9803pt x 208.66234pt.
-
-Package natbib Warning: Citation `paul_rapid_2004' on page 40 undefined on inpu
-t line 95.
-
-
-Underfull \vbox (badness 1199) has occurred while \output is active []
-
- [40]
-Underfull \vbox (badness 5504) has occurred while \output is active []
-
- [41 <./Figures/past/Figure_3.pdf>]
-
-Package natbib Warning: Citation `hoelzle_secular_2003' on page 42 undefined on
- input line 97.
-
-
-Package natbib Warning: Citation `huss_sensitivity_2016' on page 42 undefined o
-n input line 97.
-
-
-Package natbib Warning: Citation `zekollari_imbalance_2020' on page 42 undefine
-d on input line 97.
-
-
-Package natbib Warning: Citation `fischer_surface_2015' on page 42 undefined on
- input line 97.
-
-
-Package natbib Warning: Citation `huss_extrapolating_2012' on page 42 undefined
- on input line 97.
-
-
-Package natbib Warning: Citation `huss_new_2015-2' on page 42 undefined on inpu
-t line 97.
-
-
-Package natbib Warning: Citation `oerlemans_relating_2000' on page 42 undefined
- on input line 97.
-
-
-Package natbib Warning: Citation `gardent_multitemporal_2014' on page 42 undefi
-ned on input line 97.
-
-[42 <./Figures/past/Figure_4.pdf>]
-<Figures/past/Figure_5.pdf, id=29102, 655.79103pt x 563.50124pt>
-File: Figures/past/Figure_5.pdf Graphic file (type pdf)
-<use Figures/past/Figure_5.pdf>
-Package pdftex.def Info: Figures/past/Figure_5.pdf  used on input line 102.
-(pdftex.def)             Requested size: 483.69684pt x 415.62585pt.
-
-Overfull \hbox (39.83365pt too wide) in paragraph at lines 102--104
- [][] 
+) [59] (./Bolibar_PhD_dissertation.bbl [60]
+LaTeX Font Info:    Trying to load font information for T1+jkptt on input line 
+22.
+
+(c:/texlive/2019/texmf-dist/tex/latex/kpfonts/t1jkptt.fd
+File: t1jkptt.fd 2007/01/26 Fontinst v1.928 font definitions for T1/jkptt.
+)
+
+! Package inputenc Error: Invalid UTF-8 byte sequence.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.33 ...cent, C., Magnússon, E., Gunnlaugsson, �.
+                                                  ~�., Pitte, P.,
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! Package inputenc Error: Invalid UTF-8 byte sequence.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.33 ...t, C., Magnússon, E., Gunnlaugsson, �.~�.
+                                                  , Pitte, P.,
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+[61
+
+]
+Underfull \hbox (badness 1028) in paragraph at lines 142--147
+[]\T1/QuattrocentoSans-TLF/regular/n/9 Dussaillant, I., Berthier, E., Brun, F.,
+ Ma-siokas, M., Hugonnet, R., Favier, V., Ra-ba-tel, A., Pitte, P., and Ruiz,
  []
 
 
-Package natbib Warning: Citation `marzeion_brief_2015' on page 43 undefined on 
-input line 109.
+Underfull \hbox (badness 10000) in paragraph at lines 242--246
+\T1/jkp/m/n/9 S0022-[]1694(03 ) 00257-[]9$\T1/QuattrocentoSans-TLF/regular/n/9 
+, URL []$\T1/jkptt/m/n/9 http : / / linkinghub . elsevier . com / retrieve / pi
+i / S0022169403002579$[]\T1/QuattrocentoSans-TLF/regular/n/9 ,
+ []
 
+[62]
+Missing character: There is no � in font QuattrocentoSans-tlf-t1!
 
-Package natbib Warning: Citation `marzeion_brief_2015' on page 43 undefined on 
-input line 109.
+Underfull \hbox (badness 10000) in paragraph at lines 272--276
+[]$\T1/jkptt/m/n/9 https : / / www . cambridge . org / core / product / identif
+ier / S0022143000020384 / type / journal _ article$[]\T1/QuattrocentoSans-TLF/r
+egular/n/9 ,
+ []
 
-
-Package natbib Warning: Citation `consortium_randolph_2017' on page 43 undefine
-d on input line 109.
-
-
-Package natbib Warning: Citation `bolibar_deep_2020-1' on page 43 undefined on 
-input line 109.
-
-
-Package natbib Warning: Citation `thibert_climatic_2013' on page 43 undefined o
-n input line 111.
-
-
-Package natbib Warning: Citation `six_sensitivity_2014' on page 43 undefined on
- input line 111.
-
-[43]
-<Figures/past/Figure_6.pdf, id=29107, 722.7pt x 901.70978pt>
-File: Figures/past/Figure_6.pdf Graphic file (type pdf)
-<use Figures/past/Figure_6.pdf>
-Package pdftex.def Info: Figures/past/Figure_6.pdf  used on input line 115.
-(pdftex.def)             Requested size: 284.52756pt x 355.00882pt.
-
-Overfull \hbox (4.84009pt too wide) in paragraph at lines 120--121
-\T1/QuattrocentoSans-TLF/regular/n/12 glaciers, the re-con-struc-tions are base
-d on an en-sem-ble of cross-validated mod-els, which
+[63] [64]
+Missing character: There is no � in font QuattrocentoSans-tlf-t1!
+ [65]
+Underfull \hbox (badness 1472) in paragraph at lines 697--703
+[]\T1/QuattrocentoSans-TLF/regular/n/9 Vincent, C., Har-ter, M., Gilbert, A., B
+erthier, E., and Six, D.: Fu-ture fluc-tu-a-tions of Mer de Glace, French
  []
 
 
-Package natbib Warning: Citation `bolibar_deep_2020' on page 44 undefined on in
-put line 124.
+! Package inputenc Error: Invalid UTF-8 byte sequence.
 
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.729   Berthier, �.
+                    , Morin, S., Verfaillie, D., Rabatel, A., Jourdain, B., and
 
-Package natbib Warning: Citation `marzeion_brief_2015' on page 44 undefined on 
-input line 124.
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
 
-[44]
-<Figures/past/Figure_S1.pdf, id=29113, 453.8556pt x 370.74509pt>
-File: Figures/past/Figure_S1.pdf Graphic file (type pdf)
-<use Figures/past/Figure_S1.pdf>
-Package pdftex.def Info: Figures/past/Figure_S1.pdf  used on input line 130.
-(pdftex.def)             Requested size: 369.88582pt x 302.1574pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Package natbib Warning: Citation `bolibar_deep_2020-1' on page 45 undefined on 
-input line 139.
-
-
-Package natbib Warning: Citation `davaze_region-wide_2020' on page 45 undefined
- on input line 139.
-
-
-Package natbib Warning: Citation `berthier_glacier_2014' on page 45 undefined o
-n input line 139.
-
-[45]
-<Figures/past/Figure_S2.pdf, id=29118, 478.35913pt x 271.14131pt>
-File: Figures/past/Figure_S2.pdf Graphic file (type pdf)
-<use Figures/past/Figure_S2.pdf>
-Package pdftex.def Info: Figures/past/Figure_S2.pdf  used on input line 145.
-(pdftex.def)             Requested size: 398.33858pt x 225.7878pt.
-
-Overfull \hbox (36.53934pt too wide) in paragraph at lines 150--150
-[]\T1/QuattrocentoSans-TLF/bold/n/17.28 Model dif-fer-ences be-tween the up-dat
-ed ver-sion of Marzeion
- []
-
-
-Package natbib Warning: Citation `harris_updated_2014' on page 46 undefined on 
-input line 157.
-
-
-Package natbib Warning: Citation `durand_reanalysis_2009' on page 46 undefined 
-on input line 157.
-
-
-Package natbib Warning: Citation `bolibar_deep_2020-1' on page 46 undefined on 
-input line 164.
-
-[46] [47]
-<Figures/past/Figure_S3.pdf, id=29130, 722.7pt x 361.35pt>
-File: Figures/past/Figure_S3.pdf Graphic file (type pdf)
-<use Figures/past/Figure_S3.pdf>
-Package pdftex.def Info: Figures/past/Figure_S3.pdf  used on input line 174.
-(pdftex.def)             Requested size: 455.24408pt x 227.62413pt.
-
-Overfull \hbox (11.38089pt too wide) in paragraph at lines 174--176
- [][] 
- []
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<Figures/past/Figure_S4.pdf, id=29131, 722.7pt x 722.7pt>
-File: Figures/past/Figure_S4.pdf Graphic file (type pdf)
-<use Figures/past/Figure_S4.pdf>
-Package pdftex.def Info: Figures/past/Figure_S4.pdf  used on input line 181.
-(pdftex.def)             Requested size: 398.33858pt x 398.33534pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<Figures/past/Figure_S5.png, id=29132, 531.9072pt x 448.7967pt>
-File: Figures/past/Figure_S5.png Graphic file (type png)
-<use Figures/past/Figure_S5.png>
-Package pdftex.def Info: Figures/past/Figure_S5.png  used on input line 189.
-(pdftex.def)             Requested size: 284.52756pt x 240.07988pt.
-<Figures/past/Figure_S6.pdf, id=29133, 590.35399pt x 330.59824pt>
-File: Figures/past/Figure_S6.pdf Graphic file (type pdf)
-<use Figures/past/Figure_S6.pdf>
-Package pdftex.def Info: Figures/past/Figure_S6.pdf  used on input line 197.
-(pdftex.def)             Requested size: 455.24408pt x 254.93976pt.
-
-Overfull \hbox (11.38089pt too wide) in paragraph at lines 197--199
- [][] 
- []
-
-<Figures/past/Figure_S7.pdf, id=29134, 433.62pt x 289.08pt>
-File: Figures/past/Figure_S7.pdf Graphic file (type pdf)
-<use Figures/past/Figure_S7.pdf>
-Package pdftex.def Info: Figures/past/Figure_S7.pdf  used on input line 205.
-(pdftex.def)             Requested size: 341.43306pt x 227.63405pt.
-<Figures/past/Figure_S8.pdf, id=29135, 722.7pt x 361.35pt>
-File: Figures/past/Figure_S8.pdf Graphic file (type pdf)
-<use Figures/past/Figure_S8.pdf>
-Package pdftex.def Info: Figures/past/Figure_S8.pdf  used on input line 213.
-(pdftex.def)             Requested size: 455.24408pt x 227.62413pt.
-
-Overfull \hbox (11.38089pt too wide) in paragraph at lines 213--215
- [][] 
- []
-
-<Figures/past/Figure_S9.pdf, id=29136, 722.7pt x 361.35pt>
-File: Figures/past/Figure_S9.pdf Graphic file (type pdf)
-<use Figures/past/Figure_S9.pdf>
-Package pdftex.def Info: Figures/past/Figure_S9.pdf  used on input line 221.
-(pdftex.def)             Requested size: 455.24408pt x 227.62413pt.
-
-Overfull \hbox (11.38089pt too wide) in paragraph at lines 221--223
- [][] 
- []
-
-<Figures/past/Figure_S10.pdf, id=29137, 399.4925pt x 598.235pt>
-File: Figures/past/Figure_S10.pdf Graphic file (type pdf)
-<use Figures/past/Figure_S10.pdf>
-Package pdftex.def Info: Figures/past/Figure_S10.pdf  used on input line 228.
-(pdftex.def)             Requested size: 312.9803pt x 468.70268pt.
-) (./Bolibar_PhD_dissertation.bbl)
+[66])
 
 Package natbib Warning: There were undefined citations.
 
@@ -3495,42 +2807,33 @@ Package minitoc(hints) Warning: W0024
 (minitoc(hints))                Some hints have been written 
 (minitoc(hints))                in the Bolibar_PhD_dissertation.log file.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 198.
-[48] [49 <./Figures/past/Figure_5.pdf>] [50 <./Figures/past/Figure_6.pdf>]
-[51 <./Figures/past/Figure_S1.pdf> <./Figures/past/Figure_S2.pdf
-
-pdfTeX warning: pdflatex.exe (file ./Figures/past/Figure_S2.pdf): PDF inclusion
-: multiple pdfs with page group included in a single page
->] [52 <./Figures/past/Figure_S3.pdf>] [53 <./Figures/past/Figure_S4.pdf>]
-[54 <./Figures/past/Figure_S5.png> <./Figures/past/Figure_S6.pdf>] [55 <./Figur
-es/past/Figure_S7.pdf> <./Figures/past/Figure_S8.pdf
-
-pdfTeX warning: pdflatex.exe (file ./Figures/past/Figure_S8.pdf): PDF inclusion
-: multiple pdfs with page group included in a single page
->] [56 <./Figures/past/Figure_S9.pdf>] [57 <./Figures/past/Figure_S10.pdf>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 198.
-
-(./Bolibar_PhD_dissertation.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 198.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 198.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 206.
+[67]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 206.
+ (./Bolibar_PhD_dissertation.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 206.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 206.
 Package rerunfilecheck Info: File `Bolibar_PhD_dissertation.out' has not change
 d.
-(rerunfilecheck)             Checksum: 498F7139190400967ABF072ABE174200;3279.
+(rerunfilecheck)             Checksum: E18461940E034AAE8098206C6441CFAC;3898.
 
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 17531 strings out of 492163
- 255779 string characters out of 6129077
- 371610 words of memory out of 5000000
- 21051 multiletter control sequences out of 15000+600000
- 174570 words of font info for 117 fonts, out of 8000000 for 9000
+ 19979 strings out of 492163
+ 313383 string characters out of 6129077
+ 459109 words of memory out of 5000000
+ 23357 multiletter control sequences out of 15000+600000
+ 183767 words of font info for 129 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 48i,11n,79p,3092b,489s stack positions out of 5000i,500n,10000p,200000b,80000s
-{c:/texlive/2019/texmf-dist/fonts/enc/dvips/quattrocento/qtrcnt_h2bn35.enc}{c
-:/texlive/2019/texmf-dist/fonts/enc/dvips/base/8r.enc}{c:/texlive/2019/texmf-di
+ 48i,12n,79p,3092b,722s stack positions out of 5000i,500n,10000p,200000b,80000s
+{c:/texlive/2019/texmf-dist/fonts/enc/dvips/base/8r.enc}{c:/texlive/2019/texm
+f-dist/fonts/enc/dvips/quattrocento/qtrcnt_h2bn35.enc}{c:/texlive/2019/texmf-di
 st/fonts/enc/dvips/quattrocento/qtrcnt_xzkr3s.enc}{c:/texlive/2019/texmf-dist/f
 onts/enc/dvips/quattrocento/qtrcnt_5tsqgq.enc}<c:/texlive/2019/texmf-dist/fonts
 /type1/impallari/quattrocento/QuattrocentoSans-Bold.pfb><c:/texlive/2019/texmf-
@@ -3540,12 +2843,13 @@ xlive/2019/texmf-dist/fonts/type1/public/kpfonts/jkpex.pfb><c:/texlive/2019/tex
 mf-dist/fonts/type1/public/kpfonts/jkpmi.pfb><c:/texlive/2019/texmf-dist/fonts/
 type1/public/kpfonts/jkpmia.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/
 kpfonts/jkpmn8a.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/kpfonts/jkps
-y.pfb><c:/texlive/2019/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb><c:/texli
-ve/2019/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on Bolibar_PhD_dissertation.pdf (68 pages, 54780691 bytes).
+y.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/kpfonts/jkpttmn8a.pfb><c:/
+texlive/2019/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb><c:/texlive/2019/te
+xmf-dist/fonts/type1/urw/times/utmr8a.pfb>
+Output written on Bolibar_PhD_dissertation.pdf (73 pages, 50314352 bytes).
 PDF statistics:
- 36361 PDF objects out of 38293 (max. 8388607)
- 22984 compressed objects within 230 object streams
- 191 named destinations out of 1000 (max. 500000)
- 494 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 37200 PDF objects out of 38293 (max. 8388607)
+ 23834 compressed objects within 239 object streams
+ 306 named destinations out of 1000 (max. 500000)
+ 550 words of extra memory for PDF output out of 10000 (max. 10000000)
 

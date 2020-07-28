@@ -1,4 +1,4 @@
-\documentclass[twoside,12pt,a4paper, openright, hidelinks]{extreport}
+\documentclass[twoside,10pt,a4paper, openright, hidelinks]{extreport}
 \usepackage[english]{babel}
 \usepackage[T1]{fontenc}
 \usepackage{kpfonts}
@@ -14,6 +14,7 @@
 \usepackage{amssymb}
 \usepackage{url}
 \usepackage{hyperref}
+\usepackage{cleveref}
 \usepackage{graphicx}
 %\usepackage{caption}
 \usepackage{subcaption}
@@ -26,6 +27,7 @@
 %%\usepackage{subfig}
 \usepackage{supertabular}
 \usepackage{multirow}
+\usepackage{blindtext}
 %%\usepackage{newtxtext,newtxmath}
 \usepackage{rotating}
 \usepackage{lscape}
@@ -64,6 +66,11 @@
 \geometry{a4paper} 
 \geometry{margin=2.7cm}
 \usepackage{pdfpages}
+
+\setlength{\parindent}{0.5cm} % Default is 15pt.
+\setlength{\parskip}{0.1 cm}
+
+\usepackage{setspace}
 
 %\linenumbers
 
@@ -107,6 +114,11 @@
 
 \newcommand{\mwe}{m w.e. a$^{-1}$\xspace}
 
+%\singlespacing
+\onehalfspacing
+%\doublespacing
+%\setstretch{1.1}
+
 %\linespread{1.2}
 %\linespread{1.5}
 
@@ -127,8 +139,7 @@
 \vspace*{\stretch{1}}
 \begin{flushright}
 \begin{small}
-\textit{The most important thing about expedition food is that there is some.}\\
-Eric Shipton
+\textit{To my parents.}
 \end{small}
 \end{flushright}
 \vspace*{\stretch{2}}
@@ -143,6 +154,8 @@ Eric Shipton
 \tableofcontents
 %\newpage\null\thispagestyle{empty}\newpage
 
+\pagenumbering{arabic}
+
 \input{intro/intro}
 
 \newpage\null\thispagestyle{empty}\newpage
@@ -150,7 +163,6 @@ Eric Shipton
 \newpage
 \thispagestyle{empty}
 %\setcounter{page}{0}
-\pagenumbering{arabic}
 %\pagestyle{empty}
 
 
@@ -158,12 +170,9 @@ Eric Shipton
 
 \input{chapters/glaciology/past/past}
 
-%\input{paper_morpho-topo/paper_morpho-topo_V2_formatA5}
+\input{chapters/glaciology/future/future}
 
-%\input{paper_cliff/paper_cliff_V2}
-
-%\input{conclusion_perspectives/conclu_V2}
-
+\input{discussion/discussion}
 
 %\includepdf[scale=0.9,frame=true,pages=-,pagecommand={\thispagestyle{fancy}}]{D:/01_these/manuscrit/latex_files/list_publications/Brun_et_al_2016_JoG_ice-cliffs.pdf}
 
@@ -185,8 +194,7 @@ Eric Shipton
 \linespread{1.}
 \begin{small}
 
-%\bibliographystyle{agufull08}
-\bibliographystyle{D:/01_these/02_biblio/bibtex/agufull08}
+\bibliographystyle{copernicus}
 
 
 \bibliography{references}
