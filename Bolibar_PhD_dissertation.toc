@@ -2,61 +2,62 @@
 \contentsline {chapter}{\numberline {1}Introduction}{3}{chapter.1}%
 \contentsline {section}{\numberline {1.1}On the importance of glaciers}{3}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Glaciers in the French Alps}{5}{section.1.2}%
-\contentsline {section}{\numberline {1.3}Modelling large-scale glacier evolution}{5}{section.1.3}%
-\contentsline {section}{\numberline {1.4}A short note to the reader}{6}{section.1.4}%
-\contentsline {chapter}{\numberline {2}Deep learning applied to glacier evolution modelling}{9}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Abstract}{9}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Introduction}{10}{section.2.2}%
-\contentsline {section}{\numberline {2.3}Model overview and methods}{12}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}Model overview and workflow}{12}{subsection.2.3.1}%
-\contentsline {subsection}{\numberline {2.3.2}Glacier-wide surface mass balance simulation}{14}{subsection.2.3.2}%
-\contentsline {subsubsection}{Selection of explanatory topographical and climatic variables}{14}{section*.7}%
-\contentsline {subsubsection}{All-possible multiple linear regressions}{14}{section*.9}%
-\contentsline {subsubsection}{Lasso}{15}{section*.10}%
-\contentsline {subsubsection}{Deep artificial neural networks}{15}{section*.11}%
-\contentsline {subsection}{\numberline {2.3.3}Glacier geometry update}{17}{subsection.2.3.3}%
-\contentsline {section}{\numberline {2.4}Case study: French alpine glaciers}{18}{section.2.4}%
-\contentsline {subsection}{\numberline {2.4.1}Data}{18}{subsection.2.4.1}%
-\contentsline {subsubsection}{Glacier-wide surface mass balance }{18}{section*.13}%
-\contentsline {subsubsection}{Topographical glacier data and altimetry}{18}{section*.14}%
-\contentsline {subsubsection}{Glacier ice thickness}{19}{section*.15}%
-\contentsline {subsubsection}{Climate data}{20}{section*.17}%
-\contentsline {subsection}{\numberline {2.4.2}Glacier-wide surface mass balance simulations: validation and results}{20}{subsection.2.4.2}%
-\contentsline {subsubsection}{Selection of predictors}{20}{section*.18}%
-\contentsline {subsubsection}{Causal analysis}{22}{section*.19}%
-\contentsline {subsubsection}{Spatial predictive analysis}{23}{section*.21}%
-\contentsline {subsubsection}{Temporal predictive analysis}{23}{section*.25}%
-\contentsline {subsubsection}{Spatiotemporal predictive analysis}{25}{section*.28}%
-\contentsline {subsection}{\numberline {2.4.3}Glacier geometry evolution: Validation and results}{26}{subsection.2.4.3}%
-\contentsline {section}{\numberline {2.5}Discussion and perspectives}{27}{section.2.5}%
-\contentsline {subsection}{\numberline {2.5.1}Linear methods still matter}{27}{subsection.2.5.1}%
-\contentsline {subsection}{\numberline {2.5.2}Training deep learning models with spatiotemporal data}{28}{subsection.2.5.2}%
-\contentsline {subsection}{\numberline {2.5.3}Perspectives on future applications of deep learning in glaciology}{29}{subsection.2.5.3}%
-\contentsline {section}{\numberline {2.6}Conclusions}{30}{section.2.6}%
-\contentsline {section}{\numberline {2.7}Supplementary material}{31}{section.2.7}%
-\contentsline {subsection}{\numberline {2.7.1}Filtering of DEM rasters}{31}{subsection.2.7.1}%
-\contentsline {subsection}{\numberline {2.7.2}SMB statistical error analysis}{32}{subsection.2.7.2}%
-\contentsline {subsection}{\numberline {2.7.3}Topographical glacier-wide SMB predictors}{32}{subsection.2.7.3}%
-\contentsline {subsection}{\numberline {2.7.4}Supplementary figures}{34}{subsection.2.7.4}%
-\contentsline {chapter}{\numberline {3}A deep learning reconstruction of mass balance series for all glaciers in the French Alps: 1967-2015}{37}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Abstract}{37}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Introduction}{38}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Data and methods}{39}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}Training data}{39}{subsection.3.3.1}%
-\contentsline {subsection}{\numberline {3.3.2}Methods}{40}{subsection.3.3.2}%
-\contentsline {subsection}{\numberline {3.3.3}Uncertainty assessment}{40}{subsection.3.3.3}%
-\contentsline {section}{\numberline {3.4}Dataset overview}{42}{section.3.4}%
-\contentsline {subsection}{\numberline {3.4.1}Dataset format and content}{42}{subsection.3.4.1}%
-\contentsline {subsection}{\numberline {3.4.2}Overall trends}{43}{subsection.3.4.2}%
-\contentsline {subsection}{\numberline {3.4.3}Regional and topographical trends}{44}{subsection.3.4.3}%
-\contentsline {subsection}{\numberline {3.4.4}Comparison with previous studies and observations}{45}{subsection.3.4.4}%
-\contentsline {section}{\numberline {3.5}Conclusions}{48}{section.3.5}%
-\contentsline {section}{\numberline {3.6}Supplementary material}{48}{section.3.6}%
-\contentsline {subsection}{\numberline {3.6.1}Comparison with independent geodetic mass balance data}{48}{subsection.3.6.1}%
-\contentsline {subsection}{\numberline {3.6.2}Model differences between the updated version of Marzeion et al. (2015) and this study}{49}{subsection.3.6.2}%
-\contentsline {subsection}{\numberline {3.6.3}Influence of area in glacier-wide MB signal and proof on non overfitting}{50}{subsection.3.6.3}%
-\contentsline {subsection}{\numberline {3.6.4}Supplementary figures}{52}{subsection.3.6.4}%
-\contentsline {chapter}{\numberline {4}The 21$^{st}$ century deglaciation of the French Alps: unraveling climate-glacier interactions with deep learning}{57}{chapter.4}%
-\contentsline {chapter}{\numberline {5}Perspectives and conclusions}{59}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Discussion}{59}{section.5.1}%
-\contentsline {chapter}{Bibliography}{67}{section.5.1}%
+\contentsline {section}{\numberline {1.3}Modelling large-scale glacier evolution}{6}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Teaching machines about glaciers}{6}{section.1.4}%
+\contentsline {section}{\numberline {1.5}A short note to the reader}{8}{section.1.5}%
+\contentsline {chapter}{\numberline {2}Deep learning applied to glacier evolution modelling}{11}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Abstract}{11}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Introduction}{12}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Model overview and methods}{14}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Model overview and workflow}{14}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Glacier-wide surface mass balance simulation}{16}{subsection.2.3.2}%
+\contentsline {subsubsection}{Selection of explanatory topographical and climatic variables}{16}{section*.8}%
+\contentsline {subsubsection}{All-possible multiple linear regressions}{16}{section*.10}%
+\contentsline {subsubsection}{Lasso}{17}{section*.11}%
+\contentsline {subsubsection}{Deep artificial neural networks}{17}{section*.12}%
+\contentsline {subsection}{\numberline {2.3.3}Glacier geometry update}{19}{subsection.2.3.3}%
+\contentsline {section}{\numberline {2.4}Case study: French alpine glaciers}{20}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Data}{20}{subsection.2.4.1}%
+\contentsline {subsubsection}{Glacier-wide surface mass balance }{20}{section*.14}%
+\contentsline {subsubsection}{Topographical glacier data and altimetry}{20}{section*.15}%
+\contentsline {subsubsection}{Glacier ice thickness}{21}{section*.16}%
+\contentsline {subsubsection}{Climate data}{22}{section*.18}%
+\contentsline {subsection}{\numberline {2.4.2}Glacier-wide surface mass balance simulations: validation and results}{22}{subsection.2.4.2}%
+\contentsline {subsubsection}{Selection of predictors}{22}{section*.19}%
+\contentsline {subsubsection}{Causal analysis}{24}{section*.20}%
+\contentsline {subsubsection}{Spatial predictive analysis}{25}{section*.22}%
+\contentsline {subsubsection}{Temporal predictive analysis}{25}{section*.26}%
+\contentsline {subsubsection}{Spatiotemporal predictive analysis}{27}{section*.29}%
+\contentsline {subsection}{\numberline {2.4.3}Glacier geometry evolution: Validation and results}{28}{subsection.2.4.3}%
+\contentsline {section}{\numberline {2.5}Discussion and perspectives}{29}{section.2.5}%
+\contentsline {subsection}{\numberline {2.5.1}Linear methods still matter}{29}{subsection.2.5.1}%
+\contentsline {subsection}{\numberline {2.5.2}Training deep learning models with spatiotemporal data}{30}{subsection.2.5.2}%
+\contentsline {subsection}{\numberline {2.5.3}Perspectives on future applications of deep learning in glaciology}{31}{subsection.2.5.3}%
+\contentsline {section}{\numberline {2.6}Conclusions}{32}{section.2.6}%
+\contentsline {section}{\numberline {2.7}Supplementary material}{33}{section.2.7}%
+\contentsline {subsection}{\numberline {2.7.1}Filtering of DEM rasters}{33}{subsection.2.7.1}%
+\contentsline {subsection}{\numberline {2.7.2}SMB statistical error analysis}{34}{subsection.2.7.2}%
+\contentsline {subsection}{\numberline {2.7.3}Topographical glacier-wide SMB predictors}{34}{subsection.2.7.3}%
+\contentsline {subsection}{\numberline {2.7.4}Supplementary figures}{36}{subsection.2.7.4}%
+\contentsline {chapter}{\numberline {3}A deep learning reconstruction of mass balance series for all glaciers in the French Alps: 1967-2015}{39}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Abstract}{39}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Introduction}{40}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Data and methods}{41}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Training data}{41}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Methods}{42}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}Uncertainty assessment}{42}{subsection.3.3.3}%
+\contentsline {section}{\numberline {3.4}Dataset overview}{44}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Dataset format and content}{44}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}Overall trends}{45}{subsection.3.4.2}%
+\contentsline {subsection}{\numberline {3.4.3}Regional and topographical trends}{46}{subsection.3.4.3}%
+\contentsline {subsection}{\numberline {3.4.4}Comparison with previous studies and observations}{47}{subsection.3.4.4}%
+\contentsline {section}{\numberline {3.5}Conclusions}{50}{section.3.5}%
+\contentsline {section}{\numberline {3.6}Supplementary material}{50}{section.3.6}%
+\contentsline {subsection}{\numberline {3.6.1}Comparison with independent geodetic mass balance data}{50}{subsection.3.6.1}%
+\contentsline {subsection}{\numberline {3.6.2}Model differences between the updated version of Marzeion et al. (2015) and this study}{51}{subsection.3.6.2}%
+\contentsline {subsection}{\numberline {3.6.3}Influence of area in glacier-wide MB signal and proof on non overfitting}{52}{subsection.3.6.3}%
+\contentsline {subsection}{\numberline {3.6.4}Supplementary figures}{54}{subsection.3.6.4}%
+\contentsline {chapter}{\numberline {4}The 21$^{st}$ century deglaciation of the French Alps: unraveling climate-glacier interactions with deep learning}{59}{chapter.4}%
+\contentsline {chapter}{\numberline {5}Perspectives and conclusions}{61}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Discussion}{61}{section.5.1}%
+\contentsline {chapter}{Bibliography}{69}{section.5.1}%
