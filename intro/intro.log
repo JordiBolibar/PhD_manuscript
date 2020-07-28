@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2020.1.8)  27 JUL 2020 17:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2020.1.8)  28 JUL 2020 12:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -766,11 +766,13 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no n in font nullfont!
-Missing character: There is no ( in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no g in font nullfont!
-Missing character: There is no . in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no s in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no c in font nullfont!
 Missing character: There is no e in font nullfont!
@@ -781,7 +783,8 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no g in font nullfont!
-Missing character: There is no , in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
 Missing character: There is no c in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no l in font nullfont!
@@ -789,9 +792,8 @@ Missing character: There is no v in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no g in font nullfont!
-Missing character: There is no ) in font nullfont!
 ! Undefined control sequence.
-l.13 ...blation (e.g. ice melting, calving) \citep
+l.13 ...ion, such as ice melting or calving \citep
                                                   {ipcc_climate_2018}. The s...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -806,7 +808,7 @@ Missing character: There is no c in font nullfont!
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.13 ...n (e.g. ice melting, calving) \citep{ipcc_
+l.13 ...uch as ice melting or calving \citep{ipcc_
                                                   climate_2018}. The sum of ...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -816,7 +818,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 13.
 ! Extra }, or forgotten $.
-l.13 ...elting, calving) \citep{ipcc_climate_2018}
+l.13 ...lting or calving \citep{ipcc_climate_2018}
                                                   . The sum of all accumulat...
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1064,7 +1066,7 @@ deleted material, e.g., by typing `I$}'.
 
 ! Undefined control sequence.
 l.15 ...ain areas and the contiguous plains \citep
-                                                  {farinotti_large_2019}. Mo...
+                                                  {huss_global-scale_2018, c...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1104,6 +1106,15 @@ and I'll forget about whatever was undefined.
 
 
 LaTeX Warning: Reference `intro:fig1' on page  undefined on input line 15.
+
+! Undefined control sequence.
+l.15 ...e hydrological regime of watersheds \citep
+                                                  {huss_global-scale_2018}. ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
 l.15 ...h potential droughts in late summer \citep
@@ -1188,6 +1199,7 @@ Missing character: There is no i in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no d in font nullfont!
+Missing character: There is no , in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no s in font nullfont!
@@ -1255,7 +1267,7 @@ you left one out. Proceed, with fingers crossed.
 
 ! Extra }, or forgotten $.
 l.15 ...ep{zemp_global_2019, hock_glaciermip_2019}
-                                                  . Mountain glaciers are pr...
+                                                  .
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
 you forgot something else, as in `\hbox{$x}'. In such cases
@@ -1265,47 +1277,44 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.15 ... their overall mass by the end of the 21$^
-                                                  {st}$ century.
+l.16 
+     
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-Missing character: There is no c in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no u in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no y in font nullfont!
-Missing character: There is no . in font nullfont!
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 15--16
 []
  []
 
 
-Overfull \hbox (2457.93256pt too wide) in paragraph at lines 15--16
+Overfull \hbox (667.30429pt too wide) in paragraph at lines 15--16
 []\OML/cmm/m/it/10 mportance[]\OT1/cmr/m/n/10 020\OML/cmm/m/it/10 :Glaciersplay
-amajorroleinthis; providingcoldwaterresourcesduringthewarmestmonths; essentialt
-oecosystemsandabout\OT1/cmr/m/n/10 10%\OML/cmm/m/it/10 oftheglobalhumanpopulati
-onthatliveinmountainareasandthecontiguousplains[]:Mountainareasareamongstthemos
-taffectedregionsbyanthropogenicclimatechange; outpacingglobalwarmingwithanincre
-aseof\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 3[]\OML/cmm/m/it/10 Cpe
-rdecade\OT1/cmr/m/n/10 [[]]\OML/cmm/m/it/10 :Theserapidchangesinclimatearecausi
-ngawidespreadretreatofglaciers\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 Fig:[]\OT1/cmr/
-m/n/10 )\OML/cmm/m/it/10 ; withmanyregionsalreadyhavingreached\OT1/cmr/m/n/10 "
-\OML/cmm/m/it/10 peakwater\OT1/cmr/m/n/10 "\OML/cmm/m/it/10 ; i:e:themaximumann
-ualglacierrun \OMS/cmsy/m/n/10 ^^@
+amajorroleinthis; providingwaterresourcesduringthewarmestmonthswellafterallsnow
+hasmelted:Thislatesummerrun \OMS/cmsy/m/n/10 ^^@
  []
 
 
-Overfull \hbox (1750.21574pt too wide) in paragraph at lines 15--16
+Overfull \hbox (2281.53897pt too wide) in paragraph at lines 15--16
+\OML/cmm/m/it/10 offisessentialtomanyecosystemsandabout\OT1/cmr/m/n/10 10%\OML/
+cmm/m/it/10 oftheglobalhumanpopulationthatliveinmountainareasandthecontiguouspl
+ains[]:Mountainareasareamongstthemostaffectedregionsbyanthropogenicclimatechang
+e; outpacingglobalwarmingwithanincreaseof\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT
+1/cmr/m/n/10 3[]\OML/cmm/m/it/10 Cperdecade\OT1/cmr/m/n/10 [[]]\OML/cmm/m/it/10
+ :Theserapidchangesinclimatearecausingawidespreadretreatofglaciers\OT1/cmr/m/n/
+10 (\OML/cmm/m/it/10 Fig:[]\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 ; withmanyregionsa
+lreadyhavingreached\OT1/cmr/m/n/10 "\OML/cmm/m/it/10 peakwater\OT1/cmr/m/n/10 "
+\OML/cmm/m/it/10 ; i:e:themaximuminannualglacierrun \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (1896.64804pt too wide) in paragraph at lines 15--16
 \OML/cmm/m/it/10 off:Oncethispointisreached; glaciersprogressivelyreducetheirwa
-tercontributions; alteringthehydrologicalregimeofwatersheds:Thelossofglacierspr
-oducesanearlyreleaseofaccumulatedprecipitationinspringandearlysummer; withpoten
-tialdroughtsinlatesummer[]:Thesefastchangesinmountainglaciersresultinglacierscu
-rrentlybeingimportantcontributorstosealevelrise\OT1/cmr/m/n/10 (0\OML/cmm/m/it/
-10 :\OT1/cmr/m/n/10 92$$\OMS/cmsy/m/n/10 ^^F$
+tercontributions; alteringthehydrologicalregimeofwatersheds[]:Thedisappearanceo
+fglaciersproducesanearlyreleaseofaccumulatedprecipitationinspringandearlysummer
+; withpotentialdroughtsinlatesummer[]:Thesefastchangesinmountainglaciersresulti
+nglacierscurrentlybeingimportantcontributorstosealevelrise\OT1/cmr/m/n/10 (0\OM
+L/cmm/m/it/10 :\OT1/cmr/m/n/10 92$$\OMS/cmsy/m/n/10 ^^F$
  []
 
 
@@ -1314,10 +1323,9 @@ Overfull \hbox (10.73615pt too wide) in paragraph at lines 15--16
  []
 
 
-Overfull \hbox (566.1034pt too wide) in paragraph at lines 15--16
+Overfull \hbox (139.1723pt too wide) in paragraph at lines 15--16
 []\OML/cmm/m/it/10 lobal[]\OT1/cmr/m/n/10 019\OML/cmm/m/it/10 ; hock[]laciermip
-[]\OT1/cmr/m/n/10 019\OML/cmm/m/it/10 :Mountainglaciersarepredictedtoloseanimpo
-rtantfractionoftheiroverallmassbytheendofthe\OT1/cmr/m/n/10 21$$[]$
+[]\OT1/cmr/m/n/10 019\OML/cmm/m/it/10 :$ 
  []
 
 
@@ -1328,13 +1336,13 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.17 \begin{figure*}
-                    [t]
+                    [h]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 Missing character: There is no [ in font nullfont!
-Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
 Missing character: There is no ] in font nullfont!
 ! Undefined control sequence.
 l.19 \includegraphics
@@ -1698,8 +1706,207 @@ Overfull \hbox (27.59985pt too wide) in paragraph at lines 17--24
 \OT1/cmr/m/it/10 2019).
  []
 
+Missing character: There is no M in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no y in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no 2 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no y in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no w in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no w in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no s in font nullfont!
 ! Undefined control sequence.
-l.25 \section
+l.25 ...h great differences between regions \citep
+                                                  {hock_glaciermip_2019}. Th...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no h in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no k in font nullfont!
+! Missing $ inserted.
+<inserted text> 
+                $
+l.25 ...t differences between regions \citep{hock_
+                                                  glaciermip_2019}. The corr...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+l.25 ...tween regions \citep{hock_glaciermip_2019}
+                                                  . The correct assessment o...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Undefined control sequence.
+l.25 ... anthropogenic greenhouse emissions \citep
+                                                  {marzeion_partitioning_202...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.26 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 25--26
+[]
+ []
+
+
+Overfull \hbox (7.29517pt too wide) in paragraph at lines 25--26
+[]$
+ []
+
+
+Overfull \hbox (3548.85341pt too wide) in paragraph at lines 25--26
+[]\OML/cmm/m/it/10 laciermip[]\OT1/cmr/m/n/10 019\OML/cmm/m/it/10 :Thecorrectas
+sessmentoffutureglacierevolutionisessentialtounderstandandquantifytheconsequenc
+esoftheirretreatontheEarthsystemandhumansocieties:Sinceglaciershavebecomeanicon
+ofclimatechange; accuratepredictionspairedwitheffectivecommunicationcanproveagr
+eatwaytoraiseawarenessonclimatechange:Despitescientificeffortstopreciselyquanti
+fyandunderstandglacierretreat; themaindriveroffutureuncertaintyinpredictionsare
+anthropogenicgreenhouseemissions[]:Scientificstudiesonglaciersmustfindtheirwayi
+ntoawideraudienceinordertoeffectivelycontributetotheirconservation:Bycombininga
+nimprovedunderstandingofglacierprocesseswithtargetedcommunicationofrelevantresu
+lts; wecanaimatpreservingourownverysubjectofstudy:$ 
+ []
+
+! Undefined control sequence.
+l.29 \section
              {Glaciers in the French Alps}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1731,7 +1938,7 @@ Missing character: There is no l in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no s in font nullfont!
 ! Undefined control sequence.
-l.26 \Blindtext
+l.30 \Blindtext
                
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1740,12 +1947,12 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 25--27
+Overfull \hbox (20.0pt too wide) in paragraph at lines 29--31
 []
  []
 
 ! Undefined control sequence.
-l.28 \section
+l.32 \section
              {Modelling large-scale glacier evolution}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1790,7 +1997,7 @@ Missing character: There is no i in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no n in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 28--29
+Overfull \hbox (20.0pt too wide) in paragraph at lines 32--33
 []
  []
 
@@ -2228,12 +2435,12 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 30--31
+Overfull \hbox (20.0pt too wide) in paragraph at lines 34--35
 []
  []
 
 ! Undefined control sequence.
-l.32 \section
+l.36 \section
              {A short note to the reader}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2263,7 +2470,7 @@ Missing character: There is no d in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no r in font nullfont!
 ! Undefined control sequence.
-l.33 \Blindtext
+l.37 \Blindtext
                
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2281,9 +2488,9 @@ and I'll forget about whatever was undefined.
 Here is how much of TeX's memory you used:
  18 strings out of 492163
  273 string characters out of 6129077
- 66974 words of memory out of 5000000
+ 69197 words of memory out of 5000000
  4483 multiletter control sequences out of 15000+600000
  4294 words of font info for 16 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 18i,5n,18p,1581b,100s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 18i,5n,18p,1613b,100s stack positions out of 5000i,500n,10000p,200000b,80000s
 !  ==> Fatal error occurred, no output PDF file produced!

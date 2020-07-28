@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2020.1.8)  27 JUL 2020 21:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2020.1.8)  28 JUL 2020 13:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1266,37 +1266,43 @@ Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 \WF@everypar=\toks32
 Package: wrapfig 2003/01/31  v 3.6
 )
-(c:/texlive/2019/texmf-dist/tex/latex/quattrocento/quattrocento.sty
-Package: quattrocento 2019/10/13 (Bob Tennent) Supports Quattrocento(Sans) font
-s for all LaTeX engines. 
+(c:/texlive/2019/texmf-dist/tex/latex/tools/array.sty
+Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
+\col@sep=\dimen155
+\ar@mcellbox=\box66
+\extrarowheight=\dimen156
+\NC@list=\toks33
+\extratabsurround=\skip68
+\backup@length=\skip69
+\ar@cellbox=\box67
+)
+(c:/texlive/2019/texmf-dist/tex/latex/opensans/opensans.sty
+Package: opensans 2019/06/20 Style file for Open Sans.
 
-(c:/texlive/2019/texmf-dist/tex/generic/iftex/ifxetex.sty
-Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
-)
-(c:/texlive/2019/texmf-dist/tex/generic/iftex/ifluatex.sty
-Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
-)
-(c:/texlive/2019/texmf-dist/tex/latex/xkeyval/xkeyval.sty
-Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
-
-(c:/texlive/2019/texmf-dist/tex/generic/xkeyval/xkeyval.tex
-(c:/texlive/2019/texmf-dist/tex/generic/xkeyval/xkvutils.tex
-\XKV@toks=\toks33
-\XKV@tempa@toks=\toks34
-)
-\XKV@depth=\count168
-File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
-))
-(c:/texlive/2019/texmf-dist/tex/latex/base/fontenc.sty
-Package: fontenc 2018/08/11 v2.0j Standard LaTeX package
-)
 (c:/texlive/2019/texmf-dist/tex/latex/fontaxes/fontaxes.sty
 Package: fontaxes 2014/03/23 v1.0d Font selection axes
 LaTeX Info: Redefining \upshape on input line 29.
 LaTeX Info: Redefining \itshape on input line 31.
 LaTeX Info: Redefining \slshape on input line 33.
 LaTeX Info: Redefining \scshape on input line 37.
-))
+)
+(c:/texlive/2019/texmf-dist/tex/generic/iftex/ifluatex.sty
+Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
+)
+(c:/texlive/2019/texmf-dist/tex/generic/iftex/ifxetex.sty
+Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
+)
+(c:/texlive/2019/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+
+(c:/texlive/2019/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(c:/texlive/2019/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks34
+\XKV@tempa@toks=\toks35
+)
+\XKV@depth=\count168
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+)))
 (c:/texlive/2019/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2018/08/11 v2.0j Standard LaTeX package
 
@@ -1311,14 +1317,14 @@ Package: pdfpages 2019/12/17 v0.5p Insert pages of external PDF documents (AM)
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count169
 \calc@Bcount=\count170
-\calc@Adimen=\dimen155
-\calc@Bdimen=\dimen156
-\calc@Askip=\skip68
-\calc@Bskip=\skip69
+\calc@Adimen=\dimen157
+\calc@Bdimen=\dimen158
+\calc@Askip=\skip70
+\calc@Bskip=\skip71
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
 \calc@Ccount=\count171
-\calc@Cskip=\skip70
+\calc@Cskip=\skip72
 )
 (c:/texlive/2019/texmf-dist/tex/latex/eso-pic/eso-pic.sty
 Package: eso-pic 2018/04/12 v2.0h eso-pic (RN)
@@ -1340,66 +1346,66 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 ))
-\AM@pagewidth=\dimen157
-\AM@pageheight=\dimen158
+\AM@pagewidth=\dimen159
+\AM@pageheight=\dimen160
 
 (c:/texlive/2019/texmf-dist/tex/latex/pdfpages/pppdftex.def
 File: pppdftex.def 2019/12/17 v0.5p Pdfpages driver for pdfTeX (AM)
 )
-\AM@pagebox=\box66
-\AM@global@opts=\toks35
-\AM@toc@title=\toks36
+\AM@pagebox=\box68
+\AM@global@opts=\toks36
+\AM@toc@title=\toks37
 \c@AM@survey=\count172
-\AM@templatesizebox=\box67
+\AM@templatesizebox=\box69
 )
 (c:/texlive/2019/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2019/10/08 v1.6180339 publication quality tables
-\heavyrulewidth=\dimen159
-\lightrulewidth=\dimen160
-\cmidrulewidth=\dimen161
-\belowrulesep=\dimen162
-\belowbottomsep=\dimen163
-\aboverulesep=\dimen164
-\abovetopsep=\dimen165
-\cmidrulesep=\dimen166
-\cmidrulekern=\dimen167
-\defaultaddspace=\dimen168
+\heavyrulewidth=\dimen161
+\lightrulewidth=\dimen162
+\cmidrulewidth=\dimen163
+\belowrulesep=\dimen164
+\belowbottomsep=\dimen165
+\aboverulesep=\dimen166
+\abovetopsep=\dimen167
+\cmidrulesep=\dimen168
+\cmidrulekern=\dimen169
+\defaultaddspace=\dimen170
 \@cmidla=\count173
 \@cmidlb=\count174
-\@aboverulesep=\dimen169
-\@belowrulesep=\dimen170
+\@aboverulesep=\dimen171
+\@belowrulesep=\dimen172
 \@thisruleclass=\count175
 \@lastruleclass=\count176
-\@thisrulewidth=\dimen171
+\@thisrulewidth=\dimen173
 )
 (c:/texlive/2019/texmf-dist/tex/generic/ulem/ulem.sty
-\UL@box=\box68
-\UL@hyphenbox=\box69
-\UL@skip=\skip71
-\UL@hook=\toks37
-\UL@height=\dimen172
+\UL@box=\box70
+\UL@hyphenbox=\box71
+\UL@skip=\skip73
+\UL@hook=\toks38
+\UL@height=\dimen174
 \UL@pe=\count177
-\UL@pixel=\dimen173
-\ULC@box=\box70
+\UL@pixel=\dimen175
+\ULC@box=\box72
 Package: ulem 2012/05/18
-\ULdepth=\dimen174
+\ULdepth=\dimen176
 )
 (c:/texlive/2019/texmf-dist/tex/latex/lineno/lineno.sty
 Package: lineno 2005/11/02 line numbers on paragraphs v4.41
 \linenopenalty=\count178
-\output=\toks38
+\output=\toks39
 \linenoprevgraf=\count179
-\linenumbersep=\dimen175
-\linenumberwidth=\dimen176
+\linenumbersep=\dimen177
+\linenumberwidth=\dimen178
 \c@linenumber=\count180
 \c@pagewiselinenumber=\count181
 \c@LN@truepage=\count182
 \c@internallinenumber=\count183
 \c@internallinenumbers=\count184
-\quotelinenumbersep=\dimen177
-\bframerule=\dimen178
-\bframesep=\dimen179
-\bframebox=\box71
+\quotelinenumbersep=\dimen179
+\bframerule=\dimen180
+\bframesep=\dimen181
+\bframebox=\box73
 LaTeX Info: Redefining \\ on input line 3056.
 )
 (c:/texlive/2019/texmf-dist/tex/latex/placeins/placeins.sty
@@ -1408,15 +1414,15 @@ Package: placeins 2005/04/18  v 2.2
 (c:/texlive/2019/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footer
 s
-\f@nch@headwidth=\skip72
-\f@nch@O@elh=\skip73
-\f@nch@O@erh=\skip74
-\f@nch@O@olh=\skip75
-\f@nch@O@orh=\skip76
-\f@nch@O@elf=\skip77
-\f@nch@O@erf=\skip78
-\f@nch@O@olf=\skip79
-\f@nch@O@orf=\skip80
+\f@nch@headwidth=\skip74
+\f@nch@O@elh=\skip75
+\f@nch@O@erh=\skip76
+\f@nch@O@olh=\skip77
+\f@nch@O@orh=\skip78
+\f@nch@O@elf=\skip79
+\f@nch@O@erf=\skip80
+\f@nch@O@olf=\skip81
+\f@nch@O@orf=\skip82
 )
 (c:/texlive/2019/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
@@ -1427,83 +1433,78 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 \Gm@cnth=\count185
 \Gm@cntv=\count186
 \c@Gm@tempcnt=\count187
-\Gm@bindingoffset=\dimen180
-\Gm@wd@mp=\dimen181
-\Gm@odd@mp=\dimen182
-\Gm@even@mp=\dimen183
-\Gm@layoutwidth=\dimen184
-\Gm@layoutheight=\dimen185
-\Gm@layouthoffset=\dimen186
-\Gm@layoutvoffset=\dimen187
-\Gm@dimlist=\toks39
+\Gm@bindingoffset=\dimen182
+\Gm@wd@mp=\dimen183
+\Gm@odd@mp=\dimen184
+\Gm@even@mp=\dimen185
+\Gm@layoutwidth=\dimen186
+\Gm@layoutheight=\dimen187
+\Gm@layouthoffset=\dimen188
+\Gm@layoutvoffset=\dimen189
+\Gm@dimlist=\toks40
 )
 \c@encartcompteur=\count188
 
 (./Bolibar_PhD_dissertation.aux)
 \openout1 = `Bolibar_PhD_dissertation.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/jkp/m/it on input line 126.
+LaTeX Font Info:    Checking defaults for OML/jkp/m/it on input line 133.
 LaTeX Font Info:    Trying to load font information for OML+jkp on input line 1
-26.
+33.
 
 (c:/texlive/2019/texmf-dist/tex/latex/kpfonts/omljkp.fd
 File: omljkp.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    ... okay on input line 126.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 126.
-LaTeX Font Info:    ... okay on input line 126.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 126.
-LaTeX Font Info:    ... okay on input line 126.
-LaTeX Font Info:    Checking defaults for OMS/jkp/m/n on input line 126.
+LaTeX Font Info:    ... okay on input line 133.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 133.
+LaTeX Font Info:    ... okay on input line 133.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 133.
+LaTeX Font Info:    ... okay on input line 133.
+LaTeX Font Info:    Checking defaults for OMS/jkp/m/n on input line 133.
 LaTeX Font Info:    Trying to load font information for OMS+jkp on input line 1
-26.
+33.
 
 (c:/texlive/2019/texmf-dist/tex/latex/kpfonts/omsjkp.fd
 File: omsjkp.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    ... okay on input line 126.
-LaTeX Font Info:    Checking defaults for OMX/jkp/m/n on input line 126.
+LaTeX Font Info:    ... okay on input line 133.
+LaTeX Font Info:    Checking defaults for OMX/jkp/m/n on input line 133.
 LaTeX Font Info:    Trying to load font information for OMX+jkp on input line 1
-26.
+33.
 
 (c:/texlive/2019/texmf-dist/tex/latex/kpfonts/omxjkp.fd
 File: omxjkp.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    ... okay on input line 126.
-LaTeX Font Info:    Checking defaults for U/jkpexa/m/n on input line 126.
+LaTeX Font Info:    ... okay on input line 133.
+LaTeX Font Info:    Checking defaults for U/jkpexa/m/n on input line 133.
 LaTeX Font Info:    Trying to load font information for U+jkpexa on input line 
-126.
+133.
 
 (c:/texlive/2019/texmf-dist/tex/latex/kpfonts/ujkpexa.fd
 File: ujkpexa.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    ... okay on input line 126.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 126.
+LaTeX Font Info:    ... okay on input line 133.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 133.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 1
-26.
+33.
 
 (c:/texlive/2019/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 126.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 126.
-LaTeX Font Info:    ... okay on input line 126.
-LaTeX Font Info:    Trying to load font information for T1+QuattrocentoSans-TLF
- on input line 126.
+LaTeX Font Info:    ... okay on input line 133.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 133.
+LaTeX Font Info:    ... okay on input line 133.
+LaTeX Font Info:    Trying to load font information for T1+opensans-TOsF on inp
+ut line 133.
 
-(c:/texlive/2019/texmf-dist/tex/latex/quattrocento/T1QuattrocentoSans-TLF.fd
-File: T1QuattrocentoSans-TLF.fd 2019/04/03 (autoinst) Font definitions for T1/Q
-uattrocentoSans-TLF.
+(c:/texlive/2019/texmf-dist/tex/latex/opensans/T1opensans-TOsF.fd
+File: T1opensans-TOsF.fd 2019/06/24 Font definitions for T1/opensans-TOsF.
 )
-LaTeX Font Info:    Font shape `T1/QuattrocentoSans-TLF/m/n' in size <10> not a
-vailable
-(Font)              Font shape `T1/QuattrocentoSans-TLF/regular/n' tried instea
-d on input line 126.
-LaTeX Font Info:    Font shape `T1/QuattrocentoSans-TLF/regular/n' will be
-(Font)              scaled to size 10.0pt on input line 126.
+LaTeX Font Info:    Font shape `T1/opensans-TOsF/m/n' will be
+(Font)              scaled to size 9.49997pt on input line 133.
 \c@lstlisting=\count189
-\AtBeginShipoutBox=\box72
-Package hyperref Info: Link coloring OFF on input line 126.
+\AtBeginShipoutBox=\box74
+Package hyperref Info: Link coloring OFF on input line 133.
 
 (c:/texlive/2019/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
@@ -1516,9 +1517,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count190
 )
-LaTeX Info: Redefining \ref on input line 126.
-LaTeX Info: Redefining \pageref on input line 126.
-LaTeX Info: Redefining \nameref on input line 126.
+LaTeX Info: Redefining \ref on input line 133.
+LaTeX Info: Redefining \pageref on input line 133.
+LaTeX Info: Redefining \nameref on input line 133.
 
 (./Bolibar_PhD_dissertation.out) (./Bolibar_PhD_dissertation.out)
 \@outlinefile=\write5
@@ -1528,16 +1529,16 @@ LaTeX Info: Redefining \nameref on input line 126.
 (c:/texlive/2019/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count191
-\scratchdimen=\dimen188
-\scratchbox=\box73
+\scratchdimen=\dimen190
+\scratchbox=\box75
 \nofMPsegments=\count192
 \nofMParguments=\count193
-\everyMPshowfont=\toks40
+\everyMPshowfont=\toks41
 \MPscratchCnt=\count194
-\MPscratchDim=\dimen189
+\MPscratchDim=\dimen191
 \MPnumerator=\count195
 \makeMPintoPDFobject=\count196
-\everyMPtoPDFconversion=\toks41
+\everyMPtoPDFconversion=\toks42
 ) (c:/texlive/2019/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2019-12-09 v2.10 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -1621,7 +1622,7 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 ] (./Bolibar_PhD_dissertation.bbl)
 Package minitoc Info: I0024
 (minitoc)             PREPARING MINITOCS FROM Bolibar_PhD_dissertation.toc on i
-nput line 136.
+nput line 143.
 Package minitoc Info: I0033
 (minitoc)             Writing Bolibar_PhD_dissertation.mtc1.
 \openout3 = `Bolibar_PhD_dissertation.mtc1'.
@@ -1646,59 +1647,31 @@ Package minitoc Info: I0033
 (minitoc)             Writing Bolibar_PhD_dissertation.mtc6.
 \openout3 = `Bolibar_PhD_dissertation.mtc6'.
 
-LaTeX Font Info:    Font shape `T1/QuattrocentoSans-TLF/m/n' in size <9> not av
-ailable
-(Font)              Font shape `T1/QuattrocentoSans-TLF/regular/n' tried instea
-d on input line 141.
-LaTeX Font Info:    Font shape `T1/QuattrocentoSans-TLF/regular/n' will be
-(Font)              scaled to size 9.0pt on input line 141.
-LaTeX Font Info:    Font shape `T1/QuattrocentoSans-TLF/m/it' in size <9> not a
-vailable
-(Font)              Font shape `T1/QuattrocentoSans-TLF/regular/it' tried inste
-ad on input line 142.
-LaTeX Font Info:    Font shape `T1/QuattrocentoSans-TLF/regular/it' will be
-(Font)              scaled to size 9.0pt on input line 142.
+LaTeX Font Info:    Font shape `T1/opensans-TOsF/m/n' will be
+(Font)              scaled to size 8.54997pt on input line 148.
+LaTeX Font Info:    Font shape `T1/opensans-TOsF/m/it' will be
+(Font)              scaled to size 8.54997pt on input line 149.
  [1{c:/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] (./abstr
 act/abstract.tex
-LaTeX Font Info:    Font shape `T1/QuattrocentoSans-TLF/m/n' in size <14.4> not
- available
-(Font)              Font shape `T1/QuattrocentoSans-TLF/regular/n' tried instea
-d on input line 2.
-LaTeX Font Info:    Font shape `T1/QuattrocentoSans-TLF/regular/n' will be
-(Font)              scaled to size 14.4pt on input line 2.
-LaTeX Font Info:    Font shape `T1/QuattrocentoSans-TLF/b/n' in size <14.4> not
- available
-(Font)              Font shape `T1/QuattrocentoSans-TLF/bold/n' tried instead o
-n input line 2.
-LaTeX Font Info:    Font shape `T1/QuattrocentoSans-TLF/bold/n' will be
-(Font)              scaled to size 14.4pt on input line 2.
+LaTeX Font Info:    Font shape `T1/opensans-TOsF/m/n' will be
+(Font)              scaled to size 13.67995pt on input line 2.
+LaTeX Font Info:    Font shape `T1/opensans-TOsF/b/n' will be
+(Font)              scaled to size 13.67995pt on input line 2.
 ) [3]
 (./acknowledgements/acknowledgements.tex) [4]
-LaTeX Font Info:    Font shape `T1/QuattrocentoSans-TLF/m/n' in size <24.88> no
-t available
-(Font)              Font shape `T1/QuattrocentoSans-TLF/regular/n' tried instea
-d on input line 154.
-LaTeX Font Info:    Font shape `T1/QuattrocentoSans-TLF/regular/n' will be
-(Font)              scaled to size 24.88pt on input line 154.
-LaTeX Font Info:    Font shape `T1/QuattrocentoSans-TLF/b/n' in size <24.88> no
-t available
-(Font)              Font shape `T1/QuattrocentoSans-TLF/bold/n' tried instead o
-n input line 154.
-LaTeX Font Info:    Font shape `T1/QuattrocentoSans-TLF/bold/n' will be
-(Font)              scaled to size 24.88pt on input line 154.
-LaTeX Font Info:    Trying to load font information for T1+jkp on input line 15
-4.
+LaTeX Font Info:    Font shape `T1/opensans-TOsF/m/n' will be
+(Font)              scaled to size 23.63593pt on input line 161.
+LaTeX Font Info:    Font shape `T1/opensans-TOsF/b/n' will be
+(Font)              scaled to size 23.63593pt on input line 161.
+LaTeX Font Info:    Trying to load font information for T1+jkp on input line 16
+1.
 
 (c:/texlive/2019/texmf-dist/tex/latex/kpfonts/t1jkp.fd
 File: t1jkp.fd 2007/01/24 Fontinst v1.928 font definitions for T1/jkp.
 )
 (./Bolibar_PhD_dissertation.toc
-LaTeX Font Info:    Font shape `T1/QuattrocentoSans-TLF/b/n' in size <10> not a
-vailable
-(Font)              Font shape `T1/QuattrocentoSans-TLF/bold/n' tried instead o
-n input line 2.
-LaTeX Font Info:    Font shape `T1/QuattrocentoSans-TLF/bold/n' will be
-(Font)              scaled to size 10.0pt on input line 2.
+LaTeX Font Info:    Font shape `T1/opensans-TOsF/b/n' will be
+(Font)              scaled to size 9.49997pt on input line 2.
 LaTeX Font Info:    Trying to load font information for OT1+jkp on input line 3
 .
 
@@ -1765,21 +1738,13 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-LaTeX Font Info:    Trying to load font information for TS1+QuattrocentoSans-TL
-F on input line 15.
-(c:/texlive/2019/texmf-dist/tex/latex/quattrocento/TS1QuattrocentoSans-TLF.fd
-File: TS1QuattrocentoSans-TLF.fd 2019/04/03 (autoinst) Font definitions for TS1
-/QuattrocentoSans-TLF.
+LaTeX Font Info:    Trying to load font information for TS1+opensans-TOsF on in
+put line 15.
+(c:/texlive/2019/texmf-dist/tex/latex/opensans/TS1opensans-TOsF.fd
+File: TS1opensans-TOsF.fd 2019/06/24 Font definitions for TS1/opensans-TOsF.
 )
-LaTeX Font Info:    Font shape `TS1/QuattrocentoSans-TLF/m/n' in size <10> not 
-available
-(Font)              Font shape `TS1/QuattrocentoSans-TLF/regular/n' tried inste
-ad on input line 15.
-LaTeX Font Info:    Font shape `TS1/QuattrocentoSans-TLF/regular/n' will be
-(Font)              scaled to size 10.0pt on input line 15.
-
-Underfull \vbox (badness 1205) has occurred while \output is active []
-
+LaTeX Font Info:    Font shape `TS1/opensans-TOsF/m/n' will be
+(Font)              scaled to size 9.49997pt on input line 15.
  [3]
 <Figures/intro/Figure_1.png, id=330, 997.22563pt x 930.97812pt>
 File: Figures/intro/Figure_1.png Graphic file (type png)
@@ -1809,14 +1774,8 @@ LaTeX Warning: Command \textendash invalid in math mode on input line 21.
 Package natbib Warning: Citation `marzeion_partitioning_2020' on page 4 undefin
 ed on input line 25.
 
-
-Underfull \vbox (badness 2393) has occurred while \output is active []
-
- [4 <./Figures/intro/Figure_1.PNG>])
-Underfull \vbox (badness 5490) has occurred while \output is active []
-
- [5]
-[6] [7] (./chapters/glaciology/methods/methods.tex [8
+[4 <./Figures/intro/Figure_1.PNG>] [5]) [6] [7]
+(./chapters/glaciology/methods/methods.tex [8
 
 ]
 Chapter 2.
@@ -1838,19 +1797,17 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-LaTeX Font Info:    Font shape `T1/QuattrocentoSans-TLF/m/it' in size <10> not 
-available
-(Font)              Font shape `T1/QuattrocentoSans-TLF/regular/it' tried inste
-ad on input line 14.
-LaTeX Font Info:    Font shape `T1/QuattrocentoSans-TLF/regular/it' will be
-(Font)              scaled to size 10.0pt on input line 14.
-[9]
-Overfull \hbox (2.36815pt too wide) in paragraph at lines 26--27
-[]\T1/QuattrocentoSans-TLF/regular/n/10 Empirical mod-els, like the temperature
--index model (e.g. []Hock[], []2003[]), sim-u-late glacier SMB through
+LaTeX Font Info:    Font shape `T1/opensans-TOsF/m/it' will be
+(Font)              scaled to size 9.49997pt on input line 14.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [9]
+Overfull \hbox (10.2217pt too wide) in paragraph at lines 26--27
+[]\T1/opensans-TOsF/m/n/10 Empirical mod-els, like the temperature-index model 
+(e.g. []Hock[], []2003[]), sim-u-late glacier SMB through
  []
 
-Missing character: There is no ¢ in font QuattrocentoSans-tlf-t1!
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -1891,38 +1848,27 @@ You may provide a definition with
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [11]
-LaTeX Font Info:    Font shape `T1/QuattrocentoSans-TLF/m/n' in size <12> not a
-vailable
-(Font)              Font shape `T1/QuattrocentoSans-TLF/regular/n' tried instea
-d on input line 52.
-LaTeX Font Info:    Font shape `T1/QuattrocentoSans-TLF/regular/n' will be
-(Font)              scaled to size 12.0pt on input line 52.
-LaTeX Font Info:    Font shape `T1/QuattrocentoSans-TLF/b/n' in size <12> not a
-vailable
-(Font)              Font shape `T1/QuattrocentoSans-TLF/bold/n' tried instead o
-n input line 52.
-LaTeX Font Info:    Font shape `T1/QuattrocentoSans-TLF/bold/n' will be
-(Font)              scaled to size 12.0pt on input line 52.
-<Figures/methods/Figure_1.png, id=495, 492.44778pt x 357.30289pt>
+LaTeX Font Info:    Font shape `T1/opensans-TOsF/m/n' will be
+(Font)              scaled to size 11.39996pt on input line 52.
+LaTeX Font Info:    Font shape `T1/opensans-TOsF/b/n' will be
+(Font)              scaled to size 11.39996pt on input line 52.
+<Figures/methods/Figure_1.png, id=496, 492.44778pt x 357.30289pt>
 File: Figures/methods/Figure_1.png Graphic file (type png)
 <use Figures/methods/Figure_1.png>
 Package pdftex.def Info: Figures/methods/Figure_1.png  used on input line 58.
 (pdftex.def)             Requested size: 398.33858pt x 289.0212pt.
 
-[12 <./Figures/methods/Figure_1.png>]
+[12]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [13]
-<Figures/methods/Figure_2.png, id=527, 579.66562pt x 270.51062pt>
+ [13 <./Figures/methods/Figure_1.png>]
+<Figures/methods/Figure_2.png, id=530, 579.66562pt x 270.51062pt>
 File: Figures/methods/Figure_2.png Graphic file (type png)
 <use Figures/methods/Figure_2.png>
 Package pdftex.def Info: Figures/methods/Figure_2.png  used on input line 92.
 (pdftex.def)             Requested size: 256.0748pt x 119.49971pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [14 <./Figures/methods/Figure_2.png>] [15]
-<Figures/methods/Figure_3.pdf, id=592, 465.25273pt x 126.71307pt>
+ [14] [15 <./Figures/methods/Figure_2.png>]
+<Figures/methods/Figure_3.pdf, id=597, 465.25273pt x 126.71307pt>
 File: Figures/methods/Figure_3.pdf Graphic file (type pdf)
 <use Figures/methods/Figure_3.pdf>
 Package pdftex.def Info: Figures/methods/Figure_3.pdf  used on input line 112.
@@ -1939,83 +1885,52 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.123 ...is redistribution is applied using the Î”
-                                                  h parameterization. The id...
-
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-! Package inputenc Error: Unicode character Î” (U+0394)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
 l.123 ... the normalized glacier altitude. This Î”
                                                   h function is specific for...
 
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
-[17]
-<Figures/methods/Figure_4.pdf, id=681, 399.4925pt x 598.235pt>
+[17] [18]
+<Figures/methods/Figure_4.pdf, id=696, 399.4925pt x 598.235pt>
 File: Figures/methods/Figure_4.pdf Graphic file (type pdf)
 <use Figures/methods/Figure_4.pdf>
 Package pdftex.def Info: Figures/methods/Figure_4.pdf  used on input line 146.
 (pdftex.def)             Requested size: 236.15796pt x 353.64934pt.
-LaTeX Font Info:    Font shape `TS1/QuattrocentoSans-TLF/m/n' in size <9> not a
-vailable
-(Font)              Font shape `TS1/QuattrocentoSans-TLF/regular/n' tried inste
-ad on input line 147.
-LaTeX Font Info:    Font shape `TS1/QuattrocentoSans-TLF/regular/n' will be
-(Font)              scaled to size 9.0pt on input line 147.
- [18]
-Overfull \hbox (0.71057pt too wide) in paragraph at lines 151--152
-[]\T1/QuattrocentoSans-TLF/regular/n/10 Glacier ice thick-ness data come from [
-]Farinotti
+LaTeX Font Info:    Font shape `TS1/opensans-TOsF/m/n' will be
+(Font)              scaled to size 8.54997pt on input line 147.
+
+Overfull \hbox (7.43538pt too wide) in paragraph at lines 151--152
+[]\T1/opensans-TOsF/m/n/10 Glacier ice thick-ness data come from []Farinotti
  []
 
 
-Underfull \hbox (badness 1097) in paragraph at lines 151--152
-\T1/QuattrocentoSans-TLF/regular/n/10 re-sent the lat-est con-sen-sus es-ti-mat
-e, av-
+Underfull \hbox (badness 1297) in paragraph at lines 153--154
+\T1/opensans-TOsF/m/n/10 no sys-tem-atic cor-rec-tion was ap-plied to
  []
 
 
-LaTeX Warning: Reference `methods:figS2' on page 19 undefined on input line 153
-.
-
-
-Underfull \hbox (badness 2111) in paragraph at lines 153--154
-\T1/QuattrocentoSans-TLF/regular/n/10 u-lated ice thick-nesses from F19 (re-fer
- to
+Underfull \hbox (badness 1509) in paragraph at lines 153--154
+\T1/opensans-TOsF/m/n/10 for Saint-Sorlin (2 $\OML/jkp/m/it/10 km[]$\T1/opensan
+s-TOsF/m/n/10 , mean al-ti-tude =
  []
 
 [19 <./Figures/methods/Figure_4.pdf>]
+Overfull \hbox (13.55072pt too wide) in paragraph at lines 159--159
+[]\T1/opensans-TOsF/b/n/12 Glacier-wide sur-face mass bal-ance sim-u-la-tions: 
+val-i-da-tion and re-sults 
+ []
 
-LaTeX Warning: Reference `methods:figS3' on page 20 undefined on input line 167
-.
-
-LaTeX Font Info:    Font shape `T1/QuattrocentoSans-TLF/m/n' in size <7.6> not 
-available
-(Font)              Font shape `T1/QuattrocentoSans-TLF/regular/n' tried instea
-d on input line 172.
-LaTeX Font Info:    Font shape `T1/QuattrocentoSans-TLF/regular/n' will be
-(Font)              scaled to size 7.6pt on input line 172.
-LaTeX Font Info:    Font shape `T1/QuattrocentoSans-TLF/m/n' in size <6> not av
-ailable
-(Font)              Font shape `T1/QuattrocentoSans-TLF/regular/n' tried instea
-d on input line 172.
-LaTeX Font Info:    Font shape `T1/QuattrocentoSans-TLF/regular/n' will be
-(Font)              scaled to size 6.0pt on input line 172.
+[20]
+LaTeX Font Info:    Font shape `T1/opensans-TOsF/m/n' will be
+(Font)              scaled to size 7.21997pt on input line 172.
+LaTeX Font Info:    Font shape `T1/opensans-TOsF/m/n' will be
+(Font)              scaled to size 5.69998pt on input line 172.
 
 Underfull \hbox (badness 10000) in paragraph at lines 177--192
 
  []
 
-[20]
 ! Missing $ inserted.
 <inserted text> 
                 $
@@ -2150,54 +2065,58 @@ l.204 \end{equation}
                     
 Things are pretty mixed up, but I think the worst is over.
 
-[21]
-<Figures/methods/Figure_5.pdf, id=806, 391.4625pt x 567.11874pt>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [21]
+<Figures/methods/Figure_5.pdf, id=807, 391.4625pt x 567.11874pt>
 File: Figures/methods/Figure_5.pdf Graphic file (type pdf)
 <use Figures/methods/Figure_5.pdf>
-Package pdftex.def Info: Figures/methods/Figure_5.pdf  used on input line 214.
+Package pdftex.def Info: Figures/methods/Figure_5.pdf  used on input line 212.
 (pdftex.def)             Requested size: 236.15796pt x 342.12572pt.
 
-Underfull \hbox (badness 1895) in paragraph at lines 219--220
-[][]\T1/QuattrocentoSans-TLF/regular/n/10 In a sec-ond term, to-po-graph-i-cal 
-pre-
+Underfull \hbox (badness 1215) in paragraph at lines 213--213
+\T1/opensans-TOsF/m/n/9 topo-climatic pre-dic-tors out of 55 pre-dic-tors us-in
+g Lasso.
  []
 
 
-Underfull \hbox (badness 1142) in paragraph at lines 219--220
-\T1/QuattrocentoSans-TLF/regular/n/10 higher un-cer-tain-ties for high al-ti-tu
-de pre-
+Underfull \hbox (badness 2158) in paragraph at lines 217--218
+[]\T1/opensans-TOsF/m/n/10 By run-ning the Lasso al-go-rithm on the
  []
 
 
-Underfull \hbox (badness 2189) in paragraph at lines 223--224
-\T1/QuattrocentoSans-TLF/regular/n/10 In or-der to eval-u-ate the per-for-mance
- of
+Underfull \hbox (badness 1831) in paragraph at lines 217--218
+\T1/opensans-TOsF/m/n/10 dataset based on Eq. []2.2[] and []2.3[], we
  []
 
 
-Overfull \hbox (0.82716pt too wide) in paragraph at lines 223--224
-\T1/QuattrocentoSans-TLF/regular/n/10 cross-validation. For rel-a-tively small 
-datasets
+Underfull \hbox (badness 2913) in paragraph at lines 217--218
+\T1/opensans-TOsF/m/n/10 ob-tain the con-tri-bu-tion of each pre-dic-
  []
 
 
-Underfull \hbox (badness 4168) in paragraph at lines 223--224
-\T1/QuattrocentoSans-TLF/regular/n/10 like the one used in this study, cross-
+Underfull \hbox (badness 1205) in paragraph at lines 217--218
+\T1/opensans-TOsF/m/n/10 tant pre-dic-tors. Ablation-related pre-dic-
+ []
+
+
+Underfull \hbox (badness 1005) in paragraph at lines 217--218
+\T1/opensans-TOsF/m/n/10 the ice and con-tribute to the ac-cu-mu-la-
  []
 
 [22 <./Figures/methods/Figure_5.pdf>]
-<Figures/methods/Figure_6.pdf, id=832, 568.96408pt x 577.71754pt>
+<Figures/methods/Figure_6.pdf, id=840, 568.96408pt x 577.71754pt>
 File: Figures/methods/Figure_6.pdf Graphic file (type pdf)
 <use Figures/methods/Figure_6.pdf>
 Package pdftex.def Info: Figures/methods/Figure_6.pdf  used on input line 229.
 (pdftex.def)             Requested size: 341.43306pt x 346.69492pt.
-<Figures/methods/Figure_7.pdf, id=834, 560.47884pt x 212.81613pt>
+<Figures/methods/Figure_7.pdf, id=842, 560.47884pt x 212.81613pt>
 File: Figures/methods/Figure_7.pdf Graphic file (type pdf)
 <use Figures/methods/Figure_7.pdf>
 Package pdftex.def Info: Figures/methods/Figure_7.pdf  used on input line 238.
 (pdftex.def)             Requested size: 398.33858pt x 151.25313pt.
- [23 <./Figures/methods/Figure_6.pdf>]
-<Figures/methods/Figure_8.pdf, id=12659, 492.94984pt x 239.37903pt>
+<Figures/methods/Figure_8.pdf, id=844, 492.94984pt x 239.37903pt>
 File: Figures/methods/Figure_8.pdf Graphic file (type pdf)
 <use Figures/methods/Figure_8.pdf>
 Package pdftex.def Info: Figures/methods/Figure_8.pdf  used on input line 247.
@@ -2207,17 +2126,17 @@ Overfull \hbox (11.38089pt too wide) in paragraph at lines 247--248
  [][] 
  []
 
-[24 <./Figures/methods/Figure_7.pdf> <./Figures/methods/Figure_8.pdf
-
-pdfTeX warning: pdflatex.exe (file ./Figures/methods/Figure_8.pdf): PDF inclusi
-on: multiple pdfs with page group included in a single page
->]
-<Figures/methods/Figure_9.pdf, id=12764, 571.42365pt x 580.9075pt>
+[23]
+<Figures/methods/Figure_9.pdf, id=856, 571.42365pt x 580.9075pt>
 File: Figures/methods/Figure_9.pdf Graphic file (type pdf)
 <use Figures/methods/Figure_9.pdf>
 Package pdftex.def Info: Figures/methods/Figure_9.pdf  used on input line 260.
 (pdftex.def)             Requested size: 341.43306pt x 347.10237pt.
-<Figures/methods/Figure_10.pdf, id=12766, 556.63818pt x 256.68343pt>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<Figures/methods/Figure_10.pdf, id=858, 556.63818pt x 256.68343pt>
 File: Figures/methods/Figure_10.pdf Graphic file (type pdf)
 <use Figures/methods/Figure_10.pdf>
 Package pdftex.def Info: Figures/methods/Figure_10.pdf  used on input line 269.
@@ -2228,11 +2147,10 @@ Overfull \hbox (11.38089pt too wide) in paragraph at lines 269--270
  [][] 
  []
 
-[25 <./Figures/methods/Figure_9.pdf>]
 
-LaTeX Warning: Reference `methods:figS5' on page 26 undefined on input line 278
-.
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
+ [24 <./Figures/methods/Figure_6.pdf>]
 
 ! Package inputenc Error: Unicode character Î” (U+0394)
 (inputenc)                not set up for use with LaTeX.
@@ -2261,140 +2179,77 @@ l.283 ...oach developed in ALPGM to compute the Î”
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
-[26 <./Figures/methods/Figure_10.pdf>]
-! Missing $ inserted.
-<inserted text> 
-                $
-l.285 The glacier-specific \Delta
-                                  h functions are computed for glaciers $\ge...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.285 ...functions are computed for glaciers $\geq
-                                                  $ 0.5 \(km^2\), which repr...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
+ [25 <./Figures/methods/Figure_7.pdf> <./Figures/methods/Figure_8.pdf
 
-LaTeX Warning: Reference `methods:figS4' on page 27 undefined on input line 285
-.
+pdfTeX warning: pdflatex.exe (file ./Figures/methods/Figure_8.pdf): PDF inclusi
+on: multiple pdfs with page group included in a single page
+>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.287 ...o account the uncertainties in the \Delta
-                                                   h glacier geometry update...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
-LaTeX Warning: Command \textpm invalid in math mode on input line 287.
-
-
-LaTeX Warning: Command \textpm invalid in math mode on input line 287.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.288 
-      
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-Missing character: There is no ± in font jkpmn7t!
-
-Overfull \hbox (82.76697pt too wide) in paragraph at lines 287--288
-\U/jkpmia/m/it/10 ^^A\OML/jkp/m/it/10 hglaciergeometryupdatefunctioncomputation
-; weaddeda\OT1/jkp/m/n/10 10%\OML/jkp/m/it/10 variationintheparameterizedfuncti
-ons\OT1/jkp/m/n/10 (\OML/jkp/m/it/10 Fig:[]\OT1/jkp/m/n/10 2\OML/jkp/m/it/10 :\
-OT1/jkp/m/n/10 11[])\OML/jkp/m/it/10 :$ 
- []
-
-<Figures/methods/Figure_11.pdf, id=24929, 875.91241pt x 374.3586pt>
+ [26 <./Figures/methods/Figure_9.pdf>]
+<Figures/methods/Figure_11.pdf, id=24917, 875.91241pt x 374.3586pt>
 File: Figures/methods/Figure_11.pdf Graphic file (type pdf)
 <use Figures/methods/Figure_11.pdf>
 Package pdftex.def Info: Figures/methods/Figure_11.pdf  used on input line 291.
 
 (pdftex.def)             Requested size: 426.79134pt x 182.4034pt.
-! Missing $ inserted.
-<inserted text> 
-                $
-l.296 ...s dataset. Other studies using the \Delta
-                                                   h parameterization alread...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.297 
-      
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
 
 
-Overfull \hbox (719.24236pt too wide) in paragraph at lines 296--297
-\T1/QuattrocentoSans-TLF/regular/n/10 the orig-i-nal F19 ice thick-ness dataset
-. Other stud-ies us-ing the $\U/jkpmia/m/it/10 ^^A\OML/jkp/m/it/10 hparameteriz
-ationalreadyprovedthattheinitialicethicknessisthemostimportantuncertaintyinglac
-ierevolutionsimulations; togetherwiththechoiceofaGCMforfutureprojections\OT1/jk
-p/m/n/10 ([][][]\OML/jkp/m/it/10 ; [] \OT1/jkp/m/n/10 2015[])\OML/jkp/m/it/10 :
-$ 
- []
+LaTeX Warning: `h' float specifier changed to `ht'.
 
-[27 <./Figures/methods/Figure_11.pdf>] [28]
-
-LaTeX Warning: Reference `methods:figS6' on page 29 undefined on input line 316
-.
-
+[27 <./Figures/methods/Figure_10.pdf>] [28 <./Figures/methods/Figure_11.pdf>]
 [29]
 
 Package natbib Warning: Citation `bolibar_jordibolibar/alpgm:_2019' on page 30 
 undefined on input line 322.
 
-[30]
-! Missing $ inserted.
-<inserted text> 
-                $
-l.330 Before computing the glacier-specific \Delta
-                                                   h parameterized functions...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.331 
-      
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
-Overfull \hbox (476.87038pt too wide) in paragraph at lines 330--331
-\T1/QuattrocentoSans-TLF/regular/n/10 Before com-put-ing the glacier-specific $
-\U/jkpmia/m/it/10 ^^A\OML/jkp/m/it/10 hparameterizedfunctions; somepreprocessin
-gisdonetotheregionalFrenchAlpsDEMrasterfilesinordertofilterartefactsandnoise:Th
-eprocessingchainworksasfollows \OT1/jkp/m/n/10 :$ 
- []
-
-<Figures/methods/Figure_S1.png, id=25064, 573.14125pt x 293.59688pt>
+[30] [31]
+<Figures/methods/Figure_S1.png, id=25090, 573.14125pt x 293.59688pt>
 File: Figures/methods/Figure_S1.png Graphic file (type png)
 <use Figures/methods/Figure_S1.png>
 Package pdftex.def Info: Figures/methods/Figure_S1.png  used on input line 351.
 
 (pdftex.def)             Requested size: 341.43306pt x 174.90509pt.
+ [32 <./Figures/methods/Figure_S1.PNG>]
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+! LaTeX Error: There's no line here to end.
 
-[31]
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.372 
+      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
 
-LaTeX Warning: Reference `methods:figS6' on page 32 undefined on input line 368
-.
 
-[32 <./Figures/methods/Figure_S1.PNG>]
+Underfull \hbox (badness 10000) in paragraph at lines 377--377
+[]|\T1/opensans-TOsF/m/n/10 Variable (mul-ti-tem-po-ral
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 378--379
+[]|\T1/opensans-TOsF/m/n/10 0.2
+ []
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.386 
+      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
 
 ! Package inputenc Error: Unicode character â€ƒ (U+2003)
 (inputenc)                not set up for use with LaTeX.
@@ -2403,98 +2258,58 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.376 â€ƒ
+l.388 â€ƒ
          
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
-<Figures/methods/Figure_S2.png, id=25089, 618.31pt x 378.41376pt>
+[33]
+<Figures/methods/Figure_S2.png, id=25112, 618.31pt x 378.41376pt>
 File: Figures/methods/Figure_S2.png Graphic file (type png)
 <use Figures/methods/Figure_S2.png>
-Package pdftex.def Info: Figures/methods/Figure_S2.png  used on input line 383.
+Package pdftex.def Info: Figures/methods/Figure_S2.png  used on input line 395.
 
 (pdftex.def)             Requested size: 426.79134pt x 261.2097pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<Figures/methods/Figure_S3.png, id=25090, 463.7325pt x 398.99063pt>
+<Figures/methods/Figure_S3.png, id=25113, 463.7325pt x 398.99063pt>
 File: Figures/methods/Figure_S3.png Graphic file (type png)
 <use Figures/methods/Figure_S3.png>
-Package pdftex.def Info: Figures/methods/Figure_S3.png  used on input line 389.
+Package pdftex.def Info: Figures/methods/Figure_S3.png  used on input line 402.
 
 (pdftex.def)             Requested size: 398.33858pt x 342.73561pt.
-! Missing $ inserted.
-<inserted text> 
-                $
-l.390 ...pends on the number of available pixels.}
-                                                  
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.390 ...pends on the number of available pixels.}
-                                                  
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.390 ...pends on the number of available pixels.}
-                                                  
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.390 ...pends on the number of available pixels.}
-                                                  
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
-Overfull \hbox (171.68521pt too wide) in paragraph at lines 390--390
-[]\T1/QuattrocentoSans-TLF/regular/n/9 Figure 2.14: |Ex-am-ples of glacier spe-
-cific $\U/jkpmia/m/it/9 ^^A\OML/jkp/m/it/9 hparameterizedfunctionsgeneratedbyAL
-PGM:Theorderofthepolynomialfitdependsonthenumberofavailablepixels:$ 
- []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Figures/methods/Figure_S4.png, id=25091, 323.2075pt x 256.96pt>
+<Figures/methods/Figure_S4.png, id=25114, 323.2075pt x 256.96pt>
 File: Figures/methods/Figure_S4.png Graphic file (type png)
 <use Figures/methods/Figure_S4.png>
-Package pdftex.def Info: Figures/methods/Figure_S4.png  used on input line 395.
+Package pdftex.def Info: Figures/methods/Figure_S4.png  used on input line 408.
 
 (pdftex.def)             Requested size: 256.0748pt x 203.59607pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Figures/methods/Figure_S5.png, id=25092, 311.1625pt x 278.03876pt>
+<Figures/methods/Figure_S5.png, id=25115, 311.1625pt x 278.03876pt>
 File: Figures/methods/Figure_S5.png Graphic file (type png)
 <use Figures/methods/Figure_S5.png>
-Package pdftex.def Info: Figures/methods/Figure_S5.png  used on input line 401.
+Package pdftex.def Info: Figures/methods/Figure_S5.png  used on input line 415.
 
 (pdftex.def)             Requested size: 256.0748pt x 228.8163pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Figures/methods/Figure_S6.png, id=25093, 588.1975pt x 235.37938pt>
+<Figures/methods/Figure_S6.png, id=25116, 588.1975pt x 235.37938pt>
 File: Figures/methods/Figure_S6.png Graphic file (type png)
 <use Figures/methods/Figure_S6.png>
-Package pdftex.def Info: Figures/methods/Figure_S6.png  used on input line 407.
+Package pdftex.def Info: Figures/methods/Figure_S6.png  used on input line 422.
 
 (pdftex.def)             Requested size: 426.79134pt x 170.79114pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) (./chapters/glaciology/past/past.tex [33] [34 <./Figures/methods/Figure_S2.PN
-G> <./Figures/methods/Figure_S3.PNG>] [35 <./Figures/methods/Figure_S4.PNG> <./
-Figures/methods/Figure_S5.PNG>] [36 <./Figures/methods/Figure_S6.PNG>]
+) (./chapters/glaciology/past/past.tex [34 <./Figures/methods/Figure_S2.PNG>]
+[35 <./Figures/methods/Figure_S3.PNG> <./Figures/methods/Figure_S4.PNG>]
+[36 <./Figures/methods/Figure_S5.PNG> <./Figures/methods/Figure_S6.PNG>]
 Chapter 3.
 
 Overfull \hbox (30.0pt too wide) in paragraph at lines 1--1
@@ -2504,10 +2319,10 @@ Overfull \hbox (30.0pt too wide) in paragraph at lines 1--1
 [37
 
 ]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 4429) has occurred while \output is active []
 
  [38]
-<Figures/past/Figure_1.pdf, id=25194, 767.94202pt x 296.71852pt>
+<Figures/past/Figure_1.pdf, id=25209, 767.94202pt x 296.71852pt>
 File: Figures/past/Figure_1.pdf Graphic file (type pdf)
 <use Figures/past/Figure_1.pdf>
 Package pdftex.def Info: Figures/past/Figure_1.pdf  used on input line 27.
@@ -2526,12 +2341,12 @@ My plan is to forget the whole thing and hope for the best.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
-Make it at least 23.01003pt.
+Make it at least 22.7782pt.
 We now make it that large for the rest of the document.
 This may cause the page layout to be inconsistent, however.
 
 [39 <./Figures/past/Figure_1.pdf>] [40]
-<Figures/past/Figure_2.pdf, id=27207, 451.61925pt x 419.166pt>
+<Figures/past/Figure_2.pdf, id=27224, 451.61925pt x 419.166pt>
 File: Figures/past/Figure_2.pdf Graphic file (type pdf)
 <use Figures/past/Figure_2.pdf>
 Package pdftex.def Info: Figures/past/Figure_2.pdf  used on input line 56.
@@ -2539,29 +2354,28 @@ Package pdftex.def Info: Figures/past/Figure_2.pdf  used on input line 56.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [41 <./Figures/past/Figure_2.pdf>]
-<Figures/past/Figure_3.pdf, id=27299, 824.25041pt x 867.24pt>
+ [41 <./Figures/past/Figure_2.pdf>] [42]
+<Figures/past/Figure_3.pdf, id=27326, 824.25041pt x 867.24pt>
 File: Figures/past/Figure_3.pdf Graphic file (type pdf)
 <use Figures/past/Figure_3.pdf>
 Package pdftex.def Info: Figures/past/Figure_3.pdf  used on input line 75.
 (pdftex.def)             Requested size: 312.9803pt x 329.3032pt.
- [42]
-<Figures/past/Figure_4.pdf, id=27319, 433.62pt x 289.08pt>
+<Figures/past/Figure_4.pdf, id=27337, 433.62pt x 289.08pt>
 File: Figures/past/Figure_4.pdf Graphic file (type pdf)
 <use Figures/past/Figure_4.pdf>
 Package pdftex.def Info: Figures/past/Figure_4.pdf  used on input line 87.
 (pdftex.def)             Requested size: 312.9803pt x 208.66234pt.
- [43 <./Figures/past/Figure_3.pdf>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [44 <./Figures/past/Figure_4.pdf>]
-<Figures/past/Figure_5.pdf, id=29713, 655.79103pt x 563.50124pt>
+Underfull \vbox (badness 3471) has occurred while \output is active []
+
+ [43 <./Figures/past/Figure_3.pdf>] [44 <./Figures/past/Figure_4.pdf>]
+<Figures/past/Figure_5.pdf, id=29731, 655.79103pt x 563.50124pt>
 File: Figures/past/Figure_5.pdf Graphic file (type pdf)
 <use Figures/past/Figure_5.pdf>
 Package pdftex.def Info: Figures/past/Figure_5.pdf  used on input line 102.
 (pdftex.def)             Requested size: 426.79134pt x 366.72717pt.
- [45]
-<Figures/past/Figure_6.pdf, id=29748, 722.7pt x 901.70978pt>
+ [45] [46 <./Figures/past/Figure_5.pdf>]
+<Figures/past/Figure_6.pdf, id=30144, 722.7pt x 901.70978pt>
 File: Figures/past/Figure_6.pdf Graphic file (type pdf)
 <use Figures/past/Figure_6.pdf>
 Package pdftex.def Info: Figures/past/Figure_6.pdf  used on input line 116.
@@ -2569,23 +2383,25 @@ Package pdftex.def Info: Figures/past/Figure_6.pdf  used on input line 116.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [46 <./Figures/past/Figure_5.pdf>] [47 <./Figures/past/Figure_6.pdf>]
-<Figures/past/Figure_S1.pdf, id=30458, 453.8556pt x 370.74509pt>
+ [47 <./Figures/past/Figure_6.pdf>]
+<Figures/past/Figure_S1.pdf, id=30478, 453.8556pt x 370.74509pt>
 File: Figures/past/Figure_S1.pdf Graphic file (type pdf)
 <use Figures/past/Figure_S1.pdf>
 Package pdftex.def Info: Figures/past/Figure_S1.pdf  used on input line 132.
 (pdftex.def)             Requested size: 341.43306pt x 278.91234pt.
- [48 <./Figures/past/Figure_S1.pdf>]
-<Figures/past/Figure_S2.pdf, id=30527, 478.35913pt x 271.14131pt>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[48]
+<Figures/past/Figure_S2.pdf, id=30493, 478.35913pt x 271.14131pt>
 File: Figures/past/Figure_S2.pdf Graphic file (type pdf)
 <use Figures/past/Figure_S2.pdf>
 Package pdftex.def Info: Figures/past/Figure_S2.pdf  used on input line 148.
 (pdftex.def)             Requested size: 341.43306pt x 193.53357pt.
-
-Underfull \vbox (badness 4156) has occurred while \output is active []
-
- [49 <./Figures/past/Figure_S2.pdf>] [50] [51]
-<Figures/past/Figure_S3.pdf, id=30613, 722.7pt x 361.35pt>
+ [49 <./Figures/past/Figure_S1.pdf>] [50 <./Figures/past/Figure_S2.pdf>]
+[51]
+<Figures/past/Figure_S3.pdf, id=30633, 722.7pt x 361.35pt>
 File: Figures/past/Figure_S3.pdf Graphic file (type pdf)
 <use Figures/past/Figure_S3.pdf>
 Package pdftex.def Info: Figures/past/Figure_S3.pdf  used on input line 178.
@@ -2595,7 +2411,7 @@ Overfull \hbox (11.38089pt too wide) in paragraph at lines 178--180
  [][] 
  []
 
-<Figures/past/Figure_S4.pdf, id=30614, 722.7pt x 722.7pt>
+<Figures/past/Figure_S4.pdf, id=30634, 722.7pt x 722.7pt>
 File: Figures/past/Figure_S4.pdf Graphic file (type pdf)
 <use Figures/past/Figure_S4.pdf>
 Package pdftex.def Info: Figures/past/Figure_S4.pdf  used on input line 186.
@@ -2603,12 +2419,12 @@ Package pdftex.def Info: Figures/past/Figure_S4.pdf  used on input line 186.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Figures/past/Figure_S5.png, id=30615, 531.9072pt x 448.7967pt>
+<Figures/past/Figure_S5.png, id=30635, 531.9072pt x 448.7967pt>
 File: Figures/past/Figure_S5.png Graphic file (type png)
 <use Figures/past/Figure_S5.png>
 Package pdftex.def Info: Figures/past/Figure_S5.png  used on input line 195.
 (pdftex.def)             Requested size: 256.0748pt x 216.07053pt.
-<Figures/past/Figure_S6.pdf, id=30616, 590.35399pt x 330.59824pt>
+<Figures/past/Figure_S6.pdf, id=30636, 590.35399pt x 330.59824pt>
 File: Figures/past/Figure_S6.pdf Graphic file (type pdf)
 <use Figures/past/Figure_S6.pdf>
 Package pdftex.def Info: Figures/past/Figure_S6.pdf  used on input line 204.
@@ -2618,12 +2434,12 @@ Overfull \hbox (11.38089pt too wide) in paragraph at lines 204--206
  [][] 
  []
 
-<Figures/past/Figure_S7.pdf, id=30617, 433.62pt x 289.08pt>
+<Figures/past/Figure_S7.pdf, id=30637, 433.62pt x 289.08pt>
 File: Figures/past/Figure_S7.pdf Graphic file (type pdf)
 <use Figures/past/Figure_S7.pdf>
 Package pdftex.def Info: Figures/past/Figure_S7.pdf  used on input line 213.
 (pdftex.def)             Requested size: 341.43306pt x 227.63405pt.
-<Figures/past/Figure_S8.pdf, id=30618, 722.7pt x 361.35pt>
+<Figures/past/Figure_S8.pdf, id=30638, 722.7pt x 361.35pt>
 File: Figures/past/Figure_S8.pdf Graphic file (type pdf)
 <use Figures/past/Figure_S8.pdf>
 Package pdftex.def Info: Figures/past/Figure_S8.pdf  used on input line 222.
@@ -2633,7 +2449,7 @@ Overfull \hbox (11.38089pt too wide) in paragraph at lines 222--224
  [][] 
  []
 
-<Figures/past/Figure_S9.pdf, id=30619, 722.7pt x 361.35pt>
+<Figures/past/Figure_S9.pdf, id=30639, 722.7pt x 361.35pt>
 File: Figures/past/Figure_S9.pdf Graphic file (type pdf)
 <use Figures/past/Figure_S9.pdf>
 Package pdftex.def Info: Figures/past/Figure_S9.pdf  used on input line 231.
@@ -2730,38 +2546,34 @@ or specify an encoding such as \usepackage [latin1]{inputenc}
 in the document preamble.
 Alternatively, save the file in UTF-8 using your editor or another tool
 
+
+Underfull \hbox (badness 1072) in paragraph at lines 65--70
+[]\T1/opensans-TOsF/m/n/9 Bolibar, J., Ra-ba-tel, A., Gout-tevin, I., Galiez, C
+., Con-dom, T., and Sauquet, E.: Deep learn-ing ap-plied to
+ []
+
 [61
 
 ]
-Underfull \hbox (badness 1028) in paragraph at lines 142--147
-[]\T1/QuattrocentoSans-TLF/regular/n/9 Dussaillant, I., Berthier, E., Brun, F.,
- Ma-siokas, M., Hugonnet, R., Favier, V., Ra-ba-tel, A., Pitte, P., and Ruiz,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 242--246
-\T1/jkp/m/n/9 S0022-[]1694(03 ) 00257-[]9$\T1/QuattrocentoSans-TLF/regular/n/9 
-, URL []$\T1/jkptt/m/n/9 http : / / linkinghub . elsevier . com / retrieve / pi
-i / S0022169403002579$[]\T1/QuattrocentoSans-TLF/regular/n/9 ,
+Underfull \hbox (badness 1496) in paragraph at lines 207--212
+\T1/opensans-TOsF/m/n/9 cen-tury cli-mate change in the Ötz-tal Alps (Aus-tria)
+ sim-u-lated us-ing a phys-i-cally based ap-proach, Hy-
  []
 
 [62]
-Missing character: There is no ¢ in font QuattrocentoSans-tlf-t1!
-
 Underfull \hbox (badness 10000) in paragraph at lines 272--276
-[]$\T1/jkptt/m/n/9 https : / / www . cambridge . org / core / product / identif
-ier / S0022143000020384 / type / journal _ article$[]\T1/QuattrocentoSans-TLF/r
-egular/n/9 ,
+\T1/opensans-TOsF/m/n/9 URL []$\T1/jkptt/m/n/9 https : / / www . cambridge . or
+g / core / product / identifier / S0022143000020384 / type / journal _
  []
 
-[63] [64]
-Missing character: There is no ¢ in font QuattrocentoSans-tlf-t1!
- [65]
-Underfull \hbox (badness 1472) in paragraph at lines 697--703
-[]\T1/QuattrocentoSans-TLF/regular/n/9 Vincent, C., Har-ter, M., Gilbert, A., B
-erthier, E., and Six, D.: Fu-ture fluc-tu-a-tions of Mer de Glace, French
+
+Underfull \hbox (badness 1454) in paragraph at lines 353--357
+\T1/jkp/m/n/9 1198 / 004017005000000058$\T1/opensans-TOsF/m/n/9 , URL []$\T1/jk
+ptt/m/n/9 http : / / www . tandfonline . com / doi / abs / 10 . 1198 / 00401700
+5000000058$[]\T1/opensans-TOsF/m/n/9 ,
  []
 
+[63] [64] [65]
 
 ! Package inputenc Error: Invalid UTF-8 byte sequence.
 
@@ -2807,49 +2619,44 @@ Package minitoc(hints) Warning: W0024
 (minitoc(hints))                Some hints have been written 
 (minitoc(hints))                in the Bolibar_PhD_dissertation.log file.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 206.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 213.
 [67]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 206.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 213.
  (./Bolibar_PhD_dissertation.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 206.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 206.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 213.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 213.
 Package rerunfilecheck Info: File `Bolibar_PhD_dissertation.out' has not change
 d.
 (rerunfilecheck)             Checksum: E18461940E034AAE8098206C6441CFAC;3898.
-
-
-LaTeX Warning: There were undefined references.
 
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 19979 strings out of 492163
- 313383 string characters out of 6129077
- 459109 words of memory out of 5000000
- 23357 multiletter control sequences out of 15000+600000
- 183767 words of font info for 129 fonts, out of 8000000 for 9000
+ 20054 strings out of 492163
+ 313777 string characters out of 6129077
+ 460289 words of memory out of 5000000
+ 23439 multiletter control sequences out of 15000+600000
+ 56818 words of font info for 121 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 48i,12n,79p,3092b,722s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 48i,12n,79p,3092b,718s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2019/texmf-dist/fonts/enc/dvips/base/8r.enc}{c:/texlive/2019/texm
-f-dist/fonts/enc/dvips/quattrocento/qtrcnt_h2bn35.enc}{c:/texlive/2019/texmf-di
-st/fonts/enc/dvips/quattrocento/qtrcnt_xzkr3s.enc}{c:/texlive/2019/texmf-dist/f
-onts/enc/dvips/quattrocento/qtrcnt_5tsqgq.enc}<c:/texlive/2019/texmf-dist/fonts
-/type1/impallari/quattrocento/QuattrocentoSans-Bold.pfb><c:/texlive/2019/texmf-
-dist/fonts/type1/impallari/quattrocento/QuattrocentoSans-Italic.pfb><c:/texlive
-/2019/texmf-dist/fonts/type1/impallari/quattrocento/QuattrocentoSans.pfb><c:/te
-xlive/2019/texmf-dist/fonts/type1/public/kpfonts/jkpex.pfb><c:/texlive/2019/tex
-mf-dist/fonts/type1/public/kpfonts/jkpmi.pfb><c:/texlive/2019/texmf-dist/fonts/
-type1/public/kpfonts/jkpmia.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/
-kpfonts/jkpmn8a.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/kpfonts/jkps
-y.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/kpfonts/jkpttmn8a.pfb><c:/
-texlive/2019/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb><c:/texlive/2019/te
-xmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on Bolibar_PhD_dissertation.pdf (73 pages, 50314352 bytes).
+f-dist/fonts/enc/dvips/opensans/a_nvvucy.enc}{c:/texlive/2019/texmf-dist/fonts/
+enc/dvips/opensans/a_p2vepx.enc}<c:/texlive/2019/texmf-dist/fonts/type1/ascende
+r/opensans/OpenSans-Bold.pfb><c:/texlive/2019/texmf-dist/fonts/type1/ascender/o
+pensans/OpenSans-Italic.pfb><c:/texlive/2019/texmf-dist/fonts/type1/ascender/op
+ensans/OpenSans-Regular.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/kpfo
+nts/jkpex.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/kpfonts/jkpmi.pfb>
+<c:/texlive/2019/texmf-dist/fonts/type1/public/kpfonts/jkpmia.pfb><c:/texlive/2
+019/texmf-dist/fonts/type1/public/kpfonts/jkpmn8a.pfb><c:/texlive/2019/texmf-di
+st/fonts/type1/public/kpfonts/jkpsy.pfb><c:/texlive/2019/texmf-dist/fonts/type1
+/public/kpfonts/jkpttmn8a.pfb><c:/texlive/2019/texmf-dist/fonts/type1/urw/helve
+tic/uhvr8a.pfb><c:/texlive/2019/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
+Output written on Bolibar_PhD_dissertation.pdf (73 pages, 50259563 bytes).
 PDF statistics:
- 37200 PDF objects out of 38293 (max. 8388607)
- 23834 compressed objects within 239 object streams
- 306 named destinations out of 1000 (max. 500000)
+ 37219 PDF objects out of 38293 (max. 8388607)
+ 23853 compressed objects within 239 object streams
+ 307 named destinations out of 1000 (max. 500000)
  550 words of extra memory for PDF output out of 10000 (max. 10000000)
 
