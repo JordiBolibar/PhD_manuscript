@@ -10,23 +10,23 @@
 \contentsline {section}{\numberline {2.3}Model overview and methods}{12}{section.2.3}%
 \contentsline {subsection}{\numberline {2.3.1}Model overview and workflow}{12}{subsection.2.3.1}%
 \contentsline {subsection}{\numberline {2.3.2}Glacier-wide surface mass balance simulation}{14}{subsection.2.3.2}%
-\contentsline {subsubsection}{Selection of explanatory topographical and climatic variables}{14}{section*.6}%
-\contentsline {subsubsection}{All-possible multiple linear regressions}{14}{section*.8}%
-\contentsline {subsubsection}{Lasso}{15}{section*.9}%
-\contentsline {subsubsection}{Deep artificial neural networks}{15}{section*.10}%
+\contentsline {subsubsection}{Selection of explanatory topographical and climatic variables}{14}{section*.7}%
+\contentsline {subsubsection}{All-possible multiple linear regressions}{14}{section*.9}%
+\contentsline {subsubsection}{Lasso}{15}{section*.10}%
+\contentsline {subsubsection}{Deep artificial neural networks}{15}{section*.11}%
 \contentsline {subsection}{\numberline {2.3.3}Glacier geometry update}{17}{subsection.2.3.3}%
 \contentsline {section}{\numberline {2.4}Case study: French alpine glaciers}{18}{section.2.4}%
 \contentsline {subsection}{\numberline {2.4.1}Data}{18}{subsection.2.4.1}%
-\contentsline {subsubsection}{Glacier-wide surface mass balance }{18}{section*.12}%
-\contentsline {subsubsection}{Topographical glacier data and altimetry}{18}{section*.13}%
-\contentsline {subsubsection}{Glacier ice thickness}{19}{section*.14}%
-\contentsline {subsubsection}{Climate data}{20}{section*.16}%
+\contentsline {subsubsection}{Glacier-wide surface mass balance }{18}{section*.13}%
+\contentsline {subsubsection}{Topographical glacier data and altimetry}{18}{section*.14}%
+\contentsline {subsubsection}{Glacier ice thickness}{19}{section*.15}%
+\contentsline {subsubsection}{Climate data}{20}{section*.17}%
 \contentsline {subsection}{\numberline {2.4.2}Glacier-wide surface mass balance simulations: validation and results}{20}{subsection.2.4.2}%
-\contentsline {subsubsection}{Selection of predictors}{20}{section*.17}%
-\contentsline {subsubsection}{Causal analysis}{22}{section*.18}%
-\contentsline {subsubsection}{Spatial predictive analysis}{23}{section*.20}%
-\contentsline {subsubsection}{Temporal predictive analysis}{23}{section*.24}%
-\contentsline {subsubsection}{Spatiotemporal predictive analysis}{25}{section*.27}%
+\contentsline {subsubsection}{Selection of predictors}{20}{section*.18}%
+\contentsline {subsubsection}{Causal analysis}{22}{section*.19}%
+\contentsline {subsubsection}{Spatial predictive analysis}{23}{section*.21}%
+\contentsline {subsubsection}{Temporal predictive analysis}{23}{section*.25}%
+\contentsline {subsubsection}{Spatiotemporal predictive analysis}{25}{section*.28}%
 \contentsline {subsection}{\numberline {2.4.3}Glacier geometry evolution: Validation and results}{26}{subsection.2.4.3}%
 \contentsline {section}{\numberline {2.5}Discussion and perspectives}{27}{section.2.5}%
 \contentsline {subsection}{\numberline {2.5.1}Linear methods still matter}{27}{subsection.2.5.1}%

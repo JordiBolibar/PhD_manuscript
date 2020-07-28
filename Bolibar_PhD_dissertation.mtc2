@@ -3,24 +3,24 @@
 {\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2.3}Model overview and methods}{\reset@font\mtcSfont 12}{section.2.3}}
 {\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.3.1}Model overview and workflow}{\reset@font\mtcSSfont 12}{subsection.2.3.1}}
 {\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.3.2}Glacier-wide surface mass balance simulation}{\reset@font\mtcSSfont 14}{subsection.2.3.2}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Selection of explanatory topographical and climatic variables}{\reset@font\mtcSSSfont 14}{section*.6}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode All-possible multiple linear regressions}{\reset@font\mtcSSSfont 14}{section*.8}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Lasso}{\reset@font\mtcSSSfont 15}{section*.9}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Deep artificial neural networks}{\reset@font\mtcSSSfont 15}{section*.10}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Selection of explanatory topographical and climatic variables}{\reset@font\mtcSSSfont 14}{section*.7}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode All-possible multiple linear regressions}{\reset@font\mtcSSSfont 14}{section*.9}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Lasso}{\reset@font\mtcSSSfont 15}{section*.10}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Deep artificial neural networks}{\reset@font\mtcSSSfont 15}{section*.11}}
 {\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.3.3}Glacier geometry update}{\reset@font\mtcSSfont 17}{subsection.2.3.3}}
 {\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2.4}Case study: French alpine glaciers}{\reset@font\mtcSfont 18}{section.2.4}}
 {\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.4.1}Data}{\reset@font\mtcSSfont 18}{subsection.2.4.1}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Glacier-wide surface mass balance }{\reset@font\mtcSSSfont 18}{section*.12}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Topographical glacier data and altimetry}{\reset@font\mtcSSSfont 18}{section*.13}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Glacier ice thickness}{\reset@font\mtcSSSfont 19}{section*.14}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Climate data}{\reset@font\mtcSSSfont 20}{section*.16}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Glacier-wide surface mass balance }{\reset@font\mtcSSSfont 18}{section*.13}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Topographical glacier data and altimetry}{\reset@font\mtcSSSfont 18}{section*.14}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Glacier ice thickness}{\reset@font\mtcSSSfont 19}{section*.15}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Climate data}{\reset@font\mtcSSSfont 20}{section*.17}}
 {\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.4.2}Glacier-wide surface mass balance simulations: validation and results}{\reset@font\mtcSSfont 20}{subsection.2.4.2}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Selection of predictors}{\reset@font\mtcSSSfont 20}{section*.17}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Causal analysis}{\reset@font\mtcSSSfont 22}{section*.18}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Spatial predictive analysis}{\reset@font\mtcSSSfont 22}{section*.20}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Temporal predictive analysis}{\reset@font\mtcSSSfont 23}{section*.24}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Spatiotemporal predictive analysis}{\reset@font\mtcSSSfont 26}{section*.27}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.4.3}Glacier geometry evolution: Validation and results}{\reset@font\mtcSSfont 27}{subsection.2.4.3}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Selection of predictors}{\reset@font\mtcSSSfont 20}{section*.18}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Causal analysis}{\reset@font\mtcSSSfont 22}{section*.19}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Spatial predictive analysis}{\reset@font\mtcSSSfont 23}{section*.21}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Temporal predictive analysis}{\reset@font\mtcSSSfont 23}{section*.25}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Spatiotemporal predictive analysis}{\reset@font\mtcSSSfont 25}{section*.28}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.4.3}Glacier geometry evolution: Validation and results}{\reset@font\mtcSSfont 26}{subsection.2.4.3}}
 {\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2.5}Discussion and perspectives}{\reset@font\mtcSfont 27}{section.2.5}}
 {\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.5.1}Linear methods still matter}{\reset@font\mtcSSfont 27}{subsection.2.5.1}}
 {\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.5.2}Training deep learning models with spatiotemporal data}{\reset@font\mtcSSfont 28}{subsection.2.5.2}}
