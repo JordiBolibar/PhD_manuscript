@@ -7,45 +7,46 @@ Warning--I didn't find a database entry for "bolibar_jordibolibar/alpgm:_2019"
 Warning--missing publisher in ioffe_batch_2015
 Warning--missing publisher in nussbaumer_reseau_2012
 Warning--missing publisher in pedregosa_scikit-learn:_2012
-You've used 107 entries,
+Warning--empty journal in smit_exploring_2019
+You've used 124 entries,
             2811 wiz_defined-function locations,
-            1744 strings with 41434 characters,
-and the built_in function-call counts, 112513 in all, are:
-= -- 11994
-> -- 5367
-< -- 36
-+ -- 2267
-- -- 1691
-* -- 7825
-:= -- 11850
-add.period$ -- 107
-call.type$ -- 107
-change.case$ -- 787
-chr.to.int$ -- 105
-cite$ -- 324
-duplicate$ -- 10656
-empty$ -- 5599
-format.name$ -- 2015
-if$ -- 22174
-int.to.chr$ -- 3
+            1854 strings with 46225 characters,
+and the built_in function-call counts, 126089 in all, are:
+= -- 13406
+> -- 5901
+< -- 45
++ -- 2507
+- -- 1856
+* -- 8759
+:= -- 13319
+add.period$ -- 124
+call.type$ -- 124
+change.case$ -- 881
+chr.to.int$ -- 121
+cite$ -- 376
+duplicate$ -- 11986
+empty$ -- 6383
+format.name$ -- 2225
+if$ -- 24854
+int.to.chr$ -- 4
 int.to.str$ -- 1
-missing$ -- 1290
-newline$ -- 330
-num.names$ -- 429
-pop$ -- 4859
+missing$ -- 1459
+newline$ -- 381
+num.names$ -- 497
+pop$ -- 5388
 preamble$ -- 1
-purify$ -- 776
+purify$ -- 865
 quote$ -- 0
-skip$ -- 5869
+skip$ -- 6594
 stack$ -- 0
-substring$ -- 4169
-swap$ -- 9030
+substring$ -- 4664
+swap$ -- 10080
 text.length$ -- 7
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 939
-warning$ -- 3
-while$ -- 553
+type$ -- 1086
+warning$ -- 4
+while$ -- 630
 width$ -- 0
-write$ -- 1350
-(There were 4 warnings)
+write$ -- 1561
+(There were 5 warnings)

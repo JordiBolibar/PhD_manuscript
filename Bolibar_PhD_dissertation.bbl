@@ -1,4 +1,4 @@
-\begin{thebibliography}{107}
+\begin{thebibliography}{124}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{{\tt #1}}
 \providecommand{\urlprefix}{URL }
@@ -6,6 +6,14 @@
   \providecommand{\doi}[1]{https://doi.org/\discretionary{}{}{}#1}\else
   \providecommand{\doi}{https://doi.org/\discretionary{}{}{}\begingroup
   \urlstyle{rm}\Url}\fi
+
+\bibitem[{Baumhoer et~al.(2019)Baumhoer, Dietz, Kneisel, and
+  Kuenzer}]{baumhoer_automated_2019}
+Baumhoer, C.~A., Dietz, A.~J., Kneisel, C., and Kuenzer, C.: Automated
+  {Extraction} of {Antarctic} {Glacier} and {Ice} {Shelf} {Fronts} from
+  {Sentinel}-1 {Imagery} {Using} {Deep} {Learning}, Remote Sensing, 11, 2529,
+  \doi{10.3390/rs11212529},
+  \urlprefix\url{https://www.mdpi.com/2072-4292/11/21/2529}, 2019.
 
 \bibitem[{Beniston et~al.(2018)Beniston, Farinotti, Stoffel, Andreassen,
   Coppola, Eckert, Fantini, Giacona, Hauck, Huss, Huwald, Lehning,
@@ -106,6 +114,11 @@ Consortium, R. G.~I.: Randolph {Glacier} {Inventory} 6.0,
   \urlprefix\url{http://www.glims.org/RGI/randolph60.html}, type: dataset,
   2017.
 
+\bibitem[{Cuffey and Paterson(2010)}]{cuffey_physics_2010}
+Cuffey, K. and Paterson, W. S.~B.: The physics of glaciers,
+  Butterworth-Heinemann/Elsevier, Burlington, MA, 4th ed edn., oCLC:
+  ocn488732494, 2010.
+
 \bibitem[{Davaze et~al.(2020)Davaze, Rabatel, Dufour, Arnaud, and
   Hugonnet}]{davaze_region-wide_2020}
 Davaze, L., Rabatel, A., Dufour, A., Arnaud, Y., and Hugonnet, R.: Region-wide
@@ -201,6 +214,12 @@ Gerbaux, M., Genthon, C., Etchevers, P., Vincent, C., and Dedieu, J.: Surface
   \doi{10.3189/172756505781829133},
   \urlprefix\url{https://www.cambridge.org/core/product/identifier/S0022143000210769/type/journal_article},
   2005.
+
+\bibitem[{GLAMOS(2019)}]{glamos_swiss_2019}
+GLAMOS: Swiss {Glacier} {Mass} {Balance} (release 2019),
+  \doi{10.18750/MASSBALANCE.2019.R2019},
+  \urlprefix\url{https://doi.glamos.ch/data/massbalance/massbalance_2019_r2019.html},
+  medium: .csv type: dataset, 2019.
 
 \bibitem[{Hanzer et~al.(2018)Hanzer, Förster, Nemec, and
   Strasser}]{hanzer_projected_2018}
@@ -415,6 +434,14 @@ Kääb, A., Berthier, E., Nuth, C., Gardelle, J., and Arnaud, Y.: Contrasting
   {Himalayas}, Nature, 488, 495--498, \doi{10.1038/nature11324},
   \urlprefix\url{http://www.nature.com/articles/nature11324}, 2012.
 
+\bibitem[{Laurent et~al.(2020)Laurent, Buoncristiani, Pohl, Zekollari,
+  Farinotti, Huss, Mugnier, and Pergaud}]{laurent_impact_2020}
+Laurent, L., Buoncristiani, J.-F., Pohl, B., Zekollari, H., Farinotti, D.,
+  Huss, M., Mugnier, J.-L., and Pergaud, J.: The impact of climate change and
+  glacier mass loss on the hydrology in the {Mont}-{Blanc} massif, Scientific
+  Reports, 10, 10\,420, \doi{10.1038/s41598-020-67379-7},
+  \urlprefix\url{http://www.nature.com/articles/s41598-020-67379-7}, 2020.
+
 \bibitem[{Lguensat et~al.(2018)Lguensat, Sun, Fablet, Tandeo, Mason, and
   Chen}]{lguensat_eddynet:_2018}
 Lguensat, R., Sun, M., Fablet, R., Tandeo, P., Mason, E., and Chen, G.:
@@ -430,6 +457,15 @@ Lguensat, R., Sommer, J.~L., Metref, S., Cosme, E., and Fablet, R.: Learning
   {Generalized} {Quasi}-{Geostrophic} {Models} {Using} {Deep} {Neural}
   {Numerical} {Models}, arXiv:1911.08856 [physics, stat],
   \urlprefix\url{http://arxiv.org/abs/1911.08856}, arXiv: 1911.08856, 2019.
+
+\bibitem[{Magnin et~al.(2020)Magnin, Haeberli, Linsbauer, Deline, and
+  Ravanel}]{magnin_estimating_2020}
+Magnin, F., Haeberli, W., Linsbauer, A., Deline, P., and Ravanel, L.:
+  Estimating glacier-bed overdeepenings as possible sites of future lakes in
+  the de-glaciating {Mont} {Blanc} massif ({Western} {European} {Alps}),
+  Geomorphology, 350, 106\,913, \doi{10.1016/j.geomorph.2019.106913},
+  \urlprefix\url{https://linkinghub.elsevier.com/retrieve/pii/S0169555X19304040},
+  2020.
 
 \bibitem[{Martin(1974)}]{martin_correlation_1974}
 Martin, S.: Correlation bilans de masse annuels-facteurs météorologiques dans
@@ -486,6 +522,34 @@ Maussion, F., Butenko, A., Champollion, N., Dusch, M., Eis, J., Fourteau, K.,
   {Global} {Glacier} {Model} ({OGGM}) v1.1, Geoscientific Model Development,
   12, 909--931, \doi{10.5194/gmd-12-909-2019},
   \urlprefix\url{https://www.geosci-model-dev.net/12/909/2019/}, 2019.
+
+\bibitem[{Mjolsness(2001)}]{mjolsness_machine_2001}
+Mjolsness, E.: Machine {Learning} for {Science}: {State} of the {Art} and
+  {Future} {Prospects}, Science, 293, 2051--2055,
+  \doi{10.1126/science.293.5537.2051},
+  \urlprefix\url{https://www.sciencemag.org/lookup/doi/10.1126/science.293.5537.2051},
+  2001.
+
+\bibitem[{Mohajerani et~al.(2019)Mohajerani, Wood, Velicogna, and
+  Rignot}]{mohajerani_detection_2019}
+Mohajerani, Y., Wood, M., Velicogna, I., and Rignot, E.: Detection of {Glacier}
+  {Calving} {Margins} with {Convolutional} {Neural} {Networks}: {A} {Case}
+  {Study}, Remote Sensing, 11, 74, \doi{10.3390/rs11010074},
+  \urlprefix\url{https://www.mdpi.com/2072-4292/11/1/74}, 2019.
+
+\bibitem[{Moser(2010)}]{moser_communicating_2010}
+Moser, S.~C.: Communicating climate change: history, challenges, process and
+  future directions: {Communicating} climate change, Wiley Interdisciplinary
+  Reviews: Climate Change, 1, 31--53, \doi{10.1002/wcc.11},
+  \urlprefix\url{http://doi.wiley.com/10.1002/wcc.11}, 2010.
+
+\bibitem[{Mourey and Ravanel(2017)}]{mourey_evolution_2017}
+Mourey, J. and Ravanel, L.: Evolution of {Access} {Routes} to {High} {Mountain}
+  {Refuges} of the {Mer} de {Glace} {Basin} ({Mont} {Blanc} {Massif},
+  {France}): {An} {Example} of {Adapting} to {Climate} {Change} {Effects} in
+  the {Alpine} {High} {Mountains}, Revue de géographie alpine,
+  \doi{10.4000/rga.3790},
+  \urlprefix\url{http://journals.openedition.org/rga/3790}, 2017.
 
 \bibitem[{NSIDC(2005)}]{glims_and_nsidc_global_2005}
 NSIDC, G.~a.: Global {Land} {Ice} {Measurements} from {Space} glacier database.
@@ -600,6 +664,12 @@ Rastner, P., Prinz, R., Notarnicola, C., Nicholson, L., Sailer, R., Schwaizer,
   \doi{10.3390/rs11121410},
   \urlprefix\url{https://www.mdpi.com/2072-4292/11/12/1410}, 2019.
 
+\bibitem[{Richalet(2001)}]{richalet_scientific_2001}
+Richalet, J.-P.: The {Scientific} {Observatories} on {Mont} {Blanc}, High
+  Altitude Medicine \& Biology, 2, 57--68, \doi{10.1089/152702901750067936},
+  \urlprefix\url{http://www.liebertpub.com/doi/10.1089/152702901750067936},
+  2001.
+
 \bibitem[{Roberts et~al.(2017)Roberts, Bahn, Ciuti, Boyce, Elith,
   Guillera-Arroita, Hauenstein, Lahoz-Monfort, Schröder, Thuiller, Warton,
   Wintle, Hartig, and Dormann}]{roberts_cross-validation_2017}
@@ -636,6 +706,14 @@ Réveillet, M., Six, D., Vincent, C., Rabatel, A., Dumont, M., Lafaysse, M.,
   1367--1386, \doi{10.5194/tc-12-1367-2018},
   \urlprefix\url{https://www.the-cryosphere.net/12/1367/2018/}, 2018.
 
+\bibitem[{Schut(2013)}]{schut_sport_2013}
+Schut, P.-O.: Sport as a {Major} {Player} in the {Development} of {Tourism}:
+  {The} {History} of {Mountaineering} in the {Pelvoux} {Massif}, {France}, from
+  1861 to 1914, The International Journal of the History of Sport, 30,
+  1329--1350, \doi{10.1080/09523367.2013.784272},
+  \urlprefix\url{http://www.tandfonline.com/doi/abs/10.1080/09523367.2013.784272},
+  2013.
+
 \bibitem[{Seabold and Perktold(2010)}]{seabold_statsmodels:_2010}
 Seabold, S. and Perktold, J.: Statsmodels: {Econometric} and {Statistical}
   {Modelingwith} {Python}, PROC. OF THE 9th PYTHON IN SCIENCE CONF., 2010.
@@ -653,6 +731,29 @@ Six, D. and Vincent, C.: Sensitivity of mass balance and equilibrium-line
   867--878, \doi{10.3189/2014JoG14J014},
   \urlprefix\url{https://www.cambridge.org/core/product/identifier/S0022143000202128/type/journal_article},
   2014.
+
+\bibitem[{Smit et~al.(2019)Smit, Amelung, and Meijering}]{smit_exploring_2019}
+Smit, M., Amelung, S.~B., and Meijering, J.~J.: Exploring intergenerational
+  attitudes toward glacier retreat in the {Chamonix} {Mont}-{Blanc} {Valley},
+  {France}, 2019.
+
+\bibitem[{Spandre et~al.(2019{\natexlab{a}})Spandre, François, Verfaillie,
+  Lafaysse, Déqué, Eckert, George, and Morin}]{spandre_climate_2019}
+Spandre, P., François, H., Verfaillie, D., Lafaysse, M., Déqué, M., Eckert,
+  N., George, E., and Morin, S.: Climate controls on snow reliability in
+  {French} {Alps} ski resorts, Scientific Reports, 9,
+  \doi{10.1038/s41598-019-44068-8},
+  \urlprefix\url{http://www.nature.com/articles/s41598-019-44068-8},
+  2019{\natexlab{a}}.
+
+\bibitem[{Spandre et~al.(2019{\natexlab{b}})Spandre, François, Verfaillie,
+  Pons, Vernay, Lafaysse, George, and Morin}]{spandre_winter_2019}
+Spandre, P., François, H., Verfaillie, D., Pons, M., Vernay, M., Lafaysse, M.,
+  George, E., and Morin, S.: Winter tourism under climate change in the
+  {Pyrenees} and the {French} {Alps}: relevance of snowmaking as a technical
+  adaptation, The Cryosphere, 13, 1325--1347, \doi{10.5194/tc-13-1325-2019},
+  \urlprefix\url{https://www.the-cryosphere.net/13/1325/2019/},
+  2019{\natexlab{b}}.
 
 \bibitem[{Srivastava et~al.(2014)Srivastava, Hinton, Krizhevsky, Sutskever, and
   Salakhutdinov}]{srivastava_dropout:_2014}
@@ -763,6 +864,11 @@ Vuille, M., Carey, M., Huggel, C., Buytaert, W., Rabatel, A., Jacobsen, D.,
   \urlprefix\url{https://linkinghub.elsevier.com/retrieve/pii/S0012825216304512},
   2018.
 
+\bibitem[{Wang and Raj(2017)}]{wang_origin_2017}
+Wang, H. and Raj, B.: On the {Origin} of {Deep} {Learning}, arXiv:1702.07800
+  [cs, stat], \urlprefix\url{http://arxiv.org/abs/1702.07800}, arXiv:
+  1702.07800, 2017.
+
 \bibitem[{Weisberg(2014)}]{weisberg_applied_2014}
 Weisberg, S.: Applied linear regression, Wiley series in probability and
   statistics, Wiley, Hoboken, NJ, fourth edition edn., 2014.
@@ -819,5 +925,17 @@ Zemp, M., Huss, M., Thibert, E., Eckert, N., McNabb, R., Huber, J., Barandun,
   and their contributions to sea-level rise from 1961 to 2016, Nature, 568,
   382--386, \doi{10.1038/s41586-019-1071-0},
   \urlprefix\url{http://www.nature.com/articles/s41586-019-1071-0}, 2019.
+
+\bibitem[{Zhang et~al.(2019)Zhang, Liu, and Huang}]{zhang_automatically_2019}
+Zhang, E., Liu, L., and Huang, L.: Automatically delineating the calving front
+  of {Jakobshavn} {Isbræ} from multitemporal {TerraSAR}-{X} images: a deep
+  learning approach, The Cryosphere, 13, 1729--1741,
+  \doi{10.5194/tc-13-1729-2019},
+  \urlprefix\url{https://www.the-cryosphere.net/13/1729/2019/}, 2019.
+
+\bibitem[{Zryd(2008)}]{zryd_les_2008}
+Zryd, A.: Les glaciers en mouvement: la population des {Alpes} face au
+  changement climatique, Presses polytechniques et universitaires romandes,
+  Lausanne, oCLC: 605265269, 2008.
 
 \end{thebibliography}
