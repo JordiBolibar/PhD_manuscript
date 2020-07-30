@@ -3,50 +3,52 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: Bolibar_PhD_dissertation.aux
 The style file: copernicus.bst
 Database file #1: references.bib
+Warning--I didn't find a database entry for "braud_j2000-rhone_201"
 Warning--I didn't find a database entry for "bolibar_jordibolibar/alpgm:_2019"
+Warning--empty journal in branger_investigating_2012
 Warning--missing publisher in ioffe_batch_2015
 Warning--missing publisher in nussbaumer_reseau_2012
 Warning--missing publisher in pedregosa_scikit-learn:_2012
 Warning--empty journal in smit_exploring_2019
-You've used 124 entries,
+You've used 129 entries,
             2811 wiz_defined-function locations,
-            1854 strings with 46225 characters,
-and the built_in function-call counts, 126089 in all, are:
-= -- 13406
-> -- 5901
-< -- 45
-+ -- 2507
-- -- 1856
-* -- 8759
-:= -- 13319
-add.period$ -- 124
-call.type$ -- 124
-change.case$ -- 881
-chr.to.int$ -- 121
-cite$ -- 376
-duplicate$ -- 11986
-empty$ -- 6383
-format.name$ -- 2225
-if$ -- 24854
+            1888 strings with 47654 characters,
+and the built_in function-call counts, 131521 in all, are:
+= -- 14033
+> -- 6112
+< -- 46
++ -- 2606
+- -- 1922
+* -- 9109
+:= -- 13853
+add.period$ -- 129
+call.type$ -- 129
+change.case$ -- 913
+chr.to.int$ -- 126
+cite$ -- 392
+duplicate$ -- 12533
+empty$ -- 6649
+format.name$ -- 2304
+if$ -- 25925
 int.to.chr$ -- 4
 int.to.str$ -- 1
-missing$ -- 1459
-newline$ -- 381
-num.names$ -- 497
-pop$ -- 5388
+missing$ -- 1514
+newline$ -- 396
+num.names$ -- 517
+pop$ -- 5629
 preamble$ -- 1
-purify$ -- 865
+purify$ -- 897
 quote$ -- 0
-skip$ -- 6594
+skip$ -- 6902
 stack$ -- 0
-substring$ -- 4664
-swap$ -- 10080
+substring$ -- 4899
+swap$ -- 10558
 text.length$ -- 7
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1086
-warning$ -- 4
-while$ -- 630
+type$ -- 1131
+warning$ -- 5
+while$ -- 657
 width$ -- 0
-write$ -- 1561
-(There were 5 warnings)
+write$ -- 1622
+(There were 7 warnings)

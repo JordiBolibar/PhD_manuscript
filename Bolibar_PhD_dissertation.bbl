@@ -1,4 +1,4 @@
-\begin{thebibliography}{124}
+\begin{thebibliography}{129}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{{\tt #1}}
 \providecommand{\urlprefix}{URL }
@@ -76,6 +76,13 @@ Bolibar, J., Rabatel, A., Gouttevin, I., Galiez, C., Condom, T., and Sauquet,
   \urlprefix\url{https://www.the-cryosphere.net/14/565/2020/},
   2020{\natexlab{b}}.
 
+\bibitem[{Branger et~al.(2012)Branger, Kermadi, Krause, Labbas, Jacqueminet,
+  Michel, Braud, and Kralisch}]{branger_investigating_2012}
+Branger, F., Kermadi, S., Krause, P., Labbas, M., Jacqueminet, C., Michel, K.,
+  Braud, I., and Kralisch, S.: Investigating the impact of two decades of
+  urbanization on the water balance of the {Yzeron} peri-urban catchment,
+  {France}., 2012.
+
 \bibitem[{Brun et~al.(2017)Brun, Berthier, Wagnon, Kääb, and
   Treichler}]{brun_spatially_2017}
 Brun, F., Berthier, E., Wagnon, P., Kääb, A., and Treichler, D.: A spatially
@@ -112,6 +119,21 @@ Chollet, F.: Keras, \urlprefix\url{https://keras.io}, 2015.
 Consortium, R. G.~I.: Randolph {Glacier} {Inventory} 6.0,
   \doi{10.7265/N5-RGI-60},
   \urlprefix\url{http://www.glims.org/RGI/randolph60.html}, type: dataset,
+  2017.
+
+\bibitem[{Coppola et~al.(2018)Coppola, Raffaele, and
+  Giorgi}]{coppola_impact_2018}
+Coppola, E., Raffaele, F., and Giorgi, F.: Impact of climate change on snow
+  melt driven runoff timing over the {Alpine} region, Climate Dynamics, 51,
+  1259--1273, \doi{10.1007/s00382-016-3331-0},
+  \urlprefix\url{http://link.springer.com/10.1007/s00382-016-3331-0}, 2018.
+
+\bibitem[{Coron et~al.(2017)Coron, Thirel, Delaigue, Perrin, and
+  Andréassian}]{coron_suite_2017}
+Coron, L., Thirel, G., Delaigue, O., Perrin, C., and Andréassian, V.: The
+  suite of lumped {GR} hydrological models in an {R} package, Environmental
+  Modelling \& Software, 94, 166--171, \doi{10.1016/j.envsoft.2017.05.002},
+  \urlprefix\url{https://linkinghub.elsevier.com/retrieve/pii/S1364815217300208},
   2017.
 
 \bibitem[{Cuffey and Paterson(2010)}]{cuffey_physics_2010}
@@ -293,6 +315,15 @@ Hoinkes, H.~C.: Glacier {Variation} and {Weather}, Journal of Glaciology, 7,
   \urlprefix\url{https://www.cambridge.org/core/product/identifier/S0022143000020384/type/journal_article},
   1968.
 
+\bibitem[{Horner et~al.(2020)Horner, Branger, McMillan, Vannier, and
+  Braud}]{horner_information_2020}
+Horner, I., Branger, F., McMillan, H., Vannier, O., and Braud, I.: Information
+  content of snow hydrological signatures based on streamflow, precipitation
+  and air temperature, Hydrological Processes, 34, 2763--2779,
+  \doi{10.1002/hyp.13762},
+  \urlprefix\url{https://onlinelibrary.wiley.com/doi/abs/10.1002/hyp.13762},
+  2020.
+
 \bibitem[{Houghton et~al.(2001)Houghton, Ding, Griggs, Noguer, van~der Linden,
   Dai, Maskell, and Johnson}]{houghton_climate_2001}
 Houghton, J.~T., Ding, Y., Griggs, D.~J., Noguer, M., van~der Linden, P.~J.,
@@ -421,6 +452,13 @@ Karpatne, A., Watkins, W., Read, J., and Kumar, V.: Physics-guided {Neural}
   {Networks} ({PGNN}): {An} {Application} in {Lake} {Temperature} {Modeling},
   arXiv:1710.11431 [physics, stat],
   \urlprefix\url{http://arxiv.org/abs/1710.11431}, arXiv: 1710.11431, 2018.
+
+\bibitem[{Krause(2002)}]{krause_quantifying_2002}
+Krause, P.: Quantifying the impact of land use changes on the water balance of
+  large catchments using the {J2000} model, Physics and Chemistry of the Earth,
+  Parts A/B/C, 27, 663--673, \doi{10.1016/S1474-7065(02)00051-7},
+  \urlprefix\url{http://linkinghub.elsevier.com/retrieve/pii/S1474706502000517},
+  2002.
 
 \bibitem[{Krogh and Vedelsby(1995)}]{krogh_neural_1995}
 Krogh, A. and Vedelsby, J.: Neural network ensembles, cross validation, and
