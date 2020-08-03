@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2020.1.8)  30 JUL 2020 17:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2020.1.8)  1 AUG 2020 12:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1756,7 +1756,7 @@ File: TS1opensans-TOsF.fd 2019/06/24 Font definitions for TS1/opensans-TOsF.
 LaTeX Font Info:    Font shape `TS1/opensans-TOsF/m/n' will be
 (Font)              scaled to size 9.49997pt on input line 15.
  [3]
-<Figures/intro/Figure_1.png, id=370, 997.22563pt x 930.97812pt>
+<Figures/intro/Figure_1.png, id=380, 997.22563pt x 930.97812pt>
 File: Figures/intro/Figure_1.png Graphic file (type png)
 <use Figures/intro/Figure_1.png>
 Package pdftex.def Info: Figures/intro/Figure_1.png  used on input line 19.
@@ -1781,7 +1781,7 @@ LaTeX Warning: Command \textendash invalid in math mode on input line 21.
 LaTeX Warning: Command \textendash invalid in math mode on input line 21.
 
 [4 <./Figures/intro/Figure_1.PNG>]
-<Figures/intro/Figure_2.pdf, id=386, 432.63533pt x 617.97176pt>
+<Figures/intro/Figure_2.pdf, id=396, 432.63533pt x 617.97176pt>
 File: Figures/intro/Figure_2.pdf Graphic file (type pdf)
 <use Figures/intro/Figure_2.pdf>
 Package pdftex.def Info: Figures/intro/Figure_2.pdf  used on input line 31.
@@ -1805,7 +1805,7 @@ Underfull \hbox (badness 4254) in paragraph at lines 36--37
 LaTeX Font Info:    Font shape `T1/opensans-TOsF/m/it' will be
 (Font)              scaled to size 9.49997pt on input line 46.
  [6]
-<Figures/intro/Figure_3.pdf, id=1718, 341.8371pt x 275.92888pt>
+<Figures/intro/Figure_3.pdf, id=1728, 341.8371pt x 275.92888pt>
 File: Figures/intro/Figure_3.pdf Graphic file (type pdf)
 <use Figures/intro/Figure_3.pdf>
 Package pdftex.def Info: Figures/intro/Figure_3.pdf  used on input line 61.
@@ -1849,38 +1849,10 @@ Package natbib Warning: Citation `bolibar_jordibolibar/alpgm:_2019' on page 17
 undefined on input line 43.
 
 
-! Package inputenc Error: Unicode character Δ (U+0394)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.43 ...cier geometry, a refined version of the Δ
-                                                  h methodology \citep[e.g.,...
-
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-! Package inputenc Error: Unicode character Δ (U+0394)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.43 ...we dynamically compute glacier-specific Δ
-                                                  h functions. In order to v...
-
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [17]
-<Figures/methods/Figure_1.png, id=1993, 492.44778pt x 357.30289pt>
+<Figures/methods/Figure_1.png, id=2003, 492.44778pt x 357.30289pt>
 File: Figures/methods/Figure_1.png Graphic file (type png)
 <use Figures/methods/Figure_1.png>
 Package pdftex.def Info: Figures/methods/Figure_1.png  used on input line 58.
@@ -1890,13 +1862,13 @@ Package pdftex.def Info: Figures/methods/Figure_1.png  used on input line 58.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [19 <./Figures/methods/Figure_1.png>]
-<Figures/methods/Figure_2.png, id=2026, 579.66562pt x 270.51062pt>
+<Figures/methods/Figure_2.png, id=2037, 579.66562pt x 270.51062pt>
 File: Figures/methods/Figure_2.png Graphic file (type png)
 <use Figures/methods/Figure_2.png>
 Package pdftex.def Info: Figures/methods/Figure_2.png  used on input line 92.
 (pdftex.def)             Requested size: 256.0748pt x 119.49971pt.
  [20] [21 <./Figures/methods/Figure_2.png>]
-<Figures/methods/Figure_3.pdf, id=2092, 465.25273pt x 126.71307pt>
+<Figures/methods/Figure_3.pdf, id=2103, 465.25273pt x 126.71307pt>
 File: Figures/methods/Figure_3.pdf Graphic file (type pdf)
 <use Figures/methods/Figure_3.pdf>
 Package pdftex.def Info: Figures/methods/Figure_3.pdf  used on input line 112.
@@ -1904,23 +1876,8 @@ Package pdftex.def Info: Figures/methods/Figure_3.pdf  used on input line 112.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [22 <./Figures/methods/Figure_3.pdf>]
-
-! Package inputenc Error: Unicode character Δ (U+0394)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.123 ... the normalized glacier altitude. This Δ
-                                                  h function is specific for...
-
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-[23] [24]
-<Figures/methods/Figure_4.pdf, id=2191, 399.4925pt x 598.235pt>
+ [22 <./Figures/methods/Figure_3.pdf>] [23] [24]
+<Figures/methods/Figure_4.pdf, id=2202, 399.4925pt x 598.235pt>
 File: Figures/methods/Figure_4.pdf Graphic file (type pdf)
 <use Figures/methods/Figure_4.pdf>
 Package pdftex.def Info: Figures/methods/Figure_4.pdf  used on input line 146.
@@ -1987,45 +1944,13 @@ The `$' that I just saw supposedly matches a previous `$$'.
 So I shall assume that you typed `$$' both times.
 
 
-! Package amsmath Error: \begin{aligned} allowed only in math mode.
-
-See the amsmath package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.198 S
-        M B_{g, y} ={} & ((a_{1} \overline{Z}+a_{2} Z_{\max }+a_{3} \alpha_{...
-
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.198 S
-        M B_{g, y} ={} & ((a_{1} \overline{Z}+a_{2} Z_{\max }+a_{3} \alpha_{...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.202 \end{aligned}
-                   
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-
 ! LaTeX Error: \begin{equation} on input line 195 ended by \end{flushleft}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.203 \end{flushleft}
+l.205 \end{flushleft}
                      
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2038,7 +1963,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.204 \end{equation}
+l.206 \end{equation}
                     
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2047,7 +1972,7 @@ or  <return>  to continue without it.
 ! You can't use `\eqno' in vertical mode.
 \endmathdisplay@a ...\df@tag \@empty \else \veqno 
                                                   \alt@tag \df@tag \fi \ifx ...
-l.204 \end{equation}
+l.206 \end{equation}
                     
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -2061,7 +1986,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.204 \end{equation}
+l.206 \end{equation}
                     
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2070,7 +1995,7 @@ or  <return>  to continue without it.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.204 \end{equation}
+l.206 \end{equation}
                     
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2081,7 +2006,7 @@ my insertion and my current dilemma will both disappear.
 ! Display math should end with $$.
 <to be read again> 
                    \endgroup 
-l.204 \end{equation}
+l.206 \end{equation}
                     
 The `$' that I just saw supposedly matches a previous `$$'.
 So I shall assume that you typed `$$' both times.
@@ -2089,7 +2014,7 @@ So I shall assume that you typed `$$' both times.
 ! Extra \endgroup.
 <recently read> \endgroup 
                           
-l.204 \end{equation}
+l.206 \end{equation}
                     
 Things are pretty mixed up, but I think the worst is over.
 
@@ -2097,81 +2022,80 @@ Things are pretty mixed up, but I think the worst is over.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [27]
-<Figures/methods/Figure_5.pdf, id=2302, 391.4625pt x 567.11874pt>
+<Figures/methods/Figure_5.pdf, id=2313, 391.4625pt x 567.11874pt>
 File: Figures/methods/Figure_5.pdf Graphic file (type pdf)
 <use Figures/methods/Figure_5.pdf>
-Package pdftex.def Info: Figures/methods/Figure_5.pdf  used on input line 212.
+Package pdftex.def Info: Figures/methods/Figure_5.pdf  used on input line 214.
 (pdftex.def)             Requested size: 236.15796pt x 342.12572pt.
 
-Underfull \hbox (badness 1215) in paragraph at lines 213--213
+Underfull \hbox (badness 1215) in paragraph at lines 215--215
 \T1/opensans-TOsF/m/n/9 topo-climatic pre-dic-tors out of 55 pre-dic-tors us-in
 g Lasso.
  []
 
 
-Underfull \hbox (badness 2158) in paragraph at lines 217--218
+Underfull \hbox (badness 2158) in paragraph at lines 219--220
 []\T1/opensans-TOsF/m/n/10 By run-ning the Lasso al-go-rithm on the
  []
 
 
-Underfull \hbox (badness 1831) in paragraph at lines 217--218
+Underfull \hbox (badness 1831) in paragraph at lines 219--220
 \T1/opensans-TOsF/m/n/10 dataset based on Eq. []2.2[] and []2.3[], we
  []
 
 
-Underfull \hbox (badness 2913) in paragraph at lines 217--218
+Underfull \hbox (badness 2913) in paragraph at lines 219--220
 \T1/opensans-TOsF/m/n/10 ob-tain the con-tri-bu-tion of each pre-dic-
  []
 
 
-Underfull \hbox (badness 1205) in paragraph at lines 217--218
+Underfull \hbox (badness 1205) in paragraph at lines 219--220
 \T1/opensans-TOsF/m/n/10 tant pre-dic-tors. Ablation-related pre-dic-
  []
 
 
-Underfull \hbox (badness 1005) in paragraph at lines 217--218
+Underfull \hbox (badness 1005) in paragraph at lines 219--220
 \T1/opensans-TOsF/m/n/10 the ice and con-tribute to the ac-cu-mu-la-
  []
 
 [28 <./Figures/methods/Figure_5.pdf>]
-<Figures/methods/Figure_6.pdf, id=2335, 568.96408pt x 577.71754pt>
+<Figures/methods/Figure_6.pdf, id=2346, 568.96408pt x 577.71754pt>
 File: Figures/methods/Figure_6.pdf Graphic file (type pdf)
 <use Figures/methods/Figure_6.pdf>
-Package pdftex.def Info: Figures/methods/Figure_6.pdf  used on input line 229.
+Package pdftex.def Info: Figures/methods/Figure_6.pdf  used on input line 231.
 (pdftex.def)             Requested size: 341.43306pt x 346.69492pt.
-<Figures/methods/Figure_7.pdf, id=2337, 560.47884pt x 212.81613pt>
+<Figures/methods/Figure_7.pdf, id=2348, 560.47884pt x 212.81613pt>
 File: Figures/methods/Figure_7.pdf Graphic file (type pdf)
 <use Figures/methods/Figure_7.pdf>
-Package pdftex.def Info: Figures/methods/Figure_7.pdf  used on input line 238.
+Package pdftex.def Info: Figures/methods/Figure_7.pdf  used on input line 240.
 (pdftex.def)             Requested size: 398.33858pt x 151.25313pt.
-<Figures/methods/Figure_8.pdf, id=2339, 492.94984pt x 239.37903pt>
+<Figures/methods/Figure_8.pdf, id=2350, 492.94984pt x 239.37903pt>
 File: Figures/methods/Figure_8.pdf Graphic file (type pdf)
 <use Figures/methods/Figure_8.pdf>
-Package pdftex.def Info: Figures/methods/Figure_8.pdf  used on input line 247.
+Package pdftex.def Info: Figures/methods/Figure_8.pdf  used on input line 249.
 (pdftex.def)             Requested size: 455.24408pt x 221.07147pt.
 
-Overfull \hbox (11.38089pt too wide) in paragraph at lines 247--248
+Overfull \hbox (11.38089pt too wide) in paragraph at lines 249--250
  [][] 
  []
 
-[29]
-<Figures/methods/Figure_9.pdf, id=2350, 571.42365pt x 580.9075pt>
+<Figures/methods/Figure_9.pdf, id=2353, 571.42365pt x 580.9075pt>
 File: Figures/methods/Figure_9.pdf Graphic file (type pdf)
 <use Figures/methods/Figure_9.pdf>
-Package pdftex.def Info: Figures/methods/Figure_9.pdf  used on input line 260.
+Package pdftex.def Info: Figures/methods/Figure_9.pdf  used on input line 262.
 (pdftex.def)             Requested size: 341.43306pt x 347.10237pt.
-
+[29]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Figures/methods/Figure_10.pdf, id=2352, 556.63818pt x 256.68343pt>
+<Figures/methods/Figure_10.pdf, id=2364, 556.63818pt x 256.68343pt>
 File: Figures/methods/Figure_10.pdf Graphic file (type pdf)
 <use Figures/methods/Figure_10.pdf>
-Package pdftex.def Info: Figures/methods/Figure_10.pdf  used on input line 269.
+Package pdftex.def Info: Figures/methods/Figure_10.pdf  used on input line 271.
 
 (pdftex.def)             Requested size: 455.24408pt x 209.9295pt.
 
-Overfull \hbox (11.38089pt too wide) in paragraph at lines 269--270
+Overfull \hbox (11.38089pt too wide) in paragraph at lines 271--272
  [][] 
  []
 
@@ -2187,22 +2111,8 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.283 ...ect. \ref{methods:methods:deltah}, the Δ
+l.285 ...ect. \ref{methods:methods:deltah}, the Δ
                                                   h parameterization has bee...
-
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-! Package inputenc Error: Unicode character Δ (U+0394)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.283 ...oach developed in ALPGM to compute the Δ
-                                                  h functions and show some ...
 
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -2218,10 +2128,10 @@ on: multiple pdfs with page group included in a single page
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [32 <./Figures/methods/Figure_9.pdf>]
-<Figures/methods/Figure_11.pdf, id=26411, 875.91241pt x 374.3586pt>
+<Figures/methods/Figure_11.pdf, id=26422, 875.91241pt x 374.3586pt>
 File: Figures/methods/Figure_11.pdf Graphic file (type pdf)
 <use Figures/methods/Figure_11.pdf>
-Package pdftex.def Info: Figures/methods/Figure_11.pdf  used on input line 291.
+Package pdftex.def Info: Figures/methods/Figure_11.pdf  used on input line 293.
 
 (pdftex.def)             Requested size: 426.79134pt x 182.4034pt.
 
@@ -2232,13 +2142,13 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 [35]
 
 Package natbib Warning: Citation `bolibar_jordibolibar/alpgm:_2019' on page 36 
-undefined on input line 322.
+undefined on input line 324.
 
 [36] [37]
-<Figures/methods/Figure_S1.png, id=26583, 573.14125pt x 293.59688pt>
+<Figures/methods/Figure_S1.png, id=26594, 573.14125pt x 293.59688pt>
 File: Figures/methods/Figure_S1.png Graphic file (type png)
 <use Figures/methods/Figure_S1.png>
-Package pdftex.def Info: Figures/methods/Figure_S1.png  used on input line 351.
+Package pdftex.def Info: Figures/methods/Figure_S1.png  used on input line 353.
 
 (pdftex.def)             Requested size: 341.43306pt x 174.90509pt.
  [38 <./Figures/methods/Figure_S1.PNG>]
@@ -2249,19 +2159,19 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.372 
+l.374 
       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 377--377
+Underfull \hbox (badness 10000) in paragraph at lines 379--379
 []|\T1/opensans-TOsF/m/n/10 Variable (mul-ti-tem-po-ral
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 378--379
+Underfull \hbox (badness 10000) in paragraph at lines 380--381
 []|\T1/opensans-TOsF/m/n/10 0.2
  []
 
@@ -2272,7 +2182,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.386 
+l.388 
       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2286,50 +2196,50 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.388  
+l.390  
          
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 [39]
-<Figures/methods/Figure_S2.png, id=26605, 618.31pt x 378.41376pt>
+<Figures/methods/Figure_S2.png, id=26616, 618.31pt x 378.41376pt>
 File: Figures/methods/Figure_S2.png Graphic file (type png)
 <use Figures/methods/Figure_S2.png>
-Package pdftex.def Info: Figures/methods/Figure_S2.png  used on input line 395.
+Package pdftex.def Info: Figures/methods/Figure_S2.png  used on input line 397.
 
 (pdftex.def)             Requested size: 426.79134pt x 261.2097pt.
-<Figures/methods/Figure_S3.png, id=26606, 463.7325pt x 398.99063pt>
+<Figures/methods/Figure_S3.png, id=26617, 463.7325pt x 398.99063pt>
 File: Figures/methods/Figure_S3.png Graphic file (type png)
 <use Figures/methods/Figure_S3.png>
-Package pdftex.def Info: Figures/methods/Figure_S3.png  used on input line 402.
+Package pdftex.def Info: Figures/methods/Figure_S3.png  used on input line 404.
 
 (pdftex.def)             Requested size: 398.33858pt x 342.73561pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Figures/methods/Figure_S4.png, id=26607, 323.2075pt x 256.96pt>
+<Figures/methods/Figure_S4.png, id=26618, 323.2075pt x 256.96pt>
 File: Figures/methods/Figure_S4.png Graphic file (type png)
 <use Figures/methods/Figure_S4.png>
-Package pdftex.def Info: Figures/methods/Figure_S4.png  used on input line 408.
+Package pdftex.def Info: Figures/methods/Figure_S4.png  used on input line 410.
 
 (pdftex.def)             Requested size: 256.0748pt x 203.59607pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Figures/methods/Figure_S5.png, id=26608, 311.1625pt x 278.03876pt>
+<Figures/methods/Figure_S5.png, id=26619, 311.1625pt x 278.03876pt>
 File: Figures/methods/Figure_S5.png Graphic file (type png)
 <use Figures/methods/Figure_S5.png>
-Package pdftex.def Info: Figures/methods/Figure_S5.png  used on input line 415.
+Package pdftex.def Info: Figures/methods/Figure_S5.png  used on input line 417.
 
 (pdftex.def)             Requested size: 256.0748pt x 228.8163pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Figures/methods/Figure_S6.png, id=26609, 588.1975pt x 235.37938pt>
+<Figures/methods/Figure_S6.png, id=26620, 588.1975pt x 235.37938pt>
 File: Figures/methods/Figure_S6.png Graphic file (type png)
 <use Figures/methods/Figure_S6.png>
-Package pdftex.def Info: Figures/methods/Figure_S6.png  used on input line 422.
+Package pdftex.def Info: Figures/methods/Figure_S6.png  used on input line 424.
 
 (pdftex.def)             Requested size: 426.79134pt x 170.79114pt.
 
@@ -2350,7 +2260,7 @@ Overfull \hbox (30.0pt too wide) in paragraph at lines 1--1
 Underfull \vbox (badness 4429) has occurred while \output is active []
 
  [44]
-<Figures/past/Figure_1.pdf, id=26702, 767.94202pt x 296.71852pt>
+<Figures/past/Figure_1.pdf, id=26713, 767.94202pt x 296.71852pt>
 File: Figures/past/Figure_1.pdf Graphic file (type pdf)
 <use Figures/past/Figure_1.pdf>
 Package pdftex.def Info: Figures/past/Figure_1.pdf  used on input line 27.
@@ -2374,7 +2284,7 @@ We now make it that large for the rest of the document.
 This may cause the page layout to be inconsistent, however.
 
 [45 <./Figures/past/Figure_1.pdf>] [46]
-<Figures/past/Figure_2.pdf, id=28716, 451.61925pt x 419.166pt>
+<Figures/past/Figure_2.pdf, id=28727, 451.61925pt x 419.166pt>
 File: Figures/past/Figure_2.pdf Graphic file (type pdf)
 <use Figures/past/Figure_2.pdf>
 Package pdftex.def Info: Figures/past/Figure_2.pdf  used on input line 56.
@@ -2383,12 +2293,12 @@ Package pdftex.def Info: Figures/past/Figure_2.pdf  used on input line 56.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [47 <./Figures/past/Figure_2.pdf>] [48]
-<Figures/past/Figure_3.pdf, id=28818, 824.25041pt x 867.24pt>
+<Figures/past/Figure_3.pdf, id=28830, 824.25041pt x 867.24pt>
 File: Figures/past/Figure_3.pdf Graphic file (type pdf)
 <use Figures/past/Figure_3.pdf>
 Package pdftex.def Info: Figures/past/Figure_3.pdf  used on input line 75.
 (pdftex.def)             Requested size: 312.9803pt x 329.3032pt.
-<Figures/past/Figure_4.pdf, id=28829, 433.62pt x 289.08pt>
+<Figures/past/Figure_4.pdf, id=28841, 433.62pt x 289.08pt>
 File: Figures/past/Figure_4.pdf Graphic file (type pdf)
 <use Figures/past/Figure_4.pdf>
 Package pdftex.def Info: Figures/past/Figure_4.pdf  used on input line 87.
@@ -2397,13 +2307,13 @@ Package pdftex.def Info: Figures/past/Figure_4.pdf  used on input line 87.
 Underfull \vbox (badness 3471) has occurred while \output is active []
 
  [49 <./Figures/past/Figure_3.pdf>] [50 <./Figures/past/Figure_4.pdf>]
-<Figures/past/Figure_5.pdf, id=31223, 655.79103pt x 563.50124pt>
+<Figures/past/Figure_5.pdf, id=31234, 655.79103pt x 563.50124pt>
 File: Figures/past/Figure_5.pdf Graphic file (type pdf)
 <use Figures/past/Figure_5.pdf>
 Package pdftex.def Info: Figures/past/Figure_5.pdf  used on input line 102.
 (pdftex.def)             Requested size: 426.79134pt x 366.72717pt.
  [51] [52 <./Figures/past/Figure_5.pdf>]
-<Figures/past/Figure_6.pdf, id=31636, 722.7pt x 901.70978pt>
+<Figures/past/Figure_6.pdf, id=31647, 722.7pt x 901.70978pt>
 File: Figures/past/Figure_6.pdf Graphic file (type pdf)
 <use Figures/past/Figure_6.pdf>
 Package pdftex.def Info: Figures/past/Figure_6.pdf  used on input line 116.
@@ -2412,7 +2322,7 @@ Package pdftex.def Info: Figures/past/Figure_6.pdf  used on input line 116.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [53 <./Figures/past/Figure_6.pdf>]
-<Figures/past/Figure_S1.pdf, id=31970, 453.8556pt x 370.74509pt>
+<Figures/past/Figure_S1.pdf, id=31982, 453.8556pt x 370.74509pt>
 File: Figures/past/Figure_S1.pdf Graphic file (type pdf)
 <use Figures/past/Figure_S1.pdf>
 Package pdftex.def Info: Figures/past/Figure_S1.pdf  used on input line 132.
@@ -2422,14 +2332,14 @@ Package pdftex.def Info: Figures/past/Figure_S1.pdf  used on input line 132.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [54]
-<Figures/past/Figure_S2.pdf, id=31985, 478.35913pt x 271.14131pt>
+<Figures/past/Figure_S2.pdf, id=31996, 478.35913pt x 271.14131pt>
 File: Figures/past/Figure_S2.pdf Graphic file (type pdf)
 <use Figures/past/Figure_S2.pdf>
 Package pdftex.def Info: Figures/past/Figure_S2.pdf  used on input line 148.
 (pdftex.def)             Requested size: 341.43306pt x 193.53357pt.
  [55 <./Figures/past/Figure_S1.pdf>] [56 <./Figures/past/Figure_S2.pdf>]
 [57]
-<Figures/past/Figure_S3.pdf, id=32125, 722.7pt x 361.35pt>
+<Figures/past/Figure_S3.pdf, id=32136, 722.7pt x 361.35pt>
 File: Figures/past/Figure_S3.pdf Graphic file (type pdf)
 <use Figures/past/Figure_S3.pdf>
 Package pdftex.def Info: Figures/past/Figure_S3.pdf  used on input line 178.
@@ -2439,7 +2349,7 @@ Overfull \hbox (11.38089pt too wide) in paragraph at lines 178--180
  [][] 
  []
 
-<Figures/past/Figure_S4.pdf, id=32126, 722.7pt x 722.7pt>
+<Figures/past/Figure_S4.pdf, id=32137, 722.7pt x 722.7pt>
 File: Figures/past/Figure_S4.pdf Graphic file (type pdf)
 <use Figures/past/Figure_S4.pdf>
 Package pdftex.def Info: Figures/past/Figure_S4.pdf  used on input line 186.
@@ -2447,12 +2357,12 @@ Package pdftex.def Info: Figures/past/Figure_S4.pdf  used on input line 186.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Figures/past/Figure_S5.png, id=32127, 531.9072pt x 448.7967pt>
+<Figures/past/Figure_S5.png, id=32138, 531.9072pt x 448.7967pt>
 File: Figures/past/Figure_S5.png Graphic file (type png)
 <use Figures/past/Figure_S5.png>
 Package pdftex.def Info: Figures/past/Figure_S5.png  used on input line 195.
 (pdftex.def)             Requested size: 256.0748pt x 216.07053pt.
-<Figures/past/Figure_S6.pdf, id=32128, 590.35399pt x 330.59824pt>
+<Figures/past/Figure_S6.pdf, id=32139, 590.35399pt x 330.59824pt>
 File: Figures/past/Figure_S6.pdf Graphic file (type pdf)
 <use Figures/past/Figure_S6.pdf>
 Package pdftex.def Info: Figures/past/Figure_S6.pdf  used on input line 204.
@@ -2462,12 +2372,12 @@ Overfull \hbox (11.38089pt too wide) in paragraph at lines 204--206
  [][] 
  []
 
-<Figures/past/Figure_S7.pdf, id=32129, 433.62pt x 289.08pt>
+<Figures/past/Figure_S7.pdf, id=32140, 433.62pt x 289.08pt>
 File: Figures/past/Figure_S7.pdf Graphic file (type pdf)
 <use Figures/past/Figure_S7.pdf>
 Package pdftex.def Info: Figures/past/Figure_S7.pdf  used on input line 213.
 (pdftex.def)             Requested size: 341.43306pt x 227.63405pt.
-<Figures/past/Figure_S8.pdf, id=32130, 722.7pt x 361.35pt>
+<Figures/past/Figure_S8.pdf, id=32141, 722.7pt x 361.35pt>
 File: Figures/past/Figure_S8.pdf Graphic file (type pdf)
 <use Figures/past/Figure_S8.pdf>
 Package pdftex.def Info: Figures/past/Figure_S8.pdf  used on input line 222.
@@ -2477,7 +2387,7 @@ Overfull \hbox (11.38089pt too wide) in paragraph at lines 222--224
  [][] 
  []
 
-<Figures/past/Figure_S9.pdf, id=32131, 722.7pt x 361.35pt>
+<Figures/past/Figure_S9.pdf, id=32142, 722.7pt x 361.35pt>
 File: Figures/past/Figure_S9.pdf Graphic file (type pdf)
 <use Figures/past/Figure_S9.pdf>
 Package pdftex.def Info: Figures/past/Figure_S9.pdf  used on input line 231.
@@ -2537,11 +2447,23 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-) [67
+[67
 
-] [68] [69
+]
+<Figures/hydro/Figure_1.png, id=38435, 3279.25125pt x 2318.6625pt>
+File: Figures/hydro/Figure_1.png Graphic file (type png)
+<use Figures/hydro/Figure_1.png>
+Package pdftex.def Info: Figures/hydro/Figure_1.png  used on input line 25.
+(pdftex.def)             Requested size: 711.3189pt x 502.9606pt.
 
-] [70] (./discussion/discussion.tex
+Overfull \hbox (19.91673pt too wide) in paragraph at lines 25--28
+ [][] 
+ []
+
+) [68] [69 <./Figures/hydro/Figure_1.png (PNG copy)>] [70
+
+] [71] [72]
+(./discussion/discussion.tex
 Chapter 6.
 
 Overfull \hbox (30.0pt too wide) in paragraph at lines 1--1
@@ -2561,9 +2483,9 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-) [71
+) [73
 
-] (./Bolibar_PhD_dissertation.bbl [72]
+] (./Bolibar_PhD_dissertation.bbl [74]
 LaTeX Font Info:    Trying to load font information for T1+jkptt on input line 
 16.
 
@@ -2606,7 +2528,7 @@ Underfull \hbox (badness 1072) in paragraph at lines 73--78
 ., Con-dom, T., and Sauquet, E.: Deep learn-ing ap-plied to
  []
 
-[73
+[75
 
 ]
 Underfull \hbox (badness 1496) in paragraph at lines 248--253
@@ -2614,27 +2536,27 @@ Underfull \hbox (badness 1496) in paragraph at lines 248--253
  sim-u-lated us-ing a phys-i-cally based ap-proach, Hy-
  []
 
-[74]
+[76]
 Underfull \hbox (badness 10000) in paragraph at lines 313--317
 \T1/opensans-TOsF/m/n/9 URL []$\T1/jkptt/m/n/9 https : / / www . cambridge . or
 g / core / product / identifier / S0022143000020384 / type / journal _
  []
 
-[75]
+[77]
 Underfull \hbox (badness 1454) in paragraph at lines 403--407
 \T1/jkp/m/n/9 1198 / 004017005000000058$\T1/opensans-TOsF/m/n/9 , URL []$\T1/jk
 ptt/m/n/9 http : / / www . tandfonline . com / doi / abs / 10 . 1198 / 00401700
 5000000058$[]\T1/opensans-TOsF/m/n/9 ,
  []
 
-[76]
+[78]
 Underfull \hbox (badness 1210) in paragraph at lines 565--570
 \T1/opensans-TOsF/m/n/9 doi: $\T1/jkp/m/n/9 10 . 1126 / science . 293 . 5537 . 
 2051$\T1/opensans-TOsF/m/n/9 , URL []$\T1/jkptt/m/n/9 https : / / www . science
 mag . org / lookup / doi / 10 . 1126 / science .
  []
 
-[77]
+[79]
 Underfull \hbox (badness 1596) in paragraph at lines 748--754
 \T1/opensans-TOsF/m/n/9 the Pelvoux Mas-sif, France, from 1861 to 1914, The In-
 ter-na-tional Jour-nal of the His-tory of Sport, 30,
@@ -2647,7 +2569,7 @@ Underfull \hbox (badness 1838) in paragraph at lines 748--754
  tandfonline . com / doi / abs / 10 . 1080 /
  []
 
-[78]
+[80]
 
 ! Package inputenc Error: Invalid UTF-8 byte sequence.
 
@@ -2664,7 +2586,7 @@ or specify an encoding such as \usepackage [latin1]{inputenc}
 in the document preamble.
 Alternatively, save the file in UTF-8 using your editor or another tool
 
-[79])
+[81])
 
 Package natbib Warning: There were undefined citations.
 
@@ -2694,24 +2616,24 @@ Package minitoc(hints) Warning: W0024
 (minitoc(hints))                in the Bolibar_PhD_dissertation.log file.
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 229.
-[80]
+[82]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 229.
  (./Bolibar_PhD_dissertation.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 229.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 229.
 Package rerunfilecheck Info: File `Bolibar_PhD_dissertation.out' has not change
 d.
-(rerunfilecheck)             Checksum: 7BD26839A1BA8205F93E1F2818B96617;4476.
+(rerunfilecheck)             Checksum: 4AE4ADDC024C7DF212D07CB83C3FCF76;4603.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 20251 strings out of 492163
- 318303 string characters out of 6129077
- 468705 words of memory out of 5000000
- 23570 multiletter control sequences out of 15000+600000
+ 20267 strings out of 492163
+ 318593 string characters out of 6129077
+ 469266 words of memory out of 5000000
+ 23580 multiletter control sequences out of 15000+600000
  58439 words of font info for 125 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  48i,12n,79p,3092b,754s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2727,10 +2649,10 @@ nts/jkpex.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/kpfonts/jkpmi.pfb>
 st/fonts/type1/public/kpfonts/jkpsy.pfb><c:/texlive/2019/texmf-dist/fonts/type1
 /public/kpfonts/jkpttmn8a.pfb><c:/texlive/2019/texmf-dist/fonts/type1/urw/helve
 tic/uhvr8a.pfb><c:/texlive/2019/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on Bolibar_PhD_dissertation.pdf (86 pages, 55968434 bytes).
+Output written on Bolibar_PhD_dissertation.pdf (88 pages, 56573355 bytes).
 PDF statistics:
- 38777 PDF objects out of 45951 (max. 8388607)
- 24745 compressed objects within 248 object streams
- 353 named destinations out of 1000 (max. 500000)
- 624 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 38799 PDF objects out of 45951 (max. 8388607)
+ 24764 compressed objects within 248 object streams
+ 358 named destinations out of 1000 (max. 500000)
+ 645 words of extra memory for PDF output out of 10000 (max. 10000000)
 
