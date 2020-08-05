@@ -6,49 +6,50 @@ Database file #1: references.bib
 Warning--I didn't find a database entry for "braud_j2000-rhone_201"
 Warning--I didn't find a database entry for "bolibar_jordibolibar/alpgm:_2019"
 Warning--empty journal in branger_investigating_2012
+Warning--missing publisher in braud_j2000-rhone_2017
 Warning--missing publisher in ioffe_batch_2015
 Warning--missing publisher in nussbaumer_reseau_2012
 Warning--missing publisher in pedregosa_scikit-learn:_2012
 Warning--empty journal in smit_exploring_2019
-You've used 129 entries,
+You've used 139 entries,
             2811 wiz_defined-function locations,
-            1888 strings with 47654 characters,
-and the built_in function-call counts, 131521 in all, are:
-= -- 14033
-> -- 6112
-< -- 46
-+ -- 2606
-- -- 1922
-* -- 9109
-:= -- 13853
-add.period$ -- 129
-call.type$ -- 129
-change.case$ -- 913
-chr.to.int$ -- 126
-cite$ -- 392
-duplicate$ -- 12533
-empty$ -- 6649
-format.name$ -- 2304
-if$ -- 25925
+            1956 strings with 50698 characters,
+and the built_in function-call counts, 142302 in all, are:
+= -- 15229
+> -- 6570
+< -- 49
++ -- 2809
+- -- 2066
+* -- 9831
+:= -- 14949
+add.period$ -- 139
+call.type$ -- 139
+change.case$ -- 982
+chr.to.int$ -- 136
+cite$ -- 423
+duplicate$ -- 13591
+empty$ -- 7190
+format.name$ -- 2474
+if$ -- 28059
 int.to.chr$ -- 4
 int.to.str$ -- 1
-missing$ -- 1514
-newline$ -- 396
-num.names$ -- 517
-pop$ -- 5629
+missing$ -- 1631
+newline$ -- 426
+num.names$ -- 557
+pop$ -- 6089
 preamble$ -- 1
-purify$ -- 897
+purify$ -- 965
 quote$ -- 0
-skip$ -- 6902
+skip$ -- 7492
 stack$ -- 0
-substring$ -- 4899
-swap$ -- 10558
-text.length$ -- 7
+substring$ -- 5334
+swap$ -- 11470
+text.length$ -- 8
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1131
-warning$ -- 5
-while$ -- 657
+type$ -- 1218
+warning$ -- 6
+while$ -- 714
 width$ -- 0
-write$ -- 1622
-(There were 7 warnings)
+write$ -- 1750
+(There were 8 warnings)

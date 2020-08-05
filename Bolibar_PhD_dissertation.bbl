@@ -1,4 +1,4 @@
-\begin{thebibliography}{129}
+\begin{thebibliography}{139}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{{\tt #1}}
 \providecommand{\urlprefix}{URL }
@@ -83,6 +83,14 @@ Branger, F., Kermadi, S., Krause, P., Labbas, M., Jacqueminet, C., Michel, K.,
   urbanization on the water balance of the {Yzeron} peri-urban catchment,
   {France}., 2012.
 
+\bibitem[{Braud et~al.(2017)Braud, Branger, Gouttevin, Sauquet, Tilmant, and
+  Montginoul}]{braud_j2000-rhone_2017}
+Braud, I., Branger, F., Gouttevin, I., Sauquet, E., Tilmant, F., and
+  Montginoul, M.: J2000-{Rhône}: a distributed hydrological model including
+  water-use modelling to assess sustainability of the water resource,
+  \urlprefix\url{https://hal.inrae.fr/hal-02606805}, published: 10th HyMeX
+  workshop, 2017.
+
 \bibitem[{Brun et~al.(2017)Brun, Berthier, Wagnon, Kääb, and
   Treichler}]{brun_spatially_2017}
 Brun, F., Berthier, E., Wagnon, P., Kääb, A., and Treichler, D.: A spatially
@@ -105,6 +113,15 @@ Carlson, B.~Z., Georges, D., Rabatel, A., Randin, C.~F., Renaud, J.,
   distribution models, Diversity and Distributions, 20, 1379--1391,
   \doi{10.1111/ddi.12238},
   \urlprefix\url{http://doi.wiley.com/10.1111/ddi.12238}, 2014.
+
+\bibitem[{Carlson et~al.(2020)Carlson, Hébert, Van~Reeth, Bison, Laigle, and
+  Delestrade}]{carlson_monitoring_2020}
+Carlson, B.~Z., Hébert, M., Van~Reeth, C., Bison, M., Laigle, I., and
+  Delestrade, A.: Monitoring the {Seasonal} {Hydrology} of {Alpine} {Wetlands}
+  in {Response} to {Snow} {Cover} {Dynamics} and {Summer} {Climate}: {A}
+  {Novel} {Approach} with {Sentinel}-2, Remote Sensing, 12, 1959,
+  \doi{10.3390/rs12121959},
+  \urlprefix\url{https://www.mdpi.com/2072-4292/12/12/1959}, 2020.
 
 \bibitem[{Cauvy-Fraunié and Dangles(2019)}]{cauvy-fraunie_global_2019}
 Cauvy-Fraunié, S. and Dangles, O.: A global synthesis of biodiversity
@@ -179,6 +196,14 @@ Dussaillant, I., Berthier, E., Brun, F., Masiokas, M., Hugonnet, R., Favier,
   along the {Andes}, Nature Geoscience, 12, 802--808,
   \doi{10.1038/s41561-019-0432-5},
   \urlprefix\url{http://www.nature.com/articles/s41561-019-0432-5}, 2019.
+
+\bibitem[{Etchevers et~al.(2001)Etchevers, Golaz, and
+  Habets}]{etchevers_simulation_2001}
+Etchevers, P., Golaz, C., and Habets, F.: Simulation of the water budget and
+  the river flows of the {Rhone} basin from 1981 to 1994, Journal of Hydrology,
+  244, 60--85, \doi{10.1016/S0022-1694(01)00332-8},
+  \urlprefix\url{https://linkinghub.elsevier.com/retrieve/pii/S0022169401003328},
+  2001.
 
 \bibitem[{Farinotti et~al.(2019{\natexlab{a}})Farinotti, Huss, Fürst,
   Landmann, Machguth, Maussion, and Pandit}]{farinotti_consensus_2019}
@@ -384,6 +409,16 @@ Huss, M., Dhulst, L., and Bauder, A.: New long-term mass-balance series for the
   \urlprefix\url{https://www.cambridge.org/core/product/identifier/S0022143000204036/type/journal_article},
   2015.
 
+\bibitem[{Huss et~al.(2017)Huss, Bookhagen, Huggel, Jacobsen, Bradley, Clague,
+  Vuille, Buytaert, Cayan, Greenwood, Mark, Milner, Weingartner, and
+  Winder}]{huss_toward_2017}
+Huss, M., Bookhagen, B., Huggel, C., Jacobsen, D., Bradley, R., Clague, J.,
+  Vuille, M., Buytaert, W., Cayan, D., Greenwood, G., Mark, B., Milner, A.,
+  Weingartner, R., and Winder, M.: Toward mountains without permanent snow and
+  ice: {MOUNTAINS} {WITHOUT} {PERMANENT} {SNOW} {AND} {ICE}, Earth's Future, 5,
+  418--435, \doi{10.1002/2016EF000514},
+  \urlprefix\url{http://doi.wiley.com/10.1002/2016EF000514}, 2017.
+
 \bibitem[{Immerzeel et~al.(2020)Immerzeel, Lutz, Andrade, Bahl, Biemans, Bolch,
   Hyde, Brumby, Davies, Elmore, Emmer, Feng, Fernández, Haritashya, Kargel,
   Koppes, Kraaijenbrink, Kulkarni, Mayewski, Nepal, Pacheco, Painter,
@@ -479,6 +514,13 @@ Laurent, L., Buoncristiani, J.-F., Pohl, B., Zekollari, H., Farinotti, D.,
   glacier mass loss on the hydrology in the {Mont}-{Blanc} massif, Scientific
   Reports, 10, 10\,420, \doi{10.1038/s41598-020-67379-7},
   \urlprefix\url{http://www.nature.com/articles/s41598-020-67379-7}, 2020.
+
+\bibitem[{Lencioni(2018)}]{lencioni_glacial_2018}
+Lencioni, V.: Glacial influence and stream macroinvertebrate biodiversity under
+  climate change: {Lessons} from the {Southern} {Alps}, Science of The Total
+  Environment, 622-623, 563--575, \doi{10.1016/j.scitotenv.2017.11.266},
+  \urlprefix\url{https://linkinghub.elsevier.com/retrieve/pii/S0048969717333247},
+  2018.
 
 \bibitem[{Lguensat et~al.(2018)Lguensat, Sun, Fablet, Tandeo, Mason, and
   Chen}]{lguensat_eddynet:_2018}
@@ -589,6 +631,15 @@ Mourey, J. and Ravanel, L.: Evolution of {Access} {Routes} to {High} {Mountain}
   \doi{10.4000/rga.3790},
   \urlprefix\url{http://journals.openedition.org/rga/3790}, 2017.
 
+\bibitem[{Nepal et~al.(2014)Nepal, Krause, Flügel, Fink, and
+  Fischer}]{nepal_understanding_2014}
+Nepal, S., Krause, P., Flügel, W.-A., Fink, M., and Fischer, C.: Understanding
+  the hydrological system dynamics of a glaciated alpine catchment in the
+  {Himalayan} region using the {J2000} hydrological model: {HYDROLOGICAL}
+  {SYSTEM} {DYNAMICS} {OF} {HIMALAYA} {RIVERS}, Hydrological Processes, 28,
+  1329--1344, \doi{10.1002/hyp.9627},
+  \urlprefix\url{http://doi.wiley.com/10.1002/hyp.9627}, 2014.
+
 \bibitem[{NSIDC(2005)}]{glims_and_nsidc_global_2005}
 NSIDC, G.~a.: Global {Land} {Ice} {Measurements} from {Space} glacier database.
   {Compiled} and made available by the international {GLIMS} community and the
@@ -618,6 +669,12 @@ Oliveira, M., Torgo, L., and Santos~Costa, V.: Evaluation {Procedures} for
 \bibitem[{Olson et~al.(2018)Olson, Wyner, and Berk}]{olson_modern_2018}
 Olson, M., Wyner, A.~J., and Berk, R.: Modern {Neural} {Networks} {Generalize}
   on {Small} {Data} {Sets}, in: {NeurIPS}, 2018.
+
+\bibitem[{Paquet(2004)}]{paquet_evolution_2004}
+Paquet, E.: Evolution du modèle hydrologique {MORDOR} : modélisation du stock
+  nival à différentes altitudes, La Houille Blanche, pp. 75--82,
+  \doi{10.1051/lhb:200402008},
+  \urlprefix\url{http://www.shf-lhb.org/10.1051/lhb:200402008}, 2004.
 
 \bibitem[{Paul et~al.(2004)Paul, Kääb, Maisch, Kellenberger, and
   Haeberli}]{paul_rapid_2004}
@@ -718,6 +775,15 @@ Roberts, D.~R., Bahn, V., Ciuti, S., Boyce, M.~S., Elith, J., Guillera-Arroita,
   phylogenetic structure, Ecography, 40, 913--929, \doi{10.1111/ecog.02881},
   \urlprefix\url{http://doi.wiley.com/10.1111/ecog.02881}, 2017.
 
+\bibitem[{Robinson et~al.(2014)Robinson, Thompson, and
+  Freestone}]{robinson_ecosystem_2014}
+Robinson, C.~T., Thompson, C., and Freestone, M.: Ecosystem development of
+  streams lengthened by rapid glacial recession, Fundamental and Applied
+  Limnology / Archiv für Hydrobiologie, 185, 235--246,
+  \doi{10.1127/fal/2014/0667},
+  \urlprefix\url{http://www.ingentaconnect.com/content/10.1127/fal/2014/0667},
+  2014.
+
 \bibitem[{Réveillet et~al.(2015)Réveillet, Rabatel, Gillet-Chaulet, and
   Soruco}]{reveillet_simulations_2015}
 Réveillet, M., Rabatel, A., Gillet-Chaulet, F., and Soruco, A.: Simulations of
@@ -743,6 +809,21 @@ Réveillet, M., Six, D., Vincent, C., Rabatel, A., Dumont, M., Lafaysse, M.,
   balance of {Saint}-{Sorlin} {Glacier} ({French} {Alps}), The Cryosphere, 12,
   1367--1386, \doi{10.5194/tc-12-1367-2018},
   \urlprefix\url{https://www.the-cryosphere.net/12/1367/2018/}, 2018.
+
+\bibitem[{Schaefli et~al.(2005)Schaefli, Hingray, Niggli, and
+  Musy}]{schaefli_conceptual_2005}
+Schaefli, B., Hingray, B., Niggli, M., and Musy, A.: A conceptual
+  glacio-hydrological model for high mountainous catchments, Hydrology and
+  Earth System Sciences, 9, 95--109, \doi{10.5194/hess-9-95-2005},
+  \urlprefix\url{https://hess.copernicus.org/articles/9/95/2005/}, 2005.
+
+\bibitem[{Schaefli et~al.(2019)Schaefli, Manso, Fischer, Huss, and
+  Farinotti}]{schaefli_role_2019}
+Schaefli, B., Manso, P., Fischer, M., Huss, M., and Farinotti, D.: The role of
+  glacier retreat for {Swiss} hydropower production, Renewable Energy, 132,
+  615--627, \doi{10.1016/j.renene.2018.07.104},
+  \urlprefix\url{https://linkinghub.elsevier.com/retrieve/pii/S0960148118309017},
+  2019.
 
 \bibitem[{Schut(2013)}]{schut_sport_2013}
 Schut, P.-O.: Sport as a {Major} {Player} in the {Development} of {Tourism}:

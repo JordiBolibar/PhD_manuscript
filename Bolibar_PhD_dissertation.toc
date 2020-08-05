@@ -3,7 +3,7 @@
 \contentsline {section}{\numberline {1.1}On the importance of glaciers}{3}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Glaciers in the French Alps}{5}{section.1.2}%
 \contentsline {section}{\numberline {1.3}Modelling large-scale glacier evolution}{6}{section.1.3}%
-\contentsline {section}{\numberline {1.4}Teaching machines about glaciers}{6}{section.1.4}%
+\contentsline {section}{\numberline {1.4}Teaching machines about glaciers}{7}{section.1.4}%
 \contentsline {section}{\numberline {1.5}Modelling glacierized catchments in the French Alps}{8}{section.1.5}%
 \contentsline {chapter}{Objectives of this PhD work}{8}{section*.6}%
 \contentsline {chapter}{A short note to the reader}{9}{section*.7}%
@@ -62,14 +62,18 @@
 \contentsline {subsection}{\numberline {3.6.3}Influence of area in glacier-wide MB signal and proof on non overfitting}{56}{subsection.3.6.3}%
 \contentsline {subsection}{\numberline {3.6.4}Supplementary figures}{58}{subsection.3.6.4}%
 \contentsline {chapter}{\numberline {4}The 21$^{st}$ century deglaciation of the French Alps: unraveling climate-glacier interactions with deep learning}{63}{chapter.4}%
-\contentsline {part}{II\hspace {1em}Glacierized mountain catchments}{65}{part.2}%
-\contentsline {xpart}{Glacierized mountain catchments}{67}{part.2}%
+\contentsline {part}{II\hspace {1em}Glacierized alpine catchments}{65}{part.2}%
+\contentsline {xpart}{Glacierized alpine catchments}{67}{part.2}%
 \contentsline {chapter}{\numberline {5}Hydroglaciological modelling of glacierized French alpine catchments}{67}{chapter.5}%
 \contentsline {section}{\numberline {5.1}Introduction}{67}{section.5.1}%
 \contentsline {section}{\numberline {5.2}Methods}{68}{section.5.2}%
 \contentsline {subsection}{\numberline {5.2.1}Study area}{68}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.2.2}Data}{69}{subsection.5.2.2}%
+\contentsline {subsection}{\numberline {5.2.3}The J2K hydrological model}{69}{subsection.5.2.3}%
+\contentsline {section}{\numberline {5.3}Results}{69}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Discussion and conclusions}{69}{section.5.4}%
 \contentsline {part}{III\hspace {1em}Outlook}{71}{part.3}%
 \contentsline {xpart}{Outlook}{73}{part.3}%
 \contentsline {chapter}{\numberline {6}Perspectives and conclusions}{73}{chapter.6}%
 \contentsline {section}{\numberline {6.1}Discussion}{73}{section.6.1}%
-\contentsline {chapter}{Bibliography}{82}{section.6.1}%
+\contentsline {chapter}{Bibliography}{83}{section.6.1}%
