@@ -1,4 +1,4 @@
-\begin{thebibliography}{139}
+\begin{thebibliography}{145}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{{\tt #1}}
 \providecommand{\urlprefix}{URL }
@@ -54,6 +54,10 @@ Berthier, E., Cabot, V., Vincent, C., and Six, D.: Decadal {Region}-{Wide} and
   \doi{10.3389/feart.2016.00063},
   \urlprefix\url{http://journal.frontiersin.org/Article/10.3389/feart.2016.00063/abstract},
   2016.
+
+\bibitem[{Bertle(1966)}]{bertle_effect_1966}
+Bertle, F.~A.: Effect of snow compaction on runoff from rain on snow, 35, US
+  Department of the Interior, Bureau of Reclamation, 1966.
 
 \bibitem[{Bolibar(2020)}]{bolibar_alpgm_2020}
 Bolibar, J.: {ALPGM} ({ALpine} {Parameterized} {Glacier} {Model}) v1.1,
@@ -128,6 +132,10 @@ Cauvy-Fraunié, S. and Dangles, O.: A global synthesis of biodiversity
   responses to glacier retreat, Nature Ecology \& Evolution, 3, 1675--1685,
   \doi{10.1038/s41559-019-1042-8},
   \urlprefix\url{http://www.nature.com/articles/s41559-019-1042-8}, 2019.
+
+\bibitem[{Chen(1970)}]{chen_surface_1970}
+Chen, C.-l.: Surface irrigation using kinematic-wave method, Journal of the
+  Irrigation and Drainage Division, 96, 39--46, publisher: ASCE, 1970.
 
 \bibitem[{Chollet(2015)}]{chollet_keras_2015}
 Chollet, F.: Keras, \urlprefix\url{https://keras.io}, 2015.
@@ -244,6 +252,12 @@ Gagliardini, O., Zwinger, T., Gillet-Chaulet, F., Durand, G., Favier, L.,
   \doi{10.5194/gmd-6-1299-2013},
   \urlprefix\url{https://www.geosci-model-dev.net/6/1299/2013/}, 2013.
 
+\bibitem[{Gao et~al.(2012)Gao, Kang, Krause, Cuo, and Nepal}]{gao_test_2012}
+Gao, T., Kang, S., Krause, P., Cuo, L., and Nepal, S.: A test of {J2000} model
+  in a glacierized catchment in the central {Tibetan} {Plateau}, Environmental
+  Earth Sciences, 65, 1651--1659, \doi{10.1007/s12665-011-1142-5},
+  \urlprefix\url{http://link.springer.com/10.1007/s12665-011-1142-5}, 2012.
+
 \bibitem[{Gardent et~al.(2014)Gardent, Rabatel, Dedieu, and
   Deline}]{gardent_multitemporal_2014}
 Gardent, M., Rabatel, A., Dedieu, J.-P., and Deline, P.: Multitemporal glacier
@@ -267,6 +281,15 @@ GLAMOS: Swiss {Glacier} {Mass} {Balance} (release 2019),
   \doi{10.18750/MASSBALANCE.2019.R2019},
   \urlprefix\url{https://doi.glamos.ch/data/massbalance/massbalance_2019_r2019.html},
   medium: .csv type: dataset, 2019.
+
+\bibitem[{Gottardi et~al.(2012)Gottardi, Obled, Gailhard, and
+  Paquet}]{gottardi_statistical_2012}
+Gottardi, F., Obled, C., Gailhard, J., and Paquet, E.: Statistical reanalysis
+  of precipitation fields based on ground network data and weather patterns:
+  {Application} over {French} mountains, Journal of Hydrology, 432-433,
+  154--167, \doi{10.1016/j.jhydrol.2012.02.014},
+  \urlprefix\url{http://linkinghub.elsevier.com/retrieve/pii/S002216941200114X},
+  2012.
 
 \bibitem[{Hanzer et~al.(2018)Hanzer, Förster, Nemec, and
   Strasser}]{hanzer_projected_2018}
@@ -354,6 +377,12 @@ Horner, I., Branger, F., McMillan, H., Vannier, O., and Braud, I.: Information
 Houghton, J.~T., Ding, Y., Griggs, D.~J., Noguer, M., van~der Linden, P.~J.,
   Dai, X., Maskell, K., and Johnson, C.: Climate change 2001: the scientific
   basis, The Press Syndicate of the University of Cambridge, 2001.
+
+\bibitem[{Howell and Evett(2004)}]{howell_penman-monteith_2004}
+Howell, T.~A. and Evett, S.: The {Penman}-{Monteith} {Method},
+  Evapotranspiration: Determination of Consumptive Use in Water Rights
+  Proceedings, Continuing Legal Education in Colorado, Inc. Denver, Colorado,
+  2004.
 
 \bibitem[{Huss(2012)}]{huss_extrapolating_2012}
 Huss, M.: Extrapolating glacier mass balance to the mountain-range scale: the
@@ -809,6 +838,13 @@ Réveillet, M., Six, D., Vincent, C., Rabatel, A., Dumont, M., Lafaysse, M.,
   balance of {Saint}-{Sorlin} {Glacier} ({French} {Alps}), The Cryosphere, 12,
   1367--1386, \doi{10.5194/tc-12-1367-2018},
   \urlprefix\url{https://www.the-cryosphere.net/12/1367/2018/}, 2018.
+
+\bibitem[{Sauquet(2015)}]{sauquet_project_2015}
+Sauquet, E.: Project {R}²{D}² 2050: {Risk}, water {Resources} and sustainable
+  {Development} within the {Durance} river basin in 2050, programme Gestion et
+  Impact du Changement Climatique du Ministère de l’Ecologie, du
+  Développement durable et de l’Energie Convention de subvention
+  10-GCMOT-GICC-3-CVS-102, 2015.
 
 \bibitem[{Schaefli et~al.(2005)Schaefli, Hingray, Niggli, and
   Musy}]{schaefli_conceptual_2005}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2020.1.8)  5 AUG 2020 11:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2020.1.8)  6 AUG 2020 16:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1756,7 +1756,7 @@ File: TS1opensans-TOsF.fd 2019/06/24 Font definitions for TS1/opensans-TOsF.
 LaTeX Font Info:    Font shape `TS1/opensans-TOsF/m/n' will be
 (Font)              scaled to size 9.49997pt on input line 15.
  [3]
-<Figures/intro/Figure_1.png, id=399, 997.22563pt x 930.97812pt>
+<Figures/intro/Figure_1.png, id=431, 997.22563pt x 930.97812pt>
 File: Figures/intro/Figure_1.png Graphic file (type png)
 <use Figures/intro/Figure_1.png>
 Package pdftex.def Info: Figures/intro/Figure_1.png  used on input line 19.
@@ -1781,7 +1781,7 @@ LaTeX Warning: Command \textendash invalid in math mode on input line 21.
 LaTeX Warning: Command \textendash invalid in math mode on input line 21.
 
 [4 <./Figures/intro/Figure_1.PNG>]
-<Figures/intro/Figure_2.pdf, id=415, 432.63533pt x 617.97176pt>
+<Figures/intro/Figure_2.pdf, id=447, 432.63533pt x 617.97176pt>
 File: Figures/intro/Figure_2.pdf Graphic file (type pdf)
 <use Figures/intro/Figure_2.pdf>
 Package pdftex.def Info: Figures/intro/Figure_2.pdf  used on input line 31.
@@ -1808,7 +1808,7 @@ LaTeX Font Info:    Font shape `T1/opensans-TOsF/m/it' will be
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [6]
-<Figures/intro/Figure_3.pdf, id=1748, 341.8371pt x 275.92888pt>
+<Figures/intro/Figure_3.pdf, id=1780, 341.8371pt x 275.92888pt>
 File: Figures/intro/Figure_3.pdf Graphic file (type pdf)
 <use Figures/intro/Figure_3.pdf>
 Package pdftex.def Info: Figures/intro/Figure_3.pdf  used on input line 61.
@@ -1856,7 +1856,7 @@ undefined on input line 43.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [17]
-<Figures/methods/Figure_1.png, id=2023, 492.44778pt x 357.30289pt>
+<Figures/methods/Figure_1.png, id=2056, 492.44778pt x 357.30289pt>
 File: Figures/methods/Figure_1.png Graphic file (type png)
 <use Figures/methods/Figure_1.png>
 Package pdftex.def Info: Figures/methods/Figure_1.png  used on input line 58.
@@ -1866,13 +1866,13 @@ Package pdftex.def Info: Figures/methods/Figure_1.png  used on input line 58.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [19 <./Figures/methods/Figure_1.png>]
-<Figures/methods/Figure_2.png, id=2057, 579.66562pt x 270.51062pt>
+<Figures/methods/Figure_2.png, id=2090, 579.66562pt x 270.51062pt>
 File: Figures/methods/Figure_2.png Graphic file (type png)
 <use Figures/methods/Figure_2.png>
 Package pdftex.def Info: Figures/methods/Figure_2.png  used on input line 92.
 (pdftex.def)             Requested size: 256.0748pt x 119.49971pt.
  [20] [21 <./Figures/methods/Figure_2.png>]
-<Figures/methods/Figure_3.pdf, id=2123, 465.25273pt x 126.71307pt>
+<Figures/methods/Figure_3.pdf, id=2156, 465.25273pt x 126.71307pt>
 File: Figures/methods/Figure_3.pdf Graphic file (type pdf)
 <use Figures/methods/Figure_3.pdf>
 Package pdftex.def Info: Figures/methods/Figure_3.pdf  used on input line 112.
@@ -1881,7 +1881,7 @@ Package pdftex.def Info: Figures/methods/Figure_3.pdf  used on input line 112.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [22 <./Figures/methods/Figure_3.pdf>] [23] [24]
-<Figures/methods/Figure_4.pdf, id=2223, 399.4925pt x 598.235pt>
+<Figures/methods/Figure_4.pdf, id=2256, 399.4925pt x 598.235pt>
 File: Figures/methods/Figure_4.pdf Graphic file (type pdf)
 <use Figures/methods/Figure_4.pdf>
 Package pdftex.def Info: Figures/methods/Figure_4.pdf  used on input line 146.
@@ -2026,7 +2026,7 @@ Things are pretty mixed up, but I think the worst is over.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [27]
-<Figures/methods/Figure_5.pdf, id=2333, 391.4625pt x 567.11874pt>
+<Figures/methods/Figure_5.pdf, id=2366, 391.4625pt x 567.11874pt>
 File: Figures/methods/Figure_5.pdf Graphic file (type pdf)
 <use Figures/methods/Figure_5.pdf>
 Package pdftex.def Info: Figures/methods/Figure_5.pdf  used on input line 214.
@@ -2063,17 +2063,17 @@ Underfull \hbox (badness 1005) in paragraph at lines 219--220
  []
 
 [28 <./Figures/methods/Figure_5.pdf>]
-<Figures/methods/Figure_6.pdf, id=2367, 568.96408pt x 577.71754pt>
+<Figures/methods/Figure_6.pdf, id=2400, 568.96408pt x 577.71754pt>
 File: Figures/methods/Figure_6.pdf Graphic file (type pdf)
 <use Figures/methods/Figure_6.pdf>
 Package pdftex.def Info: Figures/methods/Figure_6.pdf  used on input line 231.
 (pdftex.def)             Requested size: 341.43306pt x 346.69492pt.
-<Figures/methods/Figure_7.pdf, id=2369, 560.47884pt x 212.81613pt>
+<Figures/methods/Figure_7.pdf, id=2402, 560.47884pt x 212.81613pt>
 File: Figures/methods/Figure_7.pdf Graphic file (type pdf)
 <use Figures/methods/Figure_7.pdf>
 Package pdftex.def Info: Figures/methods/Figure_7.pdf  used on input line 240.
 (pdftex.def)             Requested size: 398.33858pt x 151.25313pt.
-<Figures/methods/Figure_8.pdf, id=2371, 492.94984pt x 239.37903pt>
+<Figures/methods/Figure_8.pdf, id=2404, 492.94984pt x 239.37903pt>
 File: Figures/methods/Figure_8.pdf Graphic file (type pdf)
 <use Figures/methods/Figure_8.pdf>
 Package pdftex.def Info: Figures/methods/Figure_8.pdf  used on input line 249.
@@ -2083,7 +2083,7 @@ Overfull \hbox (11.38089pt too wide) in paragraph at lines 249--250
  [][] 
  []
 
-<Figures/methods/Figure_9.pdf, id=2374, 571.42365pt x 580.9075pt>
+<Figures/methods/Figure_9.pdf, id=2407, 571.42365pt x 580.9075pt>
 File: Figures/methods/Figure_9.pdf Graphic file (type pdf)
 <use Figures/methods/Figure_9.pdf>
 Package pdftex.def Info: Figures/methods/Figure_9.pdf  used on input line 262.
@@ -2092,7 +2092,7 @@ Package pdftex.def Info: Figures/methods/Figure_9.pdf  used on input line 262.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Figures/methods/Figure_10.pdf, id=2384, 556.63818pt x 256.68343pt>
+<Figures/methods/Figure_10.pdf, id=2417, 556.63818pt x 256.68343pt>
 File: Figures/methods/Figure_10.pdf Graphic file (type pdf)
 <use Figures/methods/Figure_10.pdf>
 Package pdftex.def Info: Figures/methods/Figure_10.pdf  used on input line 271.
@@ -2132,7 +2132,7 @@ on: multiple pdfs with page group included in a single page
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [32 <./Figures/methods/Figure_9.pdf>]
-<Figures/methods/Figure_11.pdf, id=26442, 875.91241pt x 374.3586pt>
+<Figures/methods/Figure_11.pdf, id=26475, 875.91241pt x 374.3586pt>
 File: Figures/methods/Figure_11.pdf Graphic file (type pdf)
 <use Figures/methods/Figure_11.pdf>
 Package pdftex.def Info: Figures/methods/Figure_11.pdf  used on input line 293.
@@ -2149,7 +2149,7 @@ Package natbib Warning: Citation `bolibar_jordibolibar/alpgm:_2019' on page 36
 undefined on input line 324.
 
 [36] [37]
-<Figures/methods/Figure_S1.png, id=26614, 573.14125pt x 293.59688pt>
+<Figures/methods/Figure_S1.png, id=26648, 573.14125pt x 293.59688pt>
 File: Figures/methods/Figure_S1.png Graphic file (type png)
 <use Figures/methods/Figure_S1.png>
 Package pdftex.def Info: Figures/methods/Figure_S1.png  used on input line 353.
@@ -2206,13 +2206,13 @@ You may provide a definition with
 \DeclareUnicodeCharacter 
 
 [39]
-<Figures/methods/Figure_S2.png, id=26636, 618.31pt x 378.41376pt>
+<Figures/methods/Figure_S2.png, id=26670, 618.31pt x 378.41376pt>
 File: Figures/methods/Figure_S2.png Graphic file (type png)
 <use Figures/methods/Figure_S2.png>
 Package pdftex.def Info: Figures/methods/Figure_S2.png  used on input line 397.
 
 (pdftex.def)             Requested size: 426.79134pt x 261.2097pt.
-<Figures/methods/Figure_S3.png, id=26637, 463.7325pt x 398.99063pt>
+<Figures/methods/Figure_S3.png, id=26671, 463.7325pt x 398.99063pt>
 File: Figures/methods/Figure_S3.png Graphic file (type png)
 <use Figures/methods/Figure_S3.png>
 Package pdftex.def Info: Figures/methods/Figure_S3.png  used on input line 404.
@@ -2222,7 +2222,7 @@ Package pdftex.def Info: Figures/methods/Figure_S3.png  used on input line 404.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Figures/methods/Figure_S4.png, id=26638, 323.2075pt x 256.96pt>
+<Figures/methods/Figure_S4.png, id=26672, 323.2075pt x 256.96pt>
 File: Figures/methods/Figure_S4.png Graphic file (type png)
 <use Figures/methods/Figure_S4.png>
 Package pdftex.def Info: Figures/methods/Figure_S4.png  used on input line 410.
@@ -2231,7 +2231,7 @@ Package pdftex.def Info: Figures/methods/Figure_S4.png  used on input line 410.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Figures/methods/Figure_S5.png, id=26639, 311.1625pt x 278.03876pt>
+<Figures/methods/Figure_S5.png, id=26673, 311.1625pt x 278.03876pt>
 File: Figures/methods/Figure_S5.png Graphic file (type png)
 <use Figures/methods/Figure_S5.png>
 Package pdftex.def Info: Figures/methods/Figure_S5.png  used on input line 417.
@@ -2240,7 +2240,7 @@ Package pdftex.def Info: Figures/methods/Figure_S5.png  used on input line 417.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Figures/methods/Figure_S6.png, id=26640, 588.1975pt x 235.37938pt>
+<Figures/methods/Figure_S6.png, id=26674, 588.1975pt x 235.37938pt>
 File: Figures/methods/Figure_S6.png Graphic file (type png)
 <use Figures/methods/Figure_S6.png>
 Package pdftex.def Info: Figures/methods/Figure_S6.png  used on input line 424.
@@ -2264,7 +2264,7 @@ Overfull \hbox (30.0pt too wide) in paragraph at lines 1--1
 Underfull \vbox (badness 4429) has occurred while \output is active []
 
  [44]
-<Figures/past/Figure_1.pdf, id=26733, 767.94202pt x 296.71852pt>
+<Figures/past/Figure_1.pdf, id=26767, 767.94202pt x 296.71852pt>
 File: Figures/past/Figure_1.pdf Graphic file (type pdf)
 <use Figures/past/Figure_1.pdf>
 Package pdftex.def Info: Figures/past/Figure_1.pdf  used on input line 27.
@@ -2288,7 +2288,7 @@ We now make it that large for the rest of the document.
 This may cause the page layout to be inconsistent, however.
 
 [45 <./Figures/past/Figure_1.pdf>] [46]
-<Figures/past/Figure_2.pdf, id=28747, 451.61925pt x 419.166pt>
+<Figures/past/Figure_2.pdf, id=28781, 451.61925pt x 419.166pt>
 File: Figures/past/Figure_2.pdf Graphic file (type pdf)
 <use Figures/past/Figure_2.pdf>
 Package pdftex.def Info: Figures/past/Figure_2.pdf  used on input line 56.
@@ -2297,12 +2297,12 @@ Package pdftex.def Info: Figures/past/Figure_2.pdf  used on input line 56.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [47 <./Figures/past/Figure_2.pdf>] [48]
-<Figures/past/Figure_3.pdf, id=28850, 824.25041pt x 867.24pt>
+<Figures/past/Figure_3.pdf, id=28884, 824.25041pt x 867.24pt>
 File: Figures/past/Figure_3.pdf Graphic file (type pdf)
 <use Figures/past/Figure_3.pdf>
 Package pdftex.def Info: Figures/past/Figure_3.pdf  used on input line 75.
 (pdftex.def)             Requested size: 312.9803pt x 329.3032pt.
-<Figures/past/Figure_4.pdf, id=28861, 433.62pt x 289.08pt>
+<Figures/past/Figure_4.pdf, id=28895, 433.62pt x 289.08pt>
 File: Figures/past/Figure_4.pdf Graphic file (type pdf)
 <use Figures/past/Figure_4.pdf>
 Package pdftex.def Info: Figures/past/Figure_4.pdf  used on input line 87.
@@ -2311,13 +2311,13 @@ Package pdftex.def Info: Figures/past/Figure_4.pdf  used on input line 87.
 Underfull \vbox (badness 3471) has occurred while \output is active []
 
  [49 <./Figures/past/Figure_3.pdf>] [50 <./Figures/past/Figure_4.pdf>]
-<Figures/past/Figure_5.pdf, id=31254, 655.79103pt x 563.50124pt>
+<Figures/past/Figure_5.pdf, id=31288, 655.79103pt x 563.50124pt>
 File: Figures/past/Figure_5.pdf Graphic file (type pdf)
 <use Figures/past/Figure_5.pdf>
 Package pdftex.def Info: Figures/past/Figure_5.pdf  used on input line 102.
 (pdftex.def)             Requested size: 426.79134pt x 366.72717pt.
  [51] [52 <./Figures/past/Figure_5.pdf>]
-<Figures/past/Figure_6.pdf, id=31667, 722.7pt x 901.70978pt>
+<Figures/past/Figure_6.pdf, id=31701, 722.7pt x 901.70978pt>
 File: Figures/past/Figure_6.pdf Graphic file (type pdf)
 <use Figures/past/Figure_6.pdf>
 Package pdftex.def Info: Figures/past/Figure_6.pdf  used on input line 116.
@@ -2326,7 +2326,7 @@ Package pdftex.def Info: Figures/past/Figure_6.pdf  used on input line 116.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [53 <./Figures/past/Figure_6.pdf>]
-<Figures/past/Figure_S1.pdf, id=32002, 453.8556pt x 370.74509pt>
+<Figures/past/Figure_S1.pdf, id=32036, 453.8556pt x 370.74509pt>
 File: Figures/past/Figure_S1.pdf Graphic file (type pdf)
 <use Figures/past/Figure_S1.pdf>
 Package pdftex.def Info: Figures/past/Figure_S1.pdf  used on input line 132.
@@ -2336,14 +2336,14 @@ Package pdftex.def Info: Figures/past/Figure_S1.pdf  used on input line 132.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [54]
-<Figures/past/Figure_S2.pdf, id=32016, 478.35913pt x 271.14131pt>
+<Figures/past/Figure_S2.pdf, id=32050, 478.35913pt x 271.14131pt>
 File: Figures/past/Figure_S2.pdf Graphic file (type pdf)
 <use Figures/past/Figure_S2.pdf>
 Package pdftex.def Info: Figures/past/Figure_S2.pdf  used on input line 148.
 (pdftex.def)             Requested size: 341.43306pt x 193.53357pt.
  [55 <./Figures/past/Figure_S1.pdf>] [56 <./Figures/past/Figure_S2.pdf>]
 [57]
-<Figures/past/Figure_S3.pdf, id=32156, 722.7pt x 361.35pt>
+<Figures/past/Figure_S3.pdf, id=32190, 722.7pt x 361.35pt>
 File: Figures/past/Figure_S3.pdf Graphic file (type pdf)
 <use Figures/past/Figure_S3.pdf>
 Package pdftex.def Info: Figures/past/Figure_S3.pdf  used on input line 178.
@@ -2353,7 +2353,7 @@ Overfull \hbox (11.38089pt too wide) in paragraph at lines 178--180
  [][] 
  []
 
-<Figures/past/Figure_S4.pdf, id=32157, 722.7pt x 722.7pt>
+<Figures/past/Figure_S4.pdf, id=32191, 722.7pt x 722.7pt>
 File: Figures/past/Figure_S4.pdf Graphic file (type pdf)
 <use Figures/past/Figure_S4.pdf>
 Package pdftex.def Info: Figures/past/Figure_S4.pdf  used on input line 186.
@@ -2361,12 +2361,12 @@ Package pdftex.def Info: Figures/past/Figure_S4.pdf  used on input line 186.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Figures/past/Figure_S5.png, id=32158, 531.9072pt x 448.7967pt>
+<Figures/past/Figure_S5.png, id=32192, 531.9072pt x 448.7967pt>
 File: Figures/past/Figure_S5.png Graphic file (type png)
 <use Figures/past/Figure_S5.png>
 Package pdftex.def Info: Figures/past/Figure_S5.png  used on input line 195.
 (pdftex.def)             Requested size: 256.0748pt x 216.07053pt.
-<Figures/past/Figure_S6.pdf, id=32159, 590.35399pt x 330.59824pt>
+<Figures/past/Figure_S6.pdf, id=32193, 590.35399pt x 330.59824pt>
 File: Figures/past/Figure_S6.pdf Graphic file (type pdf)
 <use Figures/past/Figure_S6.pdf>
 Package pdftex.def Info: Figures/past/Figure_S6.pdf  used on input line 204.
@@ -2376,12 +2376,12 @@ Overfull \hbox (11.38089pt too wide) in paragraph at lines 204--206
  [][] 
  []
 
-<Figures/past/Figure_S7.pdf, id=32160, 433.62pt x 289.08pt>
+<Figures/past/Figure_S7.pdf, id=32194, 433.62pt x 289.08pt>
 File: Figures/past/Figure_S7.pdf Graphic file (type pdf)
 <use Figures/past/Figure_S7.pdf>
 Package pdftex.def Info: Figures/past/Figure_S7.pdf  used on input line 213.
 (pdftex.def)             Requested size: 341.43306pt x 227.63405pt.
-<Figures/past/Figure_S8.pdf, id=32161, 722.7pt x 361.35pt>
+<Figures/past/Figure_S8.pdf, id=32195, 722.7pt x 361.35pt>
 File: Figures/past/Figure_S8.pdf Graphic file (type pdf)
 <use Figures/past/Figure_S8.pdf>
 Package pdftex.def Info: Figures/past/Figure_S8.pdf  used on input line 222.
@@ -2391,7 +2391,7 @@ Overfull \hbox (11.38089pt too wide) in paragraph at lines 222--224
  [][] 
  []
 
-<Figures/past/Figure_S9.pdf, id=32162, 722.7pt x 361.35pt>
+<Figures/past/Figure_S9.pdf, id=32196, 722.7pt x 361.35pt>
 File: Figures/past/Figure_S9.pdf Graphic file (type pdf)
 <use Figures/past/Figure_S9.pdf>
 Package pdftex.def Info: Figures/past/Figure_S9.pdf  used on input line 231.
@@ -2451,61 +2451,89 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-
-Package natbib Warning: Citation `huss_toward_2017' on page 67 undefined on inp
-ut line 13.
-
-
-Package natbib Warning: Citation `schaefli_role_2019' on page 67 undefined on i
-nput line 13.
-
-
-Package natbib Warning: Citation `carlson_monitoring_2020' on page 67 undefined
- on input line 13.
-
-
-Package natbib Warning: Citation `huss_toward_2017' on page 67 undefined on inp
-ut line 13.
-
-
-Package natbib Warning: Citation `lencioni_glacial_2018' on page 67 undefined o
-n input line 13.
-
-
-Package natbib Warning: Citation `robinson_ecosystem_2014' on page 67 undefined
- on input line 13.
-
 [67
 
 ]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-Package natbib Warning: Citation `etchevers_simulation_2001' on page 68 undefin
-ed on input line 15.
-
-
-Package natbib Warning: Citation `paquet_evolution_2004' on page 68 undefined o
-n input line 15.
-
-
-Package natbib Warning: Citation `schaefli_conceptual_2005' on page 68 undefine
-d on input line 15.
+ [68]
+[69]
+<Figures/hydro/Figure_2.png, id=38577, 415.91385pt x 351.2322pt>
+File: Figures/hydro/Figure_2.png Graphic file (type png)
+<use Figures/hydro/Figure_2.png>
+Package pdftex.def Info: Figures/hydro/Figure_2.png  used on input line 65.
+(pdftex.def)             Requested size: 284.52756pt x 240.28175pt.
 
 
-Package natbib Warning: Citation `nepal_understanding_2014' on page 68 undefine
-d on input line 17.
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Package natbib Warning: Citation `braud_j2000-rhone_2017' on page 68 undefined 
-on input line 17.
+! LaTeX Error: \begin{figure} on input line 63 ended by \end{figure*}.
 
-<Figures/hydro/Figure_1.png, id=38477, 3279.25125pt x 2318.6625pt>
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.68 \end{figure*}
+                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[70]
+Overfull \hbox (5.92596pt too wide) in paragraph at lines 76--77
+[]\T1/opensans-TOsF/m/n/10 A Python pack-age named \T1/opensans-TOsF/m/it/10 Gl
+aciers-to-J2K \T1/opensans-TOsF/m/n/10 has been cre-ated, which au-to-mat-i-cal
+ly com-putes the glacier-
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [71 <./Figures/hydro/Figure_2.png
+
+pdfTeX warning: pdflatex.exe (file ./Figures/hydro/Figure_2.png): large interla
+ced PNG might cause out of memory (use non-interlaced PNG to fix this)
+>]
+Underfull \vbox (badness 6526) has occurred while \output is active []
+
+ [72]
+! Undefined control sequence.
+l.159 SWE_{max} = snow_{critDens}\cdotSD
+                                        
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [73]
+
+LaTeX Warning: Reference `hydro:eq:16, hydro:eq:17' on page 74 undefined on inp
+ut line 178.
+
+
+Overfull \hbox (1.9431pt too wide) in paragraph at lines 198--199
+[]\T1/opensans-TOsF/m/n/10 This im-ple-mented ap-proach can be eas-ily es-ca-la
+ted to glacier-ized catch-ments with mul-ti-ple glaciers.
+ []
+
+[74]
+<Figures/hydro/Figure_1.png, id=38654, 3279.25125pt x 2318.6625pt>
 File: Figures/hydro/Figure_1.png Graphic file (type png)
 <use Figures/hydro/Figure_1.png>
-Package pdftex.def Info: Figures/hydro/Figure_1.png  used on input line 27.
+Package pdftex.def Info: Figures/hydro/Figure_1.png  used on input line 222.
 (pdftex.def)             Requested size: 654.41338pt x 462.69827pt.
-[68]) [69] [70 <./Figures/hydro/Figure_1.png (PNG copy)>] [71
 
-] [72]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) [75] [76 <./Figures/hydro/Figure_1.png (PNG copy)>] [77
+
+] [78]
 (./discussion/discussion.tex
 Chapter 6.
 
@@ -2526,9 +2554,9 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-) [73
+) [79
 
-] (./Bolibar_PhD_dissertation.bbl [74]
+] (./Bolibar_PhD_dissertation.bbl [80]
 LaTeX Font Info:    Trying to load font information for T1+jkptt on input line 
 16.
 
@@ -2566,53 +2594,53 @@ in the document preamble.
 Alternatively, save the file in UTF-8 using your editor or another tool
 
 
-Underfull \hbox (badness 1072) in paragraph at lines 73--78
+Underfull \hbox (badness 1072) in paragraph at lines 77--82
 []\T1/opensans-TOsF/m/n/9 Bolibar, J., Ra-ba-tel, A., Gout-tevin, I., Galiez, C
 ., Con-dom, T., and Sauquet, E.: Deep learn-ing ap-plied to
  []
 
-[75
+[81
 
-] [76]
-Underfull \hbox (badness 1496) in paragraph at lines 273--278
+] [82]
+Underfull \hbox (badness 1496) in paragraph at lines 296--301
 \T1/opensans-TOsF/m/n/9 cen-tury cli-mate change in the Ötz-tal Alps (Aus-tria)
  sim-u-lated us-ing a phys-i-cally based ap-proach, Hy-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 338--342
+Underfull \hbox (badness 10000) in paragraph at lines 361--365
 \T1/opensans-TOsF/m/n/9 URL []$\T1/jkptt/m/n/9 https : / / www . cambridge . or
 g / core / product / identifier / S0022143000020384 / type / journal _
  []
 
-[77]
-Underfull \hbox (badness 1454) in paragraph at lines 438--442
+[83]
+Underfull \hbox (badness 1454) in paragraph at lines 467--471
 \T1/jkp/m/n/9 1198 / 004017005000000058$\T1/opensans-TOsF/m/n/9 , URL []$\T1/jk
 ptt/m/n/9 http : / / www . tandfonline . com / doi / abs / 10 . 1198 / 00401700
 5000000058$[]\T1/opensans-TOsF/m/n/9 ,
  []
 
-[78]
-Underfull \hbox (badness 1210) in paragraph at lines 607--612
+[84] [85]
+Underfull \hbox (badness 1210) in paragraph at lines 636--641
 \T1/opensans-TOsF/m/n/9 doi: $\T1/jkp/m/n/9 10 . 1126 / science . 293 . 5537 . 
 2051$\T1/opensans-TOsF/m/n/9 , URL []$\T1/jkptt/m/n/9 https : / / www . science
 mag . org / lookup / doi / 10 . 1126 / science .
  []
 
-[79] [80]
-Underfull \hbox (badness 1596) in paragraph at lines 829--835
+[86]
+Underfull \hbox (badness 1596) in paragraph at lines 865--871
 \T1/opensans-TOsF/m/n/9 the Pelvoux Mas-sif, France, from 1861 to 1914, The In-
 ter-na-tional Jour-nal of the His-tory of Sport, 30,
  []
 
 
-Underfull \hbox (badness 1838) in paragraph at lines 829--835
+Underfull \hbox (badness 1838) in paragraph at lines 865--871
 \T1/opensans-TOsF/m/n/9 1329--1350, doi: $\T1/jkp/m/n/9 10 . 1080 / 09523367 . 
 2013 . 784272$\T1/opensans-TOsF/m/n/9 , URL []$\T1/jkptt/m/n/9 http : / / www .
  tandfonline . com / doi / abs / 10 . 1080 /
  []
 
-[81]
+[87]
 
 ! Package inputenc Error: Invalid UTF-8 byte sequence.
 
@@ -2620,7 +2648,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.960   Berthier, Ã.
+l.996   Berthier, Ã.
                     , Morin, S., Verfaillie, D., Rabatel, A., Jourdain, B., and
 
 The document does not appear to be in UTF-8 encoding.
@@ -2629,7 +2657,7 @@ or specify an encoding such as \usepackage [latin1]{inputenc}
 in the document preamble.
 Alternatively, save the file in UTF-8 using your editor or another tool
 
-[82])
+[88])
 
 Package natbib Warning: There were undefined citations.
 
@@ -2659,32 +2687,30 @@ Package minitoc(hints) Warning: W0024
 (minitoc(hints))                in the Bolibar_PhD_dissertation.log file.
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 221.
-[83]
+[89]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 221.
- (./Bolibar_PhD_dissertation.aux
-
-Package natbib Warning: Citation(s) may have changed.
-(natbib)                Rerun to get citations correct.
-
-)
+ (./Bolibar_PhD_dissertation.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 221.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 221.
 Package rerunfilecheck Info: File `Bolibar_PhD_dissertation.out' has not change
 d.
-(rerunfilecheck)             Checksum: 613CB8EA8BAD2993331144001D12F36D;4866.
+(rerunfilecheck)             Checksum: A45DBC41B332713BE6E7EF0E9A93A4E4;5281.
+
+
+LaTeX Warning: There were undefined references.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 20326 strings out of 492163
- 320141 string characters out of 6129077
- 473365 words of memory out of 5000000
- 23624 multiletter control sequences out of 15000+600000
+ 20446 strings out of 492163
+ 322292 string characters out of 6129077
+ 477704 words of memory out of 5000000
+ 23697 multiletter control sequences out of 15000+600000
  58439 words of font info for 125 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 48i,12n,79p,3092b,806s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 48i,12n,79p,3092b,791s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2019/texmf-dist/fonts/enc/dvips/base/8r.enc}{c:/texlive/2019/texm
 f-dist/fonts/enc/dvips/opensans/a_nvvucy.enc}{c:/texlive/2019/texmf-dist/fonts/
 enc/dvips/opensans/a_p2vepx.enc}<c:/texlive/2019/texmf-dist/fonts/type1/ascende
@@ -2697,10 +2723,10 @@ nts/jkpex.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/kpfonts/jkpmi.pfb>
 st/fonts/type1/public/kpfonts/jkpsy.pfb><c:/texlive/2019/texmf-dist/fonts/type1
 /public/kpfonts/jkpttmn8a.pfb><c:/texlive/2019/texmf-dist/fonts/type1/urw/helve
 tic/uhvr8a.pfb><c:/texlive/2019/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on Bolibar_PhD_dissertation.pdf (89 pages, 56583846 bytes).
+Output written on Bolibar_PhD_dissertation.pdf (95 pages, 56979208 bytes).
 PDF statistics:
- 38875 PDF objects out of 45951 (max. 8388607)
- 24838 compressed objects within 249 object streams
- 373 named destinations out of 1000 (max. 500000)
- 677 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 39050 PDF objects out of 45951 (max. 8388607)
+ 25004 compressed objects within 251 object streams
+ 420 named destinations out of 1000 (max. 500000)
+ 730 words of extra memory for PDF output out of 10000 (max. 10000000)
 
