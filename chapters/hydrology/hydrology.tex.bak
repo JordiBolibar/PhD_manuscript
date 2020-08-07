@@ -178,11 +178,11 @@ where $n$ is the time stemp ($n$ = 1 for a daily model), $t_{ice}$ is a melt fac
 Finally, snow melt and ice melt are further adapted depending on the slope and aspect of each HRU (Eqs. \ref{hydro:eq:16} and \ref{hydro:eq:17}).
 
 \begin{equation} \label{hydro:eq:16}
-Q_{snow} = (r_{t-1 }\cdot e^{(1/k_{snow})} \cdot Q_{snow} \cdot e^{(1/k_{snow})})g_{fraction}
+Q_{snow} = (r_{t-1 }\cdot e^{(1/k_{snow})} \cdot Q_{snow} \cdot e^{(1/k_{snow})}) \cdot g_{fraction}
 \end{equation} 
 
 \begin{equation} \label{hydro:eq:17}
-Q_{ice} = (r_{t-1} \cdot e^{(1/k_{ice})} \cdot Q_{ice} \cdot e^{(1/k_{snow})})g_{fraction}
+Q_{ice} = (r_{t-1} \cdot e^{(1/k_{ice})} \cdot Q_{ice} \cdot e^{(1/k_{snow})}) \cdot g_{fraction}
 \end{equation} 
 
 where $r_{t-1}$ is the outflow reservoir during the previous time step; $k_{snow}$ and $k_{ice}$ are storage coefficients for the reservoirs, determined by the user; and $g_{fraction}$ is the glacierized fraction of the HRU, used to scale the runoff coming from glaciers. 
@@ -206,6 +206,14 @@ This updated glacier module for the J2K hydrological model has been implemented 
 \subsection{Glacier mass balance}
 
 In order to calibrate the temperature-index model in J2K, we used seasonal (winter and summer) glacier-wide MB data from the GLACIOCLIM glacier observatory on the Saint Sorlin glacier. The precipitation lapse rate was calibrated based on winter mass balance data, and the ice and snow melt factors on summer mass balance data. Due to time constraints, this calibration was performed manually. J2K includes a parameter optimization module, but the recalculation of glacier mass balance from a daily to seasonal frequency was performed outside J2K, in the Glaciers-to-J2K Python package, in order to accelerate the development. In the future, this recalculation should be moved inside J2K to enable the automatic calibration of the precipitation lapse rate and melt factors for ice and snow for large catchments. 
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=15cm]{Figures/hydro/Figure_3.pdf}
+\caption{Seasonal winter (a) and summer (b) MB for Saint Sorlin glacier, with glaciological observations from the GLACIOCLIM observatory and simulated MB from J2K. Winter snowfall (c) and temperature (e), and summer snowfall (d) and temperature (f) are displayed in order to give context on the climate conditions for those years.} 
+\label{hydro:fig2}
+\end{figure*}
+
 
 \subsection{Glacier runoff}
 
