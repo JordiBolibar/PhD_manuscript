@@ -1,4 +1,4 @@
-\begin{thebibliography}{158}
+\begin{thebibliography}{161}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{{\tt #1}}
 \providecommand{\urlprefix}{URL }
@@ -481,6 +481,11 @@ Huss, M., Bookhagen, B., Huggel, C., Jacobsen, D., Bradley, R., Clague, J.,
   418--435, \doi{10.1002/2016EF000514},
   \urlprefix\url{http://doi.wiley.com/10.1002/2016EF000514}, 2017.
 
+\bibitem[{Hutter(1983)}]{hutter_theoretical_1983}
+Hutter, K.: Theoretical {Glaciology}, Springer Netherlands, Dordrecht,
+  \doi{10.1007/978-94-015-1167-4},
+  \urlprefix\url{http://link.springer.com/10.1007/978-94-015-1167-4}, 1983.
+
 \bibitem[{Immerzeel et~al.(2020)Immerzeel, Lutz, Andrade, Bahl, Biemans, Bolch,
   Hyde, Brumby, Davies, Elmore, Emmer, Feng, Fernández, Haritashya, Kargel,
   Koppes, Kraaijenbrink, Kulkarni, Mayewski, Nepal, Pacheco, Painter,
@@ -874,6 +879,16 @@ Robinson, C.~T., Thompson, C., and Freestone, M.: Ecosystem development of
   \urlprefix\url{http://www.ingentaconnect.com/content/10.1127/fal/2014/0667},
   2014.
 
+\bibitem[{Rounce et~al.(2020)Rounce, Khurana, Short, Hock, Shean, and
+  Brinkerhoff}]{rounce_quantifying_2020}
+Rounce, D.~R., Khurana, T., Short, M.~B., Hock, R., Shean, D.~E., and
+  Brinkerhoff, D.~J.: Quantifying parameter uncertainty in a large-scale
+  glacier evolution model using {Bayesian} inference: application to {High}
+  {Mountain} {Asia}, Journal of Glaciology, pp. 1--13,
+  \doi{10.1017/jog.2019.91},
+  \urlprefix\url{https://www.cambridge.org/core/product/identifier/S0022143019000911/type/journal_article},
+  2020.
+
 \bibitem[{Réveillet et~al.(2015)Réveillet, Rabatel, Gillet-Chaulet, and
   Soruco}]{reveillet_simulations_2015}
 Réveillet, M., Rabatel, A., Gillet-Chaulet, F., and Soruco, A.: Simulations of
@@ -1093,6 +1108,14 @@ Wang, H. and Raj, B.: On the {Origin} of {Deep} {Learning}, arXiv:1702.07800
 \bibitem[{Weisberg(2014)}]{weisberg_applied_2014}
 Weisberg, S.: Applied linear regression, Wiley series in probability and
   statistics, Wiley, Hoboken, NJ, fourth edition edn., 2014.
+
+\bibitem[{Werder et~al.(2019)Werder, Huss, Paul, Dehecq, and
+  Farinotti}]{werder_bayesian_2019}
+Werder, M.~A., Huss, M., Paul, F., Dehecq, A., and Farinotti, D.: A {Bayesian}
+  ice thickness estimation model for large-scale applications, Journal of
+  Glaciology, pp. 1--16, \doi{10.1017/jog.2019.93},
+  \urlprefix\url{https://www.cambridge.org/core/product/identifier/S0022143019000935/type/journal_article},
+  2019.
 
 \bibitem[{Whittingham et~al.(2006)Whittingham, Stephens, Bradbury, and
   Freckleton}]{whittingham_why_2006}

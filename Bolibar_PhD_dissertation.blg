@@ -10,45 +10,45 @@ Warning--missing publisher in ioffe_batch_2015
 Warning--missing publisher in nussbaumer_reseau_2012
 Warning--missing publisher in pedregosa_scikit-learn:_2012
 Warning--empty journal in smit_exploring_2019
-You've used 158 entries,
+You've used 161 entries,
             2811 wiz_defined-function locations,
-            2077 strings with 56443 characters,
-and the built_in function-call counts, 156578 in all, are:
-= -- 16693
-> -- 7120
-< -- 59
-+ -- 3050
-- -- 2234
-* -- 10807
-:= -- 16512
-add.period$ -- 158
-call.type$ -- 158
-change.case$ -- 1082
-chr.to.int$ -- 155
-cite$ -- 480
-duplicate$ -- 14994
-empty$ -- 8039
-format.name$ -- 2694
-if$ -- 30884
+            2097 strings with 57311 characters,
+and the built_in function-call counts, 159072 in all, are:
+= -- 16934
+> -- 7235
+< -- 62
++ -- 3095
+- -- 2270
+* -- 10986
+:= -- 16794
+add.period$ -- 161
+call.type$ -- 161
+change.case$ -- 1100
+chr.to.int$ -- 158
+cite$ -- 489
+duplicate$ -- 15226
+empty$ -- 8188
+format.name$ -- 2737
+if$ -- 31388
 int.to.chr$ -- 4
 int.to.str$ -- 1
-missing$ -- 1812
-newline$ -- 483
-num.names$ -- 634
-pop$ -- 6700
+missing$ -- 1843
+newline$ -- 492
+num.names$ -- 646
+pop$ -- 6783
 preamble$ -- 1
-purify$ -- 1058
+purify$ -- 1076
 quote$ -- 0
-skip$ -- 8216
+skip$ -- 8359
 stack$ -- 0
-substring$ -- 5833
-swap$ -- 12538
-text.length$ -- 9
+substring$ -- 5910
+swap$ -- 12713
+text.length$ -- 11
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1386
+type$ -- 1410
 warning$ -- 6
-while$ -- 798
+while$ -- 815
 width$ -- 0
-write$ -- 1980
+write$ -- 2018
 (There were 7 warnings)

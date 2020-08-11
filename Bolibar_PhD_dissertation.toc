@@ -96,4 +96,5 @@
 \contentsline {subsubsection}{Question 2 - What are the annual glacier changes of all glaciers in the French Alps during the last 50 years?}{86}{section*.76}%
 \contentsline {subsubsection}{Question 3 - How will French alpine glaciers evolve during the 21st century? How does glacier retreat affect the climate signal on glaciers? What are the main factors that determine glacier survival in the French Alps?}{86}{section*.77}%
 \contentsline {section}{\numberline {6.2}Perspectives on future research venues}{86}{section.6.2}%
-\contentsline {chapter}{Bibliography}{98}{section.6.2}%
+\contentsline {subsubsection}{Question 4 - What are the caveats of the deep learning modelling approach used in this work? What improvements are needed to overcome these limitations for glaciological studies?}{87}{section*.78}%
+\contentsline {chapter}{Bibliography}{98}{section*.78}%
