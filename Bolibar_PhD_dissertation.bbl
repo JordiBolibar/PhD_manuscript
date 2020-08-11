@@ -1,4 +1,4 @@
-\begin{thebibliography}{145}
+\begin{thebibliography}{150}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{{\tt #1}}
 \providecommand{\urlprefix}{URL }
@@ -86,6 +86,13 @@ Branger, F., Kermadi, S., Krause, P., Labbas, M., Jacqueminet, C., Michel, K.,
   Braud, I., and Kralisch, S.: Investigating the impact of two decades of
   urbanization on the water balance of the {Yzeron} peri-urban catchment,
   {France}., 2012.
+
+\bibitem[{Bratko(1997)}]{riccia_machine_1997}
+Bratko, I.: Machine {Learning}: {Between} {Accuracy} and {Interpretability},
+  in: Learning, {Networks} and {Statistics}, edited by Riccia, G., Lenz, H.-J.,
+  and Kruse, R., pp. 163--177, Springer Vienna, Vienna,
+  \doi{10.1007/978-3-7091-2668-4_10},
+  \urlprefix\url{http://link.springer.com/10.1007/978-3-7091-2668-4_10}, 1997.
 
 \bibitem[{Braud et~al.(2017)Braud, Branger, Gouttevin, Sauquet, Tilmant, and
   Montginoul}]{braud_j2000-rhone_2017}
@@ -178,6 +185,12 @@ de~Bezenac, E., Pajot, A., and Gallinari, P.: Deep {Learning} for {Physical}
   {Processes}: {Incorporating} {Prior} {Scientific} {Knowledge},
   arXiv:1711.07970 [cs, stat], \urlprefix\url{http://arxiv.org/abs/1711.07970},
   arXiv: 1711.07970, 2018.
+
+\bibitem[{Dong et~al.(2017)Dong, Su, Zhu, and Zhang}]{dong_improving_2017}
+Dong, Y., Su, H., Zhu, J., and Zhang, B.: Improving {Interpretability} of
+  {Deep} {Neural} {Networks} {With} {Semantic} {Information}, in: Proceedings
+  of the {IEEE} {Conference} on {Computer} {Vision} and {Pattern} {Recognition}
+  ({CVPR}), 2017.
 
 \bibitem[{Ducournau and Fablet(2016)}]{ducournau_deep_2016}
 Ducournau, A. and Fablet, R.: Deep learning for ocean remote sensing: an
@@ -290,6 +303,11 @@ Gottardi, F., Obled, C., Gailhard, J., and Paquet, E.: Statistical reanalysis
   154--167, \doi{10.1016/j.jhydrol.2012.02.014},
   \urlprefix\url{http://linkinghub.elsevier.com/retrieve/pii/S002216941200114X},
   2012.
+
+\bibitem[{Ham et~al.(2019)Ham, Kim, and Luo}]{ham_deep_2019}
+Ham, Y.-G., Kim, J.-H., and Luo, J.-J.: Deep learning for multi-year {ENSO}
+  forecasts, Nature, 573, 568--572, \doi{10.1038/s41586-019-1559-7},
+  \urlprefix\url{http://www.nature.com/articles/s41586-019-1559-7}, 2019.
 
 \bibitem[{Hanzer et~al.(2018)Hanzer, Förster, Nemec, and
   Strasser}]{hanzer_projected_2018}
@@ -566,6 +584,14 @@ Lguensat, R., Sommer, J.~L., Metref, S., Cosme, E., and Fablet, R.: Learning
   {Generalized} {Quasi}-{Geostrophic} {Models} {Using} {Deep} {Neural}
   {Numerical} {Models}, arXiv:1911.08856 [physics, stat],
   \urlprefix\url{http://arxiv.org/abs/1911.08856}, arXiv: 1911.08856, 2019.
+
+\bibitem[{Liu et~al.(2016)Liu, Racah, Prabhat, Correa, Khosrowshahi, Lavers,
+  Kunkel, Wehner, and Collins}]{liu_application_2016}
+Liu, Y., Racah, E., Prabhat, Correa, J., Khosrowshahi, A., Lavers, D., Kunkel,
+  K., Wehner, M., and Collins, W.: Application of {Deep} {Convolutional}
+  {Neural} {Networks} for {Detecting} {Extreme} {Weather} in {Climate}
+  {Datasets}, arXiv:1605.01156 [cs],
+  \urlprefix\url{http://arxiv.org/abs/1605.01156}, arXiv: 1605.01156, 2016.
 
 \bibitem[{Magnin et~al.(2020)Magnin, Haeberli, Linsbauer, Deline, and
   Ravanel}]{magnin_estimating_2020}
@@ -1087,6 +1113,11 @@ Zhang, E., Liu, L., and Huang, L.: Automatically delineating the calving front
   learning approach, The Cryosphere, 13, 1729--1741,
   \doi{10.5194/tc-13-1729-2019},
   \urlprefix\url{https://www.the-cryosphere.net/13/1729/2019/}, 2019.
+
+\bibitem[{Zhang et~al.(2018)Zhang, Wu, and Zhu}]{zhang_interpretable_2018}
+Zhang, Q., Wu, Y.~N., and Zhu, S.-C.: Interpretable {Convolutional} {Neural}
+  {Networks}, arXiv:1710.00935 [cs],
+  \urlprefix\url{http://arxiv.org/abs/1710.00935}, arXiv: 1710.00935, 2018.
 
 \bibitem[{Zryd(2008)}]{zryd_les_2008}
 Zryd, A.: Les glaciers en mouvement: la population des {Alpes} face au

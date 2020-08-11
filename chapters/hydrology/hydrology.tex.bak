@@ -26,6 +26,8 @@ This static representation of glaciers is also found in the J2K hydrological mod
 
 The Arvan catchment (Fig. \ref{hydro:figA1}) is a partially glacierized alpine catchment, situated in the Grandes Rousses massif, between 1368 and 3373 m.a.s.l. It includes the Saint Sorlin glacier (2.069 km$^{2}$ in 2015), being the glacier with the second longest mass balance observation series in France (1957-present). Two villages are located within the catchment: Saint-Sorlin-d'Arves and Saint-Jean-d'Arves, with the latter including runoff measurements for the 2000-2016 period. This station measured an average interannual runoff of 1.864 m$^{3}$/s, with 10\% of temporal gaps for this period (Fig. \ref{hydro:figA1}). This study site has been chosen due to its wealth of data, providing an excellent testbed to validate the modelling approach.
 
+
+
 \subsection{Data}
 
 This work has been implemented in a version of J2K dedicated to the Rhône rive catchment, situated in France and Switzerland. Therefore, all data used are based on this area. 
@@ -62,7 +64,7 @@ Simulations are performed separately for each HRU (Fig. \ref{hydro:fig1}). Preci
 
 \begin{figure}[h]
 \centering
-\includegraphics[width=10cm]{Figures/hydro/Figure_2.png}
+\includegraphics[width=10cm]{Figures/hydro/Figure_1.png}
 \caption{Workflow of the J2K hydrological model. \textit{Slightly edited from the J2K documentation.}} 
 \label{hydro:fig1}
 \end{figure*}
@@ -73,7 +75,7 @@ J2K establishes a simulation workflow using temporal (HRU-Loop) and spatial (Tim
 
 In J2K, the generation of HRUs for a certain catchment can only be done prior to model simulations. The extent and content of HRUs is static in time, preventing the model from making them evolve throughout a simulation. This specificity of J2K makes it difficult for the model to include a dynamic representation of glaciers, explaining why all simulations for glacierized catchments have so far been performed with static glacierized areas \citep{gao_test_2012, nepal_understanding_2014}. In order to overcome this limitation, we have developed an approach allowing the introduction of glacier evolution through time, based on prescribed glacier surface areas. 
 
-A Python package named \textit{Glaciers-to-J2K} has been created, which automatically computes the glacierized fraction of each HRU based on polygons with the extension and surface type of each HRU and annual glacier boundaries. Glacier boundaries can proceed from any glacier model providing annual gridded glacier extents. \textit{Glaciers-to-J2K} computes the glacierized and non-glacierized fraction of each HRU by overlapping HRU outlines with annual glacier extents. Then, these fractions are interpolated with an annual timestep throughout a given ablation season, with a default period between October 1${st}$ to March 31${st}$. This enables a daily representation of glacier area evolution, necessary for hydrological simulations with J2K. These time series are stored in a \textit{.dat} file.
+A Python package named \textit{Glaciers-to-J2K} has been created, which automatically computes the glacierized fraction of each HRU based on polygons with the extension and surface type of each HRU and annual glacier boundaries. Glacier boundaries can proceed from any glacier model providing annual gridded glacier extents. \textit{Glaciers-to-J2K} computes the glacierized and non-glacierized fraction of each HRU by overlapping HRU outlines with annual glacier extents. Then, these fractions are interpolated with a daily timestep throughout a given ablation season, with a default period between October 1${st}$ to March 31${st}$. This enables a daily representation of glacier area evolution, necessary for hydrological simulations with J2K. These time series are stored in a \textit{.dat} file.
 
 Several components of J2K have been adapted in order to take into account these changes in glacier surface area. 
 
@@ -187,35 +189,68 @@ Q_{ice} = (r_{t-1} \cdot e^{(1/k_{ice})} \cdot Q_{ice} \cdot e^{(1/k_{snow})}) \
 
 where $r_{t-1}$ is the outflow reservoir during the previous time step; $k_{snow}$ and $k_{ice}$ are storage coefficients for the reservoirs, determined by the user; and $g_{fraction}$ is the glacierized fraction of the HRU, used to scale the runoff coming from glaciers. 
 
+The resulting daily glacier MB for each HRU is calculated from the input precipitation and the output ice ($Q_{ice}$), snow ($Q_{snow}$) and rain ($Q_{rain}$) flows (Eq. \ref{hydro:eq:18}).
+
+\begin{equation} \label{hydro:eq:18}
+MB = (rain + snow - Q_{ice} - Q_{snow} - Q_{rain}) \cdot g_{fraction}
+\end{equation} 
+
 \subsubsection{Non-glacierized fraction}
 
-Glacierized HRUs might contain a non-glacierized fraction as well. The runoff computed outside the glacier, within the previously existing workflow in J2K, is multiplied by the non-glacierized HRU fraction ($1/g_{fraction}$). This enables an accurate separation between glacierized and non-glacierized runoff contributions for each HRU. 
+Glacierized HRUs might contain a non-glacierized fraction as well. The runoff computed outside the glacier, within the previously existing workflow in J2K, is multiplied by the non-glacierized HRU fraction ($1 - g_{fraction}$). This enables an accurate separation between glacierized and non-glacierized runoff contributions for each HRU. 
 
 \subsubsection{Mass balance calibration}
 
-Therefore, this new glacier module computes glacier mass balance with a daily timestep. In order to correctly calibrate glacier mass balance, three parameters can be tuned: a precipitation lapse rate specific for the glacier, a snow melt factor ($t_{snow}$) and an ice melt factor ($t_{ice}$). Precipitation is known to be underestimated in climate datasets in the French Alps, for both the SAFRAN and SPAZM datasets used in this PhD work \citep{vionnet_numerical_2016}. This means that increasing precipitation via a lapse rate factor is often needed in order to correctly reproduce accumulation rates on glaciers. 
+Therefore, this updated glacier module computes glacier mass balance with a daily timestep. In order to correctly calibrate glacier mass balance, three parameters can be tuned: a precipitation lapse rate specific for the glacier, a snow melt factor ($t_{snow}$) and an ice melt factor ($t_{ice}$). Precipitation is known to be underestimated in climate datasets in the French Alps, for both the SAFRAN and SPAZM datasets used in this PhD work \citep{vionnet_numerical_2016}. This means that increasing precipitation via a lapse rate factor is often needed in order to correctly reproduce accumulation rates on glaciers. 
 
 This implemented approach can be easily escalated to glacierized catchments with multiple glaciers. Every HRU has an ID which can be matched to any Randolph Glacier Inventory (RGI) ID, allowing a specific calibration of mass balance models for each individual glacier. In catchments with small glaciers located close together, these might end up sharing an HRU. For these cases, the optimization of the melt model would have to be shared among all the glaciers present in that HRU. Alternatively, the size of the HRU separation can be reduced, improving the spatial representation of the catchment. Nonetheless, this has an important computational cost. We believe this updated modelling framework has enough flexibility to enable an accurate calibration of different melt factors and precipitation lapse rates in mountainous regions. 
 
 \section{Results}
 
-This updated glacier module for the J2K hydrological model has been implemented and validated in the Arvan semi-glacierized catchment in the French Alps.
-
-\subsection{Glacer evolution}
-
-\subsection{Glacier mass balance}
-
-In order to calibrate the temperature-index model in J2K, we used seasonal (winter and summer) glacier-wide MB data from the GLACIOCLIM glacier observatory on the Saint Sorlin glacier. The precipitation lapse rate was calibrated based on winter mass balance data, and the ice and snow melt factors on summer mass balance data. Due to time constraints, this calibration was performed manually. J2K includes a parameter optimization module, but the recalculation of glacier mass balance from a daily to seasonal frequency was performed outside J2K, in the Glaciers-to-J2K Python package, in order to accelerate the development. In the future, this recalculation should be moved inside J2K to enable the automatic calibration of the precipitation lapse rate and melt factors for ice and snow for large catchments. 
+This updated glacier module for the J2K hydrological model has been implemented and validated in the Arvan semi-glacierized catchment in the French Alps (Fig. \ref{hydro:fig2}). In this catchment configuration, the Saint Sorlin glacier occupies four different HRUs, whose glacierized fraction and surface area has been computed for every year between 2003 and 2012 using glacier ice thickness data simulated with ALPGM \citep{bolibar_alpgm_2020}.
 
 \begin{figure}[h]
 \centering
-\includegraphics[width=15cm]{Figures/hydro/Figure_3.pdf}
-\caption{Seasonal winter (a) and summer (b) MB for Saint Sorlin glacier, with glaciological observations from the GLACIOCLIM observatory and simulated MB from J2K. Winter snowfall (c) and temperature (e), and summer snowfall (d) and temperature (f) are displayed in order to give context on the climate conditions for those years.} 
+\includegraphics[width=12cm]{Figures/hydro/Figure_2.pdf}
+\caption{The Arvan catchment, with its division into HRUs and their main land use. } 
 \label{hydro:fig2}
+\end{figure*}
+
+\subsection{Glacer evolution}
+
+The evolution of glaciers in the new updated glacier module of J2K is represented with prescribed annual glacier extents taken from an independent glacier evolution model. For this case study, ALPGM provided annual glacier ice thickness data from the year 2003, where initial glacier ice thickness data are available from \citet{farinotti_consensus_2019}. The 1985-2003 period was used as a spin-up period for the model, in order to correctly initialize the water reservoirs and snow pack. During these years, since no glacier ice thickness data is available, the extent of the glacier was kept the same as the year 2003. We consider this approximation to be acceptable, taking into account that this simulated period is only used as spin-up. The match between the initial glacier ice extent and the catchment HRUs was not perfect, with small parts of the glacier exceeding the HRUs extent (Fig. \ref{hydro:fig2}). The prescribed glacier surface areas by the ALPGM glacier model also carry uncertainties, particularly from in the initial glacier ice thickness. Simulated glacier MB data for this period have a very small error (Fig. 3.7), and the parametrization used to update the glacier geometry was specifically calibrated for this glacier. These uncertainties resulted in the simulated glacier geometry only evolving in thickness but not extent between 2004 and 2006. This can be seen in the prescribed glacier surface area changes, which do not evolve until early 2006 (Fig. \ref{hydro:fig3}). As soon as the prescribed glacier surface area evolved, J2K captures a realistic glacier area evolution during the ablation season. The overall glacier surface area in J2K is correctly represented, despite the slight mismatches in glacier and HRU data. The Saint Sorlin glacier displayed a total surface area of 2.79 km$^{2}$ in the year 2003 \citep{gardent_multitemporal_2014}, very close to the 2.66 km$^{2}$ obtained in J2K (Fig. \ref{hydro:fig3}). 
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=10cm]{Figures/hydro/Figure_3.pdf}
+\caption{Daily evolution of the glacierized surface area of Saint Sorlin glacier in J2K. Glacier retreat during the ablation season is well captured in the model, following the prescribed interpolated area evolution. The glacier area is only updated from October 2003 onwards, after the first year with available glacier ice thickness data.} 
+\label{hydro:fig4}
+\end{figure*}
+
+\subsection{Glacier mass balance}
+
+In order to calibrate the temperature-index model in J2K for the Saint Sorlin glacier, we used seasonal (winter and summer) glacier-wide MB direct observations from the GLACIOCLIM glacier observatory. The precipitation lapse rate was calibrated based on winter mass balance data, and the ice and snow melt factors on summer mass balance data. Due to time constraints, this calibration was performed manually. J2K includes a parameter optimization module, but the recalculation of glacier mass balance from a daily to seasonal frequency was performed outside J2K, in the \textit{Glaciers-to-J2K} Python package, in order to accelerate the development. In the future, this recalculation should be moved inside J2K to enable the automatic calibration of the precipitation lapse rate and melt factors for ice and snow for large catchments.
+
+This manual MB calibration enabled a correct representation of the MB of Saint Sorlin Glacier, but the interannual variability is still not well captured (Fig. \ref{hydro:fig3}). An automatic calibration, testing a wide range of parameter configurations, would certainly yield a much better representation. The best results were obtained by increasing precipitation on the glacier by 70\%, with a melt factor for ice of 5.2 mm/ºC, as indicated in the literature \citep{reveillet_which_2017}, and a melt factor for snow of 3.8 mm/ºC, slightly inferior than values indicated in the literature. The resulting amount of precipitation on the glacier is most likely overestimated, with some years displaying over 2600 mm of snow in winter, implying that this calibration could probably be improved by fine-tuning the melt factors. 
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=15cm]{Figures/hydro/Figure_4.pdf}
+\caption{Glacier-wide annual (a), seasonal winter (b) and summer (c) MB for Saint Sorlin glacier, with glaciological observations from the GLACIOCLIM observatory and simulated MB from J2K. Winter snowfall (d) and temperature (h), and summer snowfall (g) and temperature (i) are computed as an average of the four HRUs of the glacier. They are shown in order to give context on the climate conditions for those years.} 
+\label{hydro:fig3}
 \end{figure*}
 
 
 \subsection{Glacier runoff}
+
+Runoff values in J2K are extracted at the same point where observations from a hydrological station are available (Fig. \ref{hydro:fig2}). A comparison between the total observed  and simulated runoff reveals a good agreement between both (Fig. \ref{hydro:fig5}. The maximum and minimum values are well captured 
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=15cm]{Figures/hydro/Figure_5.pdf}
+\caption{(a) Total daily runoff simulated by J2K \textit{vs} total daily runoff measured by the hydrological station. (b) Daily glacier runoff. All runoff values are taken from the Saint Jean-d'Arves La Valette station.} 
+\label{hydro:fig5}
+\end{figure*}
 
 \section{Discussion and conclusions}
 
@@ -227,7 +262,7 @@ The source code of the Python package \textit{Glaciers-to-J2K} is available in t
 
 \begin{sidewaysfigure}[h]
 \centering
-\includegraphics[width=23cm]{Figures/hydro/Figure_1.png}
+\includegraphics[width=23cm]{Figures/hydro/Figure_S1.png}
 \captionsetup{justification=centering}
 \caption{Description of the Arvan catchment, based on hydrological data observed at the Saint-Jean-d'Arves (La Vilette) station. 
 \textit{Figure from the HYDRO team from INRAE Antony}.}

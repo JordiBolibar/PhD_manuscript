@@ -4,9 +4,9 @@
 \contentsline {section}{\numberline {1.2}Glaciers in the French Alps}{5}{section.1.2}%
 \contentsline {section}{\numberline {1.3}Modelling large-scale glacier evolution}{6}{section.1.3}%
 \contentsline {section}{\numberline {1.4}Teaching machines about glaciers}{7}{section.1.4}%
-\contentsline {section}{\numberline {1.5}Modelling glacierized catchments in the French Alps}{8}{section.1.5}%
-\contentsline {chapter}{Objectives of this PhD work}{8}{section*.6}%
-\contentsline {chapter}{A short note to the reader}{9}{section*.7}%
+\contentsline {section}{\numberline {1.5}Modelling glacierized mountain catchments}{8}{section.1.5}%
+\contentsline {chapter}{Objectives of this PhD work}{9}{section*.7}%
+\contentsline {chapter}{A short note to the reader}{10}{section*.8}%
 \contentsline {part}{I\hspace {1em}Glaciers}{13}{part.1}%
 \contentsline {xpart}{Glaciers}{15}{part.1}%
 \contentsline {chapter}{\numberline {2}Deep learning applied to glacier evolution modelling}{15}{chapter.2}%
@@ -15,23 +15,23 @@
 \contentsline {section}{\numberline {2.3}Model overview and methods}{18}{section.2.3}%
 \contentsline {subsection}{\numberline {2.3.1}Model overview and workflow}{18}{subsection.2.3.1}%
 \contentsline {subsection}{\numberline {2.3.2}Glacier-wide surface mass balance simulation}{20}{subsection.2.3.2}%
-\contentsline {subsubsection}{Selection of explanatory topographical and climatic variables}{20}{section*.10}%
-\contentsline {subsubsection}{All-possible multiple linear regressions}{20}{section*.12}%
-\contentsline {subsubsection}{Lasso}{21}{section*.13}%
-\contentsline {subsubsection}{Deep artificial neural networks}{21}{section*.14}%
+\contentsline {subsubsection}{Selection of explanatory topographical and climatic variables}{20}{section*.11}%
+\contentsline {subsubsection}{All-possible multiple linear regressions}{20}{section*.13}%
+\contentsline {subsubsection}{Lasso}{21}{section*.14}%
+\contentsline {subsubsection}{Deep artificial neural networks}{21}{section*.15}%
 \contentsline {subsection}{\numberline {2.3.3}Glacier geometry update}{23}{subsection.2.3.3}%
 \contentsline {section}{\numberline {2.4}Case study: French alpine glaciers}{24}{section.2.4}%
 \contentsline {subsection}{\numberline {2.4.1}Data}{24}{subsection.2.4.1}%
-\contentsline {subsubsection}{Glacier-wide surface mass balance }{24}{section*.16}%
-\contentsline {subsubsection}{Topographical glacier data and altimetry}{24}{section*.17}%
-\contentsline {subsubsection}{Glacier ice thickness}{25}{section*.18}%
-\contentsline {subsubsection}{Climate data}{26}{section*.20}%
+\contentsline {subsubsection}{Glacier-wide surface mass balance }{24}{section*.17}%
+\contentsline {subsubsection}{Topographical glacier data and altimetry}{24}{section*.18}%
+\contentsline {subsubsection}{Glacier ice thickness}{25}{section*.19}%
+\contentsline {subsubsection}{Climate data}{26}{section*.21}%
 \contentsline {subsection}{\numberline {2.4.2}Glacier-wide surface mass balance simulations: validation and results}{26}{subsection.2.4.2}%
-\contentsline {subsubsection}{Selection of predictors}{26}{section*.21}%
-\contentsline {subsubsection}{Causal analysis}{28}{section*.22}%
-\contentsline {subsubsection}{Spatial predictive analysis}{29}{section*.24}%
-\contentsline {subsubsection}{Temporal predictive analysis}{29}{section*.28}%
-\contentsline {subsubsection}{Spatiotemporal predictive analysis}{31}{section*.31}%
+\contentsline {subsubsection}{Selection of predictors}{26}{section*.22}%
+\contentsline {subsubsection}{Causal analysis}{28}{section*.23}%
+\contentsline {subsubsection}{Spatial predictive analysis}{29}{section*.25}%
+\contentsline {subsubsection}{Temporal predictive analysis}{29}{section*.29}%
+\contentsline {subsubsection}{Spatiotemporal predictive analysis}{31}{section*.32}%
 \contentsline {subsection}{\numberline {2.4.3}Glacier geometry evolution: Validation and results}{32}{subsection.2.4.3}%
 \contentsline {section}{\numberline {2.5}Discussion and perspectives}{33}{section.2.5}%
 \contentsline {subsection}{\numberline {2.5.1}Linear methods still matter}{33}{subsection.2.5.1}%
@@ -69,27 +69,30 @@
 \contentsline {section}{\numberline {5.2}Methods}{69}{section.5.2}%
 \contentsline {subsection}{\numberline {5.2.1}Study area}{69}{subsection.5.2.1}%
 \contentsline {subsection}{\numberline {5.2.2}Data}{69}{subsection.5.2.2}%
-\contentsline {subsubsection}{Climate}{69}{section*.58}%
-\contentsline {subsubsection}{Land cover}{69}{section*.59}%
-\contentsline {subsubsection}{Pedology}{69}{section*.60}%
-\contentsline {subsubsection}{Geology}{70}{section*.61}%
-\contentsline {subsubsection}{Hydrology}{70}{section*.62}%
-\contentsline {subsubsection}{Glaciology}{70}{section*.63}%
+\contentsline {subsubsection}{Climate}{69}{section*.59}%
+\contentsline {subsubsection}{Land cover}{69}{section*.60}%
+\contentsline {subsubsection}{Pedology}{69}{section*.61}%
+\contentsline {subsubsection}{Geology}{70}{section*.62}%
+\contentsline {subsubsection}{Hydrology}{70}{section*.63}%
+\contentsline {subsubsection}{Glaciology}{70}{section*.64}%
 \contentsline {subsection}{\numberline {5.2.3}The J2K hydrological model}{70}{subsection.5.2.3}%
 \contentsline {subsection}{\numberline {5.2.4}An updated glacier module for J2K}{71}{subsection.5.2.4}%
-\contentsline {subsubsection}{Glacier evolution}{72}{section*.65}%
-\contentsline {subsubsection}{Glacier mass balance and runoff}{72}{section*.66}%
-\contentsline {subsubsection}{Non-glacierized fraction}{74}{section*.67}%
-\contentsline {subsubsection}{Mass balance calibration}{74}{section*.68}%
+\contentsline {subsubsection}{Glacier evolution}{72}{section*.66}%
+\contentsline {subsubsection}{Glacier mass balance and runoff}{72}{section*.67}%
+\contentsline {subsubsection}{Non-glacierized fraction}{74}{section*.68}%
+\contentsline {subsubsection}{Mass balance calibration}{74}{section*.69}%
 \contentsline {section}{\numberline {5.3}Results}{75}{section.5.3}%
 \contentsline {subsection}{\numberline {5.3.1}Glacer evolution}{75}{subsection.5.3.1}%
-\contentsline {subsection}{\numberline {5.3.2}Glacier mass balance}{75}{subsection.5.3.2}%
-\contentsline {subsection}{\numberline {5.3.3}Glacier runoff}{75}{subsection.5.3.3}%
-\contentsline {section}{\numberline {5.4}Discussion and conclusions}{75}{section.5.4}%
-\contentsline {section}{\numberline {5.5}Code availability}{75}{section.5.5}%
-\contentsline {section}{\numberline {5.6}Appendix}{75}{section.5.6}%
-\contentsline {part}{III\hspace {1em}Outlook}{79}{part.3}%
-\contentsline {xpart}{Outlook}{81}{part.3}%
-\contentsline {chapter}{\numberline {6}Perspectives and conclusions}{81}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Discussion}{81}{section.6.1}%
-\contentsline {chapter}{Bibliography}{91}{section.6.1}%
+\contentsline {subsection}{\numberline {5.3.2}Glacier mass balance}{76}{subsection.5.3.2}%
+\contentsline {subsection}{\numberline {5.3.3}Glacier runoff}{77}{subsection.5.3.3}%
+\contentsline {section}{\numberline {5.4}Discussion and conclusions}{78}{section.5.4}%
+\contentsline {section}{\numberline {5.5}Code availability}{78}{section.5.5}%
+\contentsline {section}{\numberline {5.6}Appendix}{78}{section.5.6}%
+\contentsline {part}{III\hspace {1em}Outlook}{81}{part.3}%
+\contentsline {xpart}{Outlook}{83}{part.3}%
+\contentsline {chapter}{\numberline {6}Conclusions and perspectives}{83}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Summary of the results}{83}{section.6.1}%
+\contentsline {subsubsection}{Question 1 - Can deep learning be applied to model annual glacier mass balance changes at a regional scale? What are the benefits of using nonlinear deep learning models compared to linear machine learning?}{83}{section*.75}%
+\contentsline {subsubsection}{Question 2 - What are the annual glacier changes of all glaciers in the French Alps during the last 50 years?}{84}{section*.76}%
+\contentsline {subsubsection}{Question 3 - How will French alpine glaciers evolve during the 21st century? How does glacier retreat affect the climate signal on glaciers? What are the main factors that determine glacier survival in the French Alps?}{84}{section*.77}%
+\contentsline {chapter}{Bibliography}{95}{section*.77}%

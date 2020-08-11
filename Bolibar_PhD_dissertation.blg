@@ -3,7 +3,6 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: Bolibar_PhD_dissertation.aux
 The style file: copernicus.bst
 Database file #1: references.bib
-Warning--I didn't find a database entry for "braud_j2000-rhone_201"
 Warning--I didn't find a database entry for "bolibar_jordibolibar/alpgm:_2019"
 Warning--empty journal in branger_investigating_2012
 Warning--missing publisher in braud_j2000-rhone_2017
@@ -11,45 +10,45 @@ Warning--missing publisher in ioffe_batch_2015
 Warning--missing publisher in nussbaumer_reseau_2012
 Warning--missing publisher in pedregosa_scikit-learn:_2012
 Warning--empty journal in smit_exploring_2019
-You've used 145 entries,
+You've used 150 entries,
             2811 wiz_defined-function locations,
-            1991 strings with 52919 characters,
-and the built_in function-call counts, 146627 in all, are:
-= -- 15699
-> -- 6708
-< -- 53
-+ -- 2875
-- -- 2108
-* -- 10093
-:= -- 15407
-add.period$ -- 145
-call.type$ -- 145
-change.case$ -- 1010
-chr.to.int$ -- 142
-cite$ -- 441
-duplicate$ -- 14032
-empty$ -- 7448
-format.name$ -- 2530
-if$ -- 28916
+            2025 strings with 54214 characters,
+and the built_in function-call counts, 150800 in all, are:
+= -- 16092
+> -- 6911
+< -- 55
++ -- 2955
+- -- 2171
+* -- 10403
+:= -- 15881
+add.period$ -- 150
+call.type$ -- 150
+change.case$ -- 1042
+chr.to.int$ -- 147
+cite$ -- 456
+duplicate$ -- 14421
+empty$ -- 7697
+format.name$ -- 2607
+if$ -- 29747
 int.to.chr$ -- 4
 int.to.str$ -- 1
-missing$ -- 1684
-newline$ -- 444
-num.names$ -- 581
-pop$ -- 6273
+missing$ -- 1740
+newline$ -- 459
+num.names$ -- 602
+pop$ -- 6459
 preamble$ -- 1
-purify$ -- 991
+purify$ -- 1021
 quote$ -- 0
-skip$ -- 7736
+skip$ -- 7928
 stack$ -- 0
-substring$ -- 5503
-swap$ -- 11814
-text.length$ -- 8
+substring$ -- 5627
+swap$ -- 12100
+text.length$ -- 9
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1269
+type$ -- 1314
 warning$ -- 6
-while$ -- 741
+while$ -- 764
 width$ -- 0
-write$ -- 1819
-(There were 8 warnings)
+write$ -- 1880
+(There were 7 warnings)

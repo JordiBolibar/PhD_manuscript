@@ -1,4 +1,4 @@
-\chapter{Perspectives and conclusions}
+\chapter{Conclusions and perspectives}
 \label{chap:discussion}
 
 \begin{flushright}
@@ -8,6 +8,19 @@ Baron Louis Bernard Guyton de Morveau
 \end{small}
 \end{flushright}
 
-\section{Discussion}
+\section{Summary of the results}
+
+The objective of this PhD work was to study the evolution of all glaciers in the French Alps from the last decades of the 20$^{th}$ century until the end of the 21$^{th}$ century, and to explore the impact of their retreat in the hydrological budget of the Rhône river catchment. However, this initial objective was adapted following the exploration of machine learning methods for glacier mass balance simulation at the end of the first year of the project. My strong interest on this rather unexploited methods in glaciology lead to important changes in the results, largely expanding the efforts dedicated on methods, and reducing the amount of results on hydroglaciological modelling. Consequently, the resulting scientific questions that were addressed during these three years also evolved. In this section, I will address each one of these questions, giving an overview of the results and determining the accomplished objectives as well as the remaining challenges.
+
+\subsubsection{Question 1 - Can deep learning be applied to model annual glacier mass balance changes at a regional scale? What are the benefits of using nonlinear deep learning models compared to linear machine learning?}
+
+In Chapter 2, based on a paper published at \textit{The Cryosphere} journal, we introduced the first effort ever to apply deep learning to simulate glacier evolution. A new open-source regional glacier evolution model was developed, whose main novelty was a mass balance component based on machine learning. Our work showed promising results, proving that deep learning can be successfully used to simulate glacier mass balance. A detailed comparison between linear machine learning methods and deep learning highlighted how important nonlinearities are captured by deep learning. Since both the climate and glacier systems are known to be highly nonlinear, this resulted in an improved performance from deep learning models. Moreover, despite using a rather small dataset of annual mass balance data, we proved that by rigorously cross-validating the models, deep learning can still learn from "small data" without overfitting. Spatiotemporal data demands that the independence of both dimensions have to be respected during cross-validation. We devised different types of cross-validation which enabled us to accurately evaluate the performance of models in the spatial and temporal dimensions, while fully utilizing the whole dataset to train the models. 
+
+\subsubsection{Question 2 - What are the annual glacier changes of all glaciers in the French Alps during the last 50 years?}
+
+In Chapter 3, based on a paper published at the \textit{Earth System Science Data} journal, we applied the deep learning methods developed in Chapter 2 to the reconstruction of annual glacier-wide MB series of all glaciers in the Alps between 1967 and 2015. Our results showed that glaciers in the French Alps went through slightly negative MB rates from the late 1960s and during the 1970s (-0.44 m.w.e. a$^{-1}$). Then, during the 1980s  their MB was almost stable (-0.16 m.w.e. a$^{-1}$, with several positive years), before becoming more negative from the 1990s (-0.71 m.w.e. $^{-1}$). Their MB rates became remarkably more negative from the 2000s (-1.18 m.w.e. a$^{-1}$), especially after the famous heatwave from the year 2003. This year established an inflection point, from which MB become increasingly negative up to -1.26 m.w.e. a$^{-1}$ for the first half of the 2010s. Important differences were found between massifs, with the Mont-Blanc massif showing the least negative MB, and the Chablais massif presenting the highest losses. We showed how this method correctly captured the interannual variability of the glacier-wide MB signal of glaciers in the French Alps, mostly driven by climate, and how it also captured differences between glaciers with various topographical characteristics. 
+
+\subsubsection{Question 3 - How will French alpine glaciers evolve during the 21st century? How does glacier retreat affect the climate signal on glaciers? What are the main factors that determine glacier survival in the French Alps?}
+
 
 \Blindtext
