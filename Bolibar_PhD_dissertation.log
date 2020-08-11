@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2020.1.8)  11 AUG 2020 09:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2020.1.8)  11 AUG 2020 10:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1809,7 +1809,7 @@ LaTeX Font Info:    Font shape `T1/opensans-TOsF/m/it' will be
 File: Figures/intro/Figure_3.pdf Graphic file (type pdf)
 <use Figures/intro/Figure_3.pdf>
 Package pdftex.def Info: Figures/intro/Figure_3.pdf  used on input line 61.
-(pdftex.def)             Requested size: 227.62204pt x 183.7388pt.
+(pdftex.def)             Requested size: 256.0748pt x 206.71457pt.
  [7 <./Figures/intro/Figure_3.pdf>]
 Overfull \hbox (7.75146pt too wide) in paragraph at lines 68--68
 [][] 
@@ -2779,16 +2779,10 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 222.
  (./Bolibar_PhD_dissertation.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 222.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 222.
+Package rerunfilecheck Info: File `Bolibar_PhD_dissertation.out' has not change
+d.
+(rerunfilecheck)             Checksum: 8227A88C031A557B7F701F159BAF2E5B;5283.
 
-
-Package rerunfilecheck Warning: File `Bolibar_PhD_dissertation.out' has changed
-.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Bolibar_PhD_dissertation.out':
-(rerunfilecheck)             Before: EBC3985A81AE69D212DAC2A21C043C8B;5283
-(rerunfilecheck)             After:  8227A88C031A557B7F701F159BAF2E5B;5283.
 
 LaTeX Warning: There were multiply-defined labels.
 
@@ -2796,7 +2790,7 @@ LaTeX Warning: There were multiply-defined labels.
 Here is how much of TeX's memory you used:
  20520 strings out of 492163
  324052 string characters out of 6129077
- 481020 words of memory out of 5000000
+ 482020 words of memory out of 5000000
  23750 multiletter control sequences out of 15000+600000
  58439 words of font info for 125 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -2813,7 +2807,7 @@ nts/jkpex.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/kpfonts/jkpmi.pfb>
 st/fonts/type1/public/kpfonts/jkpsy.pfb><c:/texlive/2019/texmf-dist/fonts/type1
 /public/kpfonts/jkpttmn8a.pfb><c:/texlive/2019/texmf-dist/fonts/type1/urw/helve
 tic/uhvr8a.pfb><c:/texlive/2019/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on Bolibar_PhD_dissertation.pdf (101 pages, 57965740 bytes).
+Output written on Bolibar_PhD_dissertation.pdf (101 pages, 57965728 bytes).
 PDF statistics:
  40403 PDF objects out of 45951 (max. 8388607)
  25683 compressed objects within 257 object streams

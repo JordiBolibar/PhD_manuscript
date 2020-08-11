@@ -58,7 +58,7 @@ Complex physics involved in glacier processes can be simplified using empirical 
 
 \begin{figure*}[h]
 \centering
-\includegraphics[width=8cm]{Figures/intro/Figure_3.pdf}
+\includegraphics[width=9cm]{Figures/intro/Figure_3.pdf}
 \caption{Number of scientific articles containing the words "glacier machine learning", based on queries on Google Scholar.} 
 \label{intro:fig3}
 \end{figure*} 
