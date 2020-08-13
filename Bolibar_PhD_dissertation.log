@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2020.1.8)  13 AUG 2020 15:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2020.1.8)  13 AUG 2020 16:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1706,18 +1706,15 @@ File: ujkpsyc.fd 2006/08/15 v1.0
 Underfull \vbox (badness 4429) has occurred while \output is active []
 
  [3]
-[4] (./acknowledgements/acknowledgements.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [5])
-[6]
+[4] (./acknowledgements/acknowledgements.tex [5]) [6]
 LaTeX Font Info:    Font shape `T1/opensans-TOsF/m/n' will be
 (Font)              scaled to size 23.63593pt on input line 171.
 LaTeX Font Info:    Font shape `T1/opensans-TOsF/b/n' will be
 (Font)              scaled to size 23.63593pt on input line 171.
 LaTeX Font Info:    Trying to load font information for T1+jkp on input line 17
 1.
- (c:/texlive/2019/texmf-dist/tex/latex/kpfonts/t1jkp.fd
+
+(c:/texlive/2019/texmf-dist/tex/latex/kpfonts/t1jkp.fd
 File: t1jkp.fd 2007/01/24 Fontinst v1.928 font definitions for T1/jkp.
 )
 (./Bolibar_PhD_dissertation.toc
@@ -2742,7 +2739,7 @@ nts/jkpex.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/kpfonts/jkpmi.pfb>
 st/fonts/type1/public/kpfonts/jkpsy.pfb><c:/texlive/2019/texmf-dist/fonts/type1
 /public/kpfonts/jkpttmn8a.pfb><c:/texlive/2019/texmf-dist/fonts/type1/urw/helve
 tic/uhvr8a.pfb><c:/texlive/2019/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on Bolibar_PhD_dissertation.pdf (111 pages, 57995149 bytes).
+Output written on Bolibar_PhD_dissertation.pdf (111 pages, 57996353 bytes).
 PDF statistics:
  40541 PDF objects out of 45951 (max. 8388607)
  25807 compressed objects within 259 object streams
