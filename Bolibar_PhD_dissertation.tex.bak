@@ -90,7 +90,7 @@
 \refstepcounter{encartcompteur}
 \label{box:#1}
 %\setlabel{#1}
-\begin{wrapfigure}[30]{r}{9cm}
+\begin{wrapfigure}[]{r}{9cm}
 \boxput*(0,1){\colorbox{white}{\textbf{#1}}}{
 \setlength
 {\fboxsep}{14pt}
@@ -181,7 +181,7 @@
 %\setcounter{page}{0}
 %\pagestyle{empty}
 
-\newpage\null\thispagestyle{empty}
+%\newpage\null\thispagestyle{empty}
 
 \part{Glaciers}
 
