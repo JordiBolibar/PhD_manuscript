@@ -1,4 +1,4 @@
-\begin{thebibliography}{161}
+\begin{thebibliography}{162}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{{\tt #1}}
 \providecommand{\urlprefix}{URL }
@@ -65,20 +65,27 @@ Bolibar, J.: {ALPGM} ({ALpine} {Parameterized} {Glacier} {Model}) v1.1,
   \urlprefix\url{https://doi.org/10.5281/zenodo.3609136}, 2020.
 
 \bibitem[{Bolibar et~al.(2020{\natexlab{a}})Bolibar, Rabatel, Gouttevin, and
-  Galiez}]{bolibar_deep_2020}
+  Galiez}]{bolibar_deep_2020-1}
 Bolibar, J., Rabatel, A., Gouttevin, I., and Galiez, C.: A deep learning
   reconstruction of mass balance series for all glaciers in the {French}
-  {Alps}: 1967-2015, Zenodo, \doi{10.5281/zenodo.3663630},
-  \urlprefix\url{https://doi.org/10.5281/zenodo.3663630}, [Dataset],
+  {Alps}: 1967\&amp;\#8211;2015, preprint, Cryosphere – Glaciology,
+  \doi{10.5194/essd-2020-35},
+  \urlprefix\url{https://www.earth-syst-sci-data-discuss.net/essd-2020-35/},
   2020{\natexlab{a}}.
 
 \bibitem[{Bolibar et~al.(2020{\natexlab{b}})Bolibar, Rabatel, Gouttevin,
-  Galiez, Condom, and Sauquet}]{bolibar_deep_2020-1}
+  Galiez, Condom, and Sauquet}]{bolibar_deep_2020}
 Bolibar, J., Rabatel, A., Gouttevin, I., Galiez, C., Condom, T., and Sauquet,
   E.: Deep learning applied to glacier evolution modelling, The Cryosphere, 14,
   565--584, \doi{10.5194/tc-14-565-2020},
-  \urlprefix\url{https://www.the-cryosphere.net/14/565/2020/},
+  \urlprefix\url{https://tc.copernicus.org/articles/14/565/2020/},
   2020{\natexlab{b}}.
+
+\bibitem[{Bradbury et~al.(2020)Bradbury, Frostig, Hawkins, Johnson, Leary,
+  Maclaurin, and Wanderman-Milne}]{bradbury_jax_2020}
+Bradbury, J., Frostig, R., Hawkins, P., Johnson, M.~J., Leary, C., Maclaurin,
+  D., and Wanderman-Milne, S.: {JAX}: composable transformations of {Python}+
+  {NumPy} programs, 2018, URL http://github. com/google/jax, p.~18, 2020.
 
 \bibitem[{Branger et~al.(2012)Branger, Kermadi, Krause, Labbas, Jacqueminet,
   Michel, Braud, and Kralisch}]{branger_investigating_2012}
@@ -101,6 +108,14 @@ Braud, I., Branger, F., Gouttevin, I., Sauquet, E., Tilmant, F., and
   water-use modelling to assess sustainability of the water resource,
   \urlprefix\url{https://hal.inrae.fr/hal-02606805}, published: 10th HyMeX
   workshop, 2017.
+
+\bibitem[{Brigode et~al.(2020)Brigode, Génot, Lobligeois, and
+  Delaigue}]{brigode_summary_2020}
+Brigode, P., Génot, B., Lobligeois, F., and Delaigue, O.: Summary sheets of
+  watershed-scale hydroclimatic observed data for {France},
+  \doi{10.15454/UV01P1},
+  \urlprefix\url{https://data.inra.fr/citation?persistentId=doi:10.15454/UV01P1},
+  type: dataset, 2020.
 
 \bibitem[{Brinkerhoff et~al.(2020)Brinkerhoff, Aschwanden, and
   Fahnestock}]{brinkerhoff_constraining_2020}
@@ -188,11 +203,14 @@ Cuffey, K. and Paterson, W. S.~B.: The physics of glaciers,
   Butterworth-Heinemann/Elsevier, Burlington, MA, 4th ed edn., oCLC:
   ocn488732494, 2010.
 
-\bibitem[{Davaze et~al.(2020)Davaze, Rabatel, Dufour, Arnaud, and
-  Hugonnet}]{davaze_region-wide_2020}
-Davaze, L., Rabatel, A., Dufour, A., Arnaud, Y., and Hugonnet, R.: Region-wide
-  annual glacier surface mass balance for the {European} {Alps} from 2000 to
-  2016, Frontiers in Earth Science, 8, 149, publisher: Frontiers, 2020.
+\bibitem[{Davaze et~al.(2020)Davaze, Rabatel, Dufour, Hugonnet, and
+  Arnaud}]{davaze_region-wide_2020}
+Davaze, L., Rabatel, A., Dufour, A., Hugonnet, R., and Arnaud, Y.:
+  Region-{Wide} {Annual} {Glacier} {Surface} {Mass} {Balance} for the
+  {European} {Alps} {From} 2000 to 2016, Frontiers in Earth Science, 8, 149,
+  \doi{10.3389/feart.2020.00149},
+  \urlprefix\url{https://www.frontiersin.org/article/10.3389/feart.2020.00149},
+  2020.
 
 \bibitem[{de~Bezenac et~al.(2018)de~Bezenac, Pajot, and
   Gallinari}]{de_bezenac_deep_2018}
@@ -430,12 +448,6 @@ Huss, M. and Fischer, M.: Sensitivity of {Very} {Small} {Glaciers} in the
   \urlprefix\url{http://journal.frontiersin.org/Article/10.3389/feart.2016.00034/abstract},
   2016.
 
-\bibitem[{Huss and Hock(2015)}]{huss_new_2015}
-Huss, M. and Hock, R.: A new model for global glacier change and sea-level
-  rise, Frontiers in Earth Science, 3, \doi{10.3389/feart.2015.00054},
-  \urlprefix\url{http://journal.frontiersin.org/Article/10.3389/feart.2015.00054/abstract},
-  2015.
-
 \bibitem[{Huss and Hock(2018)}]{huss_global-scale_2018}
 Huss, M. and Hock, R.: Global-scale hydrological response to future glacier
   mass loss, Nature Climate Change, 8, 135--140,
@@ -464,7 +476,7 @@ Huss, M., Hock, R., Bauder, A., and Funk, M.: Conventional versus
   \urlprefix\url{https://www.cambridge.org/core/product/identifier/S0022143000212021/type/journal_article},
   2012.
 
-\bibitem[{Huss et~al.(2015)Huss, Dhulst, and Bauder}]{huss_new_2015-2}
+\bibitem[{Huss et~al.(2015)Huss, Dhulst, and Bauder}]{huss_new_2015}
 Huss, M., Dhulst, L., and Bauder, A.: New long-term mass-balance series for the
   {Swiss} {Alps}, Journal of Glaciology, 61, 551--562,
   \doi{10.3189/2015JoG15J015},

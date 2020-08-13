@@ -3,52 +3,85 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: Bolibar_PhD_dissertation.aux
 The style file: copernicus.bst
 Database file #1: references.bib
+Repeated entry---line 1947 of file references.bib
+ : @techreport{bolibar_deep_2020
+ :                              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2161 of file references.bib
+ : @article{bolibar_deep_2020-1
+ :                             ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3307 of file references.bib
+ : @article{marcais_prospective_2017
+ :                                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 4007 of file references.bib
+ : @article{huss_new_2015
+ :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 6295 of file references.bib
+ : @article{marzeion_past_2012
+ :                            ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 6327 of file references.bib
+ : @article{huss_new_2015
+ :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 6411 of file references.bib
+ : @article{oerlemans_relating_2000
+ :                                 ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 6569 of file references.bib
+ : @article{durand_reanalysis_2009
+ :                                ,
+I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "bolibar_jordibolibar/alpgm:_2019"
+Warning--I didn't find a database entry for "huss_new_2015-2"
 Warning--empty journal in branger_investigating_2012
 Warning--missing publisher in braud_j2000-rhone_2017
 Warning--missing publisher in ioffe_batch_2015
 Warning--missing publisher in nussbaumer_reseau_2012
 Warning--missing publisher in pedregosa_scikit-learn:_2012
 Warning--empty journal in smit_exploring_2019
-You've used 161 entries,
+You've used 162 entries,
             2811 wiz_defined-function locations,
-            2097 strings with 57311 characters,
-and the built_in function-call counts, 159072 in all, are:
-= -- 16934
-> -- 7235
+            2106 strings with 57796 characters,
+and the built_in function-call counts, 159945 in all, are:
+= -- 16987
+> -- 7319
 < -- 62
-+ -- 3095
-- -- 2270
-* -- 10986
-:= -- 16794
-add.period$ -- 161
-call.type$ -- 161
-change.case$ -- 1100
-chr.to.int$ -- 158
-cite$ -- 489
-duplicate$ -- 15226
-empty$ -- 8188
-format.name$ -- 2737
-if$ -- 31388
++ -- 3123
+- -- 2297
+* -- 11074
+:= -- 16917
+add.period$ -- 162
+call.type$ -- 162
+change.case$ -- 1111
+chr.to.int$ -- 159
+cite$ -- 492
+duplicate$ -- 15281
+empty$ -- 8227
+format.name$ -- 2765
+if$ -- 31555
 int.to.chr$ -- 4
 int.to.str$ -- 1
-missing$ -- 1843
-newline$ -- 492
-num.names$ -- 646
-pop$ -- 6783
+missing$ -- 1857
+newline$ -- 495
+num.names$ -- 650
+pop$ -- 6826
 preamble$ -- 1
-purify$ -- 1076
+purify$ -- 1087
 quote$ -- 0
-skip$ -- 8359
+skip$ -- 8381
 stack$ -- 0
-substring$ -- 5910
-swap$ -- 12713
-text.length$ -- 11
+substring$ -- 5915
+swap$ -- 12750
+text.length$ -- 12
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1410
+type$ -- 1419
 warning$ -- 6
-while$ -- 815
+while$ -- 819
 width$ -- 0
-write$ -- 2018
-(There were 7 warnings)
+write$ -- 2029
+(There were 8 error messages)
