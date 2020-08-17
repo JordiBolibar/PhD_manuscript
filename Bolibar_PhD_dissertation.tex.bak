@@ -133,7 +133,7 @@
 
 \begin{document}
 
-%\includepdf[pages=-]{D:/01_these/manuscrit/latex_files/couverture/couverture_these.pdf}
+\includepdf[pages=-]{C:/Jordi/PhD/Publications/PhD/PhD_manuscript/cover/cover.pdf}
 \newpage\null\thispagestyle{empty}\setcounter{page}{0}\newpage
 
 \pagestyle{fancy}
