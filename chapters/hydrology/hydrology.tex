@@ -10,15 +10,15 @@ Leonardo da Vinci
 
 \section*{Preface}
 
-This second part of the manuscript is driven by the BERGER project, which combines the glacio-hydrological modelling efforts presented here with an ecological study on the impacts of glacier retreat on aquatic communities and their adaptation in the French Alps. An unexpected shift in the initial objectives of this PhD project resulted in a lengthy investigation of machine learning methods applied to glacier evolution modelling, which impacted the initial plans for glacio-hydrological modelling. Efforts for this part of the PhD work have been focused on the technical implementation and validation of a novel glacier component for a hydrological model. With this implementation, we are providing the technical means for an application on glacio-hydrological studies at a regional scale in the French Alps. This work has been done with the help of Sven Kralisch from the University of Jena (Germany). His expertise on the hydrological model used in this study has greatly helped to accelerate the development of the updated glacier module in the last months of this project.
+This second part of the manuscript is driven by the BERGER project, which combines the glacio-hydrological modelling efforts presented here with an ecological study on the impacts of glacier retreat on aquatic communities and their adaptation in the French Alps. An unexpected shift in the initial objectives of this PhD project resulted in a lengthy investigation of machine learning methods applied to glacier evolution modelling, which impacted the initial plans for glacio-hydrological modelling. Efforts for this part of the PhD work have been focused on the technical implementation and validation of a novel glacier component for a hydrological model. With this implementation, we are providing a proof-of-concept of hydrological modelling with dynamic glacier surfaces in J2K over a well-documented, high-altitude alpine catchment, and the technical means for an application on glacio-hydrological studies at a regional scale in the French Alps. This work has been done with the help of Sven Kralisch from the University of Jena (Germany). His expertise on the hydrological model used in this study has greatly helped to accelerate the development of the updated glacier module in the last months of this project.
 
 \section{Introduction}
 
 Glaciers supply water that supports ecosystems and human communities both nearby and far away from glaciers \citep{ipcc_climate_2018}. The strong climatic diversity of glacierized alpine catchments enables the storage of precipitation in the form of snow and ice at high altitudes. In the European Alps, this water storage is progressively released throughout the year during the warmest months, providing a base-flow that cannot be encountered in non-glacierized catchments. At the beginning of the melt season, snow provides important water resources downstream. Once most of the snow has melted, leaving bare glacier ice exposed, glaciers continue providing freshwater resources, ensuring an uninterrupted runoff throughout the melt season \citep{huss_toward_2017}. In one of the few existing glacio-hydrological studies in the French Alps, \citet{lafaysse_influence_2011} estimated that melt water from glaciers contributed to 20\% of the August discharge of the Durance at Serre Ponçon catchment (3500 km$^{2}$). According to \citet{huss_present_2011} in a study using a simple routing of glacier discharge, glaciers contributed to 25\% of the summer low flow of the Rhone river (about 100000 km$^{2}$ in catchment size), with an even enhanced contribution during the 2003 drought. This role of glaciers as late summer buffers is currently being challenged by anthropogenic climate change. Glacier retreat in the European Alps is progressively transforming the hydrological regime of high-mountain catchments, with potential environmental and social impacts \citep{zekollari_modelling_2019}. In the French Alps, the local population have a strong dependency on water resources, using them for agriculture, hydropower generation and domestic use. The regional socioeconomic model of many alpine valleys is built around mountain tourism, with a strong dependency on the cryosphere, both as a tourism attraction \citep{schut_sport_2013, spandre_winter_2019} and as an electricity generation source \citep{schaefli_role_2019}. Moreover, late summer runoff from glaciers provides reliable water resources for domestic use, industries and agriculture. The decrease in glacier freshwater contributions has ecological impacts as well, affecting biodiversity in glacier-fed rivers \citep{cauvy-fraunie_global_2019} and in humid areas that no longer receive runoff during the warmest period of the year \citep{carlson_monitoring_2020}. Glaciers provide cold water resources that help regulate the temperature, flow regimes, sediment concentration and nutrient supply of mountain streams \citep{huss_toward_2017}. These cold waters are essential to some specialized species, whose survival will be challenged by glacier retreat \citep{lencioni_glacial_2018, cauvy-fraunie_global_2019}. Alternatively, these changing streams can be quickly colonized by aquatic communities adapted to higher water temperatures, increasing competition between species  \citep{robinson_ecosystem_2014}. Anticipating these future hydrological changes is of paramount importance in order to correctly adapt and manage future water social and environmental needs. 
 
-Hydrological models can provide answers to these questions, predicting the hydrological evolution under different future climate scenarios. In France, multiple hydrological models are being developed and used for research and operational purposes. At one end of the spectrum of model complexity, the lumped GR rainfall-runoff models, with the CemaNeige snow component \citep{coron_suite_2017}, use a simplified modelling approach with catchment-scale representations of the transformation of precipitation into discharge. They rely on the calibration of 1 to 6 parameters (depending on the model variant and time-step), and do not include a glacier component. This limits their usability in high-altitude, upstream catchments where observational data is scarce and glaciers may play an important role.  At the other end of the complexity spectrum, the physics-based SIM (SAFRAN-ISBA-MODCOU) model combines a meteorological analysis system (SAFRAN), with a land surface model (ISBA) and a hydrogeological model (MODCOU) developed by the Mines de Paris \citep{habets_safran-isba-modcou_2008}. For research purposes, it has been adapted to alpine areas by incorporating elevation bands, aspect classes, and  glacier melt and retention of underground water \citep{lafaysse_influence_2011}. However its adaptation and deployment over the entire French alpine region, including glacierized areas, is highly demanding \citep[e.g.][]{lecourt_physically-based_2018} and has not been considered yet. For more operational applications, the reservoir-based MORDOR model \citep{paquet_evolution_2004}, developed by Électricité de France (EDF), has a more intermediate complexity. It is actively  used to forecast runoff in mountain catchments in France and to anticipate changes in hydropower production, both for short and long term periods. However this model is not open to applications outside the scope of EDF operational and research objectives. Finally, The GSM-Socont model \citep{schaefli_conceptual_2005}, a Swiss semi-distributed glacio-hydrological model, has been recently applied to perform projections of the Arve watershed in the Mont-Blanc massif through the 21${st}$ century \citep{laurent_impact_2020}. Out of all these models, only the GSM-Socont model includes a dynamic representation of glaciers, and \citet{laurent_impact_2020} is the first study of this kind in a French glacierized catchment. The vast majority of hydrological models deployed in France have none, or a very simplified representation of glaciers, including them as static ice reservoirs. Some models do have such glacier modules, but they are not activated due to a lack of data to calibrate and validate them. Such a representation is problematic in the current context of glacier retreat, neglecting future changes in hydrological regimes driven by glaciers. 
+Hydrological models can provide answers to these questions, predicting the hydrological evolution under different future climate scenarios. In France, multiple hydrological models are being developed and used for research and operational purposes. At one end of the spectrum of model complexity, the lumped GR rainfall-runoff models, with the CemaNeige snow component \citep{coron_suite_2017}, use a simplified modelling approach with catchment-scale representations of the transformation of precipitation into discharge. They rely on the calibration of 1 to 6 parameters (depending on the model variant and time-step), and do not include a glacier component. This limits their usability in high-altitude, upstream catchments where observational data for calibration is scarce and glaciers may play an important role.  At the other end of the complexity spectrum, the physics-based SIM (SAFRAN-ISBA-MODCOU) model combines a meteorological analysis system (SAFRAN), with a land surface model (ISBA) and a hydrogeological model (MODCOU) developed by the Mines de Paris \citep{habets_safran-isba-modcou_2008}. For research purposes, it has been adapted to alpine areas by incorporating elevation bands, aspect classes, and  glacier melt and retention of underground water \citep{lafaysse_influence_2011}. However its adaptation and deployment over the entire French alpine region, including glacierized areas, is highly demanding \citep[e.g.][]{lecourt_physically-based_2018} and has not been considered yet. For more operational applications, the reservoir-based MORDOR model \citep{paquet_evolution_2004}, developed by Électricité de France (EDF), has a more intermediate complexity. It is actively  used to forecast runoff in mountain catchments in France and to anticipate changes in hydropower production, both for short and long term periods. However this model is not open to applications outside the scope of EDF operational and research objectives. Finally, The GSM-Socont model \citep{schaefli_conceptual_2005}, a Swiss semi-distributed glacio-hydrological model, has been recently applied to perform projections of the Arve watershed in the Mont-Blanc massif through the 21${st}$ century \citep{laurent_impact_2020}. Out of all these models, only the GSM-Socont model includes a dynamic representation of glaciers, and \citet{laurent_impact_2020} is the first study of this kind in a French glacierized catchment. The vast majority of hydrological models deployed in France have none, or a very simplified representation of glaciers, including them as static ice reservoirs. Some models do have such glacier modules, but they are not activated due to a lack of data to calibrate and validate them. Such a representation is problematic in the current context of glacier retreat, neglecting future changes in hydrological regimes driven by glaciers. 
 
-This static representation of glaciers is also found in the J2K hydrological model \citep{krause_quantifying_2002}, developed at the University of Jena (Germany). J2K is a semi-distributed open-source model, based Hydrological Response Units (HRUs), homogeneous spatial units in terms of hydrological processes. It allows the representation of multiple physical processes, land use covers, pedology, geology and topography. Moreover, the representation of multiple anthropogenic water uses, such as agriculture irrigation or reservoir management dams can be taken into account into the model. J2K is being used by a large community of hydrologists, both in France and internationally, for a wide variety of geographical configurations \citep{krause_quantifying_2002, nepal_understanding_2014, braud_j2000-rhone_2017}. J2K has already been applied to glacierized catchments in the Himalayas \citep{nepal_understanding_2014}, but simulations have only been performed for past periods, keeping the glacier surface area constant in time. In this chapter, I present an updated glacier module for J2K, including a dynamic representation of glaciers. We introduce and validate this new implementation in a partially-glacierized alpine catchment in the French Alps: the Arvan catchment in the Grandes Rousses massif. By introducing glacier evolution in a hydrological model, we aim at improving hydrological simulations and discharge projections out of glacierized catchments, in order to assess the impacts of these changes on aquatic communities living in glacier-fed streams. 
+This static representation of glaciers is also found in the J2K hydrological model \citep{krause_quantifying_2002}, developed at the University of Jena (Germany). J2K is a semi-distributed open-source model, based Hydrological Response Units (HRUs), homogeneous spatial units in terms of hydrological processes. It allows the representation of multiple physical processes, land use covers, pedology, geology and topography. Moreover, the representation of multiple anthropogenic water uses, such as agriculture irrigation or reservoir management dams can be taken into account into the model. J2K is being used by a large community of hydrologists, both in France and internationally, for a wide variety of geographical configurations \citep{krause_quantifying_2002, nepal_understanding_2014, braud_j2000-rhone_2017}. J2K has already been applied to glacierized catchments in the Himalayas \citep{nepal_understanding_2014}, but simulations have only been performed for past periods, keeping the glacier surface area constant in time. In this chapter, I present an updated glacier module for J2K, including a dynamic representation of glaciers. We introduce and validate this new implementation in a partially-glacierized (4.5 \%) alpine catchment in the French Alps: the Arvan catchment in the Grandes Rousses massif. By introducing glacier evolution in a distributed hydrological model, we aim at improving hydrological simulations and discharge projections out of glacierized catchments, in support of diverse applications but primarily to assess the impacts of changes in glacier discharge on aquatic communities living in glacier-fed streams: this application requires a semi-distributed hydrological model able to provide discharge information on upstream sub-catchments. 
 
 \section{Methods}
 
@@ -48,7 +48,7 @@ Geology data is taken from the Bureau des Recherches Géologiques et Minières (
 
 \subsubsection{Hydrology}
 
-Hydrological observations at the Saint-Jean-d'Arves station (Fig. \ref{hydro:figA1}), are available with a daily frequency for the 2000-2016 period. This data is compiled as part of DREAL Rhône-Alpes's database of hydrological observations \citep{brigode_summary_2020}. This station measured an average interannual flow of 1.8 m$^{3}$/s, with 10\% of temporal gaps for this period and a low reliability of winter measuremets due to snow and ice (Fig. \ref{hydro:figA1}).
+Hydrological observations at the Saint-Jean-d'Arves station (Fig. \ref{hydro:figA1}), are available with a daily frequency for the 2000-2016 period. This data is compiled as part of DREAL Rhône-Alpes's database of hydrological observations \citep{brigode_summary_2020}. This station measured an average interannual flow of 1.8 m$^{3}$/s, with 10\% of temporal gaps for this period and a low reliability of winter measurements due to snow and ice (Fig. \ref{hydro:figA1}).
 
 \subsubsection{Glaciology}
 
@@ -58,140 +58,88 @@ Several different datasets are available for the Saint-Sorlin Glacier. Seasonal 
 
 J2K is an open-source hydrological model coded in Java. It is structured in Hydrological Response Units (HRUs), irregular spatial divisions representing homogeneous conditions from a hydrological point of view. HRUs are determined by a combination of different spatial data, such as the surface slope, altitudes from a DEM, vegetation cover, geology and the distribution of sub-catchments. For the J2K model version used in our study, HRUs are determined by taking into account the sub-catchments with control gauging stations from the hydrological network of observations. These control points are used for model calibration and validation, enabling a comparison of model simulations with observations. The automatic generation of HRUs is performed with a special tool named HRU-delin, providing the modelling structure for any given catchment with the required data. The physical characteristic of each HRU are stored in specific files, which are used by the model to simulate different hydrological processes. 
 
-Simulations are performed separately for each HRU (Fig. \ref{hydro:fig1}). Total precipitation can be partially intercepted by vegetation, whose remaining fraction that reaches the ground will be further divided into infiltrated and surface runoff (RD1) fractions. Infiltrated water will first fill a Large Pore Space (LPS) reservoir, which can then be transferred towards a Medium Pore Space (MPS) reservoir (Fig. \ref{hydro:fig1}). Evapotranspiration is mainly retrieved from water intercepted by vegetation and water available in the MPS reservoir. It is computed on vegetation following the Penman-Monteith reference potential evapotranspiration \citep{howell_penman-monteith_2004}. J2K allows ground water to form subsurface runoff (RD2) if the surface slope is steep enough or the substrate has low infiltration. The remaining fraction is assumed to percolate towards a deep reservoir (RG1). The simulated total water flow within an HRU is equivalent to the sum of the runoff, the subsurface flow and a slow flow from the deep reservoir. Water flow is routed among HRUs via streams if the HRU is located on a valley bed. Conversely, HRUs not containing a water stream route their water flow towards neighbouring HRUs using a simplified kinematic wave method \citep{chen_surface_1970}. Every type of water storage (e.g. RD1, RD2) from each HRU is routed separately until reaching the catchment's outlet. 
+Simulations are performed in two nested loops, a first one iterating every timestep (days in most cases), and another one iterating in space (HRUs). Total precipitation can be partially intercepted by vegetation, whose remaining fraction that reaches the ground will be further divided into infiltrated and surface runoff (RD1) fractions. Infiltrated water will first fill a Large Pore Space (LPS) reservoir, which can then be transferred towards a Medium Pore Space (MPS) reservoir (Fig. \ref{hydro:fig1}). Evapotranspiration (ET) is mainly retrieved from water intercepted by vegetation and water available in the MPS reservoir. It is computed on vegetation following the Penman-Monteith reference potential evapotranspiration \citep{howell_penman-monteith_2004}. J2K allows ground water to form subsurface runoff (RD2) if the surface slope is steep enough or the substrate has low infiltration. The remaining fraction is assumed to percolate towards a deep reservoir (RG1). The simulated total water flow within an HRU is equivalent to the sum of the runoff, the subsurface flow and a slow flow from the deep reservoir. Water flow is routed among HRUs via streams if the HRU is located on a valley bed. Conversely, HRUs not containing a water stream route their water flow towards neighbouring HRUs using a simplified kinematic wave method \citep{chen_surface_1970}. Every type of water storage (e.g. RD1, RD2) from each HRU is routed separately until reaching the catchment's outlet. 
 
 \begin{figure}[h]
 \centering
-\includegraphics[width=10cm]{Figures/hydro/Figure_1.png}
-\caption{Workflow of the J2K hydrological model. \textit{Slightly edited from the J2K documentation.}} 
+\includegraphics[width=8cm]{Figures/hydro/Figure_1.png}
+\caption{Workflow of the J2K hydrological model. \textit{Taken from the J2K documentation.}} 
 \label{hydro:fig1}
 \end{figure}
 
 J2K establishes a simulation workflow using temporal (HRU-Loop) and spatial (Time-Loop) contexts, which iterate and perform simulations for each HRU and day of a given catchment and time period. These contexts are implemented in the Jena Adaptable Modelling System (JAMS) platform, in which J2K is integrated. The simulation of specific hydrological processes are performed in components, being separate entities taking a given set of input parameters, processing them and returning multiple output parameters. 
 
-\subsection{An updated glacier module for J2K}
+\subsection{Existing glacier module}
 
-In J2K, the generation of HRUs for a certain catchment can only be done prior to model simulations. The extent and content of HRUs is static in time, preventing the model from making them evolve throughout a simulation. This specificity of J2K makes it difficult for the model to include a dynamic representation of glaciers, explaining why all simulations for glacierized catchments have so far been performed with static glacierized areas \citep{gao_test_2012, nepal_understanding_2014}. In order to overcome this limitation, we have developed an approach allowing the introduction of glacier evolution through time, based on prescribed glacier surface areas fed to the model at a regular timestep (e.g. daily in this study). 
+The previously existing glacier module developed for the Himalayas is based on a snow processing component and a glacier MB component. In our case study, we used the snow processing component from the Rhône version of J2K (also used over the ice-free parts of the catchement), combined with the glacier MB component from the Himalayas version of the model.
+
+In order to compute the glacier MB and the resulting runoff, the snowpack on the glacier is first processed with the snow component, determining the characteristics of snow on the glacier. This component simulates the accumulation and melt of the snowpack caused by air temperature or rain. The thermal characteristics of the snowpack are also taken into account by means of a cold content. Here, we show only the most relevant equations, as these processes were already available in J2K prior to this PhD work.
+
+Accumulation and melt are computed based on the following temperature (Eq. \ref{hydro:eq:1}).
+
+\begin{equation} \label{hydro:eq:1}
+ T_{acc} = T_{melt} = \frac{T_{min} + T_{max}}{2}
+\end{equation} 
+
+If $T_{melt}$ exceeds a certain threshold value (here chosen to be 0ºC) the snow pack transitions from accumulation phase to melt. The amount of energy available for melt is computed with a daily timestep via a degree-day approach (with $\alpha_{snow}$ as daily degree-day factor), where the advected energy from the rain is also accounted for. The sum of these two components gives the potential snow melt rate ($M_{p}$, in mm ), defined by equation \ref{hydro:eq:2}.
+
+\begin{equation} \label{hydro:eq:2}
+ M_{p} = \alpha_{snow} \cdot T_{melt} + r_{factor} \cdot rain \cdot T_{melt} 
+\end{equation} 
+
+In this equation $r_{factor}$ can be calculated based on heat capacity and latent heat of fusion , under the hypothesis that rain water is at air temperature prior to warming and melting the snowpack, resulting in $r_{factor}=0.0125$ °C$^{-1}$. 
+
+Density and snow height are diagnosed from the snow water equivalent (SWE) based on fresh snow density (taken as 300 kg/m$^{3}$) and accounting for melt and settlement processes due to rain-on-snow, according to \citet{bertle_effect_1966}. The snowpack can store liquid water in its pores up to a certain critical density. When a certain amount of liquid water is reached with respect to the total SWE (about 40-45\%), putting the density higher than a critical value $d_{crit}=700$ kg m$^{-3}$, all liquid water in excess is immediately released. In addition, liquid water within a wet snowpack is also released as runoff at a slower pace, depending on the snowpack saturation degree. The water released from the snowpack ($q_{snow}$), in mm m$^{-2}$, is computed as the sum of these two contributions  (Eq. \ref{eq:3}).
+
+\begin{equation} \label{hydro:eq:3}
+q_{snow} = H \cdot max(d - d_{crit}, 0) + WC \cdot (1-e^{(1-(d_{crit}/d)^4)})
+\end{equation} 
+
+where $d$ is the snowpack density, $H$ the snow height and $WC$ the snowpack liquid water content. 
+
+If no snow is present in a given glacierized HRU, ice melt can occur. This is computed using a temperature-index melt model \citep{hock_temperature_2003}, following equation \ref{hydro:eq:4}.
+
+\begin{equation} \label{hydro:eq:4}
+q_{ice} = \alpha_{ice } \cdot(T_{melt} - T_{base})
+\end{equation} 
+
+where $\alpha_{ice}$ is the melt factor specific for ice and $T_{base}$ is a user-defined temperature beyond which melt is triggered, in our case 0ºC. 
+
+This previously existing glacier module implemented in the Himalayas also takes into account the effects of debris cover, which will not be described here since they have not been used in this work. 
+
+Finally, snow melt and ice melt are further adapted taking into account a storage and release time within the snowpack and glacier, respectively. This inertia is accounted for by two calibration coefficients, $k_{snow}$ and $k_{ice}$. Here, we relied on calibration from previous studies to infer the value of theses coefficients ($k_{snow}$=5, $k_{ice}$=10). These updated runoff values are computed following equations \ref{hydro:eq:5} and \ref{hydro:eq:6}).
+
+\begin{equation} \label{hydro:eq:5}
+Q_{snow} = q_{snow(t-1)}\cdot (1-e^{-(1/k_{snow})}) + q_{snow(t)} \cdot e^{-(1/k_{snow})}
+\end{equation} 
+
+\begin{equation} \label{hydro:eq:6}
+Q_{ice} = q_{ice(t-1)} \cdot (1-e^{-(1/k_{ice})}) + q_{ice(t)} \cdot e^{-(1/k_{ice})}
+\end{equation} 
+
+where $q_{snow(t-1)}$ is the snow water release from the previous timestep, $q_{ice(t-1)}$ the ice runoff from the previous timestep.
+
+\subsection{An updated glacier module}
+
+We updated the already existing glacier module from the J2K model version used in the Himalayas \citep{nepal_understanding_2014}, creating a new module named \textit{GlacierModuleAlps}. Several components of J2K have been adapted in order to take into account these changes in glacier surface area. 
+
+\subsubsection{Glacier dynamics}
 
 A Python package named \textit{Glaciers-to-J2K} has been created, which automatically computes the glacierized fraction of each HRU based on polygons with the extension and surface type of each HRU and annual glacier boundaries. Glacier boundaries can proceed from any glacier model providing annual gridded glacier extents. \textit{Glaciers-to-J2K} computes the glacierized and non-glacierized fraction of each HRU by overlapping HRU outlines with annual glacier extents. Then, these fractions are interpolated with a daily timestep throughout a given ablation season, with a default period between October 1${st}$ to March 31${st}$. This enables a daily representation of glacier area evolution, necessary for hydrological simulations with J2K. These time series are stored in a \textit{.dat} file.
 
-Several components of J2K have been adapted in order to take into account these changes in glacier surface area. 
-
-\subsubsection{Glacier dynamics}
+In J2K, the generation of HRUs for a certain catchment can only be done prior to model simulations. The extent and content of HRUs is static in time, preventing the model from making them evolve throughout a simulation. This specificity of J2K makes it difficult for the model to include a dynamic representation of glaciers, explaining why all simulations for glacierized catchments have so far been performed with static glacierized areas \citep{gao_test_2012, nepal_understanding_2014}. In order to overcome this limitation, we have developed an approach allowing the introduction of glacier evolution through time, based on prescribed glacier surface areas fed to the model at a regular timestep (e.g. daily in this study). 
 
 Two new components named \textit{GlacierFractionReader} and \textit{GlacierFractionAssigner} have been added, responsible for reading the daily glacierized fractions for each HRU and assigning them to the right HRU during the temporal (Time-Loop) and spatial (HRU-Loop) iterations. 
 
 \subsubsection{Glacier mass balance and runoff}
 
-[Eric: partie compliquée à suivre: on ne sait pas où se positionne le module dans le schéma 5.1; les variables d'état ne sont pas précisées, les paramètres fixes ou à caler (par HRU ou régionalement) ne le sont pas non plus, les unités non plus quand les équations sont fournies; parfois le temps t est indiqué (suggestion utiliser d pour day car il y a une variable tsnow); newSnowDens = snowDens(t) par comparaison à snowDens(t-1); peut être organiser différemment : description du glacier (variables et paramètres), processus de formation, destockage potentiel, croisement des deux (estimation des flux sortants) et mise à jour des états, donc réorganiser ton texte et ne pas hésiter à changer des noms de variables du code par des noms plus explicites] An already existing glacier module from the J2K model version used in the Himalayas has been updated, creating a new module named \textit{GlacierModuleAlps}. If the glacierized fraction of a given HRU is different than zero, a glacier is detected and the simulation of glacier runoff is triggered. First of all, the snowpack on the glacier is processed with a dedicated snow component, determining the characteristics of snow on the glacier. It simulates accumulation and compaction of the snow pack caused by snow melt or rain. The thermal characteristics under the snow pack are also taken into account with the cold content (CC) of snow (Eq. \ref{hydro:eq:1}).
-
-\begin{equation} \label{hydro:eq:1}
- ColdContent = coldContFact \cdot T
- \end{equation} 
- 
-where $coldContFact$ is a calibration parameter and T the air temperature at a given HRU. This enables the accumulation of negative temperatures, which are decreased only by positive temperatures, resulting in a potential melting rate. Melting is triggered once the CC [Eric: j'ai beau cherché CC n'est pas utilisé plus loin; pas clair à quoi sert la variable; seuil pour déclencher la fonte ? pourquoi ne pas utiliser que la température ?] has reached zero. Snow occurs when precipitation falls with air temperatures lower than 0ºC. The density of new snow is determined by air temperature follow equation \ref{hydro:eq:3}.
-
-\begin{equation} \label{hydro:eq:2}
- newSnowDens = 0.13 + 0.0135 \cdot T_{acc} + 0.000045 \cdot T_{acc}^{2}
-\end{equation} 
- 
-where $T_{acc}$, which shares the same formulation as the melting temperature ($T_{melt}$), is defined by equation \ref{hydro:eq:3}.
-
-\begin{equation} \label{hydro:eq:3}
- T_{acc} = T_{melt} = \frac{T_{min} + T_{avg}}{2}
-\end{equation} 
-
-[Eric: j'ai utilisé l'équation 5.2 et j'obtiens  -0.062375 = 0.13+0.0135*-15+0.000045*15*15 avec Tacc=-15°C] If air temperature is lower than -15ºC the density of snow is assumed to be 0.02875 g/cm$^{3}$. At this point, the change in snow depth ($\Delta SH$) from snowfall is determined by equation \ref{hydro:eq:4}.
-
-\begin{equation} \label{hydro:eq:4}
- \Delta SH = \frac{snow}{newSnowDens}
-\end{equation} 
-
-Then, the snow water equivalent (SWE) of the previous day ($SWE_{dry}$) is increased with new snow, following equation \ref{hydro:eq:5}.
-
-\begin{equation} \label{hydro:eq:5}
- SWE_{dry,t} = SWE_{dry,t-1} + snow
-\end{equation} 
-
-[Eric: SWEdryt ou SWEtott?] If $T_{melt}$ exceeds a certain threshold value (normally 0ºC) the snow pack transitions from accumulation phase to metamorphosis. The amount of energy available for melt is computed in three different ways: (1) the sensible heat from air temperature ($t_{snow}$), (2) the energy input from rain ($r_{factor}$), and (3) the energy input from soil heat flow ($g_{factor}$). The sum of these three components gives the potential snow melt rate ($M_{p}$), defined by equation \ref{hydro:eq:6}.
-
-\begin{equation} \label{hydro:eq:6}
- M_{p} = (t_{snow} \cdot T_{melt} + r_{factor} \cdot rain \cdot T_{melt} + g_{factor}) \cdot \theta
-\end{equation} 
-
-where $\theta$ is a parameter [Eric: calibrated? fixed?] modifying the melt according to the slope and aspect of the HRU. At this point, $M_{p}$ is used to update the $ColdContent$ and the maximum change in the snow pack (Eq. \ref{hydro:eq:7}).
+Within the HRU loop of the model, if the glacierized fraction of a given HRU is different than zero, a glacier is detected and the simulation of glacier runoff is triggered. The snow and ice runoff are computed following the equations \ref{hydro:eq:5} and \ref{hydro:eq:6}. The resulting daily glacier MB for each HRU is calculated from the input liquid and solid precipitation and the output ice ($Q_{ice}$), snow ($Q_{snow}$) and rain ($Q_{rain}$) runoff (Eq. \ref{hydro:eq:7}).
 
 \begin{equation} \label{hydro:eq:7}
- \Delta SH = \frac{M_{p}}{dry_{density}}
+MB = (rain + snow - Q_{ice} - Q_{snow} - Q_{rain}) 
 \end{equation} 
 
-where $dry_{density}$ is the snow dry density. If $\Delta SH$ is greater than the entire snow depth, it melts completely and the entire SWE contributes to runoff generation. If this is not the case, $SH$ is reduced accordingly, leading to an increase in the total snow density ($tot_{dens}$). Additionally to this change of density, changes in subsidence and density following the snow compaction scheme \citep{bertle_effect_1966} are taken into account. Water seeps into the snow pack, contributing to subsidence by recyrstallization of snow and by structural changes. This subsidence rate is computed using the snow-subsidence method, whose increase of accumulated water content in percentage is determined by equation \ref{hydro:eq:8}.
-
-\begin{equation} \label{hydro:eq:8}
- P_{w} = \frac{SWE_{tot}}{SWE_{dry}}100
-\end{equation} 
-
-The greater the liquid water in input, the greater the snow pack subsidence will be. The percentage of snow depth change ($P_{H}$) is computed from the input of free water (Eq. \ref{hydro:eq:9}).
-
-\begin{equation} \label{hydro:eq:9}
- P_{H} = 147.4 - 0.474 \cdot P_{w}
-\end{equation} 
-
-allowing the calculation of the new snow depth ($SH$).
-
-\begin{equation} \label{hydro:eq:10}
-SH = SH\frac{P_{H}}{100}
-\end{equation} 
-
-Finally, the dry snow density ($dry_{dens}$) and the total snow density ($tot_{dens}$) are recomputed taking into account this updated snow depth (Eqs. \ref{hydro:eq:11} and \ref{hydro:eq:12}). 
-
-\begin{equation} \label{hydro:eq:11}
-dry_{dens} = \frac{SWE_{dry}}{SD}
-\end{equation} 
-
-\begin{equation} \label{hydro:eq:12}
-tot_{dens} = \frac{SWE_{tot}}{SD}
-\end{equation} 
-
-[Eric: SD? drydens = drydensity introduit plus haut?]The snow pack can store liquid water in its pores up to a certain critical density ($snow_{critDens}$). When a certain amount of liquid water is reached with respect to the total SWE (about 40-45\%), this storage is released \citep{bertle_effect_1966}. This process is taken into account in the model by computing a maximum water content in the snow pack ($SWE_{max}$), following equation \ref{hydro:eq:13}.
-
-\begin{equation} \label{hydro:eq:13}
-SWE_{max} = snow_{critDens}\cdot SD
-\end{equation} 
-
-The $snow_{critDens}$ needs to be provided by the user. Finally, the snow runoff ($Q_{snow}$) is determined by the water stored in the snow pack that exceeds this limit [Eric: dans l'équation introduire max[SWEtot-SWEmax;0](Eq.\ref{hydro:eq:14}).
-
-\begin{equation} \label{hydro:eq:14}
-Q_{snow} = SWE_{tot} - SWE_{max}
-\end{equation} 
-
-Through time (daily time steps in our case), the snow pack can keep this critical threshold density until being defrosted or new snowfall occurs. 
-
-If no snow is present in a given glacierized HRU, ice melt can occur. This is computed using a temperature-index melt model \citep{hock_temperature_2003}, following equation \ref{hydro:eq:15}.
-
-\begin{equation} \label{hydro:eq:15}
-ice_{melt} = \frac{1}{n}t_{ice} + \alpha_{ice } \cdot Q_{radiation} \cdot(T_{melt} - T_{base})
-\end{equation} 
-
-where $n$ is the time stemp ($n$ = 1 for a daily model), $t_{ice}$ is a melt factor specific for ice, $\alpha_{ice}$ is a fixed ice melt coefficient based on albedo, $Q_{radiation}$ is the actual global net solar radiation at the surface and $T_{base}$ is a based temperature defined by the user to trigger melt (normally 0ºC). The previously existing glacier module implemented in the Himalayas also takes into account the effects of debris cover, which will not be described here since they have not been implemented in this work due to time constraints. 
-
-Finally, snow melt and ice melt are further adapted depending on the slope and aspect of each HRU (Eqs. \ref{hydro:eq:16} and \ref{hydro:eq:17}).
-
-\begin{equation} \label{hydro:eq:16}
-Q_{snow} = (r_{t-1 }\cdot e^{(1/k_{snow})} \cdot Q_{snow} \cdot e^{(1/k_{snow})}) \cdot g_{fraction}
-\end{equation} 
-
-\begin{equation} \label{hydro:eq:17}
-Q_{ice} = (r_{t-1} \cdot e^{(1/k_{ice})} \cdot Q_{ice} \cdot e^{(1/k_{snow})}) \cdot g_{fraction}
-\end{equation} 
-
-where $r_{t-1}$ is the outflow reservoir during the previous time step[Eric: which reservoirs?]; $k_{snow}$ and $k_{ice}$ are storage coefficients for the reservoirs, determined by the user; and $g_{fraction}$ is the glacierized fraction of the HRU, used to scale the runoff coming from glaciers. 
-
-The resulting daily glacier MB for each HRU is calculated from the input precipitation and the output ice ($Q_{ice}$), snow ($Q_{snow}$) and rain ($Q_{rain}$) flows (Eq. \ref{hydro:eq:18}).
-
-\begin{equation} \label{hydro:eq:18}
-MB = (rain + snow - Q_{ice} - Q_{snow} - Q_{rain}) \cdot g_{fraction}
-\end{equation} 
+The main novelty from this updated module is the fact that we are scaling the precipitation falling on glaciers with the prescribed glacierized fractions ($g_{fraction}$). This means that for HRUs containing a glacier, the input precipitation is split between the glacierized and non-glacierized fractions. These fractions evolve with a daily timestep, enabling the correct representation of glacier evolution through time in J2K. 
 
 \subsubsection{Non-glacierized fraction}
 
@@ -199,13 +147,13 @@ Glacierized HRUs might contain a non-glacierized fraction as well. The runoff co
 
 \subsubsection{Mass balance calibration}
 
-Therefore, this updated glacier module computes glacier mass balance with a daily timestep. In order to correctly calibrate glacier mass balance, three parameters can be tuned: a precipitation lapse rate specific for the glacier, a snow melt factor ($t_{snow}$) [Eric: better to keep the same name throughout the text cf. Eq. 5.6] and an ice melt factor ($t_{ice}$). Precipitation is known to be underestimated at high altitde (> 3000 m a.s.l.) in climate datasets in the French Alps, for both the SAFRAN and SPAZM datasets used in this PhD work \citep{vionnet_numerical_2016}. This means that increasing precipitation via a lapse rate factor is often needed in order to correctly reproduce accumulation rates on glaciers. 
+The updated glacier module computes glacier MB with a daily timestep using a temperature-index model \citep{hock_temperature_2003}. This type of model relies on an empirical relationship between air temperature and melt, which is clearly observed in the French Alps despite presenting a high spatial variability. Temperature is known to correlate well with melt energy, mainly through short-wave radiation \citep{sicart_glacier_2008}. In order to correctly calibrate glacier MB, three parameters can be tuned: a precipitation lapse rate specific for the glacier, a snow melt factor ($t_{snow}$) and an ice melt factor ($t_{ice}$). Precipitation is known to be underestimated at high altitudes (> 3000 m a.s.l.) in meteorological reanalysis datasets due in particular to the lack of in-situ observations. This has been highlighted for SAFRAN  \citep{vionnet_numerical_2016} and is also likely for the SPAZM dataset, even though it integrates more observations for high altitude areas. This means that increasing precipitation via a lapse rate factor is often needed in order to correctly reproduce accumulation rates on glaciers. 
 
-This implemented approach can be easily escalated [Eric: upscaled? extended?] to glacierized catchments with multiple glaciers. Every HRU has an ID which can be matched to any Randolph Glacier Inventory (RGI) ID, allowing a specific calibration of mass balance models for each individual glacier. In catchments with small glaciers located close together, these might end up sharing an HRU. For these cases, the optimization of the melt model would have to be shared among all the glaciers present in that HRU. Alternatively, the size of the HRU separation can be reduced, improving the spatial representation of the catchment. Nonetheless, this has an important computational cost. We believe this updated modelling framework has enough flexibility to enable an accurate calibration of different melt factors and precipitation lapse rates in mountainous regions. 
+This implemented approach can be easily extended to glacierized catchments with multiple glaciers. Every HRU has an ID which can be matched to any Randolph Glacier Inventory (RGI) ID, allowing a specific calibration of mass balance models for each individual glacier. In catchments with small glaciers located close together, these might end up sharing an HRU. For these cases, the optimization of the melt model would have to be shared among all the glaciers present in that HRU. Alternatively, the size of the HRU separation can be reduced, improving the spatial representation of the catchment. Nonetheless, this has an important computational cost. We believe this updated modelling framework has enough flexibility to enable an accurate calibration of different melt factors and precipitation lapse rates in mountainous regions. 
 
 \section{Results}
 
-This updated glacier module for the J2K hydrological model has been implemented and validated in the Arvan partially glacierized catchment at Saint-Jean d'Arves in the French Alps (Fig. \ref{hydro:fig2}). In this catchment configuration, the Saint-Sorlin Glacier occupies four different HRUs, whose glacierized fraction and surface area has been computed for every year between 2003 and 2012 using glacier ice thickness data simulated with ALPGM \citep{bolibar_alpgm_2020}.[Eric: in the legend, Hyrological ==> gauging station; in blue extension of the glacier in 2003]
+This updated glacier module for the J2K hydrological model has been implemented and validated in the Arvan partially glacierized catchment at Saint-Jean d'Arves in the French Alps (Fig. \ref{hydro:fig2}). In this catchment configuration, the Saint-Sorlin Glacier occupies four different HRUs, whose glacierized fraction and surface area has been computed for every year between 2003 and 2012 using glacier ice thickness data simulated with ALPGM \citep{bolibar_alpgm_2020}.
 
 \begin{figure}[h]
 \centering
@@ -214,34 +162,34 @@ This updated glacier module for the J2K hydrological model has been implemented 
 \label{hydro:fig2}
 \end{figure}
 
-\subsection{Glacier evolution}
+\subsection{Glacier dynamics}
 
-The evolution of glaciers in the updated glacier module of J2K is represented with prescribed annual glacier extents taken from an independent glacier evolution model. For this case study, ALPGM provided annual glacier ice thickness data from the year 2003, where initial glacier ice thickness data are available from \citet{farinotti_consensus_2019}. The 1985-2003 period was used as a spin-up period for the model, in order to correctly initialize the water reservoirs and snow pack. During the spin-up period, since no glacier ice thickness data is available, the extent of the glacier was kept the same as the year 2003. We consider this approximation to be acceptable, taking into account that this simulated period is only used as spin-up. The match between the initial glacier ice extent and the catchment HRUs was not perfect, with small parts of the glacier exceeding the HRUs extent (Fig. \ref{hydro:fig2}). The prescribed glacier surface areas by the ALPGM glacier model also carry uncertainties, particularly from the initial glacier ice thickness. Simulated glacier MB data for this period have a very small error (Fig. 3.7), and the parameterization used to update the glacier geometry was specifically calibrated for this glacier. [Eric: fig 5.3 not cited]These uncertainties resulted in the simulated glacier geometry only evolving in thickness but not extent between 2004 and 2006. This can be seen in the prescribed glacier surface area changes, which do not evolve until early 2006 (Fig. \ref{hydro:fig3}). As soon as the prescribed glacier surface area evolved, J2K captures a realistic glacier area evolution during the ablation season. The overall glacier surface area in J2K is correctly represented, despite the slight mismatches in glacier and HRU data. The Saint-Sorlin glacier displayed a total surface area of 2.79 km$^{2}$ in the year 2003 \citep{gardent_multitemporal_2014}, very close to the 2.66 km$^{2}$ obtained in J2K (Fig. \ref{hydro:fig3}). 
+The evolution of glaciers in the updated glacier module of J2K is represented with prescribed annual glacier extents taken from an independent glacier evolution model. For this case study, ALPGM provided annual glacier ice thickness data from the year 2003, where initial glacier ice thickness data are available from \citet{farinotti_consensus_2019}. The 1985-2003 period was used as a spin-up period for the model, in order to correctly initialize the water reservoirs and snow pack. During the spin-up period, since no glacier ice thickness data is available, the extent of the glacier was kept the same as the year 2003. We consider this approximation to be acceptable, taking into account that this simulated period is only used as spin-up. The match between the initial glacier ice extent and the catchment HRUs was not perfect, with small parts of the glacier exceeding the HRUs extent (Fig. \ref{hydro:fig2}). The prescribed glacier surface areas by the ALPGM glacier model also carry uncertainties, particularly from the initial glacier ice thickness. Simulated glacier MB data for this period have a very small error (Fig. 3.7), and the parameterization used to update the glacier geometry was specifically calibrated for this glacier. These uncertainties resulted in the simulated glacier geometry only evolving in thickness but not extent between 2004 and 2006. This can be seen in the prescribed glacier surface area changes, which do not evolve until early 2006 (Fig. \ref{hydro:fig3}). As soon as the prescribed glacier surface area evolves, J2K captures a realistic glacier area evolution during the ablation season. Hence, the overall glacier surface area in J2K is correctly represented, despite the slight mismatches in glacier and HRU data. The Saint-Sorlin glacier displayed a total surface area of 2.79 km$^{2}$ in the year 2003 \citep{gardent_multitemporal_2014}, very close to the 2.66 km$^{2}$ obtained in J2K (Fig. \ref{hydro:fig3}). 
 
 \begin{figure}[h]
 \centering
 \includegraphics[width=10cm]{Figures/hydro/Figure_3.pdf}
 \caption{Daily evolution of the glacierized surface area of Saint-Sorlin Glacier in J2K. Glacier retreat during the ablation season is well captured in the model, following the prescribed interpolated area evolution. The glacier area is only updated from October 2003 onwards, after the first year with available glacier ice thickness data.} 
-\label{hydro:fig4}
+\label{hydro:fig3}
 \end{figure}
 
 \subsection{Glacier mass balance}
 
-In order to calibrate the temperature-index model in J2K for the Saint-Sorlin Glacier [which equations?], we used seasonal (winter and summer) glacier-wide MB direct observations from the GLACIOCLIM glacier observatory. The precipitation lapse rate was calibrated based on winter mass balance data, and the ice and snow melt factors on summer mass balance data. Due to time constraints, this calibration was performed manually. J2K includes a parameter optimization module, but the recalculation of glacier mass balance from a daily to seasonal frequency was performed outside J2K, in the \textit{Glaciers-to-J2K} Python package, in order to accelerate the development. In the future, this recalculation should be moved inside J2K to enable the automatic calibration of the precipitation lapse rate and melt factors for ice and snow for large catchments.
+In order to calibrate the temperature-index model in J2K for the Saint-Sorlin Glacier (Eq. \ref{hydro:eq:6} and \ref{hydro:eq:15}), we used seasonal (winter and summer) glacier-wide MB direct observations from the GLACIOCLIM glacier observatory. The precipitation lapse rate was calibrated based on winter mass balance data, and the ice and snow melt factors on summer mass balance data. Due to time constraints, this calibration was performed manually. J2K includes a parameter optimization module, but the recalculation of glacier mass balance from a daily to seasonal frequency was performed outside J2K, in the \textit{Glaciers-to-J2K} Python package, in order to accelerate the development. In the future, this recalculation should be moved inside J2K to enable the automatic calibration of the precipitation lapse rate and melt factors for ice and snow for large catchments.
 
-This manual MB calibration enabled a correct representation of the MB of Saint-Sorlin Glacier, but the interannual variability is still not well captured, particularly for the 2005-2007 period (Fig. \ref{hydro:fig3}). An automatic calibration, testing a wide range of parameter configurations, would certainly yield a much better representation. The best results were obtained by increasing precipitation on the glacier by 70\%, with a melt factor for ice of 5.2 mm/ºC, as indicated in the literature \citep{reveillet_which_2017}, and a melt factor for snow of 3.8 mm/ºC, slightly inferior than values indicated in the literature. The resulting amount of precipitation on the glacier is most likely overestimated, with SOME years displaying over 2600 mm of snow in w For this case study, ALPGM provided annual glacier ice thickness data from the year 2003, where initial glacier ice thickness data are available from \citet{farinotti_consensus_2019}.inter, implying that this calibration could probably be improved by fine-tuning the melt factors. 
+This manual MB calibration enabled a correct representation of the MB of Saint-Sorlin Glacier, but the interannual variability is still not well captured, particularly for the 2005-2007 period (Fig. \ref{hydro:fig3}). An automatic calibration, testing a wide range of parameter configurations, would certainly yield a much better representation. The best results were obtained by increasing precipitation on the glacier by 70\%, with a melt factor for ice of 5.2 mm/ºC, as indicated in the literature \citep{reveillet_which_2017}, and a melt factor for snow of 3.8 mm/ºC, slightly inferior than values indicated in the literature. The resulting amount of precipitation on the glacier is most likely overestimated, with some years displaying over 2600 mm of snow during winter, implying that this calibration could probably be improved by fine-tuning the melt factors. 
 
 \begin{figure}[h]
 \centering
 \includegraphics[width=15cm]{Figures/hydro/Figure_4.pdf}
 \caption{Glacier-wide annual (a), seasonal winter (b) and summer (c) MB for Saint-Sorlin Glacier, with glaciological observations from the GLACIOCLIM observatory and simulated MB from J2K. Winter snowfall (d) and temperature (h), and summer snowfall (g) and temperature (i) are computed as an average of the four HRUs of the glacier. They are shown in order to give context on the climate conditions for those years.} 
-\label{hydro:fig3}
+\label{hydro:fig4}
 \end{figure}
 
 
 \subsection{Glacier runoff}
 
-Runoff values in J2K are extracted at Saint-Jean d'Arves where observations from the gauging station are available (Fig. \ref{hydro:fig2}). A comparison between the observed and the  simulated daily discharges reveals a good agreement between both (Fig. \ref{hydro:fig5}). The maximum and minimum values are well captured. (THIS NEEDS TO BE EXPANDED).
+Runoff values in J2K are extracted at Saint-Jean d'Arves, where observations from the gauging station are available (Fig. \ref{hydro:fig2}). A comparison between the observed and the  simulated daily discharges reveals a good agreement between both (Fig. \ref{hydro:fig5}). The maximum and minimum values are well captured. (THIS NEEDS TO BE EXPANDED).
 
 \begin{figure}[h]
 \centering
