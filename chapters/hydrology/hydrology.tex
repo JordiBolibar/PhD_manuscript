@@ -107,7 +107,11 @@ where $\alpha_{ice}$ is the melt factor specific for ice and $T_{base}$ is a use
 
 This previously existing glacier module implemented in the Himalayas also takes into account the effects of debris cover, which will not be described here since they have not been used in this work. 
 
-Finally, snow melt and ice melt are further adapted taking into account a storage and release time within the snowpack and glacier, respectively. This inertia is accounted for by two calibration coefficients, $k_{snow}$ and $k_{ice}$. Here, we relied on calibration from previous studies to infer the value of theses coefficients ($k_{snow}$=5, $k_{ice}$=10). These updated runoff values are computed following equations \ref{hydro:eq:5} and \ref{hydro:eq:6}).
+Finally, rain runoff, snow melt and ice melt are further adapted taking into account a storage and release time within the snowpack and glacier, respectively. This inertia is accounted for by three calibration coefficients, $k_{rain}$, $k_{snow}$ and $k_{ice}$. Here, we relied on calibration from previous studies to infer the value of theses coefficients ($k_{rain}$=5, $k_{snow}$=5, $k_{ice}$=10). These updated runoff values are computed following equations \ref{hydro:eq:5}, \ref{hydro:eq:6} and \ref{hydro:eq:7}.
+
+\begin{equation} \label{hydro:eq:5}
+Q_{rain} = q_{rain(t-1)}\cdot (1-e^{-(1/k_{rain})}) + q_{rain(t)} \cdot e^{-(1/k_{rain})}
+\end{equation} 
 
 \begin{equation} \label{hydro:eq:5}
 Q_{snow} = q_{snow(t-1)}\cdot (1-e^{-(1/k_{snow})}) + q_{snow(t)} \cdot e^{-(1/k_{snow})}
@@ -117,7 +121,7 @@ Q_{snow} = q_{snow(t-1)}\cdot (1-e^{-(1/k_{snow})}) + q_{snow(t)} \cdot e^{-(1/k
 Q_{ice} = q_{ice(t-1)} \cdot (1-e^{-(1/k_{ice})}) + q_{ice(t)} \cdot e^{-(1/k_{ice})}
 \end{equation} 
 
-where $q_{snow(t-1)}$ is the snow water release from the previous timestep, $q_{ice(t-1)}$ the ice runoff from the previous timestep.
+where $q_{rain(t-1)}$ is the rain runoff from the previous timestep, $q_{snow(t-1)}$ is the snow water release from the previous timestep, $q_{ice(t-1)}$ the ice runoff from the previous timestep.
 
 \subsection{An updated glacier module}
 
@@ -133,23 +137,21 @@ Two new components named \textit{GlacierFractionReader} and \textit{GlacierFract
 
 \subsubsection{Glacier mass balance and runoff}
 
-Within the HRU loop of the model, if the glacierized fraction of a given HRU is different than zero, a glacier is detected and the simulation of glacier runoff is triggered. The snow and ice runoff are computed following the equations \ref{hydro:eq:5} and \ref{hydro:eq:6}. The resulting daily glacier MB for each HRU is calculated from the input liquid and solid precipitation and the output ice ($Q_{ice}$), snow ($Q_{snow}$) and rain ($Q_{rain}$) runoff (Eq. \ref{hydro:eq:7}).
+Within the HRU loop of the model, if the glacierized fraction of a given HRU is different than zero, a glacier is detected and the simulation of glacier runoff is triggered. The snow and ice runoff are computed following the equations \ref{hydro:eq:5}, \ref{hydro:eq:6} and \ref{hydro:eq:7}. The resulting daily glacier MB for each HRU is calculated from the input liquid and solid precipitation and the output ice ($Q_{ice}$), snow ($Q_{snow}$) and rain ($Q_{rain}$) runoff (Eq. \ref{hydro:eq:7}).
 
 \begin{equation} \label{hydro:eq:7}
 MB = (rain + snow - Q_{ice} - Q_{snow} - Q_{rain}) 
 \end{equation} 
 
-The main novelty from this updated module is the fact that we are scaling the precipitation falling on glaciers with the prescribed glacierized fractions ($g_{fraction}$). This means that for HRUs containing a glacier, the input precipitation is split between the glacierized and non-glacierized fractions. These fractions evolve with a daily timestep, enabling the correct representation of glacier evolution through time in J2K. 
+The main novelty from this updated module is the fact that we are scaling the precipitation falling on glaciers with the prescribed glacierized fractions ($g_{fraction}$). This means that for HRUs containing a glacier, the input precipitation is split between the glacierized and non-glacierized fractions. These fractions evolve with a daily timestep, enabling the correct representation of glacier evolution through time in J2K. The glacierized area for each HRU is also updated with a daily timestep by multiplying the HRU area by the glacierized fraction.
 
 \subsubsection{Non-glacierized fraction}
 
-Glacierized HRUs might contain a non-glacierized fraction as well. The runoff computed outside the glacier, within the previously existing workflow in J2K, is multiplied by the non-glacierized HRU fraction ($1 - g_{fraction}$). This enables an accurate separation between glacierized and non-glacierized runoff contributions for each HRU. 
+Glacierized HRUs might contain a non-glacierized fraction as well. The precipitation outside the glacier, within the previously existing workflow in J2K, is multiplied by the non-glacierized HRU fraction ($1 - g_{fraction}$). This enables an accurate separation between glacierized and non-glacierized runoff contributions for each HRU. As for the glacierized HRUs, the non-glacierized area is computed daily by multiplying the HRU total area by the non-glacierized fraction.
 
 \subsubsection{Mass balance calibration}
 
-The updated glacier module computes glacier MB with a daily timestep using a temperature-index model \citep{hock_temperature_2003}. This type of model relies on an empirical relationship between air temperature and melt, which is clearly observed in the French Alps despite presenting a high spatial variability. Temperature is known to correlate well with melt energy, mainly through short-wave radiation \citep{sicart_glacier_2008}. In order to correctly calibrate glacier MB, three parameters can be tuned: a precipitation lapse rate specific for the glacier, a snow melt factor ($t_{snow}$) and an ice melt factor ($t_{ice}$). Precipitation is known to be underestimated at high altitudes (> 3000 m a.s.l.) in meteorological reanalysis datasets due in particular to the lack of in-situ observations. This has been highlighted for SAFRAN  \citep{vionnet_numerical_2016} and is also likely for the SPAZM dataset, even though it integrates more observations for high altitude areas. This means that increasing precipitation via a lapse rate factor is often needed in order to correctly reproduce accumulation rates on glaciers. 
-
-This implemented approach can be easily extended to glacierized catchments with multiple glaciers. Every HRU has an ID which can be matched to any Randolph Glacier Inventory (RGI) ID, allowing a specific calibration of mass balance models for each individual glacier. In catchments with small glaciers located close together, these might end up sharing an HRU. For these cases, the optimization of the melt model would have to be shared among all the glaciers present in that HRU. Alternatively, the size of the HRU separation can be reduced, improving the spatial representation of the catchment. Nonetheless, this has an important computational cost. We believe this updated modelling framework has enough flexibility to enable an accurate calibration of different melt factors and precipitation lapse rates in mountainous regions. 
+The updated glacier module computes glacier MB with a daily timestep using a temperature-index model \citep{hock_temperature_2003}. This type of model relies on an empirical relationship between air temperature and melt, which is clearly observed in the French Alps despite presenting a high spatial variability. Temperature is known to correlate well with melt energy, mainly through short-wave radiation \citep{sicart_glacier_2008}. In order to correctly calibrate glacier MB, three parameters can be tuned: a precipitation rate factor specific for the glacier, a snow melt factor ($\alpha_{snow}$) and an ice melt factor ($\alpha_{ice}$). Precipitation is known to be underestimated at high altitudes (> 3000 m a.s.l.) in meteorological reanalysis datasets due in particular to the lack of in-situ observations. This has been highlighted for SAFRAN \citep{vionnet_sub-kilometer_2019} and is also likely to be the same case for the SPAZM dataset, even though it integrates more observations for high altitude areas. This means that increasing precipitation via a multiplicative correction factor is often needed in order to correctly reproduce accumulation rates on glaciers. 
 
 \section{Results}
 
@@ -164,7 +166,7 @@ This updated glacier module for the J2K hydrological model has been implemented 
 
 \subsection{Glacier dynamics}
 
-The evolution of glaciers in the updated glacier module of J2K is represented with prescribed annual glacier extents taken from an independent glacier evolution model. For this case study, ALPGM provided annual glacier ice thickness data from the year 2003, where initial glacier ice thickness data are available from \citet{farinotti_consensus_2019}. The 1985-2003 period was used as a spin-up period for the model, in order to correctly initialize the water reservoirs and snow pack. During the spin-up period, since no glacier ice thickness data is available, the extent of the glacier was kept the same as the year 2003. We consider this approximation to be acceptable, taking into account that this simulated period is only used as spin-up. The match between the initial glacier ice extent and the catchment HRUs was not perfect, with small parts of the glacier exceeding the HRUs extent (Fig. \ref{hydro:fig2}). The prescribed glacier surface areas by the ALPGM glacier model also carry uncertainties, particularly from the initial glacier ice thickness. Simulated glacier MB data for this period have a very small error (Fig. 3.7), and the parameterization used to update the glacier geometry was specifically calibrated for this glacier. These uncertainties resulted in the simulated glacier geometry only evolving in thickness but not extent between 2004 and 2006. This can be seen in the prescribed glacier surface area changes, which do not evolve until early 2006 (Fig. \ref{hydro:fig3}). As soon as the prescribed glacier surface area evolves, J2K captures a realistic glacier area evolution during the ablation season. Hence, the overall glacier surface area in J2K is correctly represented, despite the slight mismatches in glacier and HRU data. The Saint-Sorlin glacier displayed a total surface area of 2.79 km$^{2}$ in the year 2003 \citep{gardent_multitemporal_2014}, very close to the 2.66 km$^{2}$ obtained in J2K (Fig. \ref{hydro:fig3}). 
+The evolution of glaciers in the updated glacier module of J2K is represented with prescribed annual glacier extents taken from an independent glacier evolution model. For this case study, ALPGM provided annual glacier ice thickness data from the year 2003, where initial glacier ice thickness data are available from \citet{farinotti_consensus_2019}. The 1985-2003 period was used as a spin-up period for the model, in order to correctly initialize the water reservoirs and snow pack. During the spin-up period, since no glacier ice thickness data is available, the extent of the glacier was kept the same as the year 2003. We consider this approximation to be acceptable, taking into account that this simulated period is only used as spin-up. The match between the initial glacier ice extent and the catchment HRUs was not perfect, with small parts of the glacier exceeding the HRUs extent (Fig. \ref{hydro:fig2}). The prescribed glacier surface areas by the ALPGM glacier model also carry uncertainties, particularly from the initial glacier ice thickness \citep{bolibar_deep_2020}. Simulated glacier MB data for this period have a very small error (Fig. 3.7), and the parameterization used to update the glacier geometry was specifically calibrated for this glacier. These uncertainties resulted in the simulated glacier geometry only evolving in thickness but not extent between 2004 and 2006. This can be seen in the prescribed glacier surface area changes, which do not evolve until early 2006 (Fig. \ref{hydro:fig3}). As soon as the prescribed glacier surface area evolves, J2K captures a realistic glacier area evolution during the ablation season. Hence, the overall glacier surface area in J2K is correctly represented, despite the slight mismatches in glacier and HRU data. The Saint-Sorlin glacier displayed a total surface area of 2.79 km$^{2}$ in the year 2003 \citep{gardent_multitemporal_2014}, close to the 2.66 km$^{2}$ obtained in J2K (Fig. \ref{hydro:fig3}). 
 
 \begin{figure}[h]
 \centering
@@ -177,7 +179,7 @@ The evolution of glaciers in the updated glacier module of J2K is represented wi
 
 In order to calibrate the temperature-index model in J2K for the Saint-Sorlin Glacier (Eq. \ref{hydro:eq:6} and \ref{hydro:eq:15}), we used seasonal (winter and summer) glacier-wide MB direct observations from the GLACIOCLIM glacier observatory. The precipitation lapse rate was calibrated based on winter mass balance data, and the ice and snow melt factors on summer mass balance data. Due to time constraints, this calibration was performed manually. J2K includes a parameter optimization module, but the recalculation of glacier mass balance from a daily to seasonal frequency was performed outside J2K, in the \textit{Glaciers-to-J2K} Python package, in order to accelerate the development. In the future, this recalculation should be moved inside J2K to enable the automatic calibration of the precipitation lapse rate and melt factors for ice and snow for large catchments.
 
-This manual MB calibration enabled a correct representation of the MB of Saint-Sorlin Glacier, but the interannual variability is still not well captured, particularly for the 2005-2007 period (Fig. \ref{hydro:fig3}). An automatic calibration, testing a wide range of parameter configurations, would certainly yield a much better representation. The best results were obtained by increasing precipitation on the glacier by 70\%, with a melt factor for ice of 5.2 mm/ºC, as indicated in the literature \citep{reveillet_which_2017}, and a melt factor for snow of 3.8 mm/ºC, slightly inferior than values indicated in the literature. The resulting amount of precipitation on the glacier is most likely overestimated, with some years displaying over 2600 mm of snow during winter, implying that this calibration could probably be improved by fine-tuning the melt factors. 
+This manual MB calibration enabled a correct representation of the MB of Saint-Sorlin Glacier, but the interannual variability is still not well captured, particularly for the 2005-2008 period (Fig. \ref{hydro:fig4}). An automatic calibration, testing a wide range of parameter configurations, would certainly yield a much better representation. The best results were obtained by increasing precipitation on the glacier by 70\%, with a melt factor for ice of 5.2 mm/ºC, as indicated in the literature \citep{reveillet_which_2017}, and a melt factor for snow of 3.8 mm/ºC, slightly inferior than values indicated in the literature. The resulting amount of precipitation on the glacier is most likely overestimated, with some years displaying over 2600 mm of snow during winter, implying that this calibration could probably be improved by fine-tuning the melt factors. This results in less accurate winter MB estimates compared to summer estimates, which are very well captured by the model (Fig. \ref{hydro:fig4}b and \ref{hydro:fig4}c). 
 
 \begin{figure}[h]
 \centering
@@ -189,16 +191,27 @@ This manual MB calibration enabled a correct representation of the MB of Saint-S
 
 \subsection{Glacier runoff}
 
-Runoff values in J2K are extracted at Saint-Jean d'Arves, where observations from the gauging station are available (Fig. \ref{hydro:fig2}). A comparison between the observed and the  simulated daily discharges reveals a good agreement between both (Fig. \ref{hydro:fig5}). The maximum and minimum values are well captured. (THIS NEEDS TO BE EXPANDED).
+Runoff values in J2K are extracted at Saint-Jean d'Arves, where observations from the gauging station are available (Fig. \ref{hydro:fig2}). A comparison between the observed and the  simulated daily discharges reveals a correct agreement between both (Fig. \ref{hydro:fig5}), displayin a Kling-Gupta Efficiency (KGE) of 0.69 and a Nash-Sutcliffe Efficiency (NSE) of 0.41. The addition of the glacier module improves the average monthly runoff distribution, allowing a better representation of the peak discharge in May due to snowfall melt and with an improved tail representation of the late summer and autumn glacier discharge contributions (Fig. \ref{hydro:fig5}). 
 
 \begin{figure}[h]
 \centering
-\includegraphics[width=15cm]{Figures/hydro/Figure_5.pdf}
-\caption{(a) Total daily runoff simulated by J2K \textit{vs} total daily runoff measured by the hydrological station. (b) Daily glacier runoff. All runoff values are taken from the Saint-Jean-d'Arves La Vilette station.} 
+\includegraphics[width=11cm]{Figures/hydro/Figure_5.pdf}
+\caption{Average monthly runoff from the gauging station at Saint-Jean-d'Arves La Vilette and from J2K simulations with and without the glacier.} 
 \label{hydro:fig5}
 \end{figure}
 
+The contribution to runoff of the Saint-Sorlin glacier is found to be quite important during the summer and autumn period, with monthly contributions ranging between 40-80\% and annual contributions between 17-35\%. These contributions are likely to be overestimated due to the important increase of precipitation over the glacier during the MB calibration. This can be seen by looking at the net contributions to discharge of the glacier, only taking into account the ice melt runoff \ref{hydro:fig6}). An improved automatised calibration of glacier MB would certainly enable a better representation of the overall glacier contributions. Nonetheless, this updated glacier contributions help to significantly improve the performance of the model, which sees its KGE decreased from 0.69 to 0.57 and its NSE from 0.41 to 0.28 when removing the glacier contributions. 
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=11cm]{Figures/hydro/Figure_6.pdf}
+\caption{(a) Monthly total and net (only ice melt) glacier contributions to the total catchment discharge, and (b) annual total and net glacier contributions.} 
+\label{hydro:fig6}
+\end{figure}
+
 \section{Discussion and conclusions}
+
+This implemented approach can be easily extended to glacierized catchments with multiple glaciers. Every HRU has an ID which can be matched to any Randolph Glacier Inventory (RGI) ID, allowing a specific calibration of mass balance models for each individual glacier. In catchments with small glaciers located close together, these might end up sharing an HRU. For these cases, the optimization of the melt model would have to be shared among all the glaciers present in that HRU. Alternatively, the size of the HRU separation can be reduced, improving the spatial representation of the catchment. Nonetheless, this has an important computational cost. We believe this updated modelling framework has enough flexibility to enable an accurate calibration of different melt factors and precipitation lapse rates in mountainous regions. 
 
 \section{Code availability}
 
